@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="NCMS-SITE animated hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1a40"/>
+      <stop offset="55%" stop-color="#0e2455"/>
+      <stop offset="100%" stop-color="#1c3d7a"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F6872A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F6872A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5b8def" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5b8def" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gradOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F6872A"/>
+      <stop offset="100%" stop-color="#ffd3a3"/>
+      <animate attributeName="gradientTransform" type="translate" values="-0.28,0;0.28,0;-0.28,0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <circle cx="200" cy="80" r="230" fill="url(#glowOrange)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;60,40;-30,-20;0,0" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="330" r="260" fill="url(#glowBlue)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-50,-50;30,20;0,0" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="200" r="160" fill="url(#glowOrange)" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-70,30;40,-40;0,0" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="-300" y="-120" width="260" height="700" fill="url(#shimmer)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;1600,0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="80" cy="80" r="2.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="200" cy="330" r="2" fill="#ffffff" opacity="0.4"/>
+  <circle cx="330" cy="60" r="1.8" fill="#F6872A" opacity="0.6"/>
+  <circle cx="860" cy="70" r="2.2" fill="#ffffff" opacity="0.45"/>
+  <circle cx="1120" cy="210" r="1.8" fill="#F6872A" opacity="0.55"/>
+  <circle cx="940" cy="350" r="2.4" fill="#ffffff" opacity="0.4"/>
+
+  <g>
+    <circle cx="600" cy="180" r="60" fill="none" stroke="#F6872A" stroke-width="3">
+      <animate attributeName="r" values="60;190" dur="4s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" values="0.8;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle cx="600" cy="180" r="60" fill="none" stroke="#ffffff" stroke-width="3">
+      <animate attributeName="r" values="60;190" dur="4s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.8;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,0" dur="4s" repeatCount="indefinite"/>
+    <path d="M0,-16 L34,-6 L0,4 L-34,-6 Z" fill="#F6872A"/>
+    <path d="M0,-16 L13,-11 L0,-6 L-13,-11 Z" fill="#ffc08a"/>
+    <line x1="0" y1="-6" x2="16" y2="12" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="17" cy="13" r="3" fill="#F6872A"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,12;0,0" dur="5s" repeatCount="indefinite"/>
+    <path d="M0,0 C-15,-12 -32,-11 -46,-3 L-46,19 C-32,11 -15,12 0,24" fill="none" stroke="#F6872A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0,0 C15,-12 32,-11 46,-3 L46,19 C32,11 15,12 0,24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="24" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0,0,0;360,0,0" dur="16s" repeatCount="indefinite"/>
+    <g opacity="0.55">
+      <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#9fb4e0" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#9fb4e0" stroke-width="2" transform="rotate(60)"/>
+      <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#9fb4e0" stroke-width="2" transform="rotate(120)"/>
+    </g>
+    <circle cx="0" cy="0" r="4.5" fill="#F6872A"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="3.6s" repeatCount="indefinite"/>
+    <path d="M0,-34 L13,14 L0,8 L-13,14 Z" fill="#ffffff" opacity="0.92"/>
+    <circle cx="0" cy="-10" r="4.5" fill="#F6872A"/>
+    <path d="M-13,14 L-20,20 M13,14 L20,20" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-4,8 L0,22 L4,8 Z" fill="#F6872A">
+      <animate attributeName="opacity" values="1;0.3;1" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <path d="M0,-9 L2.5,-2.5 L9,0 L2.5,2.5 L0,9 L-2.5,2.5 L-9,0 L-2.5,-2.5 Z" fill="#ffd3a3" transform="translate(420,70)">
+    <animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite" begin="0s"/>
+  </path>
+  <path d="M0,-7 L2,-2 L7,0 L2,2 L0,7 L-2,2 L-7,0 L-2,-2 Z" fill="#ffffff" transform="translate(780,120)">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+  </path>
+  <path d="M0,-8 L2.2,-2.2 L8,0 L2.2,2.2 L0,8 L-2.2,2.2 L-8,0 L-2.2,-2.2 Z" fill="#F6872A" transform="translate(700,320)">
+    <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite" begin="0.4s"/>
+  </path>
+
+  <text x="600" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="108" font-weight="900" letter-spacing="4" filter="url(#soft)">
+    <tspan fill="#ffffff">NCMS</tspan><tspan fill="url(#gradOrange)">-SITE</tspan>
+  </text>
+
+  <text x="600" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#cfd9f2" letter-spacing="3">
+    NAGARJUNA COLLEGE OF MANAGEMENT STUDIES · BENGALURU
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3.2s" repeatCount="indefinite"/>
+      <rect x="352" y="250" width="86" height="34" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+      <text x="395" y="272" text-anchor="middle" fill="#F6872A">Next.js 15</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3.6s" repeatCount="indefinite" begin="0.3s"/>
+      <rect x="478" y="250" width="94" height="34" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+      <text x="525" y="272" text-anchor="middle" fill="#ffffff">React 19</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3.4s" repeatCount="indefinite" begin="0.6s"/>
+      <rect x="612" y="250" width="86" height="34" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+      <text x="655" y="272" text-anchor="middle" fill="#F6872A">Express 4</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+      <rect x="742" y="250" width="86" height="34" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+      <text x="785" y="272" text-anchor="middle" fill="#ffffff">MongoDB</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3.8s" repeatCount="indefinite" begin="1.2s"/>
+      <rect x="872" y="250" width="86" height="34" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+      <text x="915" y="272" text-anchor="middle" fill="#F6872A">Tailwind v4</text>
+    </g>
+  </g>
+
+  <text x="600" y="376" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#8fa3c9" letter-spacing="3">
+    RENDERED LIVE · 100% SVG + SMIL · ZERO JAVASCRIPT
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+</svg>
