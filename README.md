@@ -93,7 +93,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ### Animated Architecture
 
 <p align="center">
-  <img src="assets/architecture.svg" width="100%" alt="Animated NCMS architecture diagram" />
+  <img src="assets/architecture.svg?v=2" width="100%" alt="Animated NCMS architecture diagram with high-contrast text" />
 </p>
 
 ### Original Architecture
