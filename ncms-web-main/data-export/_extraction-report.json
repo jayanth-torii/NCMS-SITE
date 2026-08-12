@@ -1,0 +1,183 @@
+{
+  "fetchedAt": "2026-08-10T06:36:57.197Z",
+  "baseUrl": "https://cms.ncms.co.in/api",
+  "pages": {
+    "about-ncms-college": {
+      "file": "data-export/about-ncms-college/data.json",
+      "bytes": 12401
+    },
+    "apply-now": {
+      "file": "data-export/apply-now/data.json",
+      "bytes": 278
+    },
+    "audit-report": {
+      "file": "data-export/audit-report/data.json",
+      "bytes": 1086
+    },
+    "blog": {
+      "file": "data-export/blog/data.json",
+      "bytes": 65337
+    },
+    "contact-us": {
+      "file": "data-export/contact-us/data.json",
+      "bytes": 1257
+    },
+    "department-page": {
+      "file": "data-export/department-page/data.json",
+      "bytes": 1227
+    },
+    "gallery": {
+      "file": "data-export/gallery/data.json",
+      "bytes": 20637
+    },
+    "home-page": {
+      "file": "data-export/home-page/data.json",
+      "bytes": 8894
+    },
+    "iic": {
+      "file": "data-export/iic/data.json",
+      "bytes": 11362
+    },
+    "iqac": {
+      "file": "data-export/iqac/data.json",
+      "bytes": 21660
+    },
+    "mandatory-disclosure": {
+      "file": "data-export/mandatory-disclosure/data.json",
+      "bytes": 3453
+    },
+    "news-clippings": {
+      "file": "data-export/news-clippings/data.json",
+      "bytes": 2808
+    },
+    "news-letter": {
+      "file": "data-export/news-letter/data.json",
+      "bytes": 2925
+    },
+    "placement": {
+      "file": "data-export/placement/data.json",
+      "bytes": 7478
+    },
+    "samashti": {
+      "file": "data-export/samashti/data.json",
+      "bytes": 4388
+    },
+    "student-center-content": {
+      "file": "data-export/student-center-content/data.json",
+      "bytes": 6503
+    },
+    "uucms-content": {
+      "file": "data-export/uucms-content/data.json",
+      "bytes": 1251
+    },
+    "event": {
+      "file": "data-export/event/data.json",
+      "bytes": 68294
+    },
+    "footer": {
+      "file": "data-export/footer/data.json",
+      "bytes": 4772
+    },
+    "department-banners": {
+      "file": "data-export/department-banners/data.json",
+      "bytes": 1306
+    },
+    "course-contents": {
+      "file": "data-export/course-contents/data.json",
+      "bytes": 14845
+    },
+    "vision-missions": {
+      "file": "data-export/vision-missions/data.json",
+      "bytes": 9575
+    },
+    "syllabus-contents": {
+      "file": "data-export/syllabus-contents/data.json",
+      "bytes": 3777
+    },
+    "program-contents": {
+      "file": "data-export/program-contents/data.json",
+      "bytes": 9724
+    },
+    "hod-contents": {
+      "file": "data-export/hod-contents/data.json",
+      "bytes": 8005
+    },
+    "department-faculties": {
+      "file": "data-export/department-faculties/data.json",
+      "bytes": 24892
+    },
+    "anti-ragging": {
+      "file": "data-export/anti-ragging/data.json",
+      "bytes": 2271
+    },
+    "anti-sexual-harassment-cell": {
+      "file": "data-export/anti-sexual-harassment-cell/data.json",
+      "bytes": 2493
+    },
+    "human-rights-cell": {
+      "file": "data-export/human-rights-cell/data.json",
+      "bytes": 2557
+    },
+    "grievenvance-redressal-cell": {
+      "file": "data-export/grievenvance-redressal-cell/data.json",
+      "bytes": 3158
+    },
+    "sc-and-st": {
+      "file": "data-export/sc-and-st/data.json",
+      "bytes": 3516
+    },
+    "unity-counsil-content": {
+      "file": "data-export/unity-counsil-content/data.json",
+      "bytes": 2817
+    },
+    "commerce-forum": {
+      "file": "data-export/commerce-forum/data.json",
+      "bytes": 7745
+    },
+    "ed-cell": {
+      "file": "data-export/ed-cell/data.json",
+      "bytes": 2884
+    },
+    "library": {
+      "file": "data-export/library/data.json",
+      "bytes": 6669
+    },
+    "nptel-local-chapter": {
+      "file": "data-export/nptel-local-chapter/data.json",
+      "bytes": 3667
+    },
+    "pragyan-science-forum": {
+      "file": "data-export/pragyan-science-forum/data.json",
+      "bytes": 3994
+    },
+    "research-cell": {
+      "file": "data-export/research-cell/data.json",
+      "bytes": 41123
+    },
+    "value-added-course": {
+      "file": "data-export/value-added-course/data.json",
+      "bytes": 6866
+    },
+    "cultural-committee": {
+      "file": "data-export/cultural-committee/data.json",
+      "bytes": 2206
+    },
+    "kala-chaitanya": {
+      "file": "data-export/kala-chaitanya/data.json",
+      "bytes": 9911
+    },
+    "ncc": {
+      "file": "data-export/ncc/data.json",
+      "bytes": 3626
+    },
+    "nss": {
+      "file": "data-export/nss/data.json",
+      "bytes": 20419
+    },
+    "sakhi-samrudhi-women-empowerment-cell": {
+      "file": "data-export/sakhi-samrudhi-women-empowerment-cell/data.json",
+      "bytes": 16500
+    }
+  },
+  "errors": []
+}

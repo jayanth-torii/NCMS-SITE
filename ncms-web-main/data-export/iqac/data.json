@@ -1,0 +1,563 @@
+{
+  "bannerSection": {
+    "bannerImage": "/images/iqac_banner_f547b8b5c9.png",
+    "heading": "IQAC",
+    "description": "Internal Quality Assurance Cell Role At NCMS",
+    "button": null
+  },
+  "AboutVisionMissionSections": {
+    "AboutSection": {
+      "title": "About IQAC",
+      "descriptions": [
+        "IQAC (Internal Quality Assurance Cell) is a mechanism set up by Educational Institutions to monitor and evaluate the quality of activities performed in institutions. IQAC of Nagarjuna College of Management Studies ensures continuous improvement and quality enhancement of the Institution.",
+        "IQAC at Nagarjuna College of Management Studies comprises a team of faculty members and administrative staff, who work towards maintaining and attaining excellence in all the academic and administrative activities. IQAC’s primary objective is to “develop a system for consistent, sustainable, and catalytic improvement in the performance of the Institution” and is also responsible to develop quality benchmarks, encourage faculty members to participate in quality improvement programs. It conducts regular audit to monitor the quality of teaching, research, extension activities and provides feedback for improvement. It also promotes the use of modern technology for academic and administrative motives."
+      ]
+    },
+    "VisionMission": {
+      "title": "Our Vision & Mission",
+      "sections": [
+        {
+          "title": "Our Vision",
+          "description": "To strive for a holistic development through quality enrichment of academic, administrative and student support. ",
+          "points": []
+        },
+        {
+          "title": "Our Mission",
+          "description": "",
+          "points": [
+            "To establish student centric-learning environment, through ICT tools.",
+            "To ensure effective delivery of curriculum and value based education.",
+            "To organize seminars, workshops and Faculty Development Programs, liaisoning with various functional departments.",
+            "To promote Research culture among faculty members and Students.",
+            "Systematic documentation of various activities to maintain Institutional data base for quality enhancement."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": []
+  },
+  "GovernancePolicies": {
+    "title": "Governance & Policies",
+    "AccordionSections": [
+      {
+        "title": "Policy",
+        "points": [
+          "The policy is to bring continuous enhancement in the functioning of the institution by implementing timely, efficient and innovative measures to ensure qualitative and progressive performance in all spheres with appropriate interventions and commitment. "
+        ]
+      },
+      {
+        "title": "Function",
+        "points": [
+          "Development of Quality Culture in the institution. ",
+          "Ensuring  continuous development and application of quality benchmarks/parameters for various academic and administrative activities of the institution ",
+          "Creating a learner-centric environment that fosters faculty development and utilizes technology for effective teaching and learning.",
+          "Collecting feedback from students, parents and other stakeholders on quality-related aspects.  ",
+          "Documentation of the various programmes/activities leading to quality improvement. ",
+          "Development of Quality Culture in the institution.",
+          "Preparing an Annual Quality Assurance Report (AQAR) according to NAAC guidelines and parameters for submission to NAAC. ",
+          "To act as a liaison between institution and other accrediting bodies to ensure smooth process "
+        ]
+      },
+      {
+        "title": "Academic",
+        "points": [
+          "Attend classes regularly; maintain discipline and punctuality.",
+          "Maintain minimum 80% of attendance in all the subjects in every semester.",
+          "Active participation in value education, counselling, remedial classes, and co-curricular activities are mandatory.",
+          "Enroll in NPTEL / MOOCs and other value-added courses.",
+          "Submit assignments / projects / reports on time.",
+          "Attending seminars / workshops / guest talks is compulsory."
+        ]
+      },
+      {
+        "title": "General",
+        "points": [
+          "Strictly follow the college dress code with proper grooming.",
+          "Usage of mobile phones is strictly prohibited in classrooms, labs, and the library.",
+          "Treat each individual with respect.",
+          "Do not litter.",
+          "Turn off lights, fans, and taps after use.",
+          "Prohibit ragging and any form of abuse.",
+          "Avoid provoking others into illegal activities.",
+          "Any misconduct would strictly lead to action of consequence."
+        ]
+      }
+    ]
+  },
+  "iqacImages": [
+    "/images/iqac_peer_team3_a438096328.jpg",
+    "/images/iqac_peer_team4_2b178dca2f.jpg",
+    "/images/iqac_peer_team1_03a4de8437.png",
+    "/images/iqac_peer_team2_54c19ca6ce.png"
+  ],
+  "iqacMembersSection": {
+    "title": "Members of IQAC",
+    "members": [
+      {
+        "id": 2,
+        "name": "Dr. Anandamma N",
+        "designation": "Principal",
+        "position": "Chairperson"
+      },
+      {
+        "id": 3,
+        "name": "Prof. Manohar Narajji",
+        "designation": "Director, NES",
+        "position": "Nominee (Governing Body)"
+      },
+      {
+        "id": 4,
+        "name": "Mrs. Meena C",
+        "designation": "Sr. Asst. Prof., Dept. of Commerce & Management",
+        "position": "IQAC Associate Coordinator"
+      },
+      {
+        "id": 5,
+        "name": "Prof. Sreevarsha Govindaraju",
+        "designation": "HOD-English & IQAC Coordinator, Govt., First Grade College. Hesaraghatta. Bengaluru.",
+        "position": "External Member From Academics"
+      },
+      {
+        "id": 6,
+        "name": "Mr. Akash Pirgal",
+        "designation": "Investor, Research and Strategist - Pirgal Consulting Bengaluru, Karnataka",
+        "position": "External Member From Industry"
+      },
+      {
+        "id": 7,
+        "name": "Dr. Kavitha C",
+        "designation": "Sr. Asst. Prof., Dept. of Commerce & Management",
+        "position": "Faculty Member"
+      },
+      {
+        "id": 8,
+        "name": "Dr. Kiran Kumar T N",
+        "designation": "Assoc. Prof., & Head - Dept. of Commerce & Management & UG - Programme Coordinator",
+        "position": "Faculty Member"
+      },
+      {
+        "id": 9,
+        "name": "Dr. Girish Kumar H V",
+        "designation": "Assoc. Prof., Dept. of MBA",
+        "position": "Faculty Member"
+      },
+      {
+        "id": 10,
+        "name": "Mrs. Aruna C",
+        "designation": "Asst. Prof., & Head - Dept. of Science",
+        "position": "Faculty Member"
+      },
+      {
+        "id": 11,
+        "name": "Mrs. Shobha B V",
+        "designation": "Asst. Prof., Dept. of Kannada",
+        "position": "Faculty Member"
+      },
+      {
+        "id": 12,
+        "name": "Ms. Anusha R",
+        "designation": "Assistant Placement Officer",
+        "position": "Member - Non Teaching Staff"
+      },
+      {
+        "id": 13,
+        "name": "Mr. Naveen Kumar K M",
+        "designation": "Office Superintendent",
+        "position": "Member - Non Teaching Staff"
+      },
+      {
+        "id": 14,
+        "name": "Ms. Anusha T M",
+        "designation": "Office Assistant",
+        "position": "Member - Non Teaching Staff"
+      },
+      {
+        "id": 25,
+        "name": "Ms. Harismitha K",
+        "designation": "Student, III Year B.Com",
+        "position": "Student Member"
+      },
+      {
+        "id": 26,
+        "name": "Mr. V Umesh Chandra",
+        "designation": "Student, III Year BCA",
+        "position": "Student Member"
+      },
+      {
+        "id": 27,
+        "name": "Ms. Sneha N",
+        "designation": "Student, I Year MBA",
+        "position": "Student Member"
+      },
+      {
+        "id": 28,
+        "name": "Ms. Vaishnavi D",
+        "designation": "Alumni Member",
+        "position": "HR - Recruiter, Foxconn"
+      },
+      {
+        "id": 29,
+        "name": "Mr. Murthy",
+        "designation": "Parent - Varshitha B M (III Year B.Sc)",
+        "position": "Parent Member"
+      }
+    ]
+  },
+  "feedBackDetails": {
+    "tabs": [
+      "Feedback Filled Form",
+      "Feedback Analysis",
+      "Action Taken Report"
+    ],
+    "columnHeaders": {
+      "Feedback Filled Form": [
+        "Stakeholder",
+        "2022-2023",
+        "2021-2022",
+        "2020-2021",
+        "2019-2020",
+        "2018-2019"
+      ],
+      "Feedback Analysis": [
+        "Stakeholder",
+        "2022-2023",
+        "2021-2022",
+        "2020-2021",
+        "2019-2020",
+        "2018-2019"
+      ],
+      "Action Taken Report": [
+        "Academic Year",
+        "Report"
+      ]
+    },
+    "feedbackData": {
+      "Feedback Filled Form": [
+        {
+          "name": "Student",
+          "feedbacks": [
+            "/pdfs/STUDENT_FEEDBACK_2022_23_fa4cf48e3b.pdf",
+            "/pdfs/STUDENT_FEEDBACK_2020_21_f66b5547f4.pdf",
+            "/pdfs/student_feedback2021_22_fd60c0e4e6.pdf",
+            "/pdfs/student_feedback2019_20_a60c646cb0.pdf",
+            "/pdfs/student_feedback2018_19_51f9498f95.pdf"
+          ]
+        },
+        {
+          "name": "Teacher",
+          "feedbacks": [
+            "/pdfs/Faculty_feedback2022_23_9bea83eb59.pdf",
+            "/pdfs/Faculty_feedback2021_22_9a6c4c9d70.pdf",
+            "/pdfs/Faculty_feedback2020_21_a937737c4b.pdf",
+            "/pdfs/Faculty_feedback2019_20_07ba2cf314.pdf",
+            "/pdfs/Faculty_feedback2018_19_b44f0b4081.pdf"
+          ]
+        },
+        {
+          "name": "Parent",
+          "feedbacks": [
+            "/pdfs/Parents_feebback2022_23_a72c87c2e4.pdf",
+            "/pdfs/PARENTS_FEED_BACK_20_21_b979ce9834.pdf",
+            "/pdfs/Parents_feebback2021_22_50db4d37f6.pdf",
+            "/pdfs/Parents_feebback2019_20_083fe9594d.pdf",
+            "/pdfs/Parents_feebback2018_19_bf865447bf.pdf"
+          ]
+        },
+        {
+          "name": "Alumni",
+          "feedbacks": [
+            "/pdfs/Alumi_feedback2022_23_ed4ca8adca.pdf"
+          ]
+        }
+      ],
+      "Feedback Analysis": [
+        {
+          "name": "Student",
+          "feedbacks": [
+            "/pdfs/SFR_2022_23_8dc7f3553c.pdf",
+            "/pdfs/SFR_2021_22_ee80cf4cbe.pdf",
+            "/pdfs/SFR_2020_21_1d0e162cd7.pdf",
+            "/pdfs/SFR_2019_20_d9a2493dd4.pdf",
+            "/pdfs/SFR_2018_19_4171a8ada2.pdf"
+          ]
+        },
+        {
+          "name": "Teacher",
+          "feedbacks": [
+            "/pdfs/FFR_2022_23_781247383e.pdf",
+            "/pdfs/FFR_2021_22_597e56a8e3.pdf",
+            "/pdfs/FFR_2020_21_c128bcde5a.pdf",
+            "/pdfs/FFR_2019_20_c320674987.pdf",
+            "/pdfs/FFR_2018_19_e8c51b0ec4.pdf"
+          ]
+        },
+        {
+          "name": "Parent",
+          "feedbacks": [
+            "/pdfs/PFR_2022_23_dd89292b40.pdf",
+            "/pdfs/PFR_2021_22_8b9591e7ae.pdf",
+            "/pdfs/PFR_2020_21_3b28b6c49e.pdf",
+            "/pdfs/PFR_2019_20_34e791a36c.pdf",
+            "/pdfs/PFR_2018_19_6dec2359b3.pdf"
+          ]
+        },
+        {
+          "name": "Alumni",
+          "feedbacks": [
+            "/pdfs/Alumni_FR_2022_23_81cafa2703.pdf"
+          ]
+        }
+      ],
+      "Action Taken Report": [
+        {
+          "name": "2022-2023",
+          "feedbacks": [
+            "/pdfs/ATR_2022_23_1_a734a94c37.pdf"
+          ]
+        },
+        {
+          "name": "2021-2022",
+          "feedbacks": [
+            "/pdfs/ATR_2021_22_0eb50612e1.pdf"
+          ]
+        },
+        {
+          "name": "2020-2021",
+          "feedbacks": [
+            "/pdfs/ATR_2020_21_fd518fb35c.pdf"
+          ]
+        },
+        {
+          "name": "2019-2020",
+          "feedbacks": [
+            "/pdfs/ATR_2019_20_093151213f.pdf"
+          ]
+        },
+        {
+          "name": "2018-2019",
+          "feedbacks": [
+            "/pdfs/ATR_2018_19_162592f346.pdf"
+          ]
+        }
+      ]
+    }
+  },
+  "policyDocuments": {
+    "title": "Policy Documents",
+    "sections": [
+      {
+        "title": "Admission Policy",
+        "pdf": "/pdfs/Admission_Policy_d8cd688992.pdf"
+      },
+      {
+        "title": "Library Policy",
+        "pdf": "/pdfs/Library_Policy_1_86944c65ec.pdf"
+      },
+      {
+        "title": "Examination Policy",
+        "pdf": "/pdfs/Examination_Policy_7c18c42075.pdf"
+      },
+      {
+        "title": "Discipline Policy",
+        "pdf": "/pdfs/Discipline_Policy_ca246c3fd4.pdf"
+      },
+      {
+        "title": "Green Campus Policy",
+        "pdf": "/pdfs/Green_Campus_Policy_d6a6f08e6a.pdf"
+      },
+      {
+        "title": "Infrastructure Policy",
+        "pdf": "/pdfs/Infrastructure_Usage_and_Mnt_50458ff043.pdf"
+      }
+    ]
+  },
+  "Initiatives_And_Best_Practices": {
+    "Documents": [
+      {
+        "title": "Mission MAC",
+        "Files": [
+          {
+            "title": "Kala Chaitanya",
+            "link": "https://dev.ncms.co.in/student-center/community-services/kala-chaitanya"
+          },
+          {
+            "title": "Pragyan Science Forum",
+            "link": "https://dev.ncms.co.in/student-center/academic-enrichment/pragyan-science-forum"
+          }
+        ]
+      },
+      {
+        "title": "Best Practices",
+        "Files": [
+          {
+            "title": "Best Practice 1",
+            "link": null,
+            "pdf": "/pdfs/Best_Practice_1_2_3a05b315e8.pdf"
+          },
+          {
+            "title": "Best Practice 2",
+            "link": null,
+            "pdf": "/pdfs/Best_Practice_2_1_c623aa7634.pdf"
+          }
+        ]
+      }
+    ],
+    "Quality_Initiative": {
+      "title": "Quality Initiative- (Title of programme with academic year & date)",
+      "Files": [
+        "Workshop on “Going Beyond the Role Commitment & Initiative in Academia”- Shri. Ramesh B Umarani, Chief Mentor, ACE Speaker. -2025-26 (15th December, 2025)",
+        "One Day Workshop on “Annual Quality Assurance Report (AQAR)” - Prf. Sreevarsha Govindaraju, Associate Professor & Head – Dept. of English, IQAC Coordinator, GFGC, Hesaraghatta, Bengaluru. -2025-26 ( 23rd August, 2025)",
+        "Six Days FDP on “Transformative Data Science in Education & Research: A Hands –on Approach for Faculty”-Mr. Bhargav R, Dr. B. Ramesh, Mr. Pradeep L, Dr. V Chandrasekhar Rao, Dr. Shrihari M R, Ms. K. Tejaswini, Mr. Suresh D R, Mr. Ajith S, Dr. Anandaraj S P, Mr. Srinivas Prabhu -21st to 26th July, 2025)",
+        "Six Days FDP on “Paradigmatic Shifts in Pedagogy through Outcome Based Education & Constructive Alignment of Learning Outcomes”- Dr. R Jayanthi, Professor & Head, Dept. of MBA, Dean- IQAC, Prof. Ravi Aditya, Coordinator, Dept. of MBA, Acharya Bangalore B-School- 2025-26 (18th July,2025)",
+        "Five Days FDP on “Mastering SPSS – Practical Applications for Academic Research”- Dr. Chandrasekhar Rao V, Mr. Harshith Babu, dept. of MBA - 2024-25 (9th to 14th June, 2025)",
+        "Six Days FDP on “Elevating Research Excellence: Methods, Tools & Ethics” – Dr. Kanthimathinathan, Dr. Semuel Mores G, Dr. Malini T N, Dr. Senthil Kumar Ranganathan, Dr. Deepak R, Dr. Bucchibabu- 2024-25 (3rd to 8th February, 2025)",
+        "Five Day FDP on “Bridging CO’s & PO’s with Bloom’s Taxonomy: Framework for Outcome –Based Education” - Dr. B V Ravishankar, principal of NCET, Dr. Vivek Singh, Associate Professor in the Department of E&C, NCET- 2024-25 ( 21st October, 2024)",
+        "Mock Peer Team Visit- Dr. Vikram, the Nodal Officer of the State Quality Assurance Cell, Prf. Sreevarsha Govindaraju, Associate Professor & Head – Dept. of English, IQAC Coordinator, GFGC, Hesaraghatta, Bengaluru- 2024-25( 4th August, 2024)",
+        "Session on “Stress Management through Spirituality”- Dr. Sharadha C 2023-24 ( 29th May, 2024)",
+        "Workshop on “Educational Initiative on Understanding the NAAC Process for Students”- Prf. Sreevarsha Govindaraju, Associate Professor & Head – Dept. of English, IQAC Coordinator, GFGC, Hesaraghatta, Bengaluru - 2023-24 (7th December,2023)",
+        "Seven-day FDP was organised by the Kannada Department and IQAC in association with Davanagere University, 2023-2024 - November 19 to 24, 2023",
+        "Departments of Kannada, English, Sanskrit, Hindi and IQAC in association with Dravidian University, Kuppam, Andhra Pradesh & Bengaluru North University, Tamaka, Kolar organised One Day National Conference 'BHASHA SAMPADA', 2023-2024 - August 18, 2023",
+        "Fostering Active Learning through Case Study Pedagogy – Dr. H Nagaraja, Associate Professor, Department of Commerce, St. Joseph’s College, 2022-2023 - June 17, 2023",
+        "Workshop on 'Scientific writing made easy' - Sri. Kollegala Sharma, Retired Chief Scientist from CSIR, Mysore & Science Communicator, 2022-2023 - June 17, 2023",
+        "8-days Virtual FDP on 'Sustainable Teaching Practices in Academic 4.0' - Dr. Anupama K, Mr. Pradeep Shetty, Mr. Sveswaran, Prof. T. Sreenivas, Mr. Ajit Panicker, Dr. Gundupagi Manjunath Ravindra, Professor, School of Management, Presidency University, 2022-2023 - May 28 to June 4, 2023",
+        "One Week Seminar on 'Documentation Process and IQAC' – Mr. Sreevarsha, 2022-2023 - April 17 to 24, 2023",
+        "One Day Workshop on 'NAAC Awareness and Accreditation Process' - Dr. Ravi Shankar, Principal, NCET, 2022-2023 - March 7, 2023",
+        "Seven-day Workshop on 'Interactive Session on Documentation Processes and Prevailing SOP Guidelines' - Visit to NCET, 2022-2023 - February 24 to March 2, 2023",
+        "One Day Faculty Training Programme on 'Group Dynamics' – Mr. Ramani Venkat, 2022-2023 - February 25, 2023",
+        "7-days Virtual FDP on 'Data Analysis using JAMOVI' – Dr. Dharmendra H, Acharya Institute of Graduate Studies, Bengaluru, 2022-2023 - February 24, 2023",
+        "The National Conference on 'Rediscovering Business Practices Post COVID-19' – Keynote Speaker: Mr. Ramesh K V, Moderator: Mr. Punith Raj K N, Panelists: Dr. Nitu Ghosh, CA. Akash Pirgal, Dr. H Nagaraj, 2022-2023 - January 21, 2023",
+        "FDP on 'Need for R&D and IPR Activities at Higher Educational Institutions: Myths and Realities! Opportunities and Challenges! How Can You Grow Vertically' - Dr. K. Gopalakrishnan, Advisor-R&D, NGI/NCET, 2022-2023 - June 20, 2022",
+        "FDP on 'Aligning Industry 4.0 Requirements with Education 4.0' - Dr. Prathima Khandelwal, Founder FlyHigh, Bengaluru, and Dr. Vadapalli, 2022-2023 - March 22, 2022",
+        "Workshop on 'National Educational Policy 2020' by Dr. Gowrisha and Dr. Padamavathi, 2021-2022 - October 29, 2021",
+        "'Theatre in Education' - Shri. K G Krishnamurthy, Theatre Director, Stage Actor, Theatre Teacher and Organizer, 2021-2022 - July 9, 2021",
+        "Webinar on 'Start-UP Mantras for Educators through Effective Research and Innovation' – Dr. Sharan Kumar Shetty, 2020-2021 - May 26, 2021",
+        "One-day Online National Level Faculty Development Programme on 'Art of Influencing Students in Online Classes' – Prof. Ramani Venkat, NPL Coach, 2020-2021 - June 22, 2020",
+        "One-day Virtual National Level Faculty Development Programme on 'Moving Classes Online: Opportunities & Challenges' - Dr. Geetha M. RajaRam, Principal, Global Institute of Management Studies, Bengaluru, 2020-2021 - June 18, 2020",
+        "One-week Theatre Workshop for Teachers 'Teaching Skill Enhancement Through Theatre' - Prof. A Murigeppa, Vice-Chancellor, Kannada University, Hampi, 2019-2020 - November 19 to 27, 2019",
+        "One-day FDP on 'Mergers and Acquisition' - Dr. V Rajesh Kumar, Vittam Prainc Gurushala, 2019-2020 - October 24, 2019",
+        "One Day National Conference on 'Emerging Trends, Innovations, and Applications in Science and Technology' - Dr. Guruprasad and Dr. Kasturi V Bangera, 2019-2020 - October 1, 2019",
+        "One-day FDP on 'Informative to Transformative Education' - Prof. Madaiah Madegowda, 2019-2020 - September 7, 2019",
+        "International Conference on 'Issues and Challenges for Sustainability in the VUCA World' - Dr. J.T Devarju, Professor, and Dr. Ereshi K, 2019-2020 - April 12, 2019",
+        "In-House FDP on 'Innovative Teaching Pedagogy for Millennium Teachers' - Dr. Harold Andrew Patrick and Dr. Sunita Phadnis, 2019-2020 - January 19, 2019",
+        "Two-day In-House FDP on 'Fostering Academic Leadership for Institutional Excellence' - Dr. GopalKrishna, Sri. Arjun Devaiah, Sri. Ramesh Umarani, Dr. Gururaj Karajagi, and Dr. Zabiullah, 2018-2019 - June 2 & 3, 2018"
+      ]
+    }
+  },
+  "Reports_And_Documentation": {
+    "title": "Reports and Documentation",
+    "DocumentsSection": [
+      {
+        "title": "Monthly Reports",
+        "FilesSection": [
+          {
+            "title": "May - 2026",
+            "pdf": "/pdfs/May_2026_06b2adc24c.pdf"
+          },
+          {
+            "title": "April - 2026",
+            "pdf": "/pdfs/April_2026_18c4d9bed1.pdf"
+          },
+          {
+            "title": "March - 2026",
+            "pdf": "/pdfs/March_2026_7862ec52af.pdf"
+          },
+          {
+            "title": "February - 2026",
+            "pdf": "/pdfs/February_2026_2188e117c2.pdf"
+          },
+          {
+            "title": "January - 2026",
+            "pdf": "/pdfs/January_2026_fd98ff51de.pdf"
+          },
+          {
+            "title": "December - 2025",
+            "pdf": "/pdfs/December_2025_5ce00ed482.pdf"
+          },
+          {
+            "title": "November - 2025",
+            "pdf": "/pdfs/November_2025_04d7de2706.pdf"
+          },
+          {
+            "title": "October - 2025",
+            "pdf": "/pdfs/October_2025_7593349199.pdf"
+          },
+          {
+            "title": "September - 2025",
+            "pdf": "/pdfs/September_2025_12515fb63e.pdf"
+          },
+          {
+            "title": "August - 2025",
+            "pdf": "/pdfs/August_2025_836f8bfe8c.pdf"
+          },
+          {
+            "title": "July - 2025",
+            "pdf": "/pdfs/July_2025_2afc917659.pdf"
+          },
+          {
+            "title": "June - 2025",
+            "pdf": "/pdfs/June_2025_0be2546560.pdf"
+          },
+          {
+            "title": "May - 2025",
+            "pdf": "/pdfs/May_2025_350f3831b9.pdf"
+          },
+          {
+            "title": "April - 2025",
+            "pdf": "/pdfs/April_2025_d158d7bf58.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Minutes of Meeting & ATR",
+        "FilesSection": [
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2024-2025",
+            "pdf": "/pdfs/IQAC_Minutes_of_Meeting_and_ATR_2024_2025_92fe83cacf.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2023-2024",
+            "pdf": "/pdfs/IQAC_Minutes_of_Meeting_and_ATR_2023_2024_c774690e31.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2022-2023",
+            "pdf": "/pdfs/ncmsuggmail_com_20240301_140746_removed_4763cf59b7.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2021-2022",
+            "pdf": "/pdfs/Minutes_of_Meeting_2021_2022_93ea470aab.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2020-2021",
+            "pdf": "/pdfs/Minutes_of_Meeting_2020_21_def5c24a5a.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2019-2020",
+            "pdf": "/pdfs/Minutes_of_Meeting_2019_2020_docx_1_9191820657.pdf"
+          },
+          {
+            "title": "IQAC Minutes of Meeting & ATR 2018-2019",
+            "pdf": "/pdfs/Minutes_of_Meeting_2018_2019_7a1500c3d0.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "Accreditation_And_Evaluation": {
+    "title": "Accreditation And Evaluation",
+    "DocumentsSection": [
+      {
+        "title": "NAAC 2024 (Cycle 1)",
+        "FilesSection": [
+          {
+            "title": "Self Study Report (SSR)",
+            "pdf": "/pdfs/Self_Study_Report_2024_8504ddfb8b.pdf"
+          },
+          {
+            "title": "Certificate of Accreditation",
+            "pdf": "/pdfs/Certificate_of_Accreditation_c740778351.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}

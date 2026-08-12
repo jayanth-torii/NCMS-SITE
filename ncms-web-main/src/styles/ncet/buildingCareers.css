@@ -1,0 +1,475 @@
+/* =====================================================================
+   Building Careers, Shaping Futures — cinematic, image-led placements.
+   Compact, single-screen layout. Layered-overlap stage on premium navy:
+   faded company NAME watermark (left), student photo parallax-rising and
+   overlapping the seam (right), a glass name-card bridging them, then a
+   footer row = student-face rail + a glass "View All" button on one line.
+   Navy/orange academic theme. All `bcx-` classes are self-contained.
+   ===================================================================== */
+
+.bcx {
+  position: relative;
+  overflow: hidden;
+  padding: 46px 0 38px;
+  background: linear-gradient(150deg, #0e2455 0%, #0a1a3f 100%);
+}
+
+/* ---------- decor ---------- */
+.bcx__grid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1.4px);
+  background-size: 24px 24px;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent 92%);
+  mask-image: linear-gradient(180deg, #000, transparent 92%);
+}
+.bcx__orb {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.45;
+}
+.bcx__orb--a { top: -70px; left: -50px; width: 280px; height: 280px; background: radial-gradient(circle, rgba(246, 135, 42, 0.28), transparent 70%); }
+.bcx__orb--b { bottom: -90px; right: -50px; width: 320px; height: 320px; background: radial-gradient(circle, rgba(50, 112, 252, 0.22), transparent 70%); }
+.bcx__watermark {
+  position: absolute;
+  z-index: 0;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16vw;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.025);
+  pointer-events: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* ---------- head ---------- */
+.bcx__head {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.bcx__badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  padding: 0 8px 11px;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* fading hairline underline — bright at the centre, dissolving at both ends */
+.bcx__badge::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 118%;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, rgba(246, 135, 42, 0.95) 50%, transparent);
+}
+.bcx__badge-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #f6872a;
+  box-shadow: 0 0 0 0 rgba(246, 135, 42, 0.6);
+  animation: bcx-pulse 2s infinite;
+  flex: 0 0 auto;
+}
+@keyframes bcx-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(246, 135, 42, 0.55); }
+  70% { box-shadow: 0 0 0 9px rgba(246, 135, 42, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(246, 135, 42, 0); }
+}
+.bcx__title {
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  margin: 0 0 8px;
+}
+.bcx__title span {
+  background: linear-gradient(180deg, #ffb978, #f6872a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bcx__subtitle {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14.5px;
+  line-height: 1.55;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+/* ---------- stage ---------- */
+.bcx__stage { position: relative; z-index: 2; }
+.bcx__stageInner {
+  position: relative;
+  width: calc(100% - 48px);
+  max-width: 1140px;
+  height: 348px;
+  margin: 0 auto;
+}
+
+/* company zone (faded NAME watermark + crisp logo chip) */
+.bcx__company {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  will-change: transform, opacity;
+}
+.bcx__ghost {
+  position: absolute;
+  left: -2%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 92%;
+  max-height: 66%;
+  object-fit: contain;
+  object-position: left center;
+  /* flatten any brand colour to a clean white watermark on navy.
+     NOTE: only works on logos with a TRANSPARENT background. */
+  filter: brightness(0) invert(1);
+  opacity: 0.14;
+  pointer-events: none;
+}
+.bcx__coLabel {
+  position: absolute;
+  z-index: 3;
+  top: 11%;
+  left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+.bcx__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #f6872a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.bcx__eyebrow::before {
+  content: "";
+  width: 26px; height: 2px;
+  background: #f6872a;
+  border-radius: 9999px;
+}
+.bcx__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 16px 36px rgba(4, 9, 24, 0.45);
+}
+.bcx__chip img {
+  display: block;
+  height: 38px;
+  width: auto;
+  max-width: 210px;
+  object-fit: contain;
+}
+
+/* student photo — framed white portrait card */
+.bcx__photo {
+  position: absolute;
+  z-index: 3;
+  right: 2%;
+  bottom: 0;
+  height: 98%;
+  aspect-ratio: 4 / 5;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #f3f5f9;
+  box-shadow: 0 28px 60px rgba(3, 7, 20, 0.6);
+  will-change: transform, opacity;
+}
+.bcx__photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7), inset 0 0 0 6px rgba(255, 255, 255, 0.35);
+  pointer-events: none;
+}
+.bcx__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.bcx__photo.is-portrait img { object-position: center top; }
+.bcx__photo-glow {
+  position: absolute;
+  inset: auto -30% -40% -30%;
+  height: 60%;
+  background: radial-gradient(ellipse at center, rgba(246, 135, 42, 0.4), transparent 70%);
+  filter: blur(34px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* glass name-card bridging the seam (right-anchored so it tracks the photo) */
+.bcx__card {
+  position: absolute;
+  z-index: 5;
+  right: 21%;
+  bottom: 13%;
+  width: 314px;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background: linear-gradient(150deg, rgba(16, 30, 66, 0.86), rgba(8, 17, 42, 0.92));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 22px 54px rgba(3, 7, 20, 0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  will-change: transform, opacity;
+}
+.bcx__placed {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 11px 4px 9px;
+  border-radius: 9999px;
+  background: rgba(40, 199, 111, 0.16);
+  border: 1px solid rgba(40, 199, 111, 0.4);
+  color: #6ee7a8;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+.bcx__placed-dot { width: 7px; height: 7px; border-radius: 50%; background: #34d399; }
+.bcx__name {
+  margin: 0 0 5px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.4px;
+}
+.bcx__branch {
+  margin: 0;
+  color: #9fb2d8;
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* ---------- footer: rail + view-all on one line ---------- */
+.bcx__footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* match the stage's box exactly so the button's right:% lines up with the photo */
+  width: calc(100% - 48px);
+  max-width: 1140px;
+  min-height: 52px;
+  margin: 26px auto 0;
+}
+.bcx__rail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.bcx__face {
+  position: relative;
+  width: 52px; height: 52px;
+  padding: 0;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  overflow: hidden;
+  background: #f3f5f9;
+  cursor: pointer;
+  opacity: 0.6;
+  transform: scale(0.92);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.bcx__face img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+.bcx__face:hover { opacity: 1; transform: scale(1); border-color: rgba(255, 255, 255, 0.5); }
+.bcx__face.is-active {
+  opacity: 1;
+  transform: scale(1.16);
+  border-color: #f6872a;
+  box-shadow: 0 0 0 4px rgba(246, 135, 42, 0.2), 0 10px 22px rgba(3, 7, 20, 0.5);
+}
+.bcx__face:focus-visible { outline: none; border-color: #ffb978; box-shadow: 0 0 0 4px rgba(246, 135, 42, 0.3); }
+
+.bcx__progress {
+  position: absolute;
+  left: 50%;
+  bottom: -13px;
+  width: 0;
+  height: 3px;
+  max-width: 300px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #ffb978, #f6872a);
+  transform: translateX(-50%);
+  animation-name: bcx-progress;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes bcx-progress { from { width: 0; } to { width: 300px; } }
+
+/* ---------- "View All" — glass button (same hover as Torii "Dive In") ---------- */
+.bcx__cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 26px;
+  border-radius: 9999px;
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  cursor: pointer;
+  /* anchored beneath the student photo (which sits at right:2% of the stage),
+     centred vertically in the footer without a transform so the hover lift works */
+  position: absolute;
+  right: 3%;
+  top: 0;
+  bottom: 0;
+  height: max-content;
+  margin-block: auto;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.bcx__cta::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -130%;
+  width: 60%; height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-18deg);
+  transition: left 0.6s ease;
+}
+.bcx__cta::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, inset 0.3s ease, border-color 0.3s ease;
+}
+.bcx__cta-label, .bcx__cta-arrow { position: relative; z-index: 1; }
+.bcx__cta-arrow { font-size: 17px; transition: transform 0.3s ease; }
+.bcx__cta:hover {
+  color: #fff;
+  border-color: #f6872a;
+  box-shadow: 0 0 0 4px rgba(246, 135, 42, 0.14), 0 12px 30px rgba(246, 135, 42, 0.22);
+  transform: translateY(-2px);
+}
+.bcx__cta:hover::before { left: 130%; }
+.bcx__cta:hover::after { opacity: 1; inset: 4px; border-color: rgba(246, 135, 42, 0.45); }
+.bcx__cta:hover .bcx__cta-arrow { transform: translateX(4px); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1100px) {
+  .bcx__company { width: 56%; }
+  .bcx__card { right: 19%; width: 296px; }
+}
+@media (max-width: 991px) {
+  .bcx__title { font-size: 29px; }
+  .bcx__stageInner { height: 320px; }
+  .bcx__chip img { height: 32px; }
+  .bcx__name { font-size: 21px; }
+  .bcx__card { right: 16%; bottom: 10%; width: 278px; }
+  /* stack the footer so the rail and button never overlap on tablet */
+  .bcx__footer { flex-direction: column; gap: 18px; }
+  .bcx__cta { position: static; right: auto; top: auto; bottom: auto; height: auto; margin-block: 0; }
+}
+@media (max-width: 767px) {
+  .bcx { padding: 40px 0 34px; }
+  .bcx__title { font-size: 25px; }
+  .bcx__subtitle { font-size: 13.5px; }
+  .bcx__watermark { display: none; }
+  .bcx__stageInner { height: 488px; }
+
+  /* stacked, centered layout (no big watermark) */
+  .bcx__ghost { display: none; }
+  .bcx__company { width: 100%; }
+  .bcx__coLabel { top: 0; left: 0; right: 0; align-items: center; gap: 9px; }
+  .bcx__eyebrow::before { display: none; }
+  .bcx__chip { padding: 13px 20px; }
+  .bcx__chip img { height: 40px; max-width: 210px; }
+
+  .bcx__photo {
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    top: 116px;
+    bottom: auto;
+    height: auto;
+    width: min(216px, 62%);
+  }
+
+  .bcx__card {
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    bottom: 0;
+    width: min(360px, 90%);
+    text-align: center;
+    padding: 16px 22px;
+  }
+  .bcx__placed { margin-bottom: 9px; }
+  .bcx__name { font-size: 20px; }
+
+  /* footer wraps: rail on top, button below (button back to normal flow) */
+  .bcx__footer { flex-direction: column; gap: 18px; margin-top: 22px; }
+  .bcx__cta { position: static; right: auto; top: auto; bottom: auto; height: auto; margin-block: 0; }
+  .bcx__rail { gap: 11px; flex-wrap: wrap; justify-content: center; }
+  .bcx__face { width: 46px; height: 46px; }
+  .bcx__progress { display: none; }
+}
+@media (max-width: 400px) {
+  .bcx__stageInner { height: 462px; }
+  .bcx__photo { width: min(190px, 58%); top: 108px; }
+  .bcx__face { width: 42px; height: 42px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bcx__badge-dot,
+  .bcx__orb { animation: none; }
+  .bcx__face { transition: opacity 0.3s ease; transform: none; }
+  .bcx__face.is-active { transform: none; }
+  .bcx__cta, .bcx__cta::before, .bcx__cta::after { transition: none; }
+}

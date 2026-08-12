@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------------ *
+ * Unified "View" button — used everywhere a PDF/file can be opened.
+ * Self-contained (does not rely on Bootstrap .btn) so it looks the
+ * same on every admin page. The eye icon is drawn via a CSS mask, so
+ * markup only needs class="view-btn" and the text "View".
+ * ------------------------------------------------------------------ */
+.view-btn,
+a.view-btn,
+button.view-btn {
+  --vb-accent: #4f46e5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--vb-accent);
+  background: #eef2ff;
+  border: 1px solid #dfe3ff;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: background .16s ease, color .16s ease, border-color .16s ease,
+    box-shadow .16s ease, transform .16s ease;
+}
+
+.view-btn::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='black'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpath%20d='M1%2012s4-8%2011-8%2011%208%2011%208-4%208-11%208-11-8-11-8z'/%3E%3Ccircle%20cx='12'%20cy='12'%20r='3'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='black'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpath%20d='M1%2012s4-8%2011-8%2011%208%2011%208-4%208-11%208-11-8-11-8z'/%3E%3Ccircle%20cx='12'%20cy='12'%20r='3'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.view-btn:hover {
+  background: var(--vb-accent);
+  color: #fff;
+  border-color: var(--vb-accent);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, .28);
+  transform: translateY(-1px);
+}
+
+.view-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(79, 70, 229, .24);
+}
+
+.view-btn:focus-visible {
+  outline: 2px solid var(--vb-accent);
+  outline-offset: 2px;
+}
+
+/* Full-width stacked variant (multi-document lists) */
+.view-btn.d-block {
+  display: flex !important;
+  width: 100%;
+}

@@ -1,0 +1,83 @@
+{
+  "id": 14,
+  "documentId": "w6s6cfpyjzg3ycx2xk1q5zeg",
+  "createdAt": "2025-07-28T05:24:19.076Z",
+  "updatedAt": "2026-02-13T11:26:34.632Z",
+  "publishedAt": "2026-02-13T11:26:34.855Z",
+  "BannerSection": {
+    "id": 168,
+    "title": "Human Rights Cell",
+    "image": "/images/hr_3250da30e0.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 164,
+    "AboutSection": null,
+    "VisionMission": {
+      "id": 144,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 287,
+          "title": "Vision",
+          "description": "To promote and protect Human Rights in the campus and to envision a comprehensive society where everyone is treated with dignity and equality.",
+          "ListPoints": []
+        },
+        {
+          "id": 288,
+          "title": "Mission",
+          "description": null,
+          "ListPoints": [
+            "Promote, preserve and implement human rights through effective institutional policy development.",
+            "To support each other in and out of the college campus through awareness and protection of Human Rights by educating the students.",
+            "To ensure prevention of human rights violations."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 221,
+        "title": "Objectives",
+        "points": [
+          "To educate the students on Human Rights.",
+          "To sensitize and enhance the knowledge of human rights among the people in and around the college by organizing various awareness programmes.",
+          "To provide accurate and timely information about Human Rights and its Violation.",
+          "To respond against the violation of human right issues reported in the college in a proper platform and thereby facilitate to ensure the protection of human rights."
+        ]
+      },
+      {
+        "id": 222,
+        "title": "Minutes of Meetings",
+        "points": [
+          "Enhance user experience with Advanced Tabs, allowing seamless content navigation. Organize information efficiently while keeping the interface clean and interactive. Perfect for FAQs, product details, or multi-section content."
+        ]
+      }
+    ]
+  },
+  "Report": {
+    "id": 20,
+    "title": "Report",
+    "Sections": [
+      {
+        "id": 24,
+        "title": "2024 - 2025",
+        "pdf": "/pdfs/Human_Rights_Cell_Report_2025_1d28776b27.pdf"
+      },
+      {
+        "id": 25,
+        "title": "Up to 2023",
+        "pdf": "/pdfs/Human_rights_cell_report_scanned_copy_378952a3a1.pdf"
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 139,
+    "title": "Policies and Composition",
+    "description": "Stay Updated with the Policy and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/Human_Right_Cell_e36197a6bf.pdf",
+    "Document2": "/pdfs/Human_Right_Cell_2e9a911189.pdf"
+  }
+}

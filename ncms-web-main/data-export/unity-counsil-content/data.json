@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "documentId": "m03nnm2e7ps3wpw4z3icxv05",
+  "createdAt": "2025-06-26T08:41:08.656Z",
+  "updatedAt": "2026-02-13T11:28:49.778Z",
+  "publishedAt": "2026-02-13T11:28:49.595Z",
+  "BannerSection": {
+    "id": 6,
+    "title": "Unity Council - Equal Opportunity Cell",
+    "image": "/images/Unity_Counsil_89c7d6dc1c.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 6,
+    "AboutSection": null,
+    "VisionMission": {
+      "id": 5,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 9,
+          "title": "Vision",
+          "description": "To provide free and fair opportunities to all to unearth the talents, we aim to ensure that every student, regardless of their social or economic background, has equal access to quality education, learning resources, and opportunities for personal and academic growth ",
+          "ListPoints": []
+        },
+        {
+          "id": 10,
+          "title": "Mission ",
+          "description": null,
+          "ListPoints": [
+            "To respect and promote an unbiased equal opportunity to all sections drawn from diverse backgrounds of society. ",
+            "Focusing on overall personality and skill development so as to ensure enhancing their employability. ",
+            "Inclusive growth for everyone by encompassing everyone into the mainstream of society. ",
+            "Awareness building and sensitization regarding discrimination on various grounds."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 7,
+        "title": "Objectives",
+        "points": [
+          "To promote equality among all and without any discrimination.\n",
+          "To adopt and implement harmonized guidelines and space standards for a barrier-free environment for all.\n",
+          "To identify the issues, if any, on the campus and to provide an enabling and non-discriminative environment for all.\n",
+          "To disseminate the information related to schemes, programs, notifications/memoranda, office orders of the Govt., to the welfare of such groups from time to time.\n",
+          "To promote diversity and inclusive practices on campus and provide the underprivileged groups with adequate opportunities.\n",
+          "To safeguard the interest of students without any prejudice to their caste, creed, religion, language, ethnicity, gender, or disability."
+        ]
+      }
+    ]
+  },
+  "Activities": {
+    "id": 2,
+    "title": "Report",
+    "Sections": [
+      {
+        "id": 28,
+        "title": "2024 - 2025",
+        "pdf": "/pdfs/Equal_Opportunity_Cell_Report_2024_2025_6d4a1988b1.pdf"
+      },
+      {
+        "id": 2,
+        "title": "Up to 2023",
+        "pdf": "/pdfs/EOC_1_d819a64f89.pdf"
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 5,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policies and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/Equal_Opportunity_Cell_dbf237788e.pdf",
+    "Document2": "/pdfs/Equal_Opportunity_Cell_db75672f23.pdf"
+  }
+}

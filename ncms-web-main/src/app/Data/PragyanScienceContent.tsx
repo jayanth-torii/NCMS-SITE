@@ -1,0 +1,61 @@
+const PragyanScienceContent = {
+    aboutSections: [{
+        title: "ABOUT PRAGYAN SCIENCE FORUM",
+        description: `
+        Pragyan, the vibrant science forum of Nagarjuna College of Management Studies, Chikkaballapura, was established in 2019 with a vision to empower minds, ignite curiosity, and foster innovation for a brighter scientific future. Guided by this vision, Pragyan has emerged as a dynamic platform for students to explore the essence of science and technology through practical orientation.
+        The primary objective of Pragyan is to provide students with opportunities to delve deeper into the realms of science and technology beyond the confines of traditional classroom learning. Through various initiatives and activities, the forum encourages students to engage actively in scientific inquiry, critical thinking, and hands-on experimentation.
+
+        One of the key features of Pragyan is its emphasis on student participation and involvement. Students are encouraged to showcase their creativity and innovative spirit by writing articles for the forum’s blog, sharing their insights and perspectives on various scientific topics. Additionally, Pragyan offers a platform for students to express themselves through podcasts, where they can discuss and explore cutting-edge scientific advancements and discoveries
+        
+        Another significant aspect of Pragyan is its commitment to science outreach programs. Through these programs, students engage with the wider community, including schools and local organizations, to promote scientific awareness and literacy. By organizing workshops, seminars, and interactive sessions, Pragyan aims to inspire and educate individuals of all ages about the wonders of science and technology.
+        In essence, Pragyan stands as a beacon of inspiration and innovation within the college community. By nurturing a culture of curiosity, exploration, and scientific inquiry, the forum plays a pivotal role in shaping the minds of future scientists, engineers, and innovators. As we continue our journey forward, Pragyan remains dedicated to empowering students and fostering a passion for science and technology, paving the way for a brighter and more enlightened future.`,
+    }],
+    visionMission: {
+        vision: {
+            title: "VISION",
+            description: "Empowering minds, igniting curiosity, and fostering innovation for a brighter scientific future.",
+        },
+        mission: {
+            title: "MISSION",
+            points: [
+                "To provide a platform for students to engage in scientific inquiry, promote interdisciplinary collaboration, and facilitate the dissemination of knowledge through innovative initiatives and activities",
+            ],
+        },
+    },
+    collapsibleSections: {
+        objectives: {
+            title: "Objectives",
+            points: [
+                "Facilitate hands-on workshops and seminars to ignite curiosity and promote active engagement in scientific inquiry among students.",
+                "Foster interdisciplinary collaboration by organizing events and projects that encourage students from diverse backgrounds to work together on innovative scientific endeavors",
+                "Create a conducive environment for the dissemination of knowledge by organizing conferences, symposiums, and other platforms where students can share their research findings and innovative ideas with the wider scientific community",
+            ],
+        },
+    },
+    
+    Podcast:{
+        title: "PODCAST AND BLOGS",
+        description:"stay Updated with the Activity and Blogs",
+        blogsButton:"VIEW BLOGS",
+        blogsLink : "https://pragyanncms.blogspot.com/",
+        poadCastButton: "VIEW PODCAST",
+        poadCastLink : "https://open.spotify.com/show/6oeFuRBQZWX5utheO4oZZC",
+        pdf:"/pdfs/nptel.pdf",
+        imageUrl: "/images/StudentCenter/AcademicEnrichment/Pragyan/podcast.png"
+    },
+
+
+
+
+    policies: {
+        title: "PODCAST AND BLOGS",
+        description: "Stay Updated with the Activity and Blogs",
+        policybutton:"VIEW BLOGS",
+        compositionbutton: "VIEW PODCAST",
+        policyPdf: "/pdfs/student-center/scst/SC-ST-and-OBC-Cell.pdf",
+        compositionPdf : "/pdfs/student-center/scst/SC-ST-OBC-Cell.pdf",
+        imageUrl: "/images/StudentCenter/AcademicEnrichment/Pragyan/podcast.png"
+    },
+};
+
+export default PragyanScienceContent;

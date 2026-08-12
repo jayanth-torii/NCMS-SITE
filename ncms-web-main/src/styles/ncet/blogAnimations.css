@@ -1,0 +1,114 @@
+/* ---------------------------------------------------------------------------
+   Blog animated icons + image loading states (NCMS blog pages)
+   --------------------------------------------------------------------------- */
+
+@keyframes blg-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes blg-float-sm {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes blg-pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(246, 135, 42, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(246, 135, 42, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(246, 135, 42, 0);
+  }
+}
+
+@keyframes blg-nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes blg-nudge-left {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+}
+
+@keyframes blg-shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* Floating icon (gentle bob) — applied to inner wrappers so hover
+   transforms on the parent keep working. */
+.blg-icon-float {
+  display: inline-flex;
+  animation: blg-float 3.2s ease-in-out infinite;
+  will-change: transform;
+}
+
+.blg-icon-float-sm {
+  display: inline-flex;
+  animation: blg-float-sm 2.6s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Breathing ring around a badge / icon circle. */
+.blg-pulse-ring {
+  animation: blg-pulse-ring 2.4s ease-out infinite;
+}
+
+/* Looping arrow nudge (forward / backward). */
+.blg-nudge {
+  display: inline-flex;
+  animation: blg-nudge 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.blg-nudge-left {
+  display: inline-flex;
+  animation: blg-nudge-left 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Skeleton shimmer shown while an image is loading / as broken-image bg. */
+.blg-img-shimmer {
+  background: linear-gradient(90deg, #f1f3f7 25%, #e6ebf2 37%, #f1f3f7 63%);
+  background-size: 936px 100%;
+  animation: blg-shimmer 1.4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blg-icon-float,
+  .blg-icon-float-sm,
+  .blg-pulse-ring,
+  .blg-nudge,
+  .blg-nudge-left,
+  .blg-img-shimmer {
+    animation: none;
+  }
+}

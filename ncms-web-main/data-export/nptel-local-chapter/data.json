@@ -1,0 +1,74 @@
+{
+  "id": 7,
+  "documentId": "sfcrybi4w3wupxormdrjxbrs",
+  "createdAt": "2025-07-31T11:42:42.862Z",
+  "updatedAt": "2026-01-20T06:02:02.102Z",
+  "publishedAt": "2026-01-20T06:02:02.242Z",
+  "BannerSection": {
+    "id": 114,
+    "title": " NPTEL Local Chapter",
+    "image": "/images/banner_13eb37f529.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 110,
+    "AboutSection": {
+      "id": 98,
+      "title": "About NPTEL",
+      "descriptions": [
+        "College’s NPTEL Local Chapter under IIT, Chennai Nodal Centre was established in the year 2021, with the vision to offer access to the best educational resources to the students. The Local Chapter serves as a bridge between students and NPTEL courses of SWAYAM, offering guidance and support for their online learning journey. There are hundreds of courses available to select in two cycles in a year and get certified."
+      ]
+    },
+    "VisionMission": null,
+    "AccordionSections": [
+      {
+        "id": 161,
+        "title": "Objectives",
+        "points": [
+          "Enrich Learning: Primary objective is to enhance the academic experience of students by providing access to relevant courses.",
+          "Promote Technical Skills: Promoting development of required technical competencies among the students through these courses as part of up-skilling initiatives.",
+          "Increase Employability: Up-Skilling and acquisition of relevant certification by the students increase employability opportunity."
+        ]
+      },
+      {
+        "id": 162,
+        "title": "Features",
+        "points": [
+          "Dedicated Mentorship: Each student is allotted a mentor who gives guidance and mentorship to students, ensuring they select the right NPTEL course. Students are mentored throughout the cycle till they write the exams.",
+          "\nRegular Workshops: Workshops are conducted to familiarize students and faculties with the NPTEL platform, helping them to make their online learning experience better.",
+          "Course Registration Assistance: Students are provided with course registration assistance, ensuring hassle-free experience.",
+          "NPTEL Scholarship: Faculty members and students are provided with scholarship of 100% and 50% of their exam fee respectively to all those who clear the exam."
+        ]
+      },
+      {
+        "id": 163,
+        "title": "Benefits",
+        "points": [
+          "Wide Range of Courses: NPTEL offers a plethora of courses, enabling students to choose subjects that align with their interests and career goals.",
+          "Flexible Learning: NPTEL courses can be pursued at one’s own pace, allowing students to balance their academic commitments.",
+          "Certifications: Successful completion of NPTEL courses results in nationally recognized certifications, enhancing students’ profiles.",
+          "Improved Knowledge and Skills: Access to NPTEL elevates students’ understanding and practical skills in various domains",
+          "Industry-Relevant: NPTEL courses are designed by leading subject experts and institutions, ensuring they are highly relevant to industry needs."
+        ]
+      },
+      {
+        "id": 164,
+        "title": "Outcomes",
+        "points": [
+          "Enhanced Knowledge Base: Students gain a better understanding of subjects, helping them excel in academic and professional pursuits",
+          "Improved Problem-Solving Skills: The course enhances analytical thinking and problem-solving skills, which are crucial for current requirements",
+          "Confidence Building: Completing NPTEL courses fosters a sense of accomplishment and improved confidence among students."
+        ]
+      }
+    ]
+  },
+  "Establishment_Of_NPTL": {
+    "id": 86,
+    "title": "Establishment Of NPTEL",
+    "description": "No. of Beneficiaries - 1500+",
+    "DocumentTitle1": "Establishment",
+    "DocumentTitle2": "Achievements",
+    "image": "/images/est_86a7dcf2a5.png",
+    "Document1": "/pdfs/NPTEL_92609003f9.pdf",
+    "Document2": "/pdfs/NPTEL_Certificate_3f0c292773.pdf"
+  }
+}

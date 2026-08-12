@@ -1,0 +1,56 @@
+{
+  "id": 5,
+  "documentId": "fo85nkmi21962bt3vnw6bu40",
+  "createdAt": "2025-06-25T10:39:58.993Z",
+  "updatedAt": "2026-02-20T04:53:13.571Z",
+  "publishedAt": "2026-02-20T04:53:13.667Z",
+  "BannerSection": {
+    "id": 181,
+    "title": "Cultural Committee",
+    "image": "/images/culltural_commitee_7c339bd483.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 176,
+    "AboutSection": {
+      "id": 157,
+      "title": "Welcome to Cultural Committee",
+      "descriptions": [
+        "The Cultural Committee of Nagarjuna College of Management Studies is an avid promoter of skill-sets necessary to function in the world with valuable assets such as communication, teamwork, leadership as well as organisational skills. The committee delves to create a platform that provides students with an opportunity to showcase creative talents in diverse ways. The committee provides enough opportunities for the students to relax and enjoy campus life amidst meticulous academics. "
+      ]
+    },
+    "VisionMission": {
+      "id": 156,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 311,
+          "title": "Vision",
+          "description": "To encourage, enhance the students’ talents and provide them with a stage for exposure.  ",
+          "ListPoints": []
+        },
+        {
+          "id": 312,
+          "title": "Mission ",
+          "description": null,
+          "ListPoints": [
+            "Provides innumerable opportunities for the students to exhibit their skills and talents. \n\n",
+            "Acts as a platform for the students to not only display but also discover, explore and master their creative potential. \n",
+            "Inculcating the value of individuality, being an active member of a team.\n",
+            "To provide a platform that caters to help build character, understand the value of participation and find individualistic qualities that will ensure a fulfilling and successful life."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": []
+  },
+  "Policies_And_Composition": {
+    "id": 151,
+    "title": "Policies and Composition",
+    "description": "Stay Updated with the Policies and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/Cultural_Committee_ef8ae42e6e.pdf",
+    "Document2": "/pdfs/Cultural_Committee_488d00eccc.pdf"
+  }
+}

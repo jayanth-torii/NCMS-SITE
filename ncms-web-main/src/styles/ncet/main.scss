@@ -1,0 +1,72 @@
+
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : Echooling - Online Education React Template
+* Author : reacthemes
+* Author URI : https://reactheme.com/
+*
+* ------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+01. Theme default CSS
+2. header
+3. about
+4. slider
+5. footer
+6. service
+7. team
+8. cta
+9. project
+10. testimonial
+11. contact
+12. carrer
+13. blog
+14.shop
+
+-----------------------------------------------------------------------------------*/
+@import 'animations';
+@import 'keyframes';
+@import 'menu';
+@import 'design';
+@import 'responsive';
+@import 'custom-spacing';
+@import './fonts/flaticon';
+@import './fonts/elegant-icon';
+/* about-nagarjuna styles are now co-located in src/pages/about/about-nagarjuna.scss
+   (imported by AboutNagarjuna.js). Removed the stale global partial to avoid
+   conflicting/duplicate rules overriding the redesign. */
+@import 'examination/examination';
+@import 'nisp/nisp';
+@import 'placements/placements';
+@import 'samashti/samashti';
+@import 'autonomous-regulations/autonomous-regulations';
+@import 'ncc/ncc';
+@import 'nba-visit-data/nba-visit-data';
+@import 'departments/departments';
+@import 'research/research';
+@import 'pages/iqac';
+@import 'iicNew';
+
+// Blog
+
+// Responsive safety net — MUST stay last so its <=991px overflow guards
+// win over any feature partial. Desktop (>=992px) is untouched.
+@import 'responsive-safety';
+
+/* ---- NCMS ported shell + home styles (exact NCET) ---- */
+@import 'header';
+@import 'footerModern';
+@import 'PageBanner';
+@import 'homeRedesign';
+@import 'homeSections';
+@import 'home';
+@import 'buildingCareers';
+@import 'torii';
+@import 'gallery';
+@import 'samashtiNew';
+@import 'departmentsNew';
+@import 'nispExplorer';

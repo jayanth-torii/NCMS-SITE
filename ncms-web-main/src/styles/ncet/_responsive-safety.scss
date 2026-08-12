@@ -1,0 +1,67 @@
+/* =====================================================================
+   Responsive safety net  —  defensive guards for narrow viewports.
+   ---------------------------------------------------------------------
+   Purpose: guarantee that NO wide element (media, tables, embeds, long
+   unbreakable strings) can force horizontal page overflow on phones /
+   tablets. This is especially important for the DATA-DRIVEN pages
+   (departments, iqac, examination, reports, blog, research …) whose
+   content is entered in the admin panel and cannot be size-checked here.
+
+   Scope: everything below is wrapped in `max-width: 991px`, so DESKTOP
+   and large-tablet layouts (>=992px) are completely untouched — the
+   existing per-page desktop design is preserved exactly.
+
+   These are non-destructive "cap, don't restyle" rules:
+   - `max-width: 100%` only shrinks an element when it is genuinely wider
+     than its column; elements that already fit are unaffected, and images
+     inside wide marquee/carousel tracks resolve `100%` against the wide
+     track (so intentional scrollers keep working).
+   - No `height` is forced, so fixed-height logos keep their aspect ratio.
+   ===================================================================== */
+
+@media only screen and (max-width: 991px) {
+
+  /* Media should never exceed its container width. */
+  img,
+  svg,
+  video,
+  canvas,
+  embed,
+  object,
+  iframe {
+    max-width: 100%;
+  }
+
+  /* Map / video / PDF embeds: keep inside the column, full available width. */
+  iframe {
+    max-width: 100%;
+  }
+
+  /* Wide data tables: cap width and let cell text wrap instead of pushing
+     the page sideways. (Tables that already fit are unaffected.) */
+  table {
+    max-width: 100%;
+  }
+
+  /* Preformatted / code blocks and very long unbreakable strings
+     (URLs, emails, hashes) must wrap rather than overflow. */
+  pre,
+  code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
+/* Extra caution on the smallest phones: long single-word strings inside
+   normal text blocks (e.g. admin-entered emails / links) wrap cleanly. */
+@media only screen and (max-width: 480px) {
+  p,
+  li,
+  a,
+  h1, h2, h3, h4, h5, h6,
+  td, th,
+  dd, dt {
+    overflow-wrap: break-word;
+  }
+}

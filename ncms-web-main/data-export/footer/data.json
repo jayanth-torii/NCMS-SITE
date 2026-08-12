@@ -1,0 +1,251 @@
+{
+  "id": 1,
+  "documentId": "fe9evycaukworns5b5s38x83",
+  "createdAt": "2025-07-01T10:17:15.573Z",
+  "updatedAt": "2026-01-20T05:54:38.386Z",
+  "publishedAt": null,
+  "locale": null,
+  "contactInfo": {
+    "id": 1,
+    "phone": "70220 14433 | 76193 85524",
+    "email": "admissions@ncms.co.in, office@ncms.co.in",
+    "address_link": "https://www.google.com/maps?ll=13.352492,77.728078&z=15&t=m&hl=en&gl=IN&mapclient=embed&cid=17112812228345469983",
+    "address": "Nagarjuna College of Management Studies Chikkamarali Village, Doddamarali Post, Nandi Hobli, Chikkaballapur-562101 (NCET Campus)",
+    "rights_reserved": "@ 2025 Nagarjuna Group of Institutions | All Rights Reserved",
+    "logo": "/images/NGI_Logo_d53c56dedc_11eae0a723.png"
+  },
+  "importantLinks": [
+    {
+      "id": 1,
+      "title": "Gallery",
+      "type": "link",
+      "link": "/gallery",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 2,
+      "title": "Blog",
+      "type": "link",
+      "link": "/blog",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 3,
+      "title": "Events",
+      "type": "link",
+      "link": "/events",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 4,
+      "title": "IIC",
+      "type": "link",
+      "link": "/iic",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 5,
+      "title": "IQAC",
+      "type": "link",
+      "link": "/iqac",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 11,
+      "title": "UUCMS",
+      "type": "link",
+      "link": "/uucms",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 12,
+      "title": "Audit Reports",
+      "type": "link",
+      "link": "/audit-reports",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 13,
+      "title": "Mandatory Disclosure",
+      "type": "link",
+      "link": "/mandatory-disclosure",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 14,
+      "title": "ICC",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1059,
+        "documentId": "ex5c3a9rwv9c002eu1hohzy0",
+        "url": "/pdfs/ICC_28be4c7e9e.pdf"
+      },
+      "pdf_link": "/pdfs/ICC_28be4c7e9e.pdf"
+    }
+  ],
+  "acadamics": [
+    {
+      "id": 1,
+      "title": "Courses",
+      "type": "link",
+      "link": "/departments#ug_programme",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 2,
+      "title": "Library",
+      "type": "link",
+      "link": "/student-center/academic-enrichment/library",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 4,
+      "title": "Prospectus - UG",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1588,
+        "documentId": "ao03tzfsmybm902lx1xkpq1r",
+        "url": "/pdfs/UG_Prospectus_ff2eed36e5.pdf"
+      },
+      "pdf_link": "/pdfs/UG_Prospectus_ff2eed36e5.pdf"
+    },
+    {
+      "id": 100,
+      "title": "Prospectus - PG",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1589,
+        "documentId": "ygncgli3q79ddkxiiga0bany",
+        "url": "/pdfs/PG_Prospectus_82383c8d45.pdf"
+      },
+      "pdf_link": "/pdfs/PG_Prospectus_82383c8d45.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Transportation",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1060,
+        "documentId": "l62ff8pac3dgnezsci46zrh3",
+        "url": "/pdfs/Transportation_32572a53a2.pdf"
+      },
+      "pdf_link": "/pdfs/Transportation_32572a53a2.pdf"
+    },
+    {
+      "id": 6,
+      "title": "Online Student Feedback",
+      "type": "link",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScFIhUOW46AKEM-h3SHHj56fvTnVzosOvtlAnHR4PY5llsxCg/viewform",
+      "pdf": null,
+      "pdf_link": null
+    }
+  ],
+  "reports_and_publications": [
+    {
+      "id": 1,
+      "title": "Samashti",
+      "type": "link",
+      "link": "/samashti",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 3,
+      "title": "Newsletter",
+      "type": "link",
+      "link": "/news-letter",
+      "pdf": null,
+      "pdf_link": null
+    },
+    {
+      "id": 4,
+      "title": "News Coverage",
+      "type": "link",
+      "link": "/news-clippings",
+      "pdf": null,
+      "pdf_link": null
+    }
+  ],
+  "policies": [
+    {
+      "id": 1,
+      "title": "Anti-Ragging Committee",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1063,
+        "documentId": "w9h3hr2ti39n95xoozp5yj4a",
+        "url": "/pdfs/Anti_Ragging_Cell_acbc6a0dd8.pdf"
+      },
+      "pdf_link": "/pdfs/Anti_Ragging_Cell_acbc6a0dd8.pdf"
+    },
+    {
+      "id": 2,
+      "title": "SC & ST Committee",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1064,
+        "documentId": "kbvpa8q1n8dv0ruhuzeegkqo",
+        "url": "/pdfs/SC_ST_OBC_Cell_7c3290e8e7.pdf"
+      },
+      "pdf_link": "/pdfs/SC_ST_OBC_Cell_7c3290e8e7.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Service Manual",
+      "type": "pdf",
+      "link": null,
+      "pdf": {
+        "id": 1065,
+        "documentId": "y935qntal3k4xgrunkmgv44f",
+        "url": "/pdfs/NCMS_Service_Manual_3222674d68.pdf"
+      },
+      "pdf_link": "/pdfs/NCMS_Service_Manual_3222674d68.pdf"
+    },
+    {
+      "id": 4,
+      "title": "Online Grievance Redressal Mechanism",
+      "type": "link",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSewJZ5-xI7fUlO5v46_YO4I4BaAW1z8Vy5I6K0CkoK3HcIjdw/viewform",
+      "pdf": null,
+      "pdf_link": null
+    }
+  ],
+  "follow": [
+    {
+      "id": 1,
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/company/nagarjuna-school-of-management/"
+    },
+    {
+      "id": 2,
+      "title": "Facebook",
+      "link": "https://www.facebook.com/ncmschickballapur/"
+    },
+    {
+      "id": 3,
+      "title": "Instagram",
+      "link": "https://www.instagram.com/ncmschickaballapur/"
+    },
+    {
+      "id": 4,
+      "title": "Youtube",
+      "link": "https://www.youtube.com/@ncmschickaballapur179"
+    }
+  ]
+}

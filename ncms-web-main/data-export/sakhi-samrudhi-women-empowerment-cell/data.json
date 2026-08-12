@@ -1,0 +1,235 @@
+{
+  "id": 12,
+  "documentId": "nmyhzfgnpqpvnf6z4i8i7e8o",
+  "createdAt": "2025-06-27T07:12:25.971Z",
+  "updatedAt": "2026-02-20T04:52:10.591Z",
+  "publishedAt": "2026-02-20T04:52:10.806Z",
+  "BannerSection": {
+    "id": 179,
+    "title": "Sakhi Samrudhi - Women Empowerment Cell",
+    "image": "/images/sswec_646c793df4.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 174,
+    "AboutSection": {
+      "id": 155,
+      "title": "Introduction to Women Empowerment Cell",
+      "descriptions": [
+        "The Women Empowerment Cell (WEC) is dedicated to fostering leadership skills, raising awareness, and promoting gender equality among female students. Our mission is to create a safe and supportive environment that encourages women to actively participate in shaping society. Through various initiatives such as guest talks, awareness programmes, and welfare activities, we aim to empower women with knowledge of their social and legal rights. WEC also extends its reach to rural areas, educating women on standing against gender discrimination and violence. By instilling values, nurturing confidence, and enhancing leadership qualities, we strive to ensure the well-being and advancement of women in all spheres of life."
+      ]
+    },
+    "VisionMission": {
+      "id": 154,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 307,
+          "title": "Vision",
+          "description": "To uphold and promote women’s rights, ensure fair and safe environment and respect towards female students / teachers and supporting staff.",
+          "ListPoints": []
+        },
+        {
+          "id": 308,
+          "title": "Mission ",
+          "description": null,
+          "ListPoints": [
+            "To ensure protection and empowerment of women.",
+            "To provide safe and supportive environment for women community",
+            "Promoting gender equality and raising awareness about women’s issues/rights.",
+            "To promote the well-being and advancement of women in all spheres of life."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 236,
+        "title": "Objectives",
+        "points": [
+          "To nurture leadership skills in women community ",
+          "To raise awareness about the social issues that female student encounter.",
+          "To make the women students understand their equal responsibility in building society.",
+          "To create awareness, instill values, and develop the personality and leadership qualities in the members of WEC.",
+          "To reach out to women in rural areas and make them aware of their social and legal rights and to equip them to stand against gender violence and gender discrimination.",
+          "To enable women empowerment through guest talk, awareness programmes and other welfare activities."
+        ]
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 149,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policies and Compositions",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/Women_Empowerment_Cell_4eade3f330.pdf",
+    "Document2": "/pdfs/Women_Empowerment_Cell_e6bc244f73.pdf"
+  },
+  "Our_Gallery": {
+    "id": 33,
+    "title": "Gallery",
+    "images": [
+      "/images/Whats_App_Image_2022_12_26_at_4_23_41_PM_768x432_95b942203f.jpeg",
+      "/images/Whats_App_Image_2022_12_26_at_2_30_48_PM_1_300x225_8a138f0468.jpeg",
+      "/images/Whats_App_Image_2022_12_14_at_12_59_53_PM_768x345_3961f5f748.jpeg",
+      "/images/Whats_App_Image_2022_12_14_at_12_03_04_PM_1_300x227_c82df1ba3f.jpeg",
+      "/images/wrp1_768x576_8740b17525.jpeg",
+      "/images/wrp2_768x576_44fb77e670.jpeg",
+      "/images/Whats_App_Image_2023_07_06_at_3_28_36_PM_2_768x512_a9fe28af0d.jpeg",
+      "/images/Whats_App_Image_2023_07_06_at_3_28_37_PM_1_768x512_eadbbda910.jpeg",
+      "/images/Whats_App_Image_2023_11_08_at_5_24_53_PM_1_768x576_4e0112fb95.jpeg",
+      "/images/Whats_App_Image_2023_11_15_at_4_02_02_PM_1_768x576_999e94d476.jpeg"
+    ]
+  },
+  "Activities": {
+    "id": 50,
+    "title": "Activities",
+    "Sections": [
+      {
+        "id": 559,
+        "title": "Free Cancer Awareness & Screening - 28th October 2025",
+        "description": "The Women Empowerment Cell and IQAC of NCMS, in collaboration with the Indian Cancer Society, Bengaluru, organized a free oral, breast, and cervical cancer screening programme for supporting staff. The programme was conducted by Dr. Pavan Kumar H, Dr. Swathi D. Acharya, Dr. Pavithra, and Mr. Vijay Kumar R from ICS, Bengaluru.",
+        "images": [
+          "/images/1_3bf4835dab.jpeg",
+          "/images/2_19328c4a3f.jpeg",
+          "/images/0b907ec0_9783_43d4_af5a_3d5b75a1476a_a3aa7b54cc.jpeg",
+          "/images/6cafb032_97de_4b1d_9fbf_36826f613b63_7a9d2f2741.jpeg",
+          "/images/48bcc40e_189b_4937_a5f3_938a88a95c57_ef589ddf77.jpeg",
+          "/images/82ea35c1_e653_4cba_a21f_1cd4917a03ab_16d37bc1ea.jpeg",
+          "/images/20137890_8b42_4725_8166_7d3de5e09a70_d072d05a97.jpeg",
+          "/images/f5e1d810_5ae7_43d8_a3a0_7edede9baabd_beb8d04c70.jpeg",
+          "/images/d8928282_8788_41de_b053_8efc58794cb7_2d6b3166e3.jpeg"
+        ]
+      },
+      {
+        "id": 560,
+        "title": "Awareness on Breast & Cervical Cancer - 28th October 2025",
+        "description": "The Women Empowerment Cell, along with IQAC and the Indian Cancer Society (ICS), Bengaluru, organized a free Breast and Cervical Cancer Awareness Programme for girl students. Dr. Swathi D. Acharya, Senior Programme Coordinator, ICS, led the session.",
+        "images": [
+          "/images/3_2a7de85ea8.jpeg",
+          "/images/2_5344089e56.jpeg",
+          "/images/1_23b9fdcc0b.jpeg",
+          "/images/4_d788d489c9.jpeg",
+          "/images/5_b46a8d9626.jpeg"
+        ]
+      },
+      {
+        "id": 561,
+        "title": "Free Health Check-Up Camp - 12th February 2025",
+        "description": "Nagarjuna College of Management Studies, with Akash Super Specialty Hospital and Venkatagiri Kote Gram Panchayathi, organized a free health camp to raise health awareness and offer basic medical check-ups to the local community.",
+        "images": [
+          "/images/Whats_App_Image_2025_02_11_at_1_34_11_PM_d8eb7595f1.jpeg",
+          "/images/Whats_App_Image_2025_02_11_at_1_34_09_PM_23cc400daa.jpeg",
+          "/images/Whats_App_Image_2025_02_11_at_1_34_13_PM_70de97c01c.jpeg",
+          "/images/Whats_App_Image_2025_02_11_at_1_34_13_PM_1_c1c289950e.jpeg",
+          "/images/Whats_App_Image_2025_02_11_at_1_34_14_PM_f5506b3e7e.jpeg"
+        ]
+      },
+      {
+        "id": 562,
+        "title": "Breast Cancer Awareness - 6th February 2025",
+        "description": "Women Empowerment Cell – SAKHI SAMRUDHI, along with IQAC, organized a session on Breast Cancer Awareness. Dr. Sudha Patil, Professor & Head, Department of OBG, Akash Institute of Medical Sciences & Research Center.",
+        "images": [
+          "/images/Whats_App_Image_2025_02_06_at_1_11_01_PM_e53d3a4065.jpeg",
+          "/images/Whats_App_Image_2025_02_06_at_1_10_57_PM_1_5d870e7d54.jpeg",
+          "/images/Whats_App_Image_2025_02_06_at_1_10_56_PM_e5b8bdc875.jpeg",
+          "/images/Whats_App_Image_2025_02_06_at_1_10_57_PM_a8a858fdde.jpeg",
+          "/images/Whats_App_Image_2025_02_06_at_1_11_02_PM_df9085fa33.jpeg"
+        ]
+      },
+      {
+        "id": 563,
+        "title": "National Girl Child Day - 24th January 2025",
+        "description": "Mrs. Anitha Kumari M, Police Inspector, spoke to PG students on National Girl Child Day about education, health, and girls’ empowerment. The event included talks on self-defense, health, and government schemes, and highlighted the role of society in supporting a safe and equal future for girls.",
+        "images": null
+      },
+      {
+        "id": 564,
+        "title": "Free Dental Check-up - 9th October 2024",
+        "description": "Women Empowerment Cell – SAKHI SAMRUDHI, along with IQAC, organized a free dental check-up for staff members. Dr. Ashapurna and her team from Krishnadevaraya College of Dental Sciences and Hospital, Bengaluru.",
+        "images": [
+          "/images/Whats_App_Image_2024_10_09_at_2_49_51_PM_ad9c7d78ea.jpeg",
+          "/images/Whats_App_Image_2024_10_09_at_2_26_15_PM_b62305f27c.jpeg",
+          "/images/Whats_App_Image_2024_10_09_at_3_00_03_PM_1_8c6dacd3a6.jpeg",
+          "/images/Whats_App_Image_2024_10_09_at_2_53_00_PM_c3ff5a5fe3.jpeg",
+          "/images/Whats_App_Image_2024_10_09_at_3_00_03_PM_299ebd5227.jpeg",
+          "/images/Whats_App_Image_2024_10_09_at_3_00_02_PM_9ff67a4b9f.jpeg"
+        ]
+      },
+      {
+        "id": 565,
+        "title": "National Girl Child Day Celebration (24.1.2024)",
+        "description": "Celebration of National Girl Child Day on January 24, 2024",
+        "images": [
+          "/images/wec24_768x576_7a5324165d.jpeg",
+          "/images/wec2401_768x576_55ab41e80c.jpeg"
+        ]
+      },
+      {
+        "id": 566,
+        "title": "Breast Cancer Awareness",
+        "description": "As part of the Community Extension Activity under Mission Mac, students from NCMS have taken a proactive role in creating awareness about Breast Cancer. \n\nFrom November to January 2023-24, these enthusiastic students embarked on a mission to educate and engage communities in Venkatagiri Kote, Irigenahalli, and Canara Bank Rural Self Employment Training Institute, Chikkaballapur.\n\nThe initiative aimed not only to spread crucial information about Breast Cancer but also to foster a sense of community involvement and support. By actively participating in these awareness campaigns, NCMS students have made a significant impact on the well-being of individuals in these regions.\n\nAs a result of the concerted efforts during this period, the Mission Mac team has played a vital role in creating a more informed and empowered community. ",
+        "images": [
+          "/images/breast_cancer2_300x225_958ee9a88b.jpeg",
+          "/images/breast_cancer1_768x345_0c2784b283.jpeg",
+          "/images/Whats_App_Image_2024_01_18_at_2_44_59_PM_768x576_0c88070231.jpeg",
+          "/images/Whats_App_Image_2024_01_18_at_2_44_59_PM_1_768x576_026ec4b61f.jpeg"
+        ]
+      },
+      {
+        "id": 567,
+        "title": "Free Health Checkup (8.11.2023)",
+        "description": "NCMS's Sakhi Samrudhi organised a comprehensive awareness programme on breast cancer coupled with a Free Health Checkup for the women staff and guests. This impactful event took place on 8th November 2023, promoting women’s health and creating awareness about the critical issue of Breast Cancer.\n\nDistinguished Doctors’ Team:\n\n1. Dr. Harini R, Department of Obstetrics and Gynecology, Nandi Medical College & Research Institute.\n\n2. Dr. Anitha D, Consultant Obstetrician & Gynecologist, Pathi Hospital.\n\n3. Dr. Sunitha S Murthy, Consultant Obstetrician & Gynecologist, Murthy Nursing Home.\n\n4. Dr. Savitha Rames, Consultant Obstetrician & Gynecologist, Rajesh Clinic.\n\nThe event not only provided an opportunity for free health checkups for all the ladies but also featured insightful talks by our esteemed doctors. Their expertise shed light on crucial aspects of women’s health, with a particular focus on Breast Cancer awareness.",
+        "images": [
+          "/images/Whats_App_Image_2024_01_29_at_4_02_19_PM_1_768x1024_55666817b9.jpeg",
+          "/images/Whats_App_Image_2024_01_29_at_4_02_19_PM_768x1024_1342b5903f.jpeg",
+          "/images/Whats_App_Image_2023_11_15_at_4_02_02_PM_1_768x576_999e94d476.jpeg",
+          "/images/Whats_App_Image_2023_11_08_at_5_24_53_PM_1_768x576_4e0112fb95.jpeg"
+        ]
+      },
+      {
+        "id": 568,
+        "title": "Women Reservation Policy | Ms. Prabha N Belavangala (26.10.2023)",
+        "description": "In a bid to foster informed conversations and drive societal progress, we organised a compelling guest talk on the ‘Women Reservation Policy’ on 26th October 2023. The event featured Ms. Prabha N Belavangala, a distinguished Women Activist from Bengaluru, as the resource person.\n\nMs. Belavangala brought her wealth of experience and expertise to the forefront, engaging the audience in a thought-provoking discussion on the Women Reservation Policy. The event aimed to deepen understanding, address concerns, and promote dialogue surrounding the crucial policy that plays a pivotal role in fostering gender equality and empowerment.\n\nOur commitment to societal awareness and inclusivity is reflected in our choice of impactful topics and esteemed speakers. Ms. Prabha N Belavangala’s insights added significant value to the discourse, contributing to a more informed and engaged community.",
+        "images": [
+          "/images/wrp2_768x576_44fb77e670.jpeg",
+          "/images/wrp1_768x576_8740b17525.jpeg"
+        ]
+      },
+      {
+        "id": 569,
+        "title": "Unlocking the Secret to Well-being (6.7.2023)",
+        "description": "This impactful event fostered a deeper understanding of women’s health and well-being. Also, our expert panel shared valuable insights, covering a spectrum of topics to empower women in their journey toward optimal health.\n\nThe panelists were:\n\n1. Dr. Sushma S\n2. Dr. Harini R\n3. Dr. Anitha\n4. Dr. Savitha",
+        "images": [
+          "/images/Whats_App_Image_2023_07_06_at_3_28_36_PM_2_768x512_a9fe28af0d.jpeg",
+          "/images/Whats_App_Image_2023_07_06_at_3_28_37_PM_1_768x512_eadbbda910.jpeg"
+        ]
+      },
+      {
+        "id": 570,
+        "title": "Self-Defense Session | Mr. Mohammed Zabiulla (14.12.2022)",
+        "description": "In our ongoing commitment to student well-being, NCMS Women’s Cell organised an impactful self-defense session on 14th December 2022. The event aimed to equip students with essential skills for personal safety and empowerment.\n\nResource Person: Mr. Mohammed Zabiulla, Martial Art Trainer\n\nMr. Zabiulla, a seasoned Martial Art trainer, served as the resource person, imparting practical techniques and strategies for self-defense. The session was designed to instill confidence and ensure that students are well-prepared to navigate various situations.",
+        "images": [
+          "/images/Whats_App_Image_2022_12_14_at_12_03_04_PM_1_300x227_c82df1ba3f.jpeg",
+          "/images/Whats_App_Image_2022_12_14_at_12_59_53_PM_768x345_3961f5f748.jpeg"
+        ]
+      },
+      {
+        "id": 571,
+        "title": "Ethics and Human Values | Mr. M R Sathya Narayan (26.12.2022)",
+        "description": "Discovering the essence of ethical living in our guest talk on ‘Ethics and Human Values,’ held on 26th December 2022. The insightful session was facilitated by the esteemed Mr. M R Sathya Narayan, an advocate at the High Court in Bengaluru.\n\nMr. Narayan, with his wealth of legal expertise, delved into the importance of ethics in our daily lives and the significance of upholding human values promoted ethical awareness and provided valuable insights into navigating ethical dilemmas in various aspects of life.",
+        "images": [
+          "/images/Whats_App_Image_2022_12_26_at_2_30_48_PM_1_300x225_8a138f0468.jpeg",
+          "/images/Whats_App_Image_2022_12_26_at_4_23_41_PM_768x432_95b942203f.jpeg"
+        ]
+      },
+      {
+        "id": 572,
+        "title": "Women are the Real Architects of Society (8.3.2022)",
+        "description": "On March 08, 2022, we had the privilege of hosting an enlightening doctors talk on the empowering theme, ‘Women are the Real Architects of Society.’ This thought-provoking event featured esteemed resource persons, including:\n\n1. Dr. Sushma S, MBBS, DGO, DNB, Gynecologist\n2. Dr. Harini R, MBBS, DGO, DNB, Gynecologist\n3. Dr. Anitha, MBBS, DGO, Gynecologist\n\nOur expert panel of gynecologists shared valuable insights into the pivotal role that women play in shaping and nurturing society. The event aimed to celebrate and acknowledge the multifaceted contributions of women, emphasising their significance as the true architects of a thriving and harmonious community.",
+        "images": null
+      }
+    ]
+  }
+}

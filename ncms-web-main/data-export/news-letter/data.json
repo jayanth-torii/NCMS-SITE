@@ -1,0 +1,82 @@
+{
+  "id": 1,
+  "documentId": "ufy174f5357z6cpmpixlmje1",
+  "createdAt": "2025-08-01T06:31:12.729Z",
+  "updatedAt": "2025-11-24T06:24:02.608Z",
+  "publishedAt": "2025-11-24T06:24:02.254Z",
+  "banner": {
+    "id": 6,
+    "title": "Newsletter",
+    "image": "/images/news_letter_banner_7fd0aeeee4.png"
+  },
+  "AboutVisionMission": {
+    "AboutSection": {
+      "title": "Nudi Chaitanya",
+      "descriptions": [
+        "Welcome to NUDI CHAITANYA. The last proceedings period has been buzzing with activities. Nagarjuna College of Management Studies organised a large number of events and activities besides rigour of academics. The editorial team is thankful to each and every one who has contributed for making this edition of the newsletter possible. In fact, we look forward more interesting activities in the campus which can be showcased in the newsletter. Hope you will enjoy reading this volume of NUDI CHAITANYA!"
+      ]
+    },
+    "VisionMission": {
+      "title": "Our Vision & Mission",
+      "sections": [
+        {
+          "title": "Our Vision",
+          "description": "Leadership and Excellence in Education",
+          "points": []
+        },
+        {
+          "title": "Our Mission",
+          "description": "",
+          "points": [
+            "Equipping the students with the skills necessary to respond to the needs and challenges associated with ever-confronting societal demographics",
+            "Driving to provide excellent educational platform, skill based programmes that are responsive to the commitments of the students.",
+            "Empowering the students to meet and exceed demands as active participants in shaping the world"
+          ]
+        }
+      ]
+    },
+    "AccordionSections": []
+  },
+  "View_Volumes": {
+    "id": 1,
+    "title": "Volumes",
+    "description": "Stay updated with the latest developments, research, and events at Nagarjuna group of institutions. From groundbreaking innovations to student achievements and faculty insights, Nagarjuna Newsletter keeps you informed and inspired.",
+    "Volumes": [
+      {
+        "id": 1,
+        "title": "Nudi Chaitanya",
+        "volume": "Volume 4",
+        "image": "/images/volume1_8c850da3a4.png",
+        "pdf": "/pdfs/Nudi_Chaitanya_Vol_4_96d0c93927.pdf"
+      },
+      {
+        "id": 2,
+        "title": "Nudi Chaitanya",
+        "volume": "Volume 5",
+        "image": "/images/volume1_aaaee4113f.png",
+        "pdf": "/pdfs/NUDI_CHAITANYA_Vol_5_9adcb1f888.pdf"
+      },
+      {
+        "id": 3,
+        "title": "Nudi Chaitanya",
+        "volume": "Volume 6",
+        "image": "/images/volume1_448ca82196.png",
+        "pdf": "/pdfs/NUDI_CHAITANYA_Vol_6_02_1_2cbd96c52e.pdf"
+      },
+      {
+        "id": 4,
+        "title": "Nudi Chaitanya",
+        "volume": "Volume 7",
+        "image": "/images/volume1_278410de0e.png",
+        "pdf": "/pdfs/Nudi_Chaitanya_2023_V2_compressed_105b0b422c.pdf"
+      },
+      {
+        "id": 5,
+        "title": "Nudi Chaitanya",
+        "volume": "Volume 8",
+        "image": "/images/volume1_278410de0e.png",
+        "pdf": "/pdfs/Nudi_Chaitanya_Vol_8_32d39284ab.pdf"
+      }
+    ]
+  }
+}

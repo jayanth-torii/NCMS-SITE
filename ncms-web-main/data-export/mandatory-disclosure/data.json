@@ -1,0 +1,143 @@
+{
+  "id": 1,
+  "documentId": "f4nanmetn9vhhc7a4gr199n0",
+  "createdAt": "2025-08-01T05:55:03.278Z",
+  "updatedAt": "2025-11-18T09:43:47.571Z",
+  "publishedAt": "2025-11-18T09:43:47.130Z",
+  "banner": {
+    "id": 5,
+    "title": "Mandatory Disclosure",
+    "image": "/images/mandatory_disclosure_banner_f845d5671c.png"
+  },
+  "policies": {
+    "id": 4,
+    "title": "Policy Documents",
+    "sections": [
+      {
+        "id": 23,
+        "title": "Admission Policy",
+        "pdf": "/pdfs/Admission_Policy_5f7afc7f1a.pdf"
+      },
+      {
+        "id": 24,
+        "title": "Library Policy",
+        "pdf": "/pdfs/Library_Policy_1_61ad3d67b1.pdf"
+      },
+      {
+        "id": 25,
+        "title": "Examination Policy",
+        "pdf": "/pdfs/Examination_Policy_0b6b08a6d4.pdf"
+      },
+      {
+        "id": 26,
+        "title": "Discipline Policy",
+        "pdf": "/pdfs/Discipline_Policy_a6fbb5dfef.pdf"
+      },
+      {
+        "id": 27,
+        "title": "Green Campus Policy",
+        "pdf": "/pdfs/Green_Campus_Policy_fb7c9df2f0.pdf"
+      },
+      {
+        "id": 28,
+        "title": "Infrastructure Policy",
+        "pdf": "/pdfs/Infrastructure_Usage_and_Mnt_bc7fc5db93.pdf"
+      }
+    ]
+  },
+  "quickLinks": {
+    "id": 1,
+    "title": "Quick Links",
+    "image": "/images/Accreditation_2182427872.jpg",
+    "sections": [
+      {
+        "id": 2,
+        "title": "NAAC Accreditation",
+        "pdf": "/pdfs/Certificate_of_Accreditation_c740778351_eaa4dc8715.pdf"
+      },
+      {
+        "id": 1,
+        "title": "Mandatory Disclosure",
+        "pdf": "/pdfs/Mandatory_Disclosure_12_B_and_2_F_5b932dd878.pdf"
+      },
+      {
+        "id": 3,
+        "title": "BNU Affiliation Order Copy",
+        "pdf": "/pdfs/Affiliation_Order_copy_2025_26_8743c41346.pdf"
+      }
+    ]
+  },
+  "affiliationOrders": {
+    "id": 5,
+    "title": "Affiliation Orders",
+    "sections": [
+      {
+        "id": 41,
+        "title": "BNU Affiliation Order Copy 2025-26",
+        "pdf": "/pdfs/Affiliation_Order_copy_2025_26_8743c41346.pdf"
+      },
+      {
+        "id": 38,
+        "title": "BNU Affiliation Order Copy 2024-25",
+        "pdf": "/pdfs/Affiliation_order_Copy_2024_25_8a8d8b8af0.pdf"
+      },
+      {
+        "id": 29,
+        "title": "BNU Affiliation Order Copy 2022–23",
+        "pdf": "/pdfs/BNU_Affiliation_Order_Copy_2022_23_3_1_94b510f164.pdf"
+      },
+      {
+        "id": 30,
+        "title": "BNU Affiliation Order Copy 2023",
+        "pdf": "/pdfs/BNU_Affiliation_Copy_2023_7562df93dc.pdf"
+      },
+      {
+        "id": 31,
+        "title": "BNU Affiliation Copy 2023–PG",
+        "pdf": "/pdfs/BNU_Affiliation_Copy_2023_PG_9d184cc90d.pdf"
+      }
+    ]
+  },
+  "reports": {
+    "id": 6,
+    "title": "Reports",
+    "sections": [
+      {
+        "id": 32,
+        "title": "LOA Report 2021–22",
+        "pdf": "/pdfs/LOA_Report_21_22_1_67c78ce532.pdf"
+      },
+      {
+        "id": 33,
+        "title": "EOA Report 2022–23",
+        "pdf": "/pdfs/EOA_Report_22_23_4_fcef7250eb.pdf"
+      },
+      {
+        "id": 34,
+        "title": "EOA Report 2023–24",
+        "pdf": "/pdfs/EOA_Report_2023_24_8bad0afff7.pdf"
+      },
+      {
+        "id": 35,
+        "title": "EOA Report 2024–25",
+        "pdf": "/pdfs/EOA_Report_2024_2025_3_704aa5f9ce.pdf"
+      },
+      {
+        "id": 40,
+        "title": "EOA Report 2025–26",
+        "pdf": "/pdfs/EOA_Report_25_26_53b3bca349.PDF"
+      }
+    ]
+  },
+  "campusInitiatives": {
+    "id": 7,
+    "title": "Campus Initiatives",
+    "sections": [
+      {
+        "id": 36,
+        "title": "Green Campus",
+        "pdf": "/pdfs/Green_Campus_6_128_merged_099fc6f04a.pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id": 3,
+  "documentId": "kdfmp9vw4nr8lv57dlfx0p23",
+  "createdAt": "2025-06-25T10:25:55.805Z",
+  "updatedAt": "2025-07-31T11:29:30.007Z",
+  "publishedAt": "2025-07-31T11:29:30.110Z",
+  "BannerSection": {
+    "id": 34,
+    "title": "Commerce Forum",
+    "image": "/images/banner_d320dac336.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 36,
+    "AboutSection": {
+      "id": 34,
+      "title": "Introduction to Vanijya Vyasa",
+      "descriptions": [
+        "The commerce forum “Vanijya Vyasa” at Nagarjuna College of Management Studies serves as a dynamic platform for students to engage with various aspects of commerce, management, economics and business. It fosters intellectual discussions, workshops and seminars connecting students with industry professionals and academicians. The forum organises various events to connect their class room learning to application, such as business quiz, jam, product launch, big picture challenge, case study competitions to enhance their analytical, critical thinking abilities. ",
+        "Along with these abilities, this forum also helps in building confidence, learning coordination, team player attitude and leadership skills.",
+        "Vanijya Vyasa plays a pivotal role in enhancing the educational experience through student centric activities and focus on preparing students for the challenges of the business world and society."
+      ]
+    },
+    "VisionMission": null,
+    "AccordionSections": [
+      {
+        "id": 42,
+        "title": "Objectives",
+        "points": [
+          "To provide a platform for students to create network with industry professionals and other students interested in Commerce and Management.",
+          "To organise events and activities that will help students develop practical skills and knowledge in Commerce and Management.",
+          "To foster a supportive and inclusive community that values diversity and encourages mutual respect and understanding.",
+          "To equip students with the knowledge, skills, and experiences they need to succeed in their future careers in Commerce and Management."
+        ]
+      }
+    ]
+  },
+  "Our_Gallery": {
+    "id": 4,
+    "title": "Our Gallery",
+    "images": [
+      "/images/ads_1_127a9122ec.jpeg",
+      "/images/debate_2_99728b3727.jpeg",
+      "/images/debate_1_c5ba49e56c.jpeg",
+      "/images/ads_2_731b430bcf.jpeg",
+      "/images/launch_1_6bac3dd4ec.jpeg",
+      "/images/launch_2_bd8dcc9dc9.jpeg",
+      "/images/jam_2_3b86b6657a.jpeg",
+      "/images/jam_1_2214794920.jpeg",
+      "/images/peer_1_bbef080475.jpeg",
+      "/images/pic_1_8074954480.jpeg",
+      "/images/pic_2_0add2fe112.jpeg",
+      "/images/peer_2_4b368e8bdd.jpeg",
+      "/images/gallery_2_2b88d27233.png",
+      "/images/row_1_1397b11dff.jpeg",
+      "/images/quiz_1_3586a8d2ee.jpeg",
+      "/images/quiz_2_f476a22e15.jpeg",
+      "/images/row_2_816f004bec.jpeg",
+      "/images/gallery_1_03d5f41758.png"
+    ]
+  },
+  "Activities": {
+    "id": 4,
+    "title": "Activities",
+    "Sections": [
+      {
+        "id": 27,
+        "title": "Peer Learning - Exchange of Knowledge (4.2.2024)",
+        "description": "Conducted a peer learning, exchange of knowledge on 4th January 2024 at computer Lab for the students of I BBA. \n\nSecond year BBA students initiated hands-on learning program to 1st year BBA peers, specifically focusing on fundamentals of Google Forms, covering topics such as survey creation, data collection and form customization.",
+        "images": [
+          "/images/peer_2_4b368e8bdd.jpeg",
+          "/images/peer_1_bbef080475.jpeg"
+        ]
+      },
+      {
+        "id": 28,
+        "title": "JAM Competition (20.11.2023)",
+        "description": "Held JAM competition on 20th November 2023 for the students of I BBA. The aim of organising JAM competition was to refine students’ ability to express ideas clearly and build confidence and persuasive speaking skills in a short time.",
+        "images": [
+          "/images/jam_1_32a676194e.jpeg",
+          "/images/jam_2_17f9918010.jpeg"
+        ]
+      },
+      {
+        "id": 29,
+        "title": "Row of Lights - Decorating and Selling Diyas (10.11.2023)",
+        "description": "Vanijya Vyasa in association with cultural committee conducted a decorating and selling Diyas competition on 10th November 2023 from 1 PM to 2:30 PM for the students of B.Com, BBA, BCA and B.Sc. The aim of organising the competition was promoting creativity, artistic expression, entrepreneurship and business skills among students. \n\nWinners of the competition were Deeksitha C.S. and Kavyashree K.M., II B.Com.",
+        "images": [
+          "/images/row_2_816f004bec.jpeg",
+          "/images/row_1_1397b11dff.jpeg"
+        ]
+      },
+      {
+        "id": 30,
+        "title": "Debate Competition (9.11.2023)",
+        "description": "Vanijya Vyasa conducted Debate completion for I B.Com students on 9th November 2023. The aim of organising debate competition was to hone the public speaking skills of the students and teach them to articulate their thoughts and opinions.\n\nWinner of the event was Nayan Kumar.",
+        "images": [
+          "/images/debate_1_4b01bac409.jpeg",
+          "/images/debate_2_8ae690ef0d.jpeg"
+        ]
+      },
+      {
+        "id": 31,
+        "title": "Relaunch (1.2.2023)",
+        "description": "Commerce forum held Re-Launch competition to find grey areas behind the failure of products and to prepare a perfect re-launch on 1st February 2023. \n\nTeam Utkarsh won the competition.",
+        "images": [
+          "/images/launch_1_ad39fe2eea.jpeg",
+          "/images/launch_2_abe2bae7d4.jpeg"
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Guest Talk (28.1.2023)",
+        "description": "Guest talk on “How to plan for Start-up: Legal and Ethical steps” was conducted on 28th January 2023 at 2 PM in Seminar hall. \n\nResource Person: Dr. Bhavya Bhanu, HOD and Associate Professor, Department of Management Studies, Maharani Lakshmi Ammanni College for Women. \n\nThe guest talk provided an insight into start-up planning. The students were able to understand the essentials of business registration, contracts, and intellectual property protection, while integrating social responsibility into entrepreneurial journey.",
+        "images": null
+      },
+      {
+        "id": 33,
+        "title": "Big Picture Challenge (24.1.2023)",
+        "description": "Vanijya Vyasa conducted Big Picture Challenge on 24th January 2023 for BBA students. This challenge focused on bringing creativity on board and encouraging team work on the floor. \n\nWinning team was Team Iditri.",
+        "images": [
+          "/images/pic_2_0add2fe112.jpeg",
+          "/images/pic_1_8074954480.jpeg"
+        ]
+      },
+      {
+        "id": 34,
+        "title": "MAD Ads (18.1.2023)",
+        "description": "Commerce forum held Mad Ads competition on 18th January 2023 to showcase creativity of the students in creating the new ads for II year and III year BBA. \n\nWinning team was Team Sankalp",
+        "images": [
+          "/images/ads_1_d313b5a77e.jpeg",
+          "/images/ads_2_301a5b3398.jpeg"
+        ]
+      },
+      {
+        "id": 35,
+        "title": "Business Quiz (11.1.2023)",
+        "description": "Commerce forum hosted Business Quiz on 11th January 2023. The aim was to create awareness among BBA students regarding current affairs of industry. \n\nTeam Sankalp won the competition.",
+        "images": [
+          "/images/quiz_2_f476a22e15.jpeg",
+          "/images/quiz_1_3586a8d2ee.jpeg"
+        ]
+      }
+    ]
+  }
+}

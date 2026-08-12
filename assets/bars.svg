@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" width="440" height="320" role="img" aria-label="NCMS tech stack progress bars">
+  <defs>
+    <linearGradient id="barOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F6872A"/>
+      <stop offset="100%" stop-color="#f8a35c"/>
+    </linearGradient>
+    <linearGradient id="barNavy" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0e2455"/>
+      <stop offset="100%" stop-color="#1c3d7a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- title -->
+  <text x="220" y="30" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#0e2455" letter-spacing="4">TECH STACK LOADING…</text>
+  <text x="220" y="48" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#F6872A" font-weight="700" letter-spacing="2">
+    NEXT.JS · REACT · TS · EXPRESS · MONGO · TAILWIND
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    <!-- Next.js 15 -->
+    <text x="12" y="92" fill="#0e2455">Next.js 15</text>
+    <rect x="130" y="80" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="80" height="16" rx="8" fill="url(#barOrange)">
+      <animate attributeName="width" values="0;290;290" keyTimes="0;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- React 19 -->
+    <text x="12" y="124" fill="#0e2455">React 19</text>
+    <rect x="130" y="112" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="112" height="16" rx="8" fill="url(#barNavy)">
+      <animate attributeName="width" values="0;276;276" keyTimes="0;0.45;1" dur="2.4s" begin="0.12s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- TypeScript -->
+    <text x="12" y="156" fill="#0e2455">TypeScript</text>
+    <rect x="130" y="144" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="144" height="16" rx="8" fill="url(#barOrange)">
+      <animate attributeName="width" values="0;261;261" keyTimes="0;0.45;1" dur="2.4s" begin="0.24s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Express -->
+    <text x="12" y="188" fill="#0e2455">Express 4</text>
+    <rect x="130" y="176" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="176" height="16" rx="8" fill="url(#barNavy)">
+      <animate attributeName="width" values="0;247;247" keyTimes="0;0.45;1" dur="2.4s" begin="0.36s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- MongoDB -->
+    <text x="12" y="220" fill="#0e2455">MongoDB</text>
+    <rect x="130" y="208" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="208" height="16" rx="8" fill="url(#barOrange)">
+      <animate attributeName="width" values="0;232;232" keyTimes="0;0.45;1" dur="2.4s" begin="0.48s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Tailwind -->
+    <text x="12" y="252" fill="#0e2455">Tailwind v4</text>
+    <rect x="130" y="240" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="240" height="16" rx="8" fill="url(#barNavy)">
+      <animate attributeName="width" values="0;261;261" keyTimes="0;0.45;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Framer Motion -->
+    <text x="12" y="284" fill="#0e2455">Framer Motion</text>
+    <rect x="130" y="272" width="290" height="16" rx="8" fill="#eef1f6"/>
+    <rect x="130" y="272" height="16" rx="8" fill="url(#barOrange)">
+      <animate attributeName="width" values="0;203;203" keyTimes="0;0.45;1" dur="2.4s" begin="0.72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

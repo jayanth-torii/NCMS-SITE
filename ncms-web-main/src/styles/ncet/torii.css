@@ -1,0 +1,357 @@
+/* =====================================================================
+   Torii Minds — compact "Our Technical Partner" band (home).
+   Left brand panel + right 3D COVERFLOW. Active card shows a big
+   top-left title; hovering it slides up a glass description. A large
+   faded TORII logo sits behind everything. Navy/orange landing theme.
+   ===================================================================== */
+
+.tnp {
+  position: relative;
+  overflow: hidden;
+  padding: 70px 0;
+  background: linear-gradient(150deg, #0e2455 0%, #0a1a3f 100%);
+}
+
+/* subtle dot grid */
+.tnp__grid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1.4px);
+  background-size: 22px 22px;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent 94%);
+  mask-image: linear-gradient(180deg, #000, transparent 94%);
+}
+
+/* big faded TORII logo behind everything (bottom-right).
+   The source PNG is a 512×512 square whose wordmark is a short, wide strip
+   CENTERED in the canvas (~38% transparent band top & bottom).
+   Both the SIZE and the vertical offset use `vw` so they scale on the SAME
+   axis — the box and its push-down stay proportional, so it no longer sinks
+   off-screen as the viewport narrows. `clamp()` keeps it sane at the extremes.
+   Hidden entirely from tablet down (see the 991px breakpoint). */
+.tnp__logobg {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  right: 0;
+  bottom: clamp(-72px, -5vw, -38px);
+  width: clamp(190px, 20vw, 300px);
+  aspect-ratio: 1 / 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.15;
+  -webkit-mask-image: radial-gradient(ellipse 72% 34% at 50% 50%, #000 60%, transparent 100%);
+  mask-image: radial-gradient(ellipse 72% 34% at 50% 50%, #000 60%, transparent 100%);
+}
+
+.tnp__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 0.85fr 1.4fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* ---------- Left: brand panel ---------- */
+.tnp__left { position: relative; padding-left: 26px; min-width: 0; }
+.tnp__accent {
+  position: absolute;
+  left: 0; top: 6px; bottom: 8px;
+  width: 3px;
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #f6872a 0%, rgba(246, 135, 42, 0) 92%);
+}
+.tnp__brandrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.tnp__logo { height: 56px; width: auto; flex: 0 0 auto; }
+.tnp__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: #f6872a;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.tnp__eyebrow::before {
+  content: "";
+  width: 26px; height: 2px;
+  background: #f6872a;
+  border-radius: 9999px;
+}
+.tnp__title {
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  margin: 0 0 16px;
+}
+.tnp__title span {
+  color: #f6872a;
+  background: linear-gradient(180deg, #ffb978, #f6872a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tnp__text {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 15.5px;
+  line-height: 1.65;
+  max-width: 430px;
+  margin: 0 0 28px;
+}
+
+/* ---------- "Dive In" glass button ---------- */
+.tnp__cta {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.tnp__cta::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -130%;
+  width: 60%; height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-18deg);
+  transition: left 0.6s ease;
+}
+.tnp__cta::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, inset 0.3s ease, border-color 0.3s ease;
+}
+.tnp__cta-label, .tnp__cta-arrow { position: relative; z-index: 1; }
+.tnp__cta-arrow { font-size: 17px; transition: transform 0.3s ease; }
+.tnp__cta:hover {
+  border-color: #f6872a;
+  box-shadow: 0 0 0 4px rgba(246, 135, 42, 0.14), 0 12px 30px rgba(246, 135, 42, 0.22);
+  transform: translateY(-2px);
+}
+.tnp__cta:hover::before { left: 130%; }
+.tnp__cta:hover::after { opacity: 1; inset: 4px; border-color: rgba(246, 135, 42, 0.45); }
+.tnp__cta:hover .tnp__cta-arrow { transform: translateX(4px); }
+
+/* ---------- Right: 3D coverflow ---------- */
+.tnp__flow { position: relative; perspective: 1500px; min-width: 0; }
+.tnp__stage {
+  position: relative;
+  height: 360px;
+  transform-style: preserve-3d;
+}
+.tnp__card {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(560px, 84%);
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #0a1530;
+  box-shadow: 0 30px 60px rgba(4, 9, 24, 0.55);
+  transform-origin: center center;
+  transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.7s ease;
+  will-change: transform, opacity;
+  cursor: default;
+}
+.tnp__card[role="button"] { cursor: pointer; }
+.tnp__card img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(var(--zoom, 1));
+  transition: transform 0.8s ease;
+}
+.tnp__card.is-active:hover img { transform: scale(calc(var(--zoom, 1) * 1.05)); }
+
+/* readability scrim (active only) */
+.tnp__card-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(6, 12, 30, 0.6) 0%, transparent 32%, transparent 58%, rgba(6, 12, 30, 0.72) 100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.tnp__card.is-active .tnp__card-scrim { opacity: 1; }
+
+/* glass frame */
+.tnp__card-frame {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  transition: box-shadow 0.4s ease;
+}
+.tnp__card.is-active:hover .tnp__card-frame { box-shadow: inset 0 0 0 2px rgba(246, 135, 42, 0.7); }
+
+/* ---------- Title bar — bounces up above the active card ---------- */
+.tnp__headbar {
+  position: relative;
+  height: 56px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.tnp__headline {
+  position: relative;
+  margin: 0;
+  padding-bottom: 11px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.4px;
+  text-align: center;
+  text-shadow: 0 2px 16px rgba(4, 9, 24, 0.45);
+  will-change: transform, opacity;
+}
+.tnp__headline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 36px;
+  height: 3px;
+  transform: translateX(-50%);
+  background: #f6872a;
+  border-radius: 2px;
+}
+
+/* hover-reveal description — a stylish glass panel that takes over the lower image */
+.tnp__card-desc {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 4;
+  padding: 30px 24px 22px;
+  background: linear-gradient(180deg, rgba(6, 12, 30, 0) 0%, rgba(6, 12, 30, 0.85) 40%, rgba(6, 12, 30, 0.97) 100%);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.26s ease;
+  will-change: transform;
+}
+.tnp__card.is-active:hover .tnp__card-desc { transform: translateY(0); opacity: 1; }
+.tnp__card-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #f6872a;
+  margin-bottom: 9px;
+}
+.tnp__card-tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #f6872a; }
+.tnp__card-dtitle {
+  margin: 0 0 7px;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.3px;
+}
+.tnp__card-desc p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 92%;
+}
+
+/* dots */
+.tnp__dots {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  margin-top: 26px;
+}
+.tnp__dot {
+  width: 9px; height: 9px;
+  padding: 0;
+  border: none;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  transition: background 0.25s ease, width 0.25s ease;
+}
+.tnp__dot:hover { background: rgba(255, 255, 255, 0.5); }
+.tnp__dot.is-active { width: 26px; background: #f6872a; }
+
+/* ---------- Responsive ---------- */
+/* Tight 2-column band (laptops): keep the split, but pull the coverflow in and
+   narrow the left text so the fanned cards never overlap the brand panel.
+   (JS also drops the far cards + reduces the fan here — see `tight`.) */
+@media (min-width: 992px) and (max-width: 1280px) {
+  .tnp__inner { grid-template-columns: 0.8fr 1.45fr; gap: 30px; }
+  .tnp__card { width: min(500px, 66%); }
+  .tnp__text { max-width: 330px; }
+  .tnp__title { font-size: 32px; }
+}
+@media (max-width: 991px) {
+  .tnp__inner { grid-template-columns: 1fr; gap: 30px; }
+  .tnp__logobg { display: none; }
+  .tnp__stage { height: 300px; }
+  .tnp__title { font-size: 30px; }
+  .tnp__text { max-width: none; }
+  .tnp__headbar { height: 50px; }
+  .tnp__headline { font-size: 22px; }
+}
+@media (max-width: 600px) {
+  .tnp { padding: 48px 0; }
+  .tnp__left { padding-left: 20px; }
+  .tnp__brandrow { gap: 8px; margin-bottom: 16px; }
+  .tnp__logo { height: 46px; }
+  .tnp__title { font-size: 24px; }
+  .tnp__stage { height: 200px; }
+  .tnp__card { width: 90%; }
+  .tnp__headbar { height: 44px; margin-bottom: 8px; }
+  .tnp__headline { font-size: 19px; }
+  .tnp__card-dtitle { font-size: 17px; }
+  .tnp__card-desc { padding: 22px 16px 15px; }
+  .tnp__card-desc p { font-size: 13px; }
+  .tnp__dots { margin-top: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tnp__card, .tnp__card img, .tnp__card-title, .tnp__card-desc, .tnp__card-scrim,
+  .tnp__cta, .tnp__cta::before, .tnp__cta::after, .tnp__dot { transition: none; }
+}

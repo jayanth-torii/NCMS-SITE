@@ -1,0 +1,1066 @@
+{
+  "DOE": {
+    "title": "",
+    "description": "",
+    "members": [
+      {
+        "id": 94,
+        "order": "1",
+        "name": "Mrs. Shrujala R",
+        "designation": "Assistant Professor",
+        "qualification": "MA, KSET, (PhD)",
+        "image": "/images/Shrujala_R_ebe29d0a34.png",
+        "about": [
+          "8+ years of experience in English literature and language teaching.",
+          "KSET qualified researcher pursuing Ph.D. in Exile Literature."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "10",
+            "5"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/shrujala-ramanna-71814415a"
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "order": "2",
+        "name": "Mrs. Sudhamba N",
+        "designation": "Assistant Professor",
+        "qualification": "",
+        "image": "",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 96,
+        "order": "3",
+        "name": "Mr. Abhijit Naha",
+        "designation": "Assistant Professor",
+        "qualification": "MA",
+        "image": "/images/Abhijit_Naha_bdc8d9ec43.png",
+        "about": [
+          "19 years of teaching and research experience in literature.",
+          "Research scholar in Postcolonial and Postmodern literary theories."
+        ],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 97,
+        "order": "4",
+        "name": "Mrs. Sumithra N M",
+        "designation": "Assistant Professor",
+        "qualification": "MA, B.Ed, PGDELT",
+        "image": "",
+        "about": [
+          "Experienced English instructor specializing in communicative and exam English.",
+          "Personalized teaching approach for learners of diverse backgrounds."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "2",
+            "2"
+          ]
+        },
+        "details": []
+      }
+    ]
+  },
+  "DOH": {
+    "title": "",
+    "description": "",
+    "members": [
+      {
+        "id": 92,
+        "order": "1",
+        "name": "Mr. Sathyanarayanappa",
+        "designation": "Assistant Professor",
+        "qualification": "MA, B.Ed., M.Phil",
+        "image": "/images/Sathyanarayanappa_87920f11b8.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      }
+    ]
+  },
+  "MCA": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 42,
+        "order": "1",
+        "name": "Dr. Mamatha S",
+        "designation": "Professor & Head",
+        "qualification": "\tPh.D Computer Science & Engineering",
+        "image": "",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 44,
+        "order": "2",
+        "name": "Mr. Gopi Krishna T L",
+        "designation": "Assistant Professor",
+        "qualification": "B.E, M.Tech (Ph.D)",
+        "image": "",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 45,
+        "order": "3",
+        "name": "Ms. Lakshmi A L",
+        "designation": "Assistant Professor",
+        "qualification": "MCA",
+        "image": "",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      }
+    ]
+  },
+  "Science": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 76,
+        "order": "1",
+        "name": "Mrs. Aruna C",
+        "designation": "Assistant Professor & HOD",
+        "qualification": "M.Sc",
+        "image": "/images/Aruna_C_d0e6191a27.png",
+        "about": [
+          "A committed academic professional driven by a passion for continuous learning, innovation, and personal growth.",
+          "Brings integrity, collaboration, and a proactive mindset to teaching and mentoring, contributing meaningfully to academic and professional environments."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "5",
+            "2"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/aruna-keshava-279664102/"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "order": "2",
+        "name": "Mr. Ananda S D",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc (B.Ed) (Physics)",
+        "image": "/images/Ananda_S_9d4b7c97e4.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 77,
+        "order": "3",
+        "name": "Dr. Thejas R",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc., Ph.D (Physics)",
+        "image": "/images/Thejas_R_e259f1548f.png",
+        "about": [
+          "Expertise in magnetism, spectroscopy, and materials science, with a special focus on nanomaterials and sensing technologies. Extensively published in reputed journals and actively involved in mentoring undergraduate research, fostering academic growth, and promoting research excellence within the institution."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "8",
+            "15"
+          ]
+        },
+        "details": [
+          {
+            "title": "Google scholar ID",
+            "content": "https://scholar.google.com/citations?user=MGncujAAAAAJ&hl=en"
+          },
+          {
+            "title": "Vidwan ID",
+            "content": "https://vidwan.inflibnet.ac.in/profile/275045"
+          },
+          {
+            "title": "Research Gate ID",
+            "content": "https://www.researchgate.net/profile/Thejas-Ramakrishnaiah?ev=hdr_xprf"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/thejas-r-527b10194/"
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "order": "4",
+        "name": "Mrs. Jyothi L",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc (Mathematics), B.Ed",
+        "image": "/images/Jyothi_L_c7c3853f1f.png",
+        "about": [
+          "Assistant Professor of Mathematics with a passion for teaching, research, and integrating technology into education.",
+          "Published researcher and Python resource person, with interests in computational mathematics and programming-driven learning."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "3",
+            "3"
+          ]
+        },
+        "details": []
+      },
+      {
+        "id": 80,
+        "order": "5",
+        "name": "Mr. Srinidhi L",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc (Mathematics)",
+        "image": "/images/Srinidhi_L_95b6a18559.png",
+        "about": [
+          "Assistant Professor of Mathematics with expertise in Complex Analysis, committed to advancing teaching and research in mathematical sciences.",
+          "Dedicated to fostering deep conceptual understanding and guiding students in applying mathematics to real-world challenges."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": []
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/nidhi-l-8817b12b9/"
+          }
+        ]
+      }
+    ]
+  },
+  "MBA": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 2,
+        "order": "1",
+        "name": "Dr. Nagaraju R",
+        "designation": "Associate Professor & Head",
+        "qualification": "MBA, M.Com, KSET, PH.D",
+        "image": "/images/Nagaraju_R_b5b697ab13.png",
+        "about": [
+          "Dedicated educator fostering knowledge, skills, and student confidence.",
+          "Inspiring holistic growth and future-ready professionals."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "26",
+            "8"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/dr-nagaraju-r-8820a444/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "order": "2",
+        "name": "Dr. Girish Kumar H V",
+        "designation": "Associate Professor",
+        "qualification": "MBA,KSET, PhD ",
+        "image": "/images/Girish_Kumar_H_V_03b5b92af0.png",
+        "about": [
+          "Assistant Professor specializing in Finance, Accounting, and corporate finance.",
+          "Guiding students in analytical and managerial decision-making skills."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "2",
+            "15"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/dr-girish-kumar-922a97253/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "order": "3",
+        "name": "Mr. Rakshith Gowda K M",
+        "designation": "Assistant Professor",
+        "qualification": "",
+        "image": "/images/Rakshith_Gowda_K_M_75aba78033.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 5,
+        "order": "4",
+        "name": "Ms. Tiveni N",
+        "designation": "Assistant Professor",
+        "qualification": "MBA, UGC NET, KSET",
+        "image": "/images/Tiveni_N_3c90ad0ece.png",
+        "about": [
+          "MBA HR academician, UGC-NET and KSET qualified research scholar.",
+          "Research publications, conferences, FDPs, and strategic HR expertise."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "4",
+            "7"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/triveni-n-3600552b2"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "order": "5",
+        "name": "Mr. Harshith Babu V S",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, B.Ed, NET, KSET",
+        "image": "/images/Harshith_Babu_V_S_68da4942d7.png",
+        "about": [
+          "Assistant Professor in MBA with 14+ years academic and industry experience.",
+          "Expertise in marketing, research methods, analytics, and management technology."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "5",
+            "6"
+          ]
+        },
+        "details": [
+          {
+            "title": "Google Scholar",
+            "content": "https://scholar.google.com/citations?hl=en&user=ezMtVh8AAAAJ"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/harshith-babu-b33a8b3a/"
+          }
+        ]
+      }
+    ]
+  },
+  "UG_CA": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 58,
+        "order": "1",
+        "name": "Mrs. Aruna C",
+        "designation": "Assistant Professor & Head",
+        "qualification": "M.Sc",
+        "image": "/images/Aruna_C_d0e6191a27.png",
+        "about": [
+          "Dedicated academic professional with a passion for continuous learning, innovation, and personal growth.",
+          "Committed to contributing meaningfully through collaborative efforts, integrity, and a proactive approach to teaching and development."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "5",
+            "2"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/aruna-keshava-279664102/"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "order": "2",
+        "name": "Ms. Devika Rajan",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc in Computer Science",
+        "image": "/images/Devika_Rajan_d51a0afed2.png",
+        "about": [
+          "Academician and researcher with a strong focus on emerging technologies including IoT, Blockchain, and Machine Learning.",
+          "Experienced in organizing national conferences, publishing research, and developing practical tech solutions through innovative student projects."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "3",
+            "3"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/devika-rajan-5b792a224/"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "order": "3",
+        "name": "Ms. Pramodini S P",
+        "designation": "Assistant Professor",
+        "qualification": "MCA",
+        "image": "/images/Pramodini_S_P_f3d3866d4d.png",
+        "about": [
+          "Assistant Professor with a Master of Computer Applications (MCA), passionate about teaching and mentoring in the field of computer science.",
+          "Focused on fostering academic and professional growth through engaging instruction and student-centered guidance."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": []
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin. com/in/pramodini-s-p"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "order": "4",
+        "name": "Mrs. Sumeena A",
+        "designation": "Assistant Professor",
+        "qualification": "MCA",
+        "image": "/images/Sumeena_A_e91b1d4e05.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 702,
+        "order": "5",
+        "name": "Ms. Jeevitha V",
+        "designation": "Assistant Professor",
+        "qualification": "M.Sc",
+        "image": "/images/Jeevitha_V_bfedf1d186.png",
+        "about": [
+          "Assistant Professor of Computer Science with a research-driven approach to teaching and published work in Artificial Intelligence.",
+          "Dedicated to mentoring students and fostering excellence in the evolving field of technology through innovative learning methods."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "1",
+            "1"
+          ]
+        },
+        "details": []
+      },
+      {
+        "id": 713,
+        "order": "6",
+        "name": "Mr. Venkatesh Murthy",
+        "designation": "Assistant Professor",
+        "qualification": "BE",
+        "image": "/images/Venkatesh_Murthy_b73b908782.png",
+        "about": [
+          "Assistant Professor in the Science Department with prior industry experience as a DevOps Engineer, bridging academic concepts with real-world applications.",
+          "Committed to integrating practical insights into teaching, fostering student understanding of technology and its professional relevance."
+        ],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 720,
+        "order": "7",
+        "name": "Mrs. Supriya N",
+        "designation": "Assistant Professor",
+        "qualification": "BE, MBA",
+        "image": "",
+        "about": [],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "0",
+            "1"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "http://linkedin.com/in/supriya-n-53387721a"
+          }
+        ]
+      },
+      {
+        "id": 735,
+        "order": "8",
+        "name": "Mr. Tejas Yadav V N",
+        "designation": "Assistant Professor",
+        "qualification": "MCA",
+        "image": "/images/Tejas_Yadav_V_N_677e41bc4c.png",
+        "about": [
+          "Certified in UI/UX Design with hands-on experience in developing innovative tech projects like Facial Recognition and Mood Detection.",
+          "Focused on blending design thinking with practical applications to enhance user experience and drive student engagement in technology."
+        ],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "www.linkedin.com/in/ tejas-yadav-v-n-381728246"
+          }
+        ]
+      },
+      {
+        "id": 744,
+        "order": "9",
+        "name": "Mr. Darshan D S",
+        "designation": "Assistant Professor",
+        "qualification": "",
+        "image": "/images/Darshan_D_S_1eb78b40f4.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      }
+    ]
+  },
+  "UG_Commerce": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 308,
+        "order": "1",
+        "name": "Dr. Kiran Kumar T N",
+        "designation": "HOD & Assistant Professor & UG Coordinator",
+        "qualification": "MBA, Ph.D",
+        "image": "/images/Kiran_Kumar_T_N_d102737d64.png",
+        "about": [
+          "Dr. Kiran Kumar is a seasoned academician and administrator with over 13 years of combined experience in academia and industry. He currently serves as the Head of the Department of Commerce and Management at Nagarjuna College of Management Studies, where he leads curriculum development, faculty mentoring, and institutional coordination."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "6",
+            "11"
+          ]
+        },
+        "details": [
+          {
+            "title": "Google scholar ID",
+            "content": "https://scholar.google.com/citations?user=FSmi1Z0AAAAJ&hl=en&oi=sra"
+          },
+          {
+            "title": "Vidwan ID",
+            "content": "https://vidwan.inflibnet.ac.in/profile/392862"
+          },
+          {
+            "title": "Research Gate ID",
+            "content": "https://www.researchgate.net/profile/Kiran-Kumar-T-N"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/kiran-kumar-narayanaswamy/"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "order": "2",
+        "name": "Ms. Latha K S",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com",
+        "image": "/images/Latha_K_S_41692d9682.png",
+        "about": [
+          "Ability to instill confidence in students through effective mentoring and guidance."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "6",
+            "1"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/latha-ks-ab2963179/"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "order": "3",
+        "name": "Ms. Deepika B N",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, B.Ed",
+        "image": "/images/Deepika_B_N_b0aafafcc2.png",
+        "about": [
+          "Participated in national & international conferences and FDPs to enhance teaching skills. Organized departmental competitions and contributed to university evaluations, demonstrating commitment to academic excellence."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "4",
+            "3"
+          ]
+        },
+        "details": [
+          {
+            "title": "Vidwan ID",
+            "content": "https://vidwan.inflibnet.ac.in/profile/649852"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/deepika-b-n-deepika-b-n-732b56378/"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "order": "4",
+        "name": "Ms. Bindhu N",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, B.Ed",
+        "image": "/images/Deepika_B_N_2_7125cc381e.png",
+        "about": [
+          "Expertise in Accounting & Finance. Experienced in setting question papers at University and serving as an external examiner. Published researcher committed to academic rigor and assessment excellence."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "12",
+            "7"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/bindhu-n-7591532a6/"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "order": "5",
+        "name": "Mrs. Ambika V M",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, B.Ed",
+        "image": "/images/Ambika_V_M_24d5a88f05.png",
+        "about": [
+          "Assistant Professor dedicated to teaching, mentoring, and guiding students in both academic and personal growth.",
+          "Believes in creating an engaging learning environment that encourages curiosity and critical thinking."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "5",
+            "2"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/ambika-pragati-493197376/"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "order": "6",
+        "name": "Mrs. Chaithanya B",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com",
+        "image": "/images/Chaithanya_B_c6dfd2c199.png",
+        "about": [
+          "Faculty with strong expertise in Aptitude and Reasoning. Passionate about teaching, I help students develop problem-solving skills and guide those preparing for competitive exams, fostering confidence and enabling them to achieve their goals."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "1",
+            "3"
+          ]
+        },
+        "details": []
+      },
+      {
+        "id": 307,
+        "order": "7",
+        "name": "Mrs. Chandu B",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, M.Ed",
+        "image": "/images/Chandu_B_93d70ee516.png",
+        "about": [
+          "Assistant Professor in Commerce & Management with a strong background in student mentorship and academic leadership.",
+          "Distinguished by national-level sports achievements, NSS involvement, and a commitment to holistic education and community engagement."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "4",
+            "0"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/chandu-balaiah-759407294/"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "order": "8",
+        "name": "Mrs. Jagadeeshwari Durga C H",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com",
+        "image": "/images/Jagadeeshwari_Durga_C_H_299b53c0bd.png",
+        "about": [
+          "A motivated and adaptable individual with a passion for continuous learning, guided by honesty and creativity, and dedicated to pursuing meaningful academic and professional goals."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "2",
+            "0"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/jagadeeswari-durga-ch-9b045434a/"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "order": "9",
+        "name": "Ms. Navya Lakshmi N",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com",
+        "image": "/images/Navya_Lakshmi_261bc9424d.png",
+        "about": [
+          "Assistant Professor in Commerce & Management with contributions to academic literature, including co-authoring a textbook on International Business.",
+          "Published research on AI and CRM in Indian banking, reflecting a strong interest in emerging technologies and their impact on business practices."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "1",
+            "1"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/navyalakshmi-n-951720243/"
+          }
+        ]
+      },
+      {
+        "id": 318,
+        "order": "10",
+        "name": "Mrs. Shruthi K L",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, B.Ed. ",
+        "image": "/images/Shruthi_K_L_b55c41e9ee.png",
+        "about": [
+          "Assistant Professor of Commerce with over 7 years of teaching experience and expertise in Business Ethics, Taxation, and Corporate Administration.",
+          "Certified in GST and International Business, with research contributions at national and international conferences and a strong focus on student mentoring."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "4",
+            "2"
+          ]
+        },
+        "details": []
+      },
+      {
+        "id": 329,
+        "order": "11",
+        "name": "Ms. V Deepika Nandini",
+        "designation": "Assistant Professor",
+        "qualification": "MBA, [CA], ACCA Professional",
+        "image": "/images/V_Deepika_Nandini_ebf6c04b2f.png",
+        "about": [
+          "MBA graduate and semi-qualified Chartered Accountant with over seven years of combined academic and industry experience, currently pursuing ACCA at the professional level.",
+          "Specializes in Accountancy, Taxation, Economics, and Auditing, bringing practical financial insights into the classroom to enhance student learning."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "1",
+            "0"
+          ]
+        },
+        "details": [
+          {
+            "title": "Vidwan ID",
+            "content": "https://vidwan.inflibnet.ac.in/profile/649754"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/deepika-nandini-v-493627242/"
+          }
+        ]
+      },
+      {
+        "id": 341,
+        "order": "12",
+        "name": "Mrs. Amritha K Narang",
+        "designation": "Assistant Professor",
+        "qualification": "",
+        "image": "/images/V_Deepika_Nandini_2_7bf92fdad1.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 354,
+        "order": "13",
+        "name": "Mr. Shiva Kumar M M",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com, KSET, UGC-NET",
+        "image": "/images/Shiva_Kumar_M_M_df06cfdd53.png",
+        "about": [
+          "Assistant Professor in Commerce and Management with KSET and NET qualifications, holding a Master’s in Commerce and expertise in Accounting, Taxation, Marketing, and Finance.",
+          "Known for delivering impactful guest talks on Financial Modelling and blending theory with practical insights to inspire academic excellence."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "4",
+            "2"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/shivakumar-m-m-701b52375"
+          }
+        ]
+      },
+      {
+        "id": 368,
+        "order": "14",
+        "name": "Mrs. Latha N",
+        "designation": "Assistant Professor",
+        "qualification": "M.Com",
+        "image": "/images/Latha_N_5fd858d991.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "2",
+            "2"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/shivakumar-m-m-701b52375/"
+          }
+        ]
+      }
+    ]
+  },
+  "DOK": {
+    "title": "ಅಧ್ಯಾಪಕ ವೃಂದ",
+    "description": "",
+    "members": [
+      {
+        "id": 86,
+        "order": "1",
+        "name": "Mr. Ambarisha A",
+        "designation": "Sr. Assistant Professor",
+        "qualification": "MA, NET, B.Ed",
+        "image": "/images/Ambarisha_A_f94cb0fe81.png",
+        "about": [],
+        "listOfPublications": {
+          "title": "",
+          "content": []
+        },
+        "details": []
+      },
+      {
+        "id": 87,
+        "order": "2",
+        "name": "Mrs. Lakshmi Devi N",
+        "designation": "Sr. Assistant Professor",
+        "qualification": "M.A., P.G.D.K.S., NET, KSET, (Ph.D)",
+        "image": "/images/Lakshmi_Devi_N_45ecce0b92.png",
+        "about": [
+          "ವಚನಸಾಹಿತ್ಯ ಹಾಗೂ ಕನ್ನಡದಲ್ಲಿ ಶೇ.100 ಅಂಕ ಗಳಿಸಿದ ವಿದ್ಯಾರ್ಥಿಗಳ ಶೈಕ್ಷಣಿಕ ಸಾಧನೆಗೆ ರಾಜ್ಯ ಹಾಗೂ ಅಂತರಾಷ್ಟ್ರೀಯ ಮಟ್ಟದಲ್ಲಿ ಪ್ರಶಸ್ತಿಗಳು ಲಭಿಸಿವೆ.",
+          "ಸಂಘ ಸಂಸ್ಥೆಗಳು ಈ ಸಾಧನೆಯನ್ನು ಮೆಚ್ಚಿ ಗೌರವಿಸಿ, ವಿದ್ಯಾರ್ಥಿಗಳ ಪ್ರತಿಭೆಗೆ ಪ್ರೋತ್ಸಾಹ ನೀಡಿವೆ."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "40",
+            "35"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/lakshmidevi-n-1a3266251/"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "order": "3",
+        "name": "Mrs. Shobha B V",
+        "designation": "Assistant Professor",
+        "qualification": "MA, KSET, MSCP",
+        "image": "/images/Shobha_B_V_6c04651a0c.png",
+        "about": [
+          "20 years of experience in theatre education and performance.",
+          "Expertise in acting, direction, and stagecraft fundamentals."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "12",
+            "10"
+          ]
+        },
+        "details": [
+          {
+            "title": "linkedIn",
+            "content": "https://www.linkedin.com/in/shobha-b-v-939a98253"
+          }
+        ]
+      }
+    ]
+  },
+  "MOC": {
+    "title": "Department Faculty Members",
+    "description": "",
+    "members": [
+      {
+        "id": 52,
+        "order": "1",
+        "name": "Prof. Kavitha C ",
+        "designation": "Associate Professor",
+        "qualification": "",
+        "image": "/images/Kavitha_C_d6ba2dda9e.png",
+        "about": [
+          "Assistant Professor with 18 years of dedicated teaching experience.",
+          "Passionate mentor inspiring learning and sharing of knowledge."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "22",
+            "10"
+          ]
+        },
+        "details": [
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/kavitha-achar-3a494787"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "order": "2",
+        "name": "Mrs. Meena C",
+        "designation": "Associate Professor",
+        "qualification": "M.Com, NET, KSET, B.Ed. (Ph.D)",
+        "image": "/images/Meena_C_c86811fd96.png",
+        "about": [
+          "Dedicated researcher specializing in accounts, finance, and investments.",
+          "Focused on quality research, collaboration, and academic innovation."
+        ],
+        "listOfPublications": {
+          "title": "Publications & Presentations",
+          "content": [
+            "18",
+            "14"
+          ]
+        },
+        "details": [
+          {
+            "title": "Google Scholar",
+            "content": "http://scholar.google.com/citations?user=Pp8Y-u4AAAAJ"
+          },
+          {
+            "title": "Research Gate",
+            "content": "https://www.researchgate.net/profile/C-Meena"
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/meena-c-5600a0170/"
+          }
+        ]
+      }
+    ]
+  }
+}

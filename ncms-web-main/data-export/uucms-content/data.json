@@ -1,0 +1,45 @@
+{
+  "id": 1,
+  "documentId": "w5zfzve019nvlr81g95316a2",
+  "createdAt": "2025-06-26T06:13:54.745Z",
+  "updatedAt": "2025-08-22T05:37:47.357Z",
+  "publishedAt": "2025-08-22T05:37:47.224Z",
+  "banner": {
+    "id": 2,
+    "title": "UUCMS ",
+    "image": "/images/uucms_banner_1_61538c9f81.png"
+  },
+  "manualSection": {
+    "id": 2,
+    "title": "Student Manual For Online Student Application -2022",
+    "buttonText": "View PDF",
+    "description": null,
+    "pdf": "/pdfs/Student_manual_6b82e330e9.pdf",
+    "image": "/images/manual_image_73bc4d52fc.png"
+  },
+  "loginPortals": [
+    {
+      "id": 1,
+      "title": "Login Portal",
+      "description": "Login as a Student or Candidate to stay connected and informed!",
+      "link": null,
+      "image": null
+    },
+    {
+      "id": 2,
+      "title": "Candidate Registration",
+      "description": "Login Here",
+      "link": "https://uucms.karnataka.gov.in/Login/OnlineStudentRegistrationForm",
+      "image": "/images/registration_image_ca0b4169b6.png"
+    },
+    {
+      "id": 3,
+      "title": "Student Login",
+      "description": "Login Here",
+      "link": "https://uucms.karnataka.gov.in/Login/Index",
+      "image": "/images/student_login_image_c2df8c364a.png"
+    }
+  ],
+  "collegeManualSection": null,
+  "universityManualSection": null
+}

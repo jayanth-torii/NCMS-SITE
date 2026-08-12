@@ -1,0 +1,47 @@
+{
+  "MBA": {
+    "title": "Masters In Business Administration",
+    "description": "",
+    "image": "/images/mba_3ae07dd399.png"
+  },
+  "UG_Commerce": {
+    "title": "Commerce And Management",
+    "description": "",
+    "image": "/images/commerce_5fbfbe6b6f.png"
+  },
+  "MCA": {
+    "title": "Masters of Computer Application",
+    "description": "",
+    "image": "/images/mca_90deef87b1.png"
+  },
+  "MOC": {
+    "title": "Masters Of Commerce",
+    "description": "",
+    "image": "/images/moc_a7783bdc09.png"
+  },
+  "UG_CA": {
+    "title": "Computer Application",
+    "description": "",
+    "image": "/images/computer_application_7c0d78aae4.png"
+  },
+  "DOK": {
+    "title": "Department of Kannada",
+    "description": "",
+    "image": "/images/dok_1d712dac09.png"
+  },
+  "Science": {
+    "title": "Science",
+    "description": "",
+    "image": "/images/science_143f59c7a3.png"
+  },
+  "DOH": {
+    "title": "Department Of Hindi",
+    "description": "",
+    "image": "/images/doh_9aa33e3d51.png"
+  },
+  "DOE": {
+    "title": "Department Of English",
+    "description": "",
+    "image": "/images/doe_4503aa632f.png"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": 12,
+  "documentId": "djfxwoebxnq7d7e3igcdl0mf",
+  "createdAt": "2025-06-25T09:28:36.178Z",
+  "updatedAt": "2026-02-13T12:16:52.243Z",
+  "publishedAt": "2026-02-13T12:16:52.386Z",
+  "BannerSection": {
+    "id": 172,
+    "title": "Internal Complaint Committee",
+    "image": "/images/ASC_4af7eb6594.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 168,
+    "AboutSection": null,
+    "VisionMission": {
+      "id": 148,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 295,
+          "title": "Vision",
+          "description": "We envision a safe environment and protection against sexual harassment of women and men and to ensure gender equality.",
+          "ListPoints": []
+        },
+        {
+          "id": 296,
+          "title": "Mission ",
+          "description": null,
+          "ListPoints": [
+            "To provide a secure environment – free of gender-based discrimination.",
+            "To ensure equal access to all facilities and participation in activities of the college.\n",
+            "Prevention and redressal of sexual harassment cases and other acts of gender-based violence in the institution.",
+            "Implementation of the policy in letter and spirit through proper reporting of the complaints and their follow-up procedures."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 229,
+        "title": "Objectives",
+        "points": [
+          "To raise awareness about sexual harassment and its effects\n",
+          "To prevent and address incidents of sexual harassment.\n",
+          "Creating a safe and supportive environment for students and employees."
+        ]
+      },
+      {
+        "id": 230,
+        "title": "Functions",
+        "points": [
+          "Receive and register complaints of sexual harassment, if any.\n",
+          "Provide a confidential platform for individuals to report incidents.",
+          "Provide emotional and psychological support to victims of sexual harassment.",
+          "Conduct workshops, seminars, and campaigns to raise awareness about sexual harassment."
+        ]
+      }
+    ]
+  },
+  "Activities": {
+    "id": 24,
+    "title": "Activities",
+    "Sections": [
+      {
+        "id": 33,
+        "title": "2024 - 2025",
+        "pdf": "/pdfs/Anti_Sexual_Harassment_Cell_Activities_2024_2025_c79333bec5.pdf"
+      },
+      {
+        "id": 34,
+        "title": "Up to 2023",
+        "pdf": "/pdfs/act_2d2884126e.pdf"
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 143,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policies and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/policy_e595f568ce.pdf",
+    "Document2": "/pdfs/Anti_Sexual_Harassment_Cell_19f8311c5d.pdf"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "id": 13,
+  "documentId": "rttjj95c41svy2f17qe3pr06",
+  "createdAt": "2025-07-28T07:55:57.736Z",
+  "updatedAt": "2026-02-09T08:24:43.807Z",
+  "publishedAt": "2026-02-09T08:24:44.259Z",
+  "BannerSection": {
+    "id": 164,
+    "title": "Library",
+    "image": "/images/banner_afcc6b0ea6.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 160,
+    "AboutSection": {
+      "id": 148,
+      "title": "About Library",
+      "descriptions": [
+        "Library is an organized collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. It provides physical or digital access to materials. Library may be a physical building or room or a virtual space or both.",
+        "Library is heart of an educational institution and hub of all educational activities, as it promotes and disseminates knowledge to the readers at the appropriate time.",
+        "The Nagarjuna College of Management Studies which is affiliated to Bangalore University was set up by Nagarjuna Education Society with the approval of Government of Karnataka, to meet the growing needs of human resources in commerce, management and computer science in industries and R & D."
+      ]
+    },
+    "VisionMission": {
+      "id": 140,
+      "title": "Vision & Mission",
+      "VMSections": [
+        {
+          "id": 279,
+          "title": "Vision",
+          "description": "To support academic excellence through the acquisition, organization, and maintenance of necessary informational resources for current and anticipated academic programs of the institution.",
+          "ListPoints": []
+        },
+        {
+          "id": 280,
+          "title": "Mission",
+          "description": null,
+          "ListPoints": [
+            "To provide information resources and library services in the pursuit of upgrading knowledge.",
+            "To enrich readers’ experiences with a collaborative, interdisciplinary environment by providing the required resources and services."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 214,
+        "title": "Objectives",
+        "points": [
+          "To develop library collections to cater to the needs of diverse stakeholders of the college.",
+          "To achieve complete automation of the library.",
+          "To improve the digital library with titles and various resources."
+        ]
+      },
+      {
+        "id": 215,
+        "title": "General Instructions",
+        "points": [
+          "To enter the library or when asked by staff, readers/users must show their identity card.",
+          "Belongings should be deposited at the property counter when entering the library.",
+          "Signing the register when entering the library is required.",
+          "Staff at the checkpoint should see any documents being taken out of the library.",
+          "It is necessary to report lost books or ID cards in writing to the librarian right away. Lost books should be replaced within the permitted time.",
+          "The borrower is responsible for the books issued on their card and should not lend their card to others. After issuing or returning a book, the ID card should be collected from the circulation counter.",
+          "Certificate of No Due will be given at the end of the academic year.",
+          "Any changes in department, status, or address should be reported to the library to correct the records.",
+          "Fines will be charged for any book mutilation. Handle books with care.",
+          "The library should be kept clean. Use the provided dustbins.",
+          "Loud talking, conversations, and mobile phone use are not allowed in the library."
+        ]
+      }
+    ]
+  },
+  "Our_Gallery": {
+    "id": 26,
+    "title": "Gallery",
+    "images": [
+      "/images/gallery_3_76fdaf36e3.jpg",
+      "/images/gallery_6_3545f3f8dd.jpg",
+      "/images/gallery_5_684014b4f5.jpg",
+      "/images/gallery_4_48d66fe542.jpg",
+      "/images/gallery_7_2dcd1a3fc0.jpg",
+      "/images/gallery_8_a5e381127d.jpg",
+      "/images/gallery_2_298edd1df4.png",
+      "/images/gallery_1_c45bf3673f.png"
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 136,
+    "title": "Policies & Composition",
+    "description": "Stay Updated with the Policy and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/Library_Policy_1cf949e71d.pdf",
+    "Document2": "/pdfs/Library_Committee_f5f3db8296.pdf"
+  },
+  "Library_OverView": {
+    "id": 11,
+    "title": "Library Overview",
+    "OverViewContent": [
+      {
+        "id": 31,
+        "title": "Timings",
+        "Sections": [
+          {
+            "id": 71,
+            "title": "Timings",
+            "Points": [
+              "Monday to Saturday",
+              "8:45 AM to 8:00 PM"
+            ]
+          },
+          {
+            "id": 72,
+            "title": "Circulation Timings",
+            "Points": [
+              "Monday to Saturday",
+              "8.45 AM to 4.15 PM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Library Service",
+        "Sections": [
+          {
+            "id": 73,
+            "title": null,
+            "Points": [
+              "Reference Service",
+              "Circulation Service",
+              "Web Online Public Access Catalog (WEBOPAC)",
+              "Internet Service",
+              "Digital Library Service (DELNET, Open with this IP link 164.100.247.26)",
+              "E-learning (NPTEL)",
+              "Inter Library Loan Service (Through DELNET)",
+              "SC/ST & General Book bank service (processing)"
+            ]
+          },
+          {
+            "id": 74,
+            "title": "Internet Service",
+            "Points": [
+              "The library is completely Wi-Fi enabled with adequate number of computers and also users can use their own laptops to access our subscribed e-resources."
+            ]
+          },
+          {
+            "id": 75,
+            "title": "Reference Service:",
+            "Points": [
+              "The first floor of library building has an exclusive reference section which is open from 9.00 am to 8.00 pm on all working days. One or two copies of all the new titles added to the library collection are also stacked in reference section and are marked Reference only seal on the due date slip for the benefit of users. The reference collection also includes books on various competitive examinations books like NET, CA, UPSC etc., and also general books are Available. For more information about the library collections and services please contact the reference desk or the Librarian."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Electronic Surveillance",
+        "Sections": [
+          {
+            "id": 76,
+            "title": "Electronic Surveillance:",
+            "Points": [
+              "As a security measure ten CCTV cameras have been installed in the library premises."
+            ]
+          },
+          {
+            "id": 77,
+            "title": "System Used:",
+            "Points": [
+              "Classification – Dewy Decimal Classification (DDC)",
+              "Cataloguing – Anglo American Cataloguing Rules (AACR 2)",
+              "Provision of Web OPAC Information management – LIBSOFT",
+              "Circulation Management – Bar coded user cards & Books"
+            ]
+          }
+        ]
+      }
+    ],
+    "Collections": {
+      "id": 11,
+      "title": "Collections",
+      "Columns": [
+        " S.No",
+        "Books & E-resources",
+        "Total Number"
+      ],
+      "Rows": [
+        [
+          "i",
+          "No. of Books",
+          "5082"
+        ],
+        [
+          "ii",
+          "No. of Title of Books",
+          "720"
+        ],
+        [
+          "iii",
+          "E-Books",
+          "18468"
+        ],
+        [
+          "iv",
+          "E-Journals",
+          "6791"
+        ],
+        [
+          "v",
+          "CD’s & DVD’s",
+          "2866"
+        ],
+        [
+          "vi",
+          "Back Volumes of Journals",
+          "702"
+        ],
+        [
+          "vii",
+          "Project Reports",
+          "307"
+        ],
+        [
+          "viii",
+          "General Magazines",
+          "03"
+        ],
+        [
+          "ix",
+          "Printed journals",
+          "28"
+        ],
+        [
+          "x",
+          "News Papers",
+          "03"
+        ]
+      ]
+    }
+  }
+}

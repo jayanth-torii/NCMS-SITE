@@ -1,0 +1,154 @@
+{
+  "id": 1,
+  "documentId": "y03en3rvcfvai900zciymlro",
+  "title": "Statutory Cells",
+  "description": "The institution fosters a holistic student experience through Statutory Cells ensuring safety and equal opportunities, Academic Enrichment enhancing learning with research and value-added programs, Community Service promoting social responsibility and cultural engagement.",
+  "tabsList": [
+    "Statutory Cells",
+    "Academic Enrichment",
+    "Community Services"
+  ],
+  "createdAt": "2025-06-26T11:10:16.591Z",
+  "updatedAt": "2026-01-06T11:41:33.489Z",
+  "publishedAt": "2026-01-06T11:41:33.240Z",
+  "programmeOptions": {},
+  "imageSrc": "/images/know_43d0568ebe.png",
+  "newsletterData": {
+    "id": 6,
+    "title": "Maitri Samithi",
+    "buttonText": "View Composition",
+    "description": "Maitri Samiti is a parent’s cell initiated with an aim of fostering a healthy and friendly relationship between parent and teacher at NCMS.  \n\nMaitri is a Sanskrit word meaning relationship. The cell is formed to create a positive and open line communication, enhance understanding and facilitate co-operation between parent and teacher for the overall benefit and growth of the student and the institution. \n\nThe cell organizes programs that include activities such as regular-parent-teacher meeting, workshops, seminars, and interactive sessions with the objective of addressing concerns, exchanging feedback, setting goals and working together to provide the best possible support to the child.",
+    "pdf": "/pdfs/Maitri_Samiti_618f161ce3.pdf",
+    "image": "/images/maitri_9e6e7093b5.png"
+  },
+  "policyAndComposition": {
+    "id": 3,
+    "title": "Mentoring Policy",
+    "sections": [
+      {
+        "id": 12,
+        "title": "View Policy",
+        "pdf": "/pdfs/Mentoring_Policy_1_f1bd9bc005.pdf"
+      },
+      {
+        "id": 13,
+        "title": "View Composition",
+        "pdf": "/pdfs/Mentoring_Cell_0020b82853.pdf"
+      }
+    ]
+  },
+  "aboutSamsthitha": {
+    "id": 2,
+    "title": "About Samsthitha",
+    "points": [
+      "An alumni community symbolizes the institution’s deep societal connections and functions as a space where accomplished individuals from various backgrounds converge to convey appreciation for the opportunities extended by the institution. The achievement of alumni often serves as a valuable indicator for evaluating the effectiveness of an institution, underscoring the profound impact of education on their individual and professional development. At NCMS, the foundation for this transformative journey is laid during students’ tenure, and the results become evident through the achievements of our alumni. They emerge as authentic ambassadors of the institution, exemplifying its principles across various facets of their lives. This shared knowledge for academic initiatives can effectively amplify the institution’s overall impact. The association serves as an invaluable forum for staying connected with our alumni, gaining insights into its strategic initiatives, and reinforcing the relationships formed during college years by new connections. Alumni contribute to the continued success of NCMS and strengthen the bonds that make the institution exceptional."
+    ]
+  },
+  "samsthithaActivities": {
+    "id": 2,
+    "title": "Samsthitha Activities",
+    "activities": [
+      {
+        "id": 6,
+        "title": " Alumni Interaction for PG students | Ms. Swathi R (Class of 2018),",
+        "image": "/images/16_33f2546893.jpeg"
+      },
+      {
+        "id": 7,
+        "title": "Annual Sports Meet 2023-2024 | Inaugurated by Mr. Munegowda G R (Class of 2019)",
+        "image": "/images/6_c6ae55f233.jpeg"
+      },
+      {
+        "id": 8,
+        "title": "Understanding Corporate Needs | Mr. Vijayaraghava R (Class of 2020)",
+        "image": "/images/10_9f442cb316.jpeg"
+      },
+      {
+        "id": 9,
+        "title": "Inauguration of Samsthitha Alumni Association",
+        "image": "/images/1_2b249e31d6.jpeg"
+      },
+      {
+        "id": 23,
+        "title": "Interaction with Alumni for MBA & M.Com students by Alumni Ms. Swathi R (Batch 2015-18), Consultant – Finance & Audit, E & Y.",
+        "image": "/images/15_4a66c3c183.jpeg"
+      },
+      {
+        "id": 24,
+        "title": "Interaction with Alumni for MBA & M.Com students by Alumni Ms. Swathi R (Batch 2015-18), Consultant – Finance & Audit, E & Y.",
+        "image": "/images/14_d1c48bc1ae.jpeg"
+      },
+      {
+        "id": 25,
+        "title": "Interaction with Alumni for MBA & M.Com students by Alumni Ms. Swathi R (Batch 2015-18), Consultant – Finance & Audit, E & Y.",
+        "image": "/images/13_220cca18fd.jpeg"
+      },
+      {
+        "id": 26,
+        "title": "Interaction with Alumni for MBA & M.Com students by Alumni Ms. Swathi R (Batch 2015-18), Consultant – Finance & Audit, E & Y.",
+        "image": "/images/12_65046d58f0.jpeg"
+      },
+      {
+        "id": 27,
+        "title": "Annual Sports Meet 2023-2024 | Inaugurated by Mr. Munegowda G R (Class of 2019)",
+        "image": "/images/5_a0c7144aa0.jpeg"
+      },
+      {
+        "id": 28,
+        "title": "Annual Sports Meet 2023-2024 | Inaugurated by Mr. Munegowda G R (Class of 2019)",
+        "image": "/images/7_41cd000c85.jpeg"
+      },
+      {
+        "id": 29,
+        "title": "Annual Sports Meet 2023-2024 | Inaugurated by Mr. Munegowda G R (Class of 2019)",
+        "image": "/images/8_bf8e87f02b.jpeg"
+      },
+      {
+        "id": 30,
+        "title": "Understanding Corporate Needs | Mr. Vijayaraghava R (Class of 2020)",
+        "image": "/images/9_e5ba79fd71.jpeg"
+      },
+      {
+        "id": 31,
+        "title": "Understanding Corporate Needs | Mr. Vijayaraghava R (Class of 2020)",
+        "image": "/images/11_c264e57b00.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Inauguration of Samsthitha Alumni Association",
+        "image": "/images/2_3cda4018ef.jpeg"
+      },
+      {
+        "id": 33,
+        "title": "Inauguration of Samsthitha Alumni Association",
+        "image": "/images/3_0a9de8050f.jpeg"
+      },
+      {
+        "id": 34,
+        "title": "Inauguration of Samsthitha Alumni Association",
+        "image": "/images/4_54d6bd547c.jpeg"
+      }
+    ]
+  },
+  "progression": {
+    "id": 2,
+    "title": "Student Progression",
+    "sections": [
+      {
+        "id": 14,
+        "title": "Academic Journey",
+        "pdf": "/pdfs/5_2_1_1714709612_13710_e398b86b53.pdf"
+      },
+      {
+        "id": 15,
+        "title": "Professional Journey",
+        "pdf": "/pdfs/Professional_Journey_c5dfde9ac6.pdf"
+      },
+      {
+        "id": 16,
+        "title": "Composition",
+        "pdf": "/pdfs/Alumni_Association_a1b719d5e2.pdf"
+      }
+    ]
+  }
+}

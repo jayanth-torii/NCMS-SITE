@@ -1,0 +1,68 @@
+{
+  "id": 10,
+  "documentId": "vc6zhe06f71d7k8bw519srp6",
+  "createdAt": "2025-06-25T11:19:25.468Z",
+  "updatedAt": "2026-01-09T06:21:05.736Z",
+  "publishedAt": "2026-01-09T06:21:05.874Z",
+  "BannerSection": {
+    "id": 108,
+    "title": "ED Cell",
+    "image": "/images/banner_0aece684e6.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 104,
+    "AboutSection": {
+      "id": 92,
+      "title": "About ED Cell",
+      "descriptions": [
+        "Economic development of a country is supported by entrepreneurship in several ways. It is a key contributor to innovativeness, product improvement and a pivotal ingredient to employment creation.",
+        "The College has established an Entrepreneurship Development Cell to promote entrepreneurship skills among the students to be innovative, self reliant. The ED Cell of the College conducts various programmes such as Workshops, Industrial Visits, Food Fest and Interaction with young Entrepreneurs etc to bring the right entrepreneurship spirit. These programmes are aimed at exposing the student community to be more proactive towards entrepreneurial activity."
+      ]
+    },
+    "VisionMission": {
+      "id": 86,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 171,
+          "title": "Vision",
+          "description": "To instill and cultivate an entrepreneurial culture and rational decision-making mindset among students.",
+          "ListPoints": []
+        },
+        {
+          "id": 172,
+          "title": "Mission",
+          "description": null,
+          "ListPoints": [
+            "To provide necessary guidance, mentorship, and resources to develop the students as entrepreneurs.",
+            "Organizing workshops, training programs, and skill development activities to equip students.",
+            "Fostering a culture of innovation by supporting research initiatives, encouraging technological advancements, and promoting the development of innovative products and services.",
+            "To promote social entrepreneurship, that focuses on creating businesses with social and environmental impact, addressing societal challenges, and fostering sustainable development of students in the future."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 152,
+        "title": "Objectives",
+        "points": [
+          "To create awareness on opportunities and benefits of entrepreneurship among students.",
+          "To make students realize their dream business through innovative products and to develop a greater entrepreneurial culture within the institution.\n",
+          "To encourage sustainable start-up businesses with potential for further growth.\n",
+          "To create awareness on the availability of financial assistance to start their own ventures."
+        ]
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 80,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policies and Compositions",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/ED_Cell_9240109b27.pdf",
+    "Document2": "/pdfs/ED_Cell_827f21037d.pdf"
+  }
+}

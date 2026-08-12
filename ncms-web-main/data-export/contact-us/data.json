@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "banner": {
+    "title": "Contact Us",
+    "bannerImage": "/images/contact_us_bannerr_512b0da77d.png"
+  },
+  "contactDetails": {
+    "image": "/images/contact_details_image_66dc4d08c5.png",
+    "sections": [
+      {
+        "title": "Get In Touch",
+        "descriptions": [
+          "General Queries: +91 70220 14433 | +91 76193 85524",
+          "Admissions Queries: +91 91643 93100 | +91 91643 93500 | +91 91643 93600 ",
+          "For Admission related queries, write to: ncmsug@gmail.com | admissions@ncms.co.in"
+        ]
+      },
+      {
+        "title": "Address",
+        "descriptions": [
+          "Nagarjuna College of Management Studies",
+          "Chikkamarali Village, Doddamarali Post,\nNandi Hobli,",
+          "Chikkaballapur-562101"
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "descriptions": [
+          "If you have any questions or feedback about Nagarjuna College Of Management Studies, feel free to get in touch with us.",
+          "You can reach us by phone, email, or by visiting our campus."
+        ]
+      }
+    ]
+  },
+  "Map_Section": {
+    "title": "",
+    "AdderssLink": "https://www.google.com/maps?ll=13.352492,77.728078&z=15&t=m&hl=en&gl=IN&mapclient=embed&cid=17112812228345469983",
+    "BannerMap": "/images/Screenshot_2025_08_12_111942_16c0b094d8.png",
+    "AddressMapImage": "/images/map_address_6cac70aede.png"
+  }
+}

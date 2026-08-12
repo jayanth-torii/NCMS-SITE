@@ -1,0 +1,113 @@
+{
+  "id": 1,
+  "documentId": "tng2h57ix504h4fdryvh2h31",
+  "createdAt": "2025-06-26T11:31:44.465Z",
+  "updatedAt": "2025-08-06T07:31:42.636Z",
+  "publishedAt": "2025-08-06T07:31:42.430Z",
+  "banner": {
+    "id": 10,
+    "title": "Samashti ",
+    "image": "/images/samashti_banner_eef451d415.png"
+  },
+  "aboutSection": {
+    "id": 9,
+    "year": "Bridging Innovation, Knowlege & Excellence",
+    "descriptions": [
+      "We bring you the NGI Samashti, the official magazine of Nagarjuna Group of Institutions, where knowledge meets innovation. Every quarter, we bring you the latest updates on campus activities, groundbreaking research, student achievements, and faculty insights. Stay informed about upcoming workshops, seminars, industry partnerships, and career opportunities designed to shape the future of education and technology.\n\nDive into inspiring success stories, expert opinions, and thought-provoking discussions on emerging trends in engineering, commerce and management, science, and technology. Whether you're a student striving for academic excellence, a researcher exploring new frontiers, or an industry professional looking for collaboration, NGI Samashti is your gateway to a world of knowledge, creativity, and progress.\n\nStay connected, stay inspired, and be a part of the innovation revolution!"
+    ]
+  },
+  "viewEditionSection": {
+    "id": 1,
+    "title": "View Editions",
+    "buttons": [
+      "Previous, Next"
+    ],
+    "description": "Stay updated with the latest developments, research, and events at Nagarjuna Group of Institutions. From groundbreaking innovations to student achievements and faculty insights, NGI Samashti keeps you informed and inspired.",
+    "programs": [
+      {
+        "id": 1,
+        "title": "Samashti Edition 1",
+        "date": "July to September 2022",
+        "image": "/images/edition1_20e4dec3e8.png",
+        "pdf": "/pdfs/Samashti_1_4cdcab22b5.pdf"
+      },
+      {
+        "id": 2,
+        "title": "Samashti Edition 2",
+        "date": "October to December 2022",
+        "image": "/images/edition2_3782d13621.png",
+        "pdf": "/pdfs/Samashti_2_e69ada4cbc.pdf"
+      },
+      {
+        "id": 3,
+        "title": "Samashti Edition 3",
+        "date": "January to March 2023",
+        "image": "/images/edition4_fe3311de72.png",
+        "pdf": "/pdfs/Samashti_3_f3486ae6f6.pdf"
+      },
+      {
+        "id": 4,
+        "title": "Samashti Edition 4",
+        "date": "April to June 2023",
+        "image": "/images/edition5_f8832bf362.png",
+        "pdf": "/pdfs/Samashti_4_fca77a14ee.pdf"
+      },
+      {
+        "id": 5,
+        "title": "Samashti Edition 5",
+        "date": "July to September 2023",
+        "image": "/images/edition6_fba4e91adb.png",
+        "pdf": "/pdfs/Samashti_5_5ddcedadd3.pdf"
+      },
+      {
+        "id": 6,
+        "title": "Samashti Edition 6",
+        "date": "October to December 2023",
+        "image": "/images/edition7_1dab40bc92.png",
+        "pdf": "/pdfs/Samashti_6_b08f5885a1.pdf"
+      },
+      {
+        "id": 7,
+        "title": "Samashti Edition 7",
+        "date": "January to March 2024",
+        "image": "/images/edition8_ce3f88c17e.png",
+        "pdf": "/pdfs/Samashti_7_c5817c6387.pdf"
+      },
+      {
+        "id": 8,
+        "title": "Samashti Edition 8",
+        "date": "April to June 2024",
+        "image": "/images/edition3_ab31239429.png",
+        "pdf": "/pdfs/Samashti_8_5cf59c4751.pdf"
+      },
+      {
+        "id": 9,
+        "title": "Samashti Edition 9",
+        "date": "July to September 2024",
+        "image": "/images/edition9_4a367a3822.png",
+        "pdf": "/pdfs/Samashti_9_04418953b4.pdf"
+      },
+      {
+        "id": 10,
+        "title": "Samashti Edition 10",
+        "date": "October to December 2024",
+        "image": "/images/edition10_53487a452d.png",
+        "pdf": "/pdfs/Samashti_10_cd0e0c9f83.pdf"
+      },
+      {
+        "id": 11,
+        "title": "Samashti Edition 11",
+        "date": "January to March 2025",
+        "image": "/images/edition_502b69a832.png",
+        "pdf": "/pdfs/Samashti_11_123f0ca521.pdf"
+      },
+      {
+        "id": 12,
+        "title": "Samashti Edition 12",
+        "date": "April to June 2025",
+        "image": "/images/Edition_12_ed82f55a0f.jpeg",
+        "pdf": "/pdfs/Samashti_Vol_12_543625ac58.pdf"
+      }
+    ]
+  }
+}

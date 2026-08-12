@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "documentId": "ewtg9avg5swrnxe9j5obpee2",
+  "createdAt": "2025-06-26T11:19:39.932Z",
+  "updatedAt": "2026-01-02T08:04:13.755Z",
+  "publishedAt": "2026-01-02T08:04:13.559Z",
+  "BannerSection": {
+    "id": 7,
+    "title": "SC ST & OBC Cell",
+    "image": "/images/SCST_6644d71c9e.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 7,
+    "AboutSection": null,
+    "VisionMission": {
+      "id": 6,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 11,
+          "title": "Vision ",
+          "description": "The pursuance of its vision is to strengthen the students by providing value based education to all sections of the society with emphasis hailing from economically weaker and culturally disadvantaged sections of the society and mould youth as intellectually competent, psychologically integrated and morally upright social beings. ",
+          "ListPoints": []
+        },
+        {
+          "id": 12,
+          "title": "Mission ",
+          "description": "To confront against the bias in the society and to help marginalized by promoting dignity, equality, social justice and human rights for all the vulnerable groups. ",
+          "ListPoints": []
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 8,
+        "title": "Objectives",
+        "points": [
+          "To act as an effective platform for the redressal of grievances for SC/ST & other minorities.\n",
+          "To counsel and guide SC/ST other minority students to manage academic and non-academic issues effectively.\n",
+          "To develop the self-confidence of SC/ST & other minority students by motivating and providing a safe and secure environment.\n",
+          "To ensure adequate representation of SC/ST other minorities in the matter of appointment for teaching, non-teaching posts and admission of students to various programs in the college.\n",
+          "To keep SC/ST & other minority students aware of various scholarship programs of the state government and UGC.\n",
+          "To implement, monitor and evaluate continuously the reservation policy in the colleges and plan measures for effective implementation of policy and program of the state government and UGC."
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Functions",
+        "points": [
+          "The cell functions as a Grievances Redressal Cell for addressing the grievances of SC/ST, minority students and staff of the college and renders necessary help in resolving any issues concerned to it.\n",
+          "The cell maintains the register of the students of the institution and also deals with representations received from SC/ST & other minority candidates regarding admission, recruitment, promotion and other similar matters in the institution.\n",
+          "The cell promotes SC/ST & other minority students for higher education who are suffering economic, social and educational deprivations.\n",
+          "The cell collects reports and information of state government and UGC’s orders of SC/ST & minority students and staff. And plan measures for effective implementation of the policy and programs of the GOI and UGC.\n",
+          "Circulate state government and UGC’s decisions about different scholarship programs.\n",
+          "Monitoring the weak students and upgrading their academics with remedial coaching schemes and providing counselor to all SC/ST & other minority students."
+        ]
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 6,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policies and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_23a1e602e6.png",
+    "Document1": "/pdfs/SC_ST_and_OBC_Cell_4674b19d30.pdf",
+    "Document2": "/pdfs/SC_ST_and_OBC_Cell_b2f4615a01.pdf"
+  }
+}

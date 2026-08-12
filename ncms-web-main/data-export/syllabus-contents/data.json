@@ -1,0 +1,151 @@
+{
+  "UG_Commerce": {
+    "title": "Syllabus",
+    "SyllabusSection": [
+      {
+        "title": "SYLLABUS FOR B.COM",
+        "Sections": [
+          {
+            "title": "B.Com 1st Year Syllabus",
+            "pdf": "/pdfs/B_Com_First_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_69b96d29fc.pdf"
+          },
+          {
+            "title": "B.Com 2nd Year Syllabus",
+            "pdf": "/pdfs/B_Com_Second_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_2c68152e77.pdf"
+          },
+          {
+            "title": "B.Com 3rd Year Syllabus",
+            "pdf": "/pdfs/B_Com_Third_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_53eb7875f7.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SYLLABUS FOR BBA",
+        "Sections": [
+          {
+            "title": "BBA 1st Year Syllabus",
+            "pdf": "/pdfs/BBA_First_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_30a61786fd.pdf"
+          },
+          {
+            "title": "BBA 2nd Year Syllabus",
+            "pdf": "/pdfs/BBA_Second_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_3a0824a50c.pdf"
+          },
+          {
+            "title": "BBA 3rd Year Syllabus",
+            "pdf": "/pdfs/BBA_Third_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_88c0152088.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "UG_CA": {
+    "title": "Syllabus",
+    "SyllabusSection": [
+      {
+        "title": "SYLLABUS FOR BCA",
+        "Sections": [
+          {
+            "title": "BCA 1st Year Syllabus",
+            "pdf": "/pdfs/BCA_First_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_189f44a82f.pdf"
+          },
+          {
+            "title": "BCA 2nd Year Syllabus",
+            "pdf": "/pdfs/BCA_Second_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_da2aa0a40c.pdf"
+          },
+          {
+            "title": "BCA 3rd Year Syllabus",
+            "pdf": "/pdfs/BCA_Third_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_016d63d903.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "MOC": {
+    "title": "Syllabus",
+    "SyllabusSection": [
+      {
+        "title": "SYLLABUS FOR M.COM",
+        "Sections": [
+          {
+            "title": "MCom 1st year Syllabus",
+            "pdf": "/pdfs/M_Com_First_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_d728fdaea2.pdf"
+          },
+          {
+            "title": "MCom 2nd year Syllabus",
+            "pdf": "/pdfs/M_Com_Second_Year_Syllabus_BENGALURU_NORTH_UNIVERSITY_7393be5bd0.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "Science": {
+    "title": "Syllabus",
+    "SyllabusSection": [
+      {
+        "title": "SYLLABUS FOR PHYSICS",
+        "Sections": [
+          {
+            "title": "B.Sc-Physics 1st Year Syllabus",
+            "pdf": "/pdfs/First_Year_B_Sc_Physics_fae2e6d38e.pdf"
+          },
+          {
+            "title": "B.Sc-Physics 2nd Year Syllabus",
+            "pdf": "/pdfs/Second_Year_B_Sc_Physics_ace02f59b2.pdf"
+          },
+          {
+            "title": "B.Sc-Physics 3rd Year Syllabus",
+            "pdf": "/pdfs/Third_Year_B_Sc_Physics_bd3add3187.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SYLLABUS FOR MATHEMATICS",
+        "Sections": [
+          {
+            "title": "B.Sc-Mathemathics 1st Year Syllabus",
+            "pdf": "/pdfs/First_Year_B_Sc_Mathematics_fa0fd6c27a.pdf"
+          },
+          {
+            "title": "B.Sc-Mathemathics 2nd Year Syllabus",
+            "pdf": "/pdfs/Second_Year_B_Sc_Mathematics_b09c1b8258.pdf"
+          },
+          {
+            "title": "B.Sc-Mathemathics 3rd Year Syllabus",
+            "pdf": "/pdfs/Third_Year_B_Sc_Mathematics_0515e932b2.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SYLLABUS FOR COMPUTER SCIENCE",
+        "Sections": [
+          {
+            "title": "B.Sc-Computers 1st Year Syllabus",
+            "pdf": "/pdfs/First_Year_Computer_Science_1ed90a91f6.pdf"
+          },
+          {
+            "title": "B.Sc-Computers 2nd Year Syllabus",
+            "pdf": "/pdfs/Second_Year_Computer_Science_9cc96dda7c.pdf"
+          },
+          {
+            "title": "B.Sc-Computers 3rd Year Syllabus",
+            "pdf": "/pdfs/Third_Year_Computer_Science_d84fe67462.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "MBA": {
+    "title": "Syllabus",
+    "SyllabusSection": [
+      {
+        "title": "MBA BNU Syllabus",
+        "Sections": [
+          {
+            "title": "MBA BNU Syllabus",
+            "pdf": "/pdfs/BNU_MBA_SYLLABUS_e19e20db33.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}

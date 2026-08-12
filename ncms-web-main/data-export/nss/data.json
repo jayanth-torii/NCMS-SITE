@@ -1,0 +1,326 @@
+{
+  "id": 26,
+  "documentId": "rwpv7jah3i9jsa8kfi4kg37b",
+  "createdAt": "2025-07-31T12:27:36.404Z",
+  "updatedAt": "2026-01-20T11:40:50.001Z",
+  "publishedAt": "2026-01-20T11:40:50.228Z",
+  "BannerSection": {
+    "id": 133,
+    "title": "NSS",
+    "image": "/images/nss_46fd09b083.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 129,
+    "AboutSection": {
+      "id": 117,
+      "title": "About NSS",
+      "descriptions": [
+        "The NSS Cell of Nagarjuna College of Management Studies was established in the year 2017. In line with the motto of the NSS, the cell is dedicated to social service since its inception. NSS Cell is working towards sustainable living, creating awareness on societal and environmental issues, promoting higher education, organizing ‘Yoga Day’ celebrations for students and faculty, conducting health camps, organizing various programs and special camps aimed at the holistic well-being of our students and society. At Nagarjuna College of Management Studies, we are not merely shaping futures; we are also actively fostering a citizen-friendly society. The realization of a successful and harmonious society is no longer a distant dream, but an attainable goal."
+      ]
+    },
+    "VisionMission": {
+      "id": 109,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 217,
+          "title": "Vision",
+          "description": "To build the youth with the mind and spirit, to serve the society, and to work for the social upliftment of the down-trodden masses of our nation as a movement.",
+          "ListPoints": []
+        },
+        {
+          "id": 218,
+          "title": "Mission",
+          "description": "The National Service Scheme has been functioning with the motto “NOT ME BUT YOU” in view of making the youth inspired in service of the people and hence NSS Aims Education through Community Service and Community Service through Education.",
+          "ListPoints": []
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 183,
+        "title": "Objectives",
+        "points": [
+          "\nTo identify the needs and problems of the community and society and involve in resolving process.",
+          "To develop social and civic responsibility among the NSS volunteers",
+          "To utilize volunteers’ expertise and knowledge in finding solution to individual &community issues surrounding us.",
+          "To develop competence required for group living and sharing of responsibilities.",
+          "To gain skills in mobilizing community participation.",
+          "To acquire leadership abilities and self-governing attitude.",
+          "To develop ability to overcome and help in crises and natural disasters.",
+          "To practice national integration and social harmony."
+        ]
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 105,
+    "title": "Policies & Composition",
+    "description": "Stay Updated with the Policy and Compositions",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": "/pdfs/NSS_cell_946d27a451.pdf",
+    "Document2": null
+  },
+  "Activities": {
+    "id": 44,
+    "title": "Activities",
+    "Sections": [
+      {
+        "id": 474,
+        "title": "Blood Donation Camp - December 05, 2025",
+        "description": "A blood donation camp was organized to support healthcare needs and promote voluntary blood donation. The programme fostered a spirit of humanitarian service and social commitment among students.",
+        "images": [
+          "/images/Whats_App_Image_2025_12_05_at_12_39_34_PM_0988e03e60.jpeg",
+          "/images/Whats_App_Image_2025_12_05_at_12_39_36_PM_ebaeedffba.jpeg",
+          "/images/Whats_App_Image_2025_12_05_at_11_17_18_AM_1_9d1e05d5a5.jpeg",
+          "/images/Whats_App_Image_2025_12_05_at_12_25_02_PM_1_89da8dc418.jpeg",
+          "/images/Whats_App_Image_2025_12_05_at_12_39_32_PM_1_3c820c92e3.jpeg"
+        ]
+      },
+      {
+        "id": 475,
+        "title": "Tribal Youth Exchange Programme - November 17 to 23, 2025",
+        "description": "Students participated in the Tribal Youth Exchange Programme to understand tribal culture, traditions, and challenges. The initiative promoted cultural integration and inclusive development.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_3_38_48_PM_8c783781cd.jpeg"
+        ]
+      },
+      {
+        "id": 476,
+        "title": "Yuva Apada Mithra Training Camp - October 13 to 19, 2025",
+        "description": "The training camp equipped volunteers with disaster management skills such as first aid, rescue operations, and emergency response. The programme enhanced preparedness and leadership during crisis situations.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_3_31_15_PM_9c098193a1.jpeg",
+          "/images/Whats_App_Image_2026_01_05_at_1_12_33_PM_c9d9434bbe.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_3_31_49_PM_299254d359.jpeg"
+        ]
+      },
+      {
+        "id": 477,
+        "title": "Global Youth Festival, Panipat - October 02 to 07, 2025",
+        "description": "NSS volunteers participated in the Global Youth Festival, gaining exposure to leadership, cultural exchange, and nation-building activities. The event encouraged youth engagement in social transformation.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_3_15_06_PM_1_79b7954693.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_3_15_06_PM_adb18e7d4c.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_3_15_06_PM_2_3d32e0ec9d.jpeg"
+        ]
+      },
+      {
+        "id": 478,
+        "title": "National NSS Day - September 24, 2025",
+        "description": "National NSS Day was celebrated to highlight the objectives and values of the NSS. The programme motivated volunteers to continue serving society with commitment and dedication.",
+        "images": [
+          "/images/Whats_App_Image_2025_09_25_at_3_19_07_PM_1_4eb626378a.jpeg",
+          "/images/Whats_App_Image_2025_09_25_at_3_19_05_PM_792294b199.jpeg",
+          "/images/Whats_App_Image_2025_09_25_at_3_19_08_PM_29292d16ac.jpeg",
+          "/images/Whats_App_Image_2025_09_25_at_3_19_06_PM_39bfa1eaaa.jpeg",
+          "/images/Whats_App_Image_2025_09_25_at_3_19_08_PM_1_c95326d647.jpeg"
+        ]
+      },
+      {
+        "id": 479,
+        "title": "Democracy Day (Bike Rally) - September 15, 2025",
+        "description": "A bike rally was organized to mark Democracy Day, highlighting the values of democracy and active citizenship. The rally aimed to spread awareness about voting rights and democratic duties.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_08_at_11_17_19_AM_cbad24c5dc.jpeg"
+        ]
+      },
+      {
+        "id": 480,
+        "title": "Independence Day - August 15, 2025",
+        "description": "Independence Day was celebrated with great patriotic fervor through flag hoisting and awareness activities. The programme instilled a sense of national pride, unity, and respect for freedom fighters among the students.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_3_20_14_PM_430db63d24.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_3_20_14_PM_1_742f592546.jpeg"
+        ]
+      },
+      {
+        "id": 481,
+        "title": "National Youth Project, Kerala - July 22 to 27, 2025",
+        "description": "Nagesh of 3rd BCA participated in the National Youth Project in Kerala, gaining exposure to cultural exchange, leadership training, and community development activities. The programme enhanced national integration and social responsibility.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_3_15_07_PM_1_81ee3e5823.jpeg"
+        ]
+      },
+      {
+        "id": 482,
+        "title": "International Yoga Day - July 22, 2025",
+        "description": "The NSS unit observed International Yoga Day to promote physical fitness, mental well-being, and a healthy lifestyle among students. The programme emphasized the importance of yoga in stress management and holistic development.",
+        "images": [
+          "/images/Whats_App_Image_2025_06_23_at_2_46_44_PM_Edited_e64894bc6c.jpg",
+          "/images/Whats_App_Image_2025_06_24_at_12_14_17_PM_66dfe24dd0.jpeg",
+          "/images/Whats_App_Image_2025_06_23_at_2_46_42_PM_3f11954cca.jpeg",
+          "/images/Whats_App_Image_2025_06_23_at_2_46_42_PM_4_34610cc33a.jpeg",
+          "/images/Whats_App_Image_2025_06_20_at_12_47_33_PM_cb506c53aa.jpeg"
+        ]
+      },
+      {
+        "id": 483,
+        "title": "Tribute to Yoga Guru Padma Shri Sivananda Swamiji - May 06, 2025",
+        "description": "On the solemn occasion of the passing of Yoga Guru Padma Shri Sivananda Swamiji, who lived a remarkable life of 128 years, the NSS Unit observed a silent tribute to honor his legacy. Swamiji, known for his discipline, simplicity, and yogic lifestyle, had inspired generations across the country. During a National NSS Camp, several student volunteers from our unit had the great fortune to meet and interact with Swamiji. His teachings on yoga, self-discipline, and service left a lasting impact on the volunteers.",
+        "images": [
+          "/images/IMG_20250505_152640_f4ee8c44ea.jpg",
+          "/images/IMG_20250505_152704_931c497cab.jpg"
+        ]
+      },
+      {
+        "id": 484,
+        "title": "7 Day Annual Camp - 21st to 27th March 2025",
+        "description": "The annual special camp featured a series of activities such as health awareness sessions, village visits, cleanliness drives, and personality development workshops.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_1_44_15_PM_1_47cf70a64f.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_1_44_15_PM_63803b71fa.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_1_44_33_PM_f995ab70ea.jpeg"
+        ]
+      },
+      {
+        "id": 485,
+        "title": "16th Tribal Youth Exchange Programme - 17th to 23rd February 2025",
+        "description": "Our NSS students participated in the 16th Tribal Youth Exchange Programme, which was successfully organized under the initiative of the Ministry of Youth Affairs & Sports, Government of India, in collaboration with the Nehru Yuva Kendra Sangathan (NYKS) at Bengaluru. The programme aimed to promote cultural exchange and national integration among tribal youth from different regions of the country. A total of 230 tribal youths and escorts from Chhattisgarh, Madhya Pradesh, and Odisha, selected by CRPF, ITBP, and NYK, participated in the programme.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_2_42_15_PM_1_b984256c3d.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_2_42_15_PM_e76c0dfb97.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_2_42_14_PM_f90ecb9a33.jpeg"
+        ]
+      },
+      {
+        "id": 486,
+        "title": "Martyrs’ Day - January 30, 2025",
+        "description": "Our NSS students observed a tribute to Mahatma Gandhi and other national martyrs. A two-minute silence was observed, followed by the screening of videos highlighting historic moments and a speech on patriotic remembrance.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_1_29_44_PM_1_1c10147e46.jpeg"
+        ]
+      },
+      {
+        "id": 487,
+        "title": "National Youth Day - January 27, 2025",
+        "description": "National Youth Day was celebrated on 27th January in honor of Swami Vivekananda. The day included inspirational talks and youth-oriented programs aimed at motivating young minds.",
+        "images": [
+          "/images/Whats_App_Image_2026_01_19_at_1_39_15_PM_2_df0fa61039.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_1_39_16_PM_28a681d1b9.jpeg",
+          "/images/Whats_App_Image_2026_01_19_at_1_39_15_PM_1_3952561d40.jpeg"
+        ]
+      },
+      {
+        "id": 488,
+        "title": "Blood Donation Camp: 3rd October 2024",
+        "description": "NSS - NCMS in collaboration with the Indian Red Cross Society, conducted a blood donation camp, receiving generous contributions from volunteers and students alike. A total of 66units were collected on the day.",
+        "images": [
+          "/images/Whats_App_Image_2024_10_23_at_3_53_33_PM_a70a0a4cbd.jpeg",
+          "/images/Whats_App_Image_2024_10_23_at_3_53_32_PM_50cd0e412c.jpeg",
+          "/images/Whats_App_Image_2024_10_23_at_3_53_34_PM_abc9cf5bce.jpeg",
+          "/images/Whats_App_Image_2024_10_23_at_3_53_31_PM_1_b827209942.jpeg",
+          "/images/Whats_App_Image_2024_10_23_at_3_53_31_PM_a030a92b6d.jpeg"
+        ]
+      },
+      {
+        "id": 489,
+        "title": "Swachhatha Hi Seva - Cleanliness Campaign: 24th September 2024",
+        "description": "NCMS - NSS students organised Swachhatha Hi Seva - Cleanliness Campaign at Devanahalli Fort on September 24, 2024. Volunteers undertook activities such as cleaning roads, clearing weeds, and promoting hygiene awareness.",
+        "images": [
+          "/images/Whats_App_Image_2024_09_28_at_7_09_29_AM_1882f1242e.jpeg",
+          "/images/Whats_App_Image_2024_09_28_at_7_09_30_AM_f96d428dc5.jpeg",
+          "/images/Whats_App_Image_2024_09_28_at_7_09_31_AM_6471506868.jpeg",
+          "/images/Whats_App_Image_2024_09_28_at_7_09_29_AM_1_cb140345ec.jpeg"
+        ]
+      },
+      {
+        "id": 490,
+        "title": "National Youth Project at Alandi, Pune: 22nd to 25th August 2024",
+        "description": "NSS 2nd and 3rd year students participated in the National Youth Project and represented Karnataka’s culture at the National Cultural Youth Festival held at Alandi, Pune, Maharashtra, from 22nd August to 25th August 2024. The students actively took part in cultural exchange, leadership activities, and community-building sessions.",
+        "images": [
+          "/images/IMG_5069_1_c55c985426.PNG",
+          "/images/IMG_20240826_100808_1_94c5fcac7e.jpg",
+          "/images/IMG_20240824_WA_0010_1_312ab5c517.jpg",
+          "/images/IMG_20240824_WA_0014_1_288006c684.jpg"
+        ]
+      },
+      {
+        "id": 491,
+        "title": "National Youth Project: 26th to 30th June 2024",
+        "description": "Volunteers took part in the National Youth Project, engaging in activities like leadership training, social service, and cultural exchange aimed at youth empowerment.",
+        "images": [
+          "/images/Whats_App_Image_2024_02_09_at_11_14_05_AM_eedbc4a684.jpeg",
+          "/images/Whats_App_Image_2024_02_09_at_11_14_16_AM_ab877fd1b0.jpeg",
+          "/images/Whats_App_Image_2024_02_09_at_11_12_52_AM_06113ddc8b.jpeg",
+          "/images/Whats_App_Image_2024_02_09_at_11_14_13_AM_a0f07ad2f1.jpeg",
+          "/images/Whats_App_Image_2024_02_09_at_11_12_54_AM_902ac33c05.jpeg"
+        ]
+      },
+      {
+        "id": 492,
+        "title": "International Yoga Day on June 21, 2024",
+        "description": "The unit celebrated International Yoga Day by organizing a group yoga session, emphasizing the importance of holistic health, physical fitness, and inner peace.",
+        "images": [
+          "/images/Whats_App_Image_2024_06_22_at_10_32_52_AM_2648e5bdcd.jpeg",
+          "/images/Whats_App_Image_2024_06_22_at_10_32_48_AM_d6697b439b.jpeg",
+          "/images/Whats_App_Image_2024_06_22_at_10_32_55_AM_d6de2cbd19.jpeg",
+          "/images/Whats_App_Image_2024_06_22_at_10_32_51_AM_ade90ff0fc.jpeg",
+          "/images/Whats_App_Image_2024_06_22_at_10_34_08_AM_69013b3134.jpeg"
+        ]
+      },
+      {
+        "id": 493,
+        "title": "5-day state-level National Seva Yojana Shramadana Shibira 3rd to 7th March, 2023",
+        "description": "The Karnataka Gandhi Smaraka Nidhi, Bengaluru, National Service Scheme State Cell, Bengaluru North University, Youth Empowerment & Sports Department, and in association with NCMS, organized a 5-day state-level National Seva Yojana Shramadana Shibira from 3rd to 7th March, 2023, in the NCMS campus. The event was graced by the presence of Shri. Nadoja Pindipapanahalli Munivenkatappa, a Padma Shri awardee and folk artist, and Shri. Prathap Lingaiah, the State NSS Officer from the National Service Scheme Cell, as the chief guests.",
+        "images": [
+          "/images/Whats_App_Image_2023_03_06_at_5_59_06_PM_1_225x300_f4bf3af0b3.jpeg",
+          "/images/Whats_App_Image_2023_03_06_at_5_58_59_PM_768x576_e204e25357.jpeg",
+          "/images/Whats_App_Image_2023_03_05_at_10_40_57_AM_768x727_5cdce8c779.jpeg",
+          "/images/Whats_App_Image_2023_03_06_at_5_59_04_PM_768x576_8aa52cb290.jpeg",
+          "/images/Whats_App_Image_2023_03_06_at_5_59_04_PM_1_768x576_1ab5b7443f.jpeg",
+          "/images/Whats_App_Image_2023_03_04_at_7_18_15_PM_768x657_595a08d749.jpeg",
+          "/images/Whats_App_Image_2023_03_06_at_11_27_04_AM_768x576_fcf6088fa6.jpeg",
+          "/images/Whats_App_Image_2023_03_06_at_5_59_06_PM_768x576_df3f261a15.jpeg"
+        ]
+      },
+      {
+        "id": 494,
+        "title": "National Youth Festival - 2023 12th to 16th January 2023 I Dharwad",
+        "description": "NSS students were selected as volunteers to take part in the “National Youth Festival – 2023” held in Dharwad, Hubli from 12th to 16th January 2023.",
+        "images": [
+          "/images/Whats_App_Image_2023_01_23_at_1_06_59_PM_768x346_d04d90edfc.jpeg",
+          "/images/Whats_App_Image_2023_01_23_at_11_12_59_AM_300x225_c02deb54e8.jpeg",
+          "/images/Whats_App_Image_2023_01_23_at_1_07_20_PM_300x247_158ede556f.jpeg",
+          "/images/Whats_App_Image_2023_01_23_at_11_13_14_AM_768x430_75176d1f2f.jpeg"
+        ]
+      },
+      {
+        "id": 495,
+        "title": "National Integration and Sadbhavana Youth Camp",
+        "description": "Students Mr. Bharath Kumar L A, Mr. Monish V S & Ms. Sindu Y M participated in “National integration and Sadbhavana youth camp” in Jaipur, Rajasthan organised by National Youth Project from 26th October to 1st November 2022.",
+        "images": [
+          "/images/IMG_20221101_WA_0047_225x300_387d58343b.jpg",
+          "/images/IMG_20221101_WA_0062_225x300_108d188037.jpg",
+          "/images/IMG_20221029_WA_0087_768x576_169b2535a7.jpg",
+          "/images/IMG_20221029_WA_0071_768x576_2463dbb8d8.jpg",
+          "/images/IMG_20221029_WA_0076_768x576_30c57197f6.jpg"
+        ]
+      },
+      {
+        "id": 496,
+        "title": "7 Days National Heritage Fest 20th to 27th November 2022 I Agartala, Jaipur",
+        "description": "NSS Students from NCMS represented Bengaluru North University in 7 Days National Heritage Fest at Agarthla, Tripura from 20th to 27th November 2022. Participating in such events is an excellent opportunity for students to learn about different cultures, interact with students from other institutions, and develop leadership and teamwork skills.",
+        "images": [
+          "/images/IMG_20221121_WA_0028_300x225_7683b95025.jpg",
+          "/images/IMG_20221121_WA_0029_768x344_04ccf2b76f.jpg",
+          "/images/IMG_20221122_WA_0005_768x344_37f4974fca.jpg",
+          "/images/IMG_20221122_WA_0008_768x344_8df1ab471c.jpg",
+          "/images/IMG_20221122_WA_0007_768x344_ac7e9788e9.jpg"
+        ]
+      },
+      {
+        "id": 497,
+        "title": "Plantation Drive September 08, 2022 I Aahwahan Foundation",
+        "description": "Plantation Drive was initiated by Aahwahan Foundation, MBA Department & NSS Unit, on September 08, 2022. The Plantation Drive was initiated by Aahwahan Foundation to increase green cover and improve the biodiversity of the environment. The organization believes that a healthy environment is essential for the well-being of society and that planting more trees can have a positive impact on the environment.",
+        "images": [
+          "/images/305995073_488981173237489_2511746824448888583_n_f2dc6429b1.jpg",
+          "/images/305136525_488981226570817_9207129294252559446_n_443593f39e.jpg",
+          "/images/305487490_488981286570811_6346944659971059869_n_768x345_bf855a30ba.jpg"
+        ]
+      }
+    ]
+  }
+}

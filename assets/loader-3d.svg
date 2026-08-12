@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="NCMS 3D loading cube">
+  <!-- soft ground shadow -->
+  <ellipse cx="70" cy="118" rx="34" ry="6" fill="#0e2455" opacity="0.12">
+    <animate attributeName="rx" values="30;38;30" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.10;0.18;0.10" dur="2.6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- rotating isometric cube -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 70 62" to="360 70 62" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1"/>
+
+    <!-- top face -->
+    <polygon points="70,26 104,45 70,64 36,45" fill="#F6872A">
+      <animate attributeName="opacity" values="1;0.72;1" dur="2.6s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- left face -->
+    <polygon points="36,45 70,64 70,102 36,83" fill="#c75e1d">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.6s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- right face -->
+    <polygon points="70,64 104,45 104,83 70,102" fill="#0e2455">
+      <animate attributeName="opacity" values="1;0.8;1" dur="2.6s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- face outlines -->
+    <polygon points="70,26 104,45 70,64 36,45" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" opacity="0.9"/>
+    <polygon points="36,45 70,64 70,102 36,83" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" opacity="0.45"/>
+    <polygon points="70,64 104,45 104,83 70,102" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" opacity="0.45"/>
+
+    <!-- core glow -->
+    <circle cx="70" cy="64" r="5" fill="#ffffff">
+      <animate attributeName="r" values="4;6;4" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

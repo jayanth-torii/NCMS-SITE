@@ -1,0 +1,77 @@
+{
+  "id": 1,
+  "documentId": "quq84zvezzunjkevsdjj749h",
+  "createdAt": "2025-06-25T09:13:51.407Z",
+  "updatedAt": "2026-02-13T12:08:05.748Z",
+  "publishedAt": "2026-02-13T12:08:05.522Z",
+  "banner": {
+    "id": 1,
+    "title": "Anti Ragging Cell",
+    "image": "/images/anti_ragging_banner_fcf75f2a08.png"
+  },
+  "aboutAntiRagging": {
+    "id": 1,
+    "AboutSection": null,
+    "VisionMission": {
+      "id": 1,
+      "title": "Vision and Mission",
+      "VMSections": [
+        {
+          "id": 1,
+          "title": "Our Vision",
+          "description": "Create an atmosphere of a sensitive and liable outlook amid the students about the cause and effects of indulging in ragging. ",
+          "ListPoints": []
+        },
+        {
+          "id": 2,
+          "title": "Our Mission",
+          "description": null,
+          "ListPoints": [
+            "Create awareness about the ragging and ensure a student friendly environment at all times.",
+            "Facilitate campus monitoring to ensure ragging free campus.",
+            "Keep a constant eye and vigilance over ragging so as to prevent its occurrence.",
+            "Address ragging issues, if any, immediately and take action as recommended by the committee. "
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 1,
+        "title": "Objectives",
+        "points": [
+          "To raise awareness about ragging and its effects on the mental wellness of a student.\n",
+          "To ensure safe stay for holistic development of the student.\n",
+          "To ensure ragging free campus."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Functions",
+        "points": [
+          "To address the complaints of the students.",
+          "Organizing talks, sessions and competitions to create awareness among students regarding the menace of ragging. ",
+          "To oversee the premises to ensure no instances of ragging. "
+        ]
+      }
+    ]
+  },
+  "antiRaggingCell": {
+    "id": 1,
+    "title": "NCMS Anti-ragging Cell Activity Report",
+    "buttonText": "View Report",
+    "description": null,
+    "pdf": "/pdfs/Anti_Ragging_Cell_Report_09f3ede33d.pdf",
+    "image": "/images/anti_ragging_cell_628d16466e.png"
+  },
+  "antiRaggingCommittee": {
+    "id": 1,
+    "title": "Anti Ragging Committee",
+    "description": null,
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/anti_ragging_committe_4992086419.png",
+    "Document1": "/pdfs/Anti_Ragging_Policy_894666dc70.pdf",
+    "Document2": "/pdfs/Anti_Ragging_Cell_6bef3663f6.pdf"
+  }
+}

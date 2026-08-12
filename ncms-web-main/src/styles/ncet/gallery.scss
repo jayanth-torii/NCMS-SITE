@@ -1,0 +1,302 @@
+// =========================================================================
+// Campus Gallery (redesigned) — modern, consistent, framer-motion driven.
+// Brand palette: navy #0e2455 / orange #F6872A + whites & grays.
+// =========================================================================
+
+$g-navy: #0e2455;
+$g-navy-2: #1a3673;
+$g-orange: #F6872A;
+$g-bg: #f7f9fc;
+$g-surface: #ffffff;
+$g-line: #e6ebf3;
+$g-muted: #6b7280;
+
+.gallery-page {
+  background: $g-bg;
+  padding: 3rem 0 5rem;
+}
+
+.gallery-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// -------------------------------------------------------------------------
+// Filter tabs
+// -------------------------------------------------------------------------
+.gallery-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.gallery-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.15rem;
+  border: 1px solid $g-line;
+  border-radius: 999px;
+  background: $g-surface;
+  color: $g-navy;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: 999px;
+    background: linear-gradient(135deg, $g-navy, $g-navy-2);
+    box-shadow: 0 10px 22px -12px rgba(14, 36, 85, 0.6);
+  }
+
+  &__label {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__count {
+    position: relative;
+    z-index: 1;
+    min-width: 1.4rem;
+    padding: 0.05rem 0.45rem;
+    border-radius: 999px;
+    background: #eef2f8;
+    color: $g-muted;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-align: center;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  &:hover:not(.active) { border-color: rgba(246, 135, 42, 0.45); }
+
+  &.active {
+    border-color: transparent;
+    color: #fff;
+    .gallery-tab__count { background: rgba(255, 255, 255, 0.18); color: #fff; }
+  }
+}
+
+// -------------------------------------------------------------------------
+// Image grid
+// -------------------------------------------------------------------------
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.1rem;
+
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 520px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  padding: 0;
+  border: none;
+  border-radius: 1.1rem;
+  overflow: hidden;
+  cursor: pointer;
+  background: $g-navy;
+  box-shadow: 0 14px 32px -22px rgba(14, 36, 85, 0.4);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(14, 36, 85, 0.55), rgba(14, 36, 85, 0.05) 55%, transparent);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+  }
+
+  &__icon {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(2px);
+    transform: scale(0.82);
+    transition: transform 0.35s ease;
+  }
+
+  &:hover {
+    img { transform: scale(1.07); }
+    .gallery-card__overlay { opacity: 1; }
+    .gallery-card__icon { transform: scale(1); }
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba(246, 135, 42, 0.6);
+    outline-offset: 2px;
+  }
+}
+
+// -------------------------------------------------------------------------
+// Load more / less
+// -------------------------------------------------------------------------
+.gallery-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+
+  &__btn {
+    min-width: 9rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+
+    &--primary {
+      border: none;
+      background: linear-gradient(135deg, $g-navy, $g-navy-2);
+      color: #fff;
+      box-shadow: 0 10px 22px -12px rgba(14, 36, 85, 0.55);
+
+      &:hover {
+        background: linear-gradient(135deg, $g-navy-2, $g-navy);
+      }
+    }
+
+    &--secondary {
+      border: 1px solid $g-line;
+      background: $g-surface;
+      color: $g-navy;
+
+      &:hover {
+        border-color: rgba(246, 135, 42, 0.45);
+        color: $g-orange;
+      }
+    }
+  }
+}
+
+// -------------------------------------------------------------------------
+// Lightbox
+// -------------------------------------------------------------------------
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(8, 14, 26, 0.94);
+  backdrop-filter: blur(6px);
+
+  &__stage {
+    max-width: 92vw;
+    max-height: 82vh;
+    display: flex;
+
+    img {
+      max-width: 100%;
+      max-height: 82vh;
+      object-fit: contain;
+      border-radius: 0.75rem;
+      box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  &__close,
+  &__nav {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background: $g-orange;
+      border-color: $g-orange;
+    }
+  }
+
+  &__close {
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &__nav {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3.25rem;
+    height: 3.25rem;
+
+    &:hover { transform: translateY(-50%) scale(1.05); }
+
+    &--prev { left: 1.5rem; }
+    &--next { right: 1.5rem; }
+
+    @media (max-width: 600px) {
+      width: 2.75rem;
+      height: 2.75rem;
+      &--prev { left: 0.75rem; }
+      &--next { right: 0.75rem; }
+    }
+  }
+
+  &__counter {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1.15rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+
+    span { color: $g-orange; margin: 0 0.15rem; }
+  }
+}

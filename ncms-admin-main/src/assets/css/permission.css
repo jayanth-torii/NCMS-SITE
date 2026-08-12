@@ -1,0 +1,68 @@
+/* Global: disabled controls show a "not-allowed" cursor on hover.
+   Covers natively-disabled buttons/inputs AND everything inside a disabled
+   <fieldset> (used by PermissionGate to make read-only pages). */
+
+button:disabled,
+button[disabled],
+.btn:disabled,
+.btn.disabled,
+input:disabled,
+select:disabled,
+textarea:disabled,
+fieldset:disabled button,
+fieldset[disabled] button,
+fieldset:disabled .btn,
+fieldset[disabled] .btn,
+fieldset:disabled input,
+fieldset[disabled] input,
+fieldset:disabled select,
+fieldset[disabled] select,
+fieldset:disabled textarea,
+fieldset[disabled] textarea,
+a.disabled,
+.disabled {
+  cursor: not-allowed !important;
+}
+
+/* ------------------------------------------------------------------ *
+ * Collapsed sidebar — keep the long icon list scrollable WITHIN the viewport.
+ * The theme disables scrolling in collapsed mode (overflow: visible) so per-item
+ * flyouts can escape; with our long menu the icons overflowed past the footer.
+ * We pin the collapsed sidebar to the viewport height and make it the single
+ * scroll container (inner SimpleBar layers don't clip/scroll), with a slim
+ * scrollbar that blends into the dark sidebar.
+ * ------------------------------------------------------------------ */
+.vertical-collpsed .vertical-menu {
+  position: fixed !important;
+  top: 70px !important;                 /* below the fixed header */
+  height: calc(100vh - 70px) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+}
+/* Let .vertical-menu do the scrolling — the inner SimpleBar layers must not
+   clip or create their own scroll. */
+.vertical-collpsed .vertical-menu .simplebar-wrapper,
+.vertical-collpsed .vertical-menu .simplebar-mask,
+.vertical-collpsed .vertical-menu .simplebar-offset,
+.vertical-collpsed .vertical-menu .simplebar-content-wrapper,
+.vertical-collpsed .vertical-menu .simplebar-content {
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+.vertical-collpsed .vertical-menu .simplebar-scrollbar {
+  display: none !important;
+}
+/* Slim scrollbar blended with the sidebar (transparent track). */
+.vertical-collpsed .vertical-menu::-webkit-scrollbar {
+  width: 6px;
+}
+.vertical-collpsed .vertical-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+.vertical-collpsed .vertical-menu::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 4px;
+}

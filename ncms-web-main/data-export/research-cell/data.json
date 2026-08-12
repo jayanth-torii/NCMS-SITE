@@ -1,0 +1,751 @@
+{
+  "id": 43,
+  "documentId": "uzmyib5vgkifwrvsxyrc425x",
+  "createdAt": "2025-06-27T11:40:35.761Z",
+  "updatedAt": "2026-08-04T05:14:26.089Z",
+  "publishedAt": "2026-08-04T05:14:26.586Z",
+  "BannerSection": {
+    "id": 184,
+    "title": "Research Cell",
+    "image": "/images/banner_8fd57fdbf8.png"
+  },
+  "AboutVisionMissionSections": {
+    "id": 177,
+    "AboutSection": {
+      "id": 158,
+      "title": "Introduction to Research Cell",
+      "descriptions": [
+        "Nagarjuna College of Management Studies is dedicated to fostering a research culture among both faculty members and students. We, at NCMS, recognise that fundamental, long-term research is essential for the growth and development of our institution, and our research policy is designed to promote research aptitude among all learners. Our ultimate goal is to contribute to national development by identifying research areas of academic, practical, and socially relevant significance.\n\nTo achieve these aims, we are committed to ensuring that all our research activities comply established standards and norms governing ethical and safe research conduct. Our research policy provides a broad framework for our research activities."
+      ]
+    },
+    "VisionMission": {
+      "id": 157,
+      "title": "Vision and Mission ",
+      "VMSections": [
+        {
+          "id": 313,
+          "title": "Vision",
+          "description": "To create a conducive environment to lead and sustain research culture.",
+          "ListPoints": []
+        },
+        {
+          "id": 314,
+          "title": "Mission ",
+          "description": null,
+          "ListPoints": [
+            "To foster a dynamic research community that inspires and encourages faculty and students to engage in research.\n",
+            "To equip faculty and students with necessary skills, knowledge, and resources to engage in research that addresses real-world challenges and advances the frontiers of knowledge.\n",
+            "To provide a supportive and collaborative research environment that promotes interdisciplinary collaborations, creativity, and critical thinking."
+          ]
+        }
+      ]
+    },
+    "AccordionSections": [
+      {
+        "id": 239,
+        "title": "Objectives",
+        "points": [
+          "Nagarjuna College of Management Studies has established Research Cell to provide proper coordination of all research activities and align them with the college’s vision and mission, as well as national development goals.\n",
+          "To inform and assist researchers in identifying appropriate research opportunities announced by different academic, research, industry, or government organizations.\n",
+          "To promote interdisciplinary research and establish modalities for preparing and undertaking joint ventures covering more than one knowledge domain, as well as policies involving external agencies/experts in such projects.\n",
+          "To create awareness about patents and Intellectual Property Rights and motivate researchers to apply for patents.\n",
+          "To take initiatives for granting study leave, sabbatical leave, on-duty leave, seed money, reduction in workload, etc., to deserving faculty members for advanced research.\n",
+          "To identify and establish linkages, including MOUs, for long-term relationships with national and international research organizations to widen the scope of research opportunities and funding options available to researchers.\n",
+          "To encourage and facilitate the publication of research works in reputed academic international/national journals and also facilitate the presentation of their research work through academic events such as workshops/seminars/conferences.\n",
+          "To create an ecosystem for innovations, including an incubation center and other initiatives for the creation and transfer of knowledge.\n",
+          "To facilitate community-oriented research initiatives and transfer the research findings for the social and economic development of the community.\n",
+          "We are committed to implementing these objectives and creating a research-friendly environment that promotes innovative thinking and the pursuit of knowledge"
+        ]
+      }
+    ]
+  },
+  "Resources_And_Events": {
+    "id": 43,
+    "title": "Resources and Events",
+    "description": null,
+    "Sections": [
+      {
+        "id": 397,
+        "TabName": "Conferences",
+        "Documents": [
+          {
+            "id": 3524,
+            "title": "International Conference Report - May 2024",
+            "pdf": "/pdfs/International_Conference_Report_May_2024_26ca4309cb.pdf"
+          },
+          {
+            "id": 3525,
+            "title": "Bhasha Sampada (18.08.2023)",
+            "pdf": "/pdfs/9_Bhasha_Sampada_eb18f4e159.pdf"
+          },
+          {
+            "id": 3526,
+            "title": "Rediscovering Business Practices Post Covid (19.1.2023 to 21.1.2023)",
+            "pdf": "/pdfs/16_Re_discovering_Business_Practices_Post_Covid_19_de97aac30c.pdf"
+          },
+          {
+            "id": 3527,
+            "title": "Emerging Trends, Innovations & Applications in Science and Technology (1.10.2019)",
+            "pdf": "/pdfs/47_Emerging_Trends_Innovations_Applications_in_Science_and_Technology_d962cf539e.pdf"
+          },
+          {
+            "id": 3528,
+            "title": "Issues & Challenges for Sustainability in the VUCA World (12.04.2019)",
+            "pdf": "/pdfs/52_Issues_Challenges_sustainability_in_the_VUCA_World_1f1bc52773.pdf"
+          }
+        ]
+      },
+      {
+        "id": 398,
+        "TabName": "Books",
+        "Documents": [
+          {
+            "id": 3529,
+            "title": "Conference Proceedings - Sustainable, Responsible and Inclusive Business Growth Through Technology - 2026",
+            "pdf": "/pdfs/Conference_Proceedings_Sustainable_responsible_and_inclusive_business_growth_through_technology_e21935af12.pdf"
+          },
+          {
+            "id": 3530,
+            "title": "Tarangini 2.0 - 2025",
+            "pdf": "/pdfs/Tarangini_2_0_f5bd1f80b6.pdf"
+          },
+          {
+            "id": 3531,
+            "title": "Bhasha Sampada II – Hindi – 2025",
+            "pdf": "/pdfs/Hindi_Bhasha_Sampada_II_2025_7524944e24.pdf"
+          },
+          {
+            "id": 3532,
+            "title": "Bhasha Sampada II – Sanskrit – 2025",
+            "pdf": "/pdfs/Sanskrit_Bhasha_Sampada_II_2025_41dee87e4d.pdf"
+          },
+          {
+            "id": 3533,
+            "title": "Bhasha Sampada II – English – 2025",
+            "pdf": "/pdfs/English_Bhasha_Sampada_II_2025_ece181d714.pdf"
+          },
+          {
+            "id": 3534,
+            "title": "Bhasha Sampada II – Kannada – 2025",
+            "pdf": "/pdfs/Kannada_Bhasha_Sampada_II_2025_68a9e3ea48.pdf"
+          },
+          {
+            "id": 3535,
+            "title": "Tarangini – 2024",
+            "pdf": "/pdfs/Tarangini_2024_d017a58d99.pdf"
+          },
+          {
+            "id": 3536,
+            "title": "The Thoughtful Pen – 2024",
+            "pdf": "/pdfs/The_Thoughtful_Pen_2024_592bacfb93.pdf"
+          },
+          {
+            "id": 3537,
+            "title": "Patharagithi – 2023",
+            "pdf": "/pdfs/Patharagithi_2023_ab427f23e5.pdf"
+          },
+          {
+            "id": 3538,
+            "title": "Bhasha Sampada I – English – 2023",
+            "pdf": "/pdfs/English_Bhasha_Sampada_I_2023_c73a205c6d.pdf"
+          },
+          {
+            "id": 3539,
+            "title": "Bhasha Sampada I – Kannada – 2023",
+            "pdf": "/pdfs/Kannada_Bhasha_Sampada_I_2023_db727ab530.pdf"
+          },
+          {
+            "id": 3540,
+            "title": "Sustainability of Small Enterprises of India in Post Covid Era – 2023",
+            "pdf": "/pdfs/Sustainability_of_Small_Enterprises_of_India_in_Post_Covid_Era_2023_374c301708.pdf"
+          },
+          {
+            "id": 3541,
+            "title": "Re-Discovering Business Practices Post Covid-19 – 2023",
+            "pdf": "/pdfs/Re_Discovering_Business_Practices_Post_Covid_19_2023_9a81a18c08.pdf"
+          }
+        ]
+      },
+      {
+        "id": 399,
+        "TabName": "Publications",
+        "Documents": [
+          {
+            "id": 3542,
+            "title": "Research Publications 2025 - 2026",
+            "pdf": "/pdfs/Research_Publications_2025_2026_2157079d45.pdf"
+          },
+          {
+            "id": 3543,
+            "title": "Research Publications 2024 - 2025",
+            "pdf": "/pdfs/Research_Publications_2024_2025_a2f2bc1405.pdf"
+          },
+          {
+            "id": 3544,
+            "title": "Research Publications 2023 - 2024",
+            "pdf": "/pdfs/Research_Publications_2023_2024_af129f8e98.pdf"
+          }
+        ]
+      },
+      {
+        "id": 400,
+        "TabName": "IPR",
+        "Documents": [
+          {
+            "id": 3545,
+            "title": "Patent Details - 2025-26",
+            "pdf": "/pdfs/Patent_Details_2025_26_4dded6ff1d.pdf"
+          },
+          {
+            "id": 3546,
+            "title": "Patent Details - 2024-25",
+            "pdf": "/pdfs/Patent_Details_2024_25_937acdbea3.pdf"
+          },
+          {
+            "id": 3547,
+            "title": "Patent Details - 2023-24",
+            "pdf": "/pdfs/Patent_Details_2023_24_15d7242f10.pdf"
+          }
+        ]
+      },
+      {
+        "id": 401,
+        "TabName": "Grants",
+        "Documents": [
+          {
+            "id": 3548,
+            "title": "Grants Received - 2025-26",
+            "pdf": "/pdfs/Grants_Received_25_26_b1a974f7c9.pdf"
+          },
+          {
+            "id": 3549,
+            "title": "Grants Received - 2024-25",
+            "pdf": "/pdfs/Grants_Received_24_25_094f204000.pdf"
+          },
+          {
+            "id": 3550,
+            "title": "Grants Received - 2023-24",
+            "pdf": "/pdfs/Grants_Received_23_24_b0bbef8cf9.pdf"
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "TabName": "Academic Collaborations",
+        "Documents": [
+          {
+            "id": 3551,
+            "title": "Memorandum of Understandings - 2025 - 26",
+            "pdf": "/pdfs/Memorandum_of_Understandings_2025_26_1d12e5435e.pdf"
+          },
+          {
+            "id": 3552,
+            "title": "Memorandum of Understandings - 2024 - 25",
+            "pdf": "/pdfs/Memorandum_of_Understandings_2024_25_5e547b1d83.pdf"
+          },
+          {
+            "id": 3553,
+            "title": "Memorandum of Understandings - 2023 - 24",
+            "pdf": "/pdfs/Memorandum_of_Understandings_2023_24_493c5b73f7.pdf"
+          }
+        ]
+      },
+      {
+        "id": 403,
+        "TabName": "Guest Talks",
+        "Documents": [
+          {
+            "id": 3554,
+            "title": "Managing IPR in higher Education Institutions (25-11-2025)",
+            "pdf": "/pdfs/Managing_IPR_in_higher_Education_Institutions_25_11_2025_d3195b5e4e.pdf"
+          },
+          {
+            "id": 3555,
+            "title": "Practical Application of Audit in the Real World (13-11-2025)",
+            "pdf": "/pdfs/Practical_Application_of_Audit_in_the_Real_World_13_11_2025_63bfece470.pdf"
+          },
+          {
+            "id": 3556,
+            "title": "Cyber Security in Gen-Z Era (11-10-2025)",
+            "pdf": "/pdfs/Cyber_Security_in_Gen_Z_Era_11_10_2025_af921f2b31.pdf"
+          },
+          {
+            "id": 3557,
+            "title": "Quality Assurance and Continuous improvement: Strategies for competitive advantage (07-10-2025)",
+            "pdf": "/pdfs/Quality_Assurance_and_Continuous_improvement_Strategies_for_competitive_advantage_07_10_2025_ddab70fe06.pdf"
+          },
+          {
+            "id": 3558,
+            "title": "Understanding Insurance Services: Safeguarding Financial Future (18-09-2025)",
+            "pdf": "/pdfs/Understanding_Insurance_Services_Safeguarding_Financial_Future_18_09_2025_68830a80c6.pdf"
+          },
+          {
+            "id": 3559,
+            "title": "Beyond the Classroom: Building Skills, Careers & Character in UG (16-09-2025)",
+            "pdf": "/pdfs/Beyond_the_Classroom_Building_Skills_Careers_and_Character_in_UG_16_09_2025_554c4e4a93.pdf"
+          },
+          {
+            "id": 3560,
+            "title": "Mental Health Awareness for understanding and supporting wellbeing (04-09-2025)",
+            "pdf": "/pdfs/Mental_Health_Awareness_for_understanding_and_supporting_wellbeing_04_09_2025_cd58a842e1.pdf"
+          },
+          {
+            "id": 3561,
+            "title": "Leveraging Social Media Platforms for Professional Growth Programme (03-09-2025)",
+            "pdf": "/pdfs/Leveraging_Social_Media_Platforms_for_Professional_Growth_Programme_03_09_2025_300802f868.pdf"
+          },
+          {
+            "id": 3562,
+            "title": "Protection of Women from Domestic Violence Act, 2025 Empowering Women, Ensuring Justice (29-08-2025)",
+            "pdf": "/pdfs/Protection_of_Women_from_Domestic_Violence_Act_2025_Empowering_Women_Ensuring_Justice_29_08_2025_4cd8da4959.pdf"
+          },
+          {
+            "id": 3563,
+            "title": "Avirata 3.0 (25-08-2025 to 15-09-2025)",
+            "pdf": "/pdfs/Avirata_3_0_25_08_2025_to_15_09_2025_dd6435cd6f.pdf"
+          },
+          {
+            "id": 3564,
+            "title": "The Future of Work: Skills that matter beyond your Skills (14-08-2025)",
+            "pdf": "/pdfs/The_Future_of_Work_Skills_that_matter_beyond_your_Skills_14_08_2025_4e61c6be1b.pdf"
+          },
+          {
+            "id": 3565,
+            "title": "Smart Learning, Smart Career: A Roadmap for Commerce Students (09-04-2025)",
+            "pdf": "/pdfs/Smart_Learning_Smart_Career_A_Roadmap_for_Commerce_Students_09_04_2025_b9609b4180.pdf"
+          },
+          {
+            "id": 3566,
+            "title": "Development of Mathematics in India (23-03-2025)",
+            "pdf": "/pdfs/Development_of_Mathematics_in_India_23_03_2025_6c2cfad9cc.pdf"
+          },
+          {
+            "id": 3567,
+            "title": "Reshaping Corporate Finances for Stability & Growth in Internal Reconstruction (21-03-2025)",
+            "pdf": "/pdfs/Reshaping_Corporate_Finances_for_Stability_and_Growth_in_Internal_Reconstruction_21_03_2025_3af4e2f374.pdf"
+          },
+          {
+            "id": 3568,
+            "title": "Approach for Software Development and Maintenance (08-03-2025)",
+            "pdf": "/pdfs/Approach_for_software_Development_and_Maintenance_08_03_2025_e72d4f8317.pdf"
+          },
+          {
+            "id": 3569,
+            "title": "Introduction to AI in HR Practices (06-03-2025)",
+            "pdf": "/pdfs/Introduction_to_AI_in_HR_Practices_06_03_2025_e313f79cca.pdf"
+          },
+          {
+            "id": 3570,
+            "title": "India's contribution to global science -National Science Day (28-02-2025)",
+            "pdf": "/pdfs/India_s_contribution_to_global_science_National_Science_Day_28_02_2025_a619357d7b.pdf"
+          },
+          {
+            "id": 3571,
+            "title": "IPR Basics: Protecting Innovation & Creativity (13-02-2025)",
+            "pdf": "/pdfs/IPR_Basics_Protecting_Innovation_and_Creativity_13_02_2025_cd296aa1c0.pdf"
+          },
+          {
+            "id": 3572,
+            "title": "Corporate Tax Planning and Decisions: Strategies for Sustainable Growth  (25-01-2025)",
+            "pdf": "/pdfs/Corporate_Tax_Planning_and_Decisions_Strategies_for_Sustainable_Growth_25_01_2025_b7523d5498.pdf"
+          },
+          {
+            "id": 3573,
+            "title": "Programming for Everybody (01-08-2024)",
+            "pdf": "/pdfs/Programming_for_Everybody_01_08_2024_29845964d0.pdf"
+          },
+          {
+            "id": 3574,
+            "title": "Why and What all should be conserve ? Hidden Elements of Nature that Support Human Survival (12.12.2023)",
+            "pdf": "/pdfs/1_What_all_should_we_conserve_Hidden_elemnts_c3ae24477f.pdf"
+          },
+          {
+            "id": 3575,
+            "title": "Career and Growth in IT Service Management (09-12-2023)",
+            "pdf": "/pdfs/2_Guest_Talk_on_Career_and_IT_Growth_7717f756e4.pdf"
+          },
+          {
+            "id": 3576,
+            "title": "Industrialisation and Its Impact on Environment and Society (07.12.2023)",
+            "pdf": "/pdfs/3_Industrialization_Pollution_Control_Boa_RD_bb6fe91168.pdf"
+          },
+          {
+            "id": 3577,
+            "title": "Higher Education in Abroad (29-11-2023)",
+            "pdf": "/pdfs/4_Higher_Education_in_Abroad_8996956f4f.pdf"
+          },
+          {
+            "id": 3578,
+            "title": "Motivational Session by Start-up Founder | Ms. Aruna Diwakar (27.11.2023)",
+            "pdf": "/pdfs/5_National_Entreprenuership_Day_Celebration_Final_Report_a7f0aa5c99.pdf"
+          },
+          {
+            "id": 3579,
+            "title": "Current Industrial Trends (07.11.2023)",
+            "pdf": "/pdfs/6_Current_Industrial_Trends_d69c611d73.pdf"
+          },
+          {
+            "id": 3580,
+            "title": "Live Equity Markets: Why, How and What? (12.10.2023)",
+            "pdf": "/pdfs/7_My_story_Motivational_Session_by_Suceessful_Innovators_fff7eb8ba8.pdf"
+          },
+          {
+            "id": 3581,
+            "title": "Research Opportunities in Nano Technology (02.06.2023)",
+            "pdf": "/pdfs/12_Research_Opportunities_in_Nano_Technology_c9fe2da372.pdf"
+          },
+          {
+            "id": 3582,
+            "title": "Banking Operations (27.05.2023)",
+            "pdf": "/pdfs/13_Guest_talk_on_Banking_Operations_1a4a4396fa.pdf"
+          },
+          {
+            "id": 3583,
+            "title": "Process of Innovation development, technology readiness level (24.02.2023)",
+            "pdf": "/pdfs/14_Process_of_Innovation_development_technology_readiness_level_1ce36ded73.pdf"
+          },
+          {
+            "id": 3584,
+            "title": "Basics of Accounting skills for Non-Commerce students (02.12.2022)",
+            "pdf": "/pdfs/19_Basics_of_Accounting_skills_for_Non_Commerce_students_0d08196976.pdf"
+          },
+          {
+            "id": 3585,
+            "title": "Overview of Japanese Culture and International Opportunities for CANSAT (22.11.2022)",
+            "pdf": "/pdfs/20_A_talk_on_Overview_of_Japanese_Culture_and_International_Opportunities_for_CANSAT_8b6029698f.pdf"
+          },
+          {
+            "id": 3586,
+            "title": "Introduction to IPR, Patent Industry Design, Trademark (19.11.2022)",
+            "pdf": "/pdfs/21_Introduction_to_IPR_Patent_Industry_Design_Trademark_93a1764673.pdf"
+          },
+          {
+            "id": 3587,
+            "title": "Implementation of Institute Innovation Council in Higher Education Institution (20.10.2022)",
+            "pdf": "/pdfs/22_Guest_Talk_on_Implementation_of_Institute_Innovation_Council_in_Higher_Education_Institution_681d05e232.pdf"
+          },
+          {
+            "id": 3588,
+            "title": "Innovation in Technology (18.10.2022)",
+            "pdf": "/pdfs/24_Celebration_of_National_Innovation_Day_Guest_Talk_on_Innovation_in_Technology_a8f098c2c1.pdf"
+          },
+          {
+            "id": 3589,
+            "title": "Application of Accounting Standard in the real world of Business (6-9-2022)",
+            "pdf": "/pdfs/25_Application_of_Accounting_Standard_in_the_real_world_of_Business_66a9a285a1.pdf"
+          },
+          {
+            "id": 3590,
+            "title": "Business Taxation (3.9.2022)",
+            "pdf": "/pdfs/26_Guest_talk_on_Business_Taxation_8e56fa7b49.pdf"
+          },
+          {
+            "id": 3591,
+            "title": "Financial Planning (30.7.2022)",
+            "pdf": "/pdfs/27_Financial_Planning_f3e59e8b62.pdf"
+          },
+          {
+            "id": 3592,
+            "title": "Calculation and Confusion (24.06.2022)",
+            "pdf": "/pdfs/28_Guest_talk_on_Calculation_Confusion_45f20df04d.pdf"
+          },
+          {
+            "id": 3593,
+            "title": "Entrepreneurship Journey: Session 1 (9.3.2022)",
+            "pdf": "/pdfs/31_Session_1_Enterpreneurship_Journey_95175e2592.pdf"
+          },
+          {
+            "id": 3594,
+            "title": "Entrepreneurship Journey: Session 2 (16.3.2022)",
+            "pdf": "/pdfs/30_Session_2_Enterpreneurship_Journe_50b9d3a369.pdf"
+          },
+          {
+            "id": 3595,
+            "title": "Inspirational Tale of Two Scientists CV Ramana and Marie Curie (17.12.2021)",
+            "pdf": "/pdfs/36_A_Guest_Talk_on_Inspirational_Tale_of_Two_Scientists_5cf67746b7.pdf"
+          },
+          {
+            "id": 3596,
+            "title": "Article – 370 (11.9.2019)",
+            "pdf": "/pdfs/49_Guest_talk_on_Article_370_9402e5b603.pdf"
+          }
+        ]
+      },
+      {
+        "id": 404,
+        "TabName": "Workshops",
+        "Documents": [
+          {
+            "id": 3597,
+            "title": "Corporate Etiquette Essentials for Future Leaders (13-10-2025)",
+            "pdf": "/pdfs/Corporate_Etiquette_Essentials_for_Future_Leaders_13_10_2025_31b646c3f3.pdf"
+          },
+          {
+            "id": 3598,
+            "title": "Decoding Share Prices A Technical Analysis Approach (28-03-2025)",
+            "pdf": "/pdfs/Decoding_Share_Prices_A_Technical_Analysis_Approach_28_03_2025_72217ff12c.pdf"
+          },
+          {
+            "id": 3599,
+            "title": "Importance of IPR in Academics (23-10-2024)",
+            "pdf": "/pdfs/Importance_of_IPR_in_Academics_23_10_2024_4a33b6afe4.pdf"
+          },
+          {
+            "id": 3600,
+            "title": "Supply Chain Management Bridging Theory and Practice (21-10-2024)",
+            "pdf": "/pdfs/Supply_Chain_Management_Bridging_Theory_and_Practice_21_10_2024_aac5784bf0.pdf"
+          },
+          {
+            "id": 3601,
+            "title": "Demystifying the stock Prices using Candle stick Charts (30-04-2024)",
+            "pdf": "/pdfs/Demystifying_the_stock_Prices_using_Candle_stick_Charts_30_04_2024_a3e9eff50b.pdf"
+          },
+          {
+            "id": 3602,
+            "title": "Communication Skill Development (04.10.2023)",
+            "pdf": "/pdfs/8_Workshop_on_Communication_Development_Skill_cc37d0fd0e.pdf"
+          },
+          {
+            "id": 3603,
+            "title": "Mergers and Acquisition (26.06.2023)",
+            "pdf": "/pdfs/10_Workshop_on_Mergers_and_Aqusitition_dc74e8b7ca.pdf"
+          },
+          {
+            "id": 3604,
+            "title": "Scientific Writing Made Easy (17.06.2023)",
+            "pdf": "/pdfs/11_Scientific_writing_Made_easy_a4f69c9c64.pdf"
+          },
+          {
+            "id": 3605,
+            "title": " Immortal Mathematics (11.02.2023)",
+            "pdf": "/pdfs/15_Immortal_of_Mathematics_Essence_of_Mathematics_on_Graduate_Level_f59258b4bb.pdf"
+          },
+          {
+            "id": 3606,
+            "title": "Entrepreneurship Outreach Programme (09.01.2023)",
+            "pdf": "/pdfs/17_Entreprenership_Outreach_Program_1155c025b9.pdf"
+          },
+          {
+            "id": 3607,
+            "title": "Personality Development (Disha Bharath) (19.12.2022)",
+            "pdf": "/pdfs/18_Workshop_on_Personality_Development_Disha_Bharath_8e43ea07c2.pdf"
+          },
+          {
+            "id": 3608,
+            "title": "Problem Solving and Ideation (20.10.2022)",
+            "pdf": "/pdfs/23_Problem_Solving_and_ideation_workshop_a2940eb565.pdf"
+          },
+          {
+            "id": 3609,
+            "title": "Human Process Laboratory (23.06.2022)",
+            "pdf": "/pdfs/29_Human_Process_Laboratory_407f13d05d.pdf"
+          },
+          {
+            "id": 3610,
+            "title": "Practical use of IND AS in today’s World (24.12.2021)",
+            "pdf": "/pdfs/34_Practical_use_of_IND_AS_in_todays_World_7a20277e70.pdf"
+          },
+          {
+            "id": 3611,
+            "title": "Human Process Laboratory (21.12.2021)",
+            "pdf": null
+          },
+          {
+            "id": 3612,
+            "title": "National Education Policy 2020 (08.10.2021)",
+            "pdf": "/pdfs/37_Workshop_on_National_Education_Policy_2020_4dc6b8807d.pdf"
+          },
+          {
+            "id": 3613,
+            "title": "An Interactive Design Approach To Web Development (03.05.2021)",
+            "pdf": "/pdfs/45_An_interactive_Design_Approach_to_web_development_809b69ac90.pdf"
+          },
+          {
+            "id": 3614,
+            "title": "Reading Financial Statement (15-10-2019)",
+            "pdf": "/pdfs/46_Reading_Financial_Statement_10164a8c0e.pdf"
+          },
+          {
+            "id": 3615,
+            "title": "Human Process Laboratory (03.09.2019)",
+            "pdf": "/pdfs/50_Human_Process_Laboratory_2019_07f691834a.pdf"
+          },
+          {
+            "id": 3616,
+            "title": "GST (13-08-2019)",
+            "pdf": "/pdfs/51_Workshop_on_GST_495fa5fa3d.pdf"
+          }
+        ]
+      },
+      {
+        "id": 405,
+        "TabName": "Seminars",
+        "Documents": [
+          {
+            "id": 3617,
+            "title": " Digital Fluency (18.02.2022)",
+            "pdf": "/pdfs/32_Seminar_on_Digital_Fluency_d5acfc3850.pdf"
+          },
+          {
+            "id": 3618,
+            "title": "National Mathematics Day (24.12.2021)",
+            "pdf": "/pdfs/33_National_Mathematics_Day_2020_21_70aac1c5f4.pdf"
+          },
+          {
+            "id": 3619,
+            "title": "National Technology Day (11.05.2021)",
+            "pdf": "/pdfs/43_National_Technology_Day_978d794dc7.pdf"
+          },
+          {
+            "id": 3620,
+            "title": "Online Business Session (11-09-2019)",
+            "pdf": "/pdfs/48_Online_Business_Session_962027bb04.pdf"
+          }
+        ]
+      },
+      {
+        "id": 406,
+        "TabName": "Webinars",
+        "Documents": [
+          {
+            "id": 3621,
+            "title": "Unleash Your Potential through effective Financial Management (28.09.2021)",
+            "pdf": "/pdfs/38_Webinar_on_Unleash_Your_Potential_through_effective_Financial_Management_16f7eb0967.pdf"
+          },
+          {
+            "id": 3622,
+            "title": "Principles of Internet of Things (04.06.2021)",
+            "pdf": "/pdfs/39_Principals_of_Io_Ts_8948eecf67.pdf"
+          },
+          {
+            "id": 3623,
+            "title": "Quantum Mechanics (28.05.2021)",
+            "pdf": "/pdfs/40_Webinar_on_Quantum_Mechanics_e7a7081f1b.pdf"
+          },
+          {
+            "id": 3624,
+            "title": "Start-up Mantras for Educators Through Effective Research and Innovation (26.05.2021)",
+            "pdf": "/pdfs/41_Webinar_on_Start_up_Mantras_for_Educators_Through_Effective_research_and_Innovation_94c53ce549.pdf"
+          },
+          {
+            "id": 3625,
+            "title": "National Technology Day (11.05.2021)",
+            "pdf": "/pdfs/43_National_Technology_Day_34ff4262a7.pdf"
+          },
+          {
+            "id": 3626,
+            "title": "Trends in Big Data (07.05.2021)",
+            "pdf": "/pdfs/44_Webinar_on_Trends_in_Big_Data_194470a6b7.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "Policies_And_Composition": {
+    "id": 152,
+    "title": "Policies and Composition",
+    "description": "Stay updated with the Policy and Compositions ",
+    "DocumentTitle1": "View Policy",
+    "DocumentTitle2": "View Composition",
+    "image": "/images/policy_48a909e37a.png",
+    "Document1": null,
+    "Document2": "/pdfs/Research_Cell_47022499aa.pdf"
+  },
+  "Publications": {
+    "id": 43,
+    "title": "Publications",
+    "TabSections": [
+      {
+        "id": 85,
+        "TabName": "Conference Proceedings",
+        "Descriptions": [
+          "Suresha N contributed the paper “Kannada Sahithyakke Tatvapadakarara Koduge” to the Bhasha Sampada publication in 2023. | ISBN: 2978-81-959235-2-6.",
+          "Shobha authored the work “Thatvapadagalu Mattu Allamaprabhu” in Bhasha Sampada, 2023. | ISBN: 978-81-959235-2-6",
+          "Ambareesh A contributed the paper “Kaivara Tathayyanavaru Tathvapadagalalli Jathi Kandane” to the Bhasha Sampada publication in 2023. | ISBN: 978-81-959235-2-6.",
+          "Lakshmidevi N K authored the work “Tathvaopadakara Nijaguna Shivayogi Guru Parampare” in Bhasha Sampada, 2023. | ISBN: 978-81-959235-2-6.",
+          "Lakshmidevi N authored the work “Kadikola Madivalappanavara Tathvapadagalli Nythika Chintanegalu” in Bhasha Sampada, 2023. | ISBN: 978-81-959235-2-6.",
+          "Meena C contributed the paper “She Covery-Reversing Pandemic Effects Through Women Entrepreneurship” to the publication From Industry 4.0 to Industry 5.0 in 2023. | \nOnline ISBN: 978-3-031-28314-7 \nPrint ISBN: 978-3-031-28313-0.",
+          "Ambareesh A authored the work “Vachanagalu Mattu Tripadigala Thoulanika Adyayana” in Sarvagnana Vachanagalu: Bahushistiya Ayamagalu, 2023. | ISBN: 978-81-956259-0-1.",
+          "Anjala Joseph contributed the paper “A plot of feminist to her position through the film mehandi” to the Bhasha Sampada  publication in 2023. | ISBN: 978-81-959235-1-9.",
+          "Srujala R authored the work “Animal folktales become mirrors of human society” in Bhasha Sampada, 2023. | ISBN: 978-81-959235-1-9.",
+          "Sudhamba N wrote significance of Virginia Woolf's 'A room of one's own' in Bhasha Sampada, 2023. | ISBN: 978-81-959235-1-9.",
+          "Sumitra N M presented “An Analysis of Mahashwetha Devi's Rudali” in Bhasha Sampada, 2023. | ISBN: 978-81-959235-1-9.",
+          "Ajith S authored the work “Artificial Intelligence: The Catalyst Revitalizing Small Enterprises in India's Post-Covid Era” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Kiran Kumar T N contributed to the paper “Artificial Intelligence: The Catalyst Revitalizing Small Enterprises in India's Post-Covid Era” to the publication proceedings of Sustainability of Small Enterprises of India in Post Covid Era in 2023. | ISBN: 978-81-959235-7-1.",
+          "Girish Kumar H V presented “Artificial Intelligence: The Catalyst Revitalizing Small Enterprises in India's Post-Covid Era” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Lakshmi A L authored the work “Artificial Intelligence: The Catalyst Revitalizing Small Enterprises in India's Post-Covid Era” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Kiran Kumar T N contributed the paper “A Conceptual Exploration Of Government - Industry Collaborations in India: Fostering Resilience in Small Enterprises Post - Covid” to the publication Proceedings of Sustainability of Small Enterprises of India in Post Covid Era in 2023. | ISBN: 978-81-959235-7-1.",
+          "Girish Kumar H V authored the work “A Conceptual Exploration Of Government - Industry Collaborations in India: Fostering Resilience in Small Enterprises Post - Covid” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1",
+          "Geetha S R presented “A Conceptual Exploration Of Government - Industry Collaborations in India: Fostering Resilience in Small Enterprises Post - Covid” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          " Rashmi Prakash wrote “HR Angle for SME's” in Proceedings of Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "V Chandrashekar Rao authored the paper “Significance of Resource Management strategies for Micro and Small Enterprises in the Post Covid Period” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Dr. Abraham Varughees contributed the paper “Scope of Environment Management System in Managing Green Consumerism in Companies in the Post Covid period” to the publication Proceedings of Sustainability of Small Enterprises of India in Post Covid Era in 2023. | ISBN: 978-81-959235-7-1.",
+          "Lokesh Y R authored “Green Consumerism: Effect of Planned Behaviour and Customer Commitment on Purchase decision of Indian Urban Consumers with respect to Bengaluru” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Rakshith Gowda presented “Fossil Fuel Price Hike:Effects and survival strategies of small enterprises in India: An Analysis” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Triveni Narasimhaiah contributed the paper “Triveni Narasimhaiah” to the publication Proceedings of Sustainability of Small Enterprises of India in Post Covid Era in 2023. | ISBN: 978-81-959235-7-1.",
+          " Meena C authored “Reviving Personal Ethos: Role of Self Help Groups in Reshaping Rural Women in India” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Kavitha C presented “Reviving Personal Ethos: Role of Self Help Groups in Reshaping Rural Women in India” in Sustainability of Small Enterprises of India in Post Covid Era, 2023. | ISBN: 978-81-959235-7-1.",
+          "Nagaraja L K contributed the paper “Masstige Marketing: Does the Pay Later Facilities Influence Purchase of Prestige Mobile Brands: A Case Study” to the publication Proceedings of Sustainability of Small Enterprises of India in Post Covid Era in 2023. | ISBN: 978-81-959235-7-1.",
+          "Geetha S R authored the book “Business Leardership Skills” in 2023. | ISBN: 978-93-5540-393-3.",
+          "Geetha S R wrote “A Study on Green Banking - An Initiative taken by Private State Sector Bank” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Bindhu N presented “A Study On Role On Grama One sector in creating enterpreneurship opportunity in rural area” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Navya Lakshmi N authored the work “A Study On Role On Grama One sector in creating enterpreneurship opportunity in rural area” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Nagveeeni M contributed the paper “Problems and prospective of Women Entrepreneurship in Economic Development” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2",
+          "Deepika B N authored the work “A study on the disclouser of corporate social responsibility” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Latha K S contributed the paper “A study on the disclouser of corporate social responsibility” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Nagveeeni M authored the work “A study on implication of moon lighting practice with respect to worklife balance in IT sector in India” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Dr. Anandamma N contributed the paper “A study on the relation ship between Employee Well -Being and Employee Engagement” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Kavitha C authored the work “A study on the relation ship between Employee Well -Being and Employee Engagement” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Kusuma S contributed the paper “A study on the relation ship between Employee Well -Being and Employee Engagement” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Meena C authored the work “Halfway Out Faculty Attrition at Higher Educational Institutions” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Prathyusha H contributed the paper “A Study on Green Banking - An Initiative taken by Private State Sector Bank” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Aruna authored the work “An Impact of Digital Financial Services in Educational Institutions at Bangalore Rural Area” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Navya Lakshmi N contributed the paper “An Impact of Digital Financial Services in Educational Institutions at Bangalore Rural Area” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Bindhu N authored the work “An Impact of Digital Financial Services in Educational Institutions at Bangalore Rural Area” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Kavitha C contributed the paper “An Impact of Digital Financial Services in Educational Institutions at Bangalore Rural Area” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Dr. Anandamma N authored the work “Indian Banking Sector and GST: Issues and Challenges in Chikkaballapura Town” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Meena C contributed the paper “Indian Banking Sector and GST: Issues and Challenges in Chikkaballapura Town” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Dr.S Balaji Naik authored the work “Indian Banking Sector and GST: Issues and Challenges in Chikkaballapura Town” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Girish Kumar H V contributed the paper “Cash Management” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Kiran Kumar T N authored the work “Cash Management” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Srinivas P contributed the paper “Cash Management” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Savitha G authored the work “A Study on Role of Women Employee in Balancing Work Life Conflicts” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Deepika B N contributed the paper “A Study on Role of Women Employee in Balancing Work Life Conflicts” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Kiran Kumar T N authored the work “Individual Resistance to Organizational Change and Development Process, When it Appears as an Unplanned Change after Covid -19” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Dr. Anandamma N contributed the paper “Individual Resistance to Organizational Change and Development Process, When it Appears as an Unplanned Change after Covid -19” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Girish Kumar H V authored the work “Individual Resistance to Organizational Change and Development Process, When it Appears as an Unplanned Change after Covid -19” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Meena C contributed the paper “A Study on IFRS and its Impact on Value Relevance of Listed Companies” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Nityananda Patil authored the work “A Study of Luxury Brand Marketing Effectiveness and its Impact on Consumer Engagement on Social Media” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Kiran Kumar T N contributed the paper “A Decentralized Platform: Peer-To-Peer Business Model in India” to the publication Re-discoverng Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          "Girish Kumar H V authored the work “A Decentralized Platform: Peer-To-Peer Business Model in India” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Ajith S contributed the paper “A Decentralized Platform: Peer-To-Peer Business Model in India” to the publication National Conference on Emerging Trends, Innovations & Applications in Science & Technology in 2023. | ISBN: 978-81-959235-0-2.",
+          "Girish Kumar H V authored the work “A Study on Impact of Artifical Intelligence in Digital Marketing” in Re-discoverng Business Practices Post Covid - 19, 2023. | ISBN: 978-81-959235-0-2.",
+          "Bindhu N contributed the paper “A empirical study on customer satisfaction towards hospitality industry with reference to Chikkballapura” to the publication Contemporary Trends in Commerce & Management in 2023. | ISBN: 978-81-959235-0-2.",
+          "Navya Lakshmi N contributed the paper “A empirical study on customer satisfaction towards hospitality industry with reference to Chikkballapura” to the publication Re-discovering Business Practices Post Covid - 19 in 2023. | ISBN: 978-81-959235-0-2.",
+          " Bindhu N contributed the paper “A Study on Impact of Digital Banking on Consumer Spending” to the publication Strategies & Challenges in Higher Education in India in 2023. | ISBN: 978-93-6046-330-1."
+        ]
+      },
+      {
+        "id": 86,
+        "TabName": "Journals",
+        "Descriptions": [
+          "Human Resource Accounting (HRA): A New Paradigm in the field of Educational Institutions | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - Samdarshi - 2022-23 - 2581-3986",
+          "Silk fibroin-based green colloidal silver nanoparticle synthesis and their antibacterial and anticancer properties | Author & Department - Dr. Shivananda C S, Physics | Journal / Year / ISSN - Inorganic Chemistry Communications - 2022-23 - 1387-7003",
+          "An analysis on the Perceptions of NRIS on Investment in Real Estate | Author & Department - Kiran Kumar T N, Commerce and Management, Journal / Year / ISSN - Journal of Oriental Institute - 2022-23 - 0030-5324",
+          "Alternative Investment in India: Trends, Challenges and Future Outlook | Author & Department - Kiran Kumar T N, Commerce and Management | Journal / Year / ISSN - Empirical Economics Letters - 2022-23 - 1681-8997",
+          "Sustainability of SMEs in the era of competition | Author & Department - Girish Kumar H V & Kiran Kumar T N, Commerce and Management | Journal / Year / ISSN - Empirical Economics Letters - 2022-23 - 1681-8997",
+          "A Study on factors affecting sustainability of SME's in Bangalore | Author & Department - Girish Kumar H V, Commerce and Management | Journal / Year / ISSN - Journal of Tianjin University Science and Technology - 2022-23 - 0493-213",
+          "An analysis of impact of human resource accounting in educational institutions | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - Shodha Prabha - 2022-23 - 0974-8946",
+          "Kuvempuravara Vicharikatheyalli Vishwamanava Pragne | Author & Department - Lakshmidevi N, Kannada | Journal / Year / ISSN - International Journal of Scientific and Innovative Research Studies - 2022-23 - (Print) 2347-7660, (Online) 2454-1818",
+          "Optimising talent capital: importance of Human resource accounting in small Enterprises | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - Boletín de literatura oral - 2022-23 - 2173-0695",
+          "Role of Appraisal System in Organisational Development | Author & Department - Savitha G & Thanushree B V, Commerce and Management | Journal / Year / ISSN - JAC: A Journal Of Composition Theory - 2019-20 - 0731-6755",
+          "A Study on Human Resource Accounting (HRA) A New Paradigm in the Field of Accounting by Considering Human Resource as an Asset of an Organization | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - International Journal in Management and Social Science - 2018-19 - 2321-1784",
+          "Factors Influencing Human Resource Accounting In an Educational Institution for the Development of the Students | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - International Journal in Commerce, IT and Social Sciences - 2018-19 - 239-5702",
+          "A Study on An Employee Diversity and Inclusion in a Higher Educational Institution | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - International Journal in Engineering & Technology - 2018-19 - 2227-524X",
+          "A Study on Impact of Re-Engineering for the Development of Human Resource in An Organization | Author & Department - Kavitha C, Commerce and Management | Journal / Year / ISSN - DBJC Journal of Business Research - 2018-19 - 2248-911",
+          "Mahile mattu Moudyathe | Author & Department - Lakshmidevi N, Kannada | Journal / Year / ISSN - International Journal of Academic Research - 2018-19 - 2348-7666"
+        ]
+      }
+    ]
+  }
+}

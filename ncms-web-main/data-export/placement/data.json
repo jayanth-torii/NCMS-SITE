@@ -1,0 +1,161 @@
+{
+  "banner": {
+    "title": "Placements",
+    "image": "/images/placement_banner_a29508cee4.png"
+  },
+  "knowledgePartners": {
+    "title": "Meet our Knowledge Partners",
+    "description": null,
+    "partners": [
+      "/images/glimpse1_6579079443.png",
+      "/images/glimpse2_18b359a547.png",
+      "/images/glimpse3_25ac6f13c1.png",
+      "/images/glimpse4_a03bd6b536.png",
+      "/images/glimpse5_f24f2c2a8a.png",
+      "/images/glimpse6_bafcaf002a.png",
+      "/images/glimpse7_62cb114dbb.png"
+    ]
+  },
+  "aboutVisionMission": [
+    {
+      "about": {
+        "title": "Welcome to Placements",
+        "descriptions": [
+          "Training & Placement Department has an important role to play in a student’s future and is an indispensable pillar of the institute. This cell continuously strives to help students in pursuing their career goals by acquiring employment-seeking skills and ultimately to attain desired employment. This is accomplished through building a strong partnership amongst students, alumni, faculty members, and industries.\n\nThe benefits of this assistance are reflected in the preparation of students who were able to secure lucrative and esteemed positions in recent years. The training & placement department operates year-round to facilitate contacts between companies and graduates. The department is available to respond to student concerns of all kinds pertaining to their career. The aim is to ensure that students have the information and skills necessary for an effective job search.\n\nWe have a well-structured and vibrant training and placement department functioning with a clear objective to help students in the best possible way to fulfill their career aspirations. The placement office is well-equipped to smoothly handle and support various training and placement-related activities."
+        ]
+      },
+      "visionMission": {
+        "title": "Vision and Mission",
+        "sections": [
+          {
+            "title": "Vision",
+            "description": "To bridge the gap between the industry and academia in the process, make students industry ready with the knowledge, skill sets and humility for success.",
+            "points": []
+          },
+          {
+            "title": "Mission",
+            "description": "To make the vision statement possible:\n",
+            "points": [
+              "Design, deliver and nurture the relevant curriculum to the students in partnership with the industry and the knowledge partners from day one of on boarding the students.\n",
+              "Make students industry ready through an exposure to the industry and its demands through initiation of knowledge clubs and activities, industry expert talks and walks, research work, mentorship, guest lectures, internships, project work, alumni speaks and other related activities."
+            ]
+          }
+        ]
+      },
+      "accordion": [
+        {
+          "title": "Objectives",
+          "points": [
+            "To enhance the employability skills of students by arranging various skill based training programs and workshops.\n",
+            "Assist students to develop and implement successful job search strategies.\n",
+            "To facilitate the process of internships and placement.\n",
+            "Providing resources and activities to facilitate the career-planning process.\n",
+            "To interact and strengthen relationships with potential and existing recruiters.\n",
+            "Act as an interface among students, alumni and the employment community."
+          ]
+        }
+      ]
+    }
+  ],
+  "recruttingPartners": [
+    {
+      "title": "Unnati",
+      "image": "/images/recruting_Partners1_64cae599e7.png"
+    },
+    {
+      "title": "Digital Academy",
+      "image": "/images/recruting_Partners2_c95e0bc82d.png"
+    },
+    {
+      "title": "Mahindra Home Finance",
+      "image": "/images/recruting_Partners3_b833fb2463.png"
+    },
+    {
+      "title": "TCS",
+      "image": "/images/recruting_Partners4_a5525373a4.png"
+    },
+    {
+      "title": "Terrapay",
+      "image": "/images/recruting_Partners5_bb60ab4309.png"
+    },
+    {
+      "title": "EpicMinds",
+      "image": "/images/recruting_Partners6_8c5a30a4b3.png"
+    },
+    {
+      "title": "Jumbotail",
+      "image": "/images/recruting_Partners7_3f6496cee5.png"
+    },
+    {
+      "title": "DXC Technology",
+      "image": "/images/recruting_Partners8_4202c07d7f.png"
+    },
+    {
+      "title": "Dufry",
+      "image": "/images/recruting_Partners9_820bdc8f18.png"
+    },
+    {
+      "title": "Kasmo",
+      "image": "/images/recruting_Partners10_0ac06684f1.png"
+    },
+    {
+      "title": "Kotak",
+      "image": "/images/recruting_Partners11_2e72ebdfc4.png"
+    },
+    {
+      "title": "Shadowfax",
+      "image": "/images/recruting_Partners12_849958d6e0.png"
+    }
+  ],
+  "collaboration": {
+    "title": "Our Collaboration",
+    "images": [
+      "/images/ourcollaboration1_842b5f047c.png",
+      "/images/ourcollaboration2_d011742dfe.png",
+      "/images/ourcollaboration3_04d3e37e9f.png",
+      "/images/ourcollaboration4_9b90f1c06c.png",
+      "/images/ourcollaboration5_e5bbb33694.png",
+      "/images/ourcollaboration6_837e3e7b91.png",
+      "/images/ourcollaboration7_584dd075ba.png",
+      "/images/ourcollaboration8_2040db2942.png"
+    ]
+  },
+  "activities": {
+    "title": "Activities",
+    "sections": [
+      {
+        "title": "Placement Activities",
+        "descriptions": [
+          "Student Profiling.\n",
+          "Creating new contacts with the recruiters across the region and managing the rapport with the existing recruiters.\n",
+          "Nurturing cordial relationships with the Industries, invite them for Campus recruitment drives, organising industry oriented seminars, workshops and other relevant sessions.\n",
+          "Inviting industry personnel periodically to enrich the knowledge base of students community with the latest innovations and industry practices\n",
+          "Sharing periodic performance updates with the companies\n",
+          "Engaging with assessment and hiring portals to provide a broad spectrum of job opportunities to the students."
+        ]
+      },
+      {
+        "title": "Training Activities",
+        "descriptions": [
+          "Seeking generic and specific information on skills that companies look for in fresh graduates.\n",
+          "Skill-gap identification, training and skill-based grading of students.\n",
+          "Providing campus recruitment training to students.\n",
+          "Providing soft skills/ life skills training to students.\n",
+          "Creating vocational training opportunities specific to the branch of study of the students.\n",
+          "Career guidance for higher education, entrepreneurial, and startup activities.\n",
+          "Corporate relationship for Industry Institution interaction such as enabling Consultancy services, Tech-talk, Project-based learning, Industrial projects, Industry visits etc.\n",
+          "Providing internship opportunities to students.",
+          "Identifying effective and efficient training partners."
+        ]
+      },
+      {
+        "title": "Other Pertinent Activities",
+        "descriptions": [
+          "Creating opportunities to enter into MoU with corporates/ organisations.\n",
+          "Organising company HRs visits as part of networking meanwhile using the platform to create awareness among the students on the trends and changes, prerequisites, expectations of the employers etc.\n",
+          "The Department also maintains symbiotic relationships with other educational institutions/ universities for exchange of information and career opportunities for the students."
+        ]
+      }
+    ]
+  }
+}

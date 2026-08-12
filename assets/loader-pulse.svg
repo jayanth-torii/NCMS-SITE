@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="NCMS pulse loader">
+  <!-- expanding rings -->
+  <circle cx="70" cy="70" r="14" fill="none" stroke="#F6872A" stroke-width="4">
+    <animate attributeName="r" values="14;58" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0.9;0" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="70" cy="70" r="14" fill="none" stroke="#F6872A" stroke-width="4">
+    <animate attributeName="r" values="14;58" dur="2.4s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0.9;0" dur="2.4s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <circle cx="70" cy="70" r="14" fill="none" stroke="#0e2455" stroke-width="4">
+    <animate attributeName="r" values="14;58" dur="2.4s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="opacity" values="0.9;0" dur="2.4s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+
+  <!-- core -->
+  <circle cx="70" cy="70" r="12" fill="#0e2455">
+    <animate attributeName="r" values="10;14;10" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="70" r="5" fill="#F6872A">
+    <animate attributeName="r" values="4;6;4" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

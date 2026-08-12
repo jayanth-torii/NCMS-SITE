@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="NCMS orbit loader">
+  <!-- orbit ring -->
+  <circle cx="70" cy="70" r="46" fill="none" stroke="#0e2455" stroke-width="1.5" opacity="0.25">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- orbiting dot 1 (orange) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 70 70" to="360 70 70" dur="2s" repeatCount="indefinite"/>
+    <circle cx="70" cy="24" r="9" fill="#F6872A">
+      <animate attributeName="opacity" values="1;0.55;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- orbiting dot 2 (navy) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="180 70 70" to="540 70 70" dur="2s" repeatCount="indefinite"/>
+    <circle cx="70" cy="24" r="7" fill="#0e2455">
+      <animate attributeName="opacity" values="1;0.55;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- core -->
+  <circle cx="70" cy="70" r="11" fill="#0e2455">
+    <animate attributeName="r" values="9;13;9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="70" r="4.5" fill="#F6872A">
+    <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

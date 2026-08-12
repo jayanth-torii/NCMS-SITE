@@ -1,0 +1,264 @@
+{
+  "id": 1,
+  "documentId": "axat87u4locaj0dk77wpg8c2",
+  "createdAt": "2025-06-25T05:16:15.009Z",
+  "updatedAt": "2025-11-24T06:12:47.229Z",
+  "publishedAt": "2025-11-24T06:12:46.695Z",
+  "banner": {
+    "id": 1,
+    "location": "https://www.google.com/maps/place/Nagarjuna+College+of+Management+Studies/@13.352492,77.728078,15z/data=!4m6!3m5!1s0x3bb1ef0cae80db87:0xed7cec0dda7e1c1f!8m2!3d13.3524923!4d77.7280784!16s%2Fg%2F11h27zm47w?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxMC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+    "slides": [
+      {
+        "id": 1,
+        "heading": "Embracing The Power Of Education",
+        "description": "Bringing technology and education together for a better future.",
+        "bgImage": "/images/home_banner1_6ad1ddd2d3.png"
+      },
+      {
+        "id": 2,
+        "heading": "Global Opportunities",
+        "description": "Opening doors to worldwide learning and collaboration.",
+        "bgImage": "/images/home_banner3_1017457b11.jpg"
+      },
+      {
+        "id": 3,
+        "heading": "Expanding Horizons",
+        "description": "Empowering students with global knowledge and skills.",
+        "bgImage": "/images/Website_Hero_NCMS_45ce0bb128.png"
+      },
+      {
+        "id": 4,
+        "heading": "Empowering Students With Skills",
+        "description": "Opening doors to worldwide learning and collaboration.",
+        "bgImage": "/images/home_banner22_137a08dc00.jpg"
+      }
+    ]
+  },
+  "Records": [
+    {
+      "id": 1,
+      "count": "2000+",
+      "title": "Library Files",
+      "bgImage": "/images/about_card_logo_bag_1_445fa37017.png",
+      "icon": "/images/8664950_book_education_icon_4efb8e591b.png"
+    },
+    {
+      "id": 2,
+      "count": "65+",
+      "title": "Certified Teachers",
+      "bgImage": "/images/about_card_logo_bag_2_475e9189d1.png",
+      "icon": "/images/Teacher_f5d97c9c4c.png"
+    },
+    {
+      "id": 3,
+      "count": "1500+",
+      "title": "Happy Alumni",
+      "bgImage": "/images/about_card_logo_bag_1_445fa37017.png",
+      "icon": "/images/alumni_0a4cde73b2.png"
+    },
+    {
+      "id": 4,
+      "count": "1000+",
+      "title": "Placements",
+      "bgImage": "/images/about_card_logo_bag_2_475e9189d1.png",
+      "icon": "/images/placements_5a8b338d59.png"
+    },
+    {
+      "id": 5,
+      "count": "7+",
+      "title": "Approved Courses",
+      "bgImage": "/images/about_card_logo_bag_1_445fa37017.png",
+      "icon": "/images/courses_1da337c7cf.png"
+    },
+    {
+      "id": 6,
+      "count": "650+",
+      "title": "Student Intake",
+      "bgImage": "/images/about_card_logo_bag_2_475e9189d1.png",
+      "icon": "/images/alumni_0a4cde73b2.png"
+    }
+  ],
+  "aboutNcet": {
+    "id": 1,
+    "title": "Know About NCMS",
+    "description": [
+      "Nagarjuna College of Management Studies, an addition to the NGI was established by the Nagarjuna Education Society in the year 2015 to facilitate students with quality education. Keeping in view that education is the most important driving force for fostering economic and social development, NCMS is trying to reach out to every corner. NCMS has qualified, committed, and experienced faculty. The college emphasizes on holistic development of the students through various and different platforms. NCMS offers Undergraduate programmes in Commerce, Management, Computer Application and Science and postgraduate programme in Management Studies (MBA). The unique feature of education at NCMS is its strong focus on skill enhancement and holistic development of students. The institution has collaborations with various Industries and Institutes of International repute."
+    ],
+    "buttonText": "Know More",
+    "link": "/about-ncms",
+    "image": "/images/NGI_Front_9416f38b7b.jpeg"
+  },
+  "yrs25Section": {
+    "id": 2,
+    "heading": "25 Years of Excellence",
+    "description": "Nagarjuna Group of Institutions (NGI) stands as an icon for enriching education, ethics, practical learning for the benefit of society and for the young aspiring youth of the country. The philosophy and its purpose have been rendered in its identity, expressing and committing to leadership and excellence in professional education and in our students’ careers.\n\nForeseeing the necessity of professional academic educational facilities that are imbibed in a strong value system. Nagarjuna Group of Institutions was established in the year 1995, under the able leadership and guidance of our founder Shri J V Ranga Raju, a respectful Industrialist and Philanthropist.\n\nNGI’s mission of pursuing the finest and highest level education from Primary school to Industry ready professional education program is continuing its rapid growth journey.",
+    "image": "/images/excellence_years_346aa0566b.png"
+  },
+  "accordination": {
+    "id": 1,
+    "mainHead": "Accreditations and Affiliations",
+    "title1": "Government of Karnataka",
+    "title2": "AICTE Approved",
+    "images": [
+      "/images/accreditations_4_3a79d275b5.png",
+      "/images/accreditations_2_e159c4432f.png",
+      "/images/accreditations_3_0999512c9d.png",
+      "/images/accreditations_1_68dcba1b1f.png"
+    ]
+  },
+  "lifeAtNCMSvideos": {
+    "id": 1,
+    "title": "Experience the Life at NCMS",
+    "Videos": [
+      "nmyQJDrvpEU",
+      "XnLU4DlZq-4",
+      "j3AL3oiH0so",
+      "NOPa9U-3vQ4",
+      "SLQwn2G2Mkk",
+      "zHxXFxqzeDU"
+    ]
+  },
+  "educationData": {
+    "id": 1,
+    "heading": "Education & Excellence for Everyone",
+    "description": "Nagarjuna College of Management Studies stands as an icon for enriching education and experiential learning that keeps the young, aspiring youth of the country at the core. The professional educational facilities here comprise a strong value system along with a vision for tomorrow. It is a hub of innovation, learning, and career-focused excellence with advanced amenities and infrastructure. Our dedication to this academic excellence has shaped countless bright minds, equipping them with the skills to excel in an ever-evolving world.",
+    "knowMoreText": "Explore the Programmes Offered",
+    "image": "/images/education_excellence_b5b5cd2944.png",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "View UG Programmes",
+        "link": "https://ncms.co.in/departments#ug_programme"
+      },
+      {
+        "id": 2,
+        "text": "View PG Programmes",
+        "link": "https://ncms.co.in/departments#ug_programme"
+      }
+    ]
+  },
+  "exploreBlogs": {
+    "id": 1,
+    "title": "Explore Blogs",
+    "link": "/blog",
+    "image": "/images/explore_blogs_9cb16298c0.png"
+  },
+  "glimpse": [
+    {
+      "id": 1,
+      "bgColor": "#0e2455",
+      "textColor": null,
+      "image": "/images/glimpse_gallery1_fe09bda473.png"
+    },
+    {
+      "id": 2,
+      "bgColor": "orange",
+      "textColor": null,
+      "image": "/images/glimpse_gallery2_eae29c0f0b.png"
+    },
+    {
+      "id": 3,
+      "bgColor": "#0e2455",
+      "textColor": null,
+      "image": "/images/glimpse_gallery3_a6bbbdc1e8.png"
+    },
+    {
+      "id": 5,
+      "bgColor": "orange",
+      "textColor": null,
+      "image": "/images/gallery_1_84510cb98c.png"
+    }
+  ],
+  "placementPartners": [
+    {
+      "id": 14,
+      "name": "EY",
+      "logo": "/images/ey_d49b6950b1.png"
+    },
+    {
+      "id": 15,
+      "name": "Deloitte",
+      "logo": "/images/deloitte_327da0d637.png"
+    },
+    {
+      "id": 16,
+      "name": "PwC",
+      "logo": "/images/pwc_0114dc4f8b.png"
+    },
+    {
+      "id": 17,
+      "name": "TCS",
+      "logo": "/images/tcs_13eb0a0c7f.png"
+    },
+    {
+      "id": 18,
+      "name": "Cognizant",
+      "logo": "/images/cognizant_28e18e9858.png"
+    },
+    {
+      "id": 19,
+      "name": "Foxconn",
+      "logo": "/images/foxconn_5a0986e92c.png"
+    },
+    {
+      "id": 20,
+      "name": "NCC",
+      "logo": "/images/ncc_654eb0a28d.png"
+    },
+    {
+      "id": 1,
+      "name": "Unnati",
+      "logo": "/images/Unnati_aca816099d.png"
+    },
+    {
+      "id": 2,
+      "name": "Digital Academy360",
+      "logo": "/images/Digital_Academy_30205b422f.png"
+    },
+    {
+      "id": 4,
+      "name": "Mahindra ",
+      "logo": "/images/Mahindra_Finance_760369b22c.png"
+    },
+    {
+      "id": 6,
+      "name": "Terrapay",
+      "logo": "/images/terrapay_ad6145e6c0.png"
+    },
+    {
+      "id": 7,
+      "name": "EpicMinds",
+      "logo": "/images/Epic_Minds_c0bd73be83.png"
+    },
+    {
+      "id": 8,
+      "name": "Jumbotail",
+      "logo": "/images/Jumbotail_f71344dc90.png"
+    },
+    {
+      "id": 9,
+      "name": "DXC",
+      "logo": "/images/DXC_ef4e841d9e.png"
+    },
+    {
+      "id": 10,
+      "name": "DUFRY",
+      "logo": "/images/DUFRY_9dd57473ce.png"
+    },
+    {
+      "id": 11,
+      "name": "KASMO",
+      "logo": "/images/KASMO_4cc8e6ad53.png"
+    },
+    {
+      "id": 12,
+      "name": "KOTAK",
+      "logo": "/images/KOTAK_d3504b5b2f.png"
+    },
+    {
+      "id": 13,
+      "name": "Shadowfax",
+      "logo": "/images/Shadowfax_0215597b02.png"
+    }
+  ]
+}

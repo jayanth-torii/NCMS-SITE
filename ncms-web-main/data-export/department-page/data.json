@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "bannerSection": {
+    "title": "Department",
+    "image": "/images/department_banner_d7e0fdfc2e.png"
+  },
+  "programmes": {
+    "title": "Programme That You Are Looking For",
+    "description": "Study what you love while working alongside supportive, expert faculty who prioritize hands-on research and service-learning.",
+    "image": "/images/programme_fd2a6039af.png"
+  },
+  "challenge": {
+    "title": "Challenge Yourself",
+    "description": "Teaching and learning, research and engagement. At NCMS education is rigorous every aspect is geared to prepare you to improve the world.",
+    "images": [
+      {
+        "alt": "Graduation",
+        "text": "Dive deep and interact closely with world-class faculty and a diverse student body, each a collaborator in learning, in research, and in service.",
+        "image": "/images/challenge_1_9994394a3a.png"
+      },
+      {
+        "alt": "Campus",
+        "text": null,
+        "image": "/images/challenge_4_4276b89b11.png"
+      },
+      {
+        "alt": "Speech",
+        "text": null,
+        "image": "/images/challenge_3_de3930fe14.png"
+      },
+      {
+        "alt": "Graduate",
+        "text": null,
+        "image": "/images/challenge_2_0fef16e981.png"
+      }
+    ]
+  }
+}

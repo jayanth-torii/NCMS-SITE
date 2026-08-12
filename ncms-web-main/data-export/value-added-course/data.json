@@ -1,0 +1,452 @@
+{
+  "id": 1,
+  "documentId": "gz727q3qcsnqe1717cn1fikt",
+  "createdAt": "2025-06-26T04:52:41.934Z",
+  "updatedAt": "2026-01-19T06:29:57.062Z",
+  "publishedAt": "2026-01-19T06:29:56.402Z",
+  "BannerSection": {
+    "id": 5,
+    "title": "Value Added Programmes",
+    "image": "/images/banner_73b313cc91.png"
+  },
+  "About": {
+    "id": 1,
+    "title": "About Value Added Programmes",
+    "AboutDescriptions": [
+      "Value-added programmes at Nagarjuna College of Management Studies provide additional skills and knowledge beyond the core curriculum. These include industry demand courses which focus on enhancing employability. The goal is to prepare students for the dynamic demands of the modern job market, fostering a well-rounded comprehensive skill set, ensuring that they not only become academically proficient but also equipped for success in their chosen fields."
+    ]
+  },
+  "Objectives": {
+    "id": 1,
+    "title": "Objectives",
+    "Points": [
+      "To equip students with hands-on, practical abilities complementing their theoretical knowledge.",
+      "To elevate students’ proficiency in industry-specific areas to make them more competitive in the job market.",
+      "To instill a mindset of continuous learning by offering courses that adapt to evolving industry needs.\n",
+      "To provide specialized training to broaden students’ career choices and opportunities."
+    ]
+  },
+  "yearWiseCourses": {
+    "id": 1,
+    "title": "Year Wise Courses",
+    "years": [
+      {
+        "id": 7,
+        "year": "2024-2025",
+        "courses": [
+          {
+            "id": 58,
+            "name": "Advance Excel",
+            "duration": "30"
+          },
+          {
+            "id": 59,
+            "name": "Microsoft Power BI",
+            "duration": "30"
+          },
+          {
+            "id": 60,
+            "name": "Communicating English",
+            "duration": "30"
+          },
+          {
+            "id": 61,
+            "name": "Data Visualization Using Tableau and Power BI",
+            "duration": "40"
+          },
+          {
+            "id": 62,
+            "name": "Digital Marketing with AI",
+            "duration": "40"
+          },
+          {
+            "id": 63,
+            "name": "Campus to Corporate (Aptitude & Soft skills)",
+            "duration": "36"
+          },
+          {
+            "id": 64,
+            "name": "Python Programming (1st Year B.Sc)",
+            "duration": "60"
+          },
+          {
+            "id": 65,
+            "name": "Python Programming (2nd Year BBA)",
+            "duration": "40"
+          },
+          {
+            "id": 66,
+            "name": "Microsoft Office Essentials (1st Year BBA)",
+            "duration": "30"
+          },
+          {
+            "id": 67,
+            "name": "Microsoft Office Essentials (1st Year B.Com)",
+            "duration": "30"
+          },
+          {
+            "id": 68,
+            "name": "Business intelligence Using Tableau and Power BI",
+            "duration": "40"
+          },
+          {
+            "id": 69,
+            "name": "Web Development Using MERN Stack (2nd Year BCA)",
+            "duration": "40"
+          },
+          {
+            "id": 70,
+            "name": "Web Development Using MERN Stack (1st Year BCA)",
+            "duration": "40"
+          },
+          {
+            "id": 71,
+            "name": "Flask Web Framework",
+            "duration": "40"
+          },
+          {
+            "id": 72,
+            "name": "Campus to Corporate",
+            "duration": "40"
+          },
+          {
+            "id": 73,
+            "name": "Advance Excel & Power BI",
+            "duration": "30"
+          },
+          {
+            "id": 74,
+            "name": "Employability Skills Training",
+            "duration": "30"
+          },
+          {
+            "id": 75,
+            "name": "Boot Camp",
+            "duration": "4 Days"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "year": "2023-2024",
+        "courses": [
+          {
+            "id": 37,
+            "name": "Scholarly Skills Training Program",
+            "duration": "30"
+          },
+          {
+            "id": 38,
+            "name": "Soft Skills Training Program (1st Year MBA)",
+            "duration": "40"
+          },
+          {
+            "id": 39,
+            "name": "Campus to Corporate (2nd Year MBA)",
+            "duration": "40"
+          },
+          {
+            "id": 40,
+            "name": "Campus to Corporate (1st Year MBA)",
+            "duration": "40"
+          },
+          {
+            "id": 41,
+            "name": "Digital HR Course",
+            "duration": "30"
+          },
+          {
+            "id": 42,
+            "name": "Campus Recruitment Training",
+            "duration": "36"
+          },
+          {
+            "id": 43,
+            "name": "Soft Skills Training Program (2nd Year MBA)",
+            "duration": "40"
+          },
+          {
+            "id": 44,
+            "name": "Employment Skill Development Training",
+            "duration": "165"
+          },
+          {
+            "id": 45,
+            "name": "Advance Excel (2nd Year BBA)",
+            "duration": "30"
+          },
+          {
+            "id": 46,
+            "name": "Advance Excel (3rd Year BBA)",
+            "duration": "30"
+          },
+          {
+            "id": 47,
+            "name": "Advance Excel (3rd Year B.Com)",
+            "duration": "30"
+          },
+          {
+            "id": 48,
+            "name": "Excel with Power BI",
+            "duration": "50"
+          },
+          {
+            "id": 49,
+            "name": "Data Analysis With Python",
+            "duration": "50"
+          },
+          {
+            "id": 50,
+            "name": "Business Analytics",
+            "duration": "32"
+          },
+          {
+            "id": 51,
+            "name": "Predictive And Financial Analytics Using Excel",
+            "duration": "35"
+          },
+          {
+            "id": 52,
+            "name": "Advance Excel Programme",
+            "duration": "30"
+          },
+          {
+            "id": 53,
+            "name": "Unleashing Youth Potentiality To Develop IQ And SQ",
+            "duration": "35"
+          },
+          {
+            "id": 54,
+            "name": "Business Skills: MS Office & Advance Excel",
+            "duration": "35"
+          },
+          {
+            "id": 55,
+            "name": "Campus 2 Corporate Training (3rd Year B.Com & BBA)",
+            "duration": "36"
+          },
+          {
+            "id": 56,
+            "name": "Campus 2 Corporate Training (3rd year BCA & B.Sc)",
+            "duration": "36"
+          },
+          {
+            "id": 57,
+            "name": "Python Programming",
+            "duration": "50"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "year": "2022-2023",
+        "courses": [
+          {
+            "id": 1,
+            "name": "Arivu\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 2,
+            "name": "Campus to Corporate",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 3,
+            "name": "Data visualization using R Programming\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 4,
+            "name": "Spoken English\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 5,
+            "name": "Aptitude Training\t",
+            "duration": "32 Hours"
+          },
+          {
+            "id": 6,
+            "name": "French Language\t",
+            "duration": "34 Hours"
+          },
+          {
+            "id": 7,
+            "name": "Way To Entrepreneurship\t",
+            "duration": "34 Hours"
+          },
+          {
+            "id": 8,
+            "name": "Building Data Visualization using Excel",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 9,
+            "name": "Business Analytics\t",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 10,
+            "name": "Mastering Excel for Financial Analysis\t",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 11,
+            "name": "Unleashing Youth Potentiality to develop IQ and SQ\t",
+            "duration": "48 Hours"
+          },
+          {
+            "id": 12,
+            "name": "Data Science Using Python Programming\t",
+            "duration": "70 Hours"
+          },
+          {
+            "id": 13,
+            "name": "Financial Analytics Level-1\t",
+            "duration": "70 Hours"
+          },
+          {
+            "id": 14,
+            "name": "Introduction to Machine Learning (NPTEL)\t",
+            "duration": "8 Weeks"
+          },
+          {
+            "id": 15,
+            "name": "Marketing Management-1 (NPTEL)\t",
+            "duration": "12 Weeks"
+          },
+          {
+            "id": 16,
+            "name": "International Marketing (NPTEL)\t",
+            "duration": "12 Weeks"
+          },
+          {
+            "id": 17,
+            "name": "Principles of Management (NPTEL)\t",
+            "duration": "12 Weeks"
+          },
+          {
+            "id": 18,
+            "name": "Programming in Java (NPTEL)\t",
+            "duration": "12 Weeks"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "year": "2021-2022",
+        "courses": [
+          {
+            "id": 19,
+            "name": "Corporate Communication\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 20,
+            "name": "Excel For Analytics\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 21,
+            "name": "Visualization using Tabula\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 22,
+            "name": "Advanced Excel\t",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 23,
+            "name": "GST Training Program\t",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 24,
+            "name": "Advanced GST Training Program\t",
+            "duration": "40 Hours"
+          },
+          {
+            "id": 25,
+            "name": "Aptitude Training Program\t",
+            "duration": "42 Hours"
+          },
+          {
+            "id": 26,
+            "name": "Full Stack Development\t",
+            "duration": "200 Hours"
+          },
+          {
+            "id": 27,
+            "name": "Python For Data Science (NPTEL)\t",
+            "duration": "4 Weeks"
+          },
+          {
+            "id": 28,
+            "name": "Business Analytics for Management Decision (NPTEL)\t",
+            "duration": "12 Weeks"
+          },
+          {
+            "id": 29,
+            "name": "Experimental Physics-1 (NPTEL)\t",
+            "duration": "12 Weeks"
+          },
+          {
+            "id": 30,
+            "name": "Problem Solving through Program C (NPTEL)\t",
+            "duration": "12 Weeks"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "year": "2020-2021",
+        "courses": [
+          {
+            "id": 31,
+            "name": "Aptitude Training\t",
+            "duration": "30 Hours"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "year": "2019-2020",
+        "courses": [
+          {
+            "id": 32,
+            "name": "Aptitude Training\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 33,
+            "name": "Programming with Python\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 34,
+            "name": "Vivekananda Gandhi Way to Entrepreneurship\t",
+            "duration": "30 Hours"
+          },
+          {
+            "id": 35,
+            "name": "Life Skills\t",
+            "duration": "35 Hours"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "year": "2018-2019",
+        "courses": [
+          {
+            "id": 36,
+            "name": "Teaching Skill Enhancement\t",
+            "duration": "30 Hours"
+          }
+        ]
+      }
+    ]
+  }
+}
