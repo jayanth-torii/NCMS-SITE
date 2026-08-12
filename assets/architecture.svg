@@ -12,7 +12,9 @@
     <path id="pUp" d="M458,214 L458,258"/>
   </defs>
 
-  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#000000" letter-spacing="5">SYSTEM ARCHITECTURE</text>
+  <rect x="0" y="0" width="900" height="380" rx="18" fill="#ffffff"/>
+
+  <text x="450" y="36" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900" fill="#000000" letter-spacing="3">SYSTEM ARCHITECTURE</text>
   <line x1="330" y1="46" x2="570" y2="46" stroke="#F6872A" stroke-width="3" stroke-linecap="round">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
   </line>
@@ -26,7 +28,8 @@
         <mpath href="#pWebApi"/>
       </animateMotion>
     </circle>
-    <text x="300" y="140" font-size="10.5" font-weight="700" fill="#F6872A">live fetch</text>
+    <rect x="291" y="124" width="70" height="22" rx="7" fill="#ffffff" stroke="#f6d9bb"/>
+    <text x="326" y="140" text-anchor="middle" font-size="12.5" font-weight="900" fill="#000000">live fetch</text>
 
     <path d="M322,106 C 300,74 292,74 290,106" fill="none" stroke="#0e2455" stroke-opacity="0.25" stroke-width="2.5" stroke-dasharray="6 6">
       <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
@@ -36,7 +39,8 @@
         <mpath href="#pApiWeb"/>
       </animateMotion>
     </circle>
-    <text x="297" y="86" font-size="10.5" font-weight="700" fill="#000000">JSON fallback</text>
+    <rect x="259" y="69" width="104" height="22" rx="7" fill="#ffffff" stroke="#dbe5f5"/>
+    <text x="311" y="85" text-anchor="middle" font-size="12.5" font-weight="900" fill="#000000">JSON fallback</text>
 
     <line x1="604" y1="150" x2="578" y2="150" stroke="#0e2455" stroke-opacity="0.25" stroke-width="2.5" stroke-dasharray="6 6">
       <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
@@ -46,7 +50,8 @@
         <mpath href="#pAdminApi"/>
       </animateMotion>
     </circle>
-    <text x="581" y="140" font-size="10.5" font-weight="700" fill="#F6872A">JWT · save</text>
+    <rect x="552" y="124" width="82" height="22" rx="7" fill="#ffffff" stroke="#f6d9bb"/>
+    <text x="593" y="140" text-anchor="middle" font-size="12.5" font-weight="900" fill="#000000">JWT · save</text>
 
     <path d="M578,106 C 600,74 608,74 610,106" fill="none" stroke="#0e2455" stroke-opacity="0.25" stroke-width="2.5" stroke-dasharray="6 6">
       <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
@@ -56,7 +61,8 @@
         <mpath href="#pApiAdmin"/>
       </animateMotion>
     </circle>
-    <text x="592" y="86" font-size="10.5" font-weight="700" fill="#000000">load</text>
+    <rect x="576" y="69" width="50" height="22" rx="7" fill="#ffffff" stroke="#dbe5f5"/>
+    <text x="601" y="85" text-anchor="middle" font-size="12.5" font-weight="900" fill="#000000">load</text>
 
     <line x1="442" y1="214" x2="442" y2="258" stroke="#0e2455" stroke-opacity="0.25" stroke-width="2.5" stroke-dasharray="6 6">
       <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
@@ -66,7 +72,8 @@
         <mpath href="#pDown"/>
       </animateMotion>
     </circle>
-    <text x="430" y="242" font-size="10.5" font-weight="700" fill="#000000" text-anchor="end">write</text>
+    <rect x="382" y="226" width="54" height="22" rx="7" fill="#ffffff" stroke="#f6d9bb"/>
+    <text x="409" y="242" font-size="12.5" font-weight="900" fill="#000000" text-anchor="middle">write</text>
 
     <line x1="458" y1="214" x2="458" y2="258" stroke="#0e2455" stroke-opacity="0.25" stroke-width="2.5" stroke-dasharray="6 6">
       <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
@@ -76,7 +83,8 @@
         <mpath href="#pUp"/>
       </animateMotion>
     </circle>
-    <text x="470" y="242" font-size="10.5" font-weight="700" fill="#000000">read</text>
+    <rect x="464" y="226" width="50" height="22" rx="7" fill="#ffffff" stroke="#dbe5f5"/>
+    <text x="489" y="242" font-size="12.5" font-weight="900" fill="#000000" text-anchor="middle">read</text>
   </g>
 
   <g font-family="Segoe UI, Arial, sans-serif">
@@ -88,9 +96,9 @@
       <ellipse cx="76" cy="120" rx="10" ry="4.5"/>
       <line x1="76" y1="110" x2="76" y2="130"/>
     </g>
-    <text x="106" y="114" font-size="14" font-weight="800" fill="#000000">Public Website</text>
-    <text x="106" y="134" font-size="11.5" fill="#000000">Next.js 15 · App Router</text>
-    <text x="106" y="152" font-size="11.5" fill="#000000">SSR · static JSON fallback</text>
+    <text x="106" y="114" font-size="17" font-weight="900" fill="#000000">Public Website</text>
+    <text x="106" y="136" font-size="13.5" font-weight="700" fill="#000000">Next.js 15 · App Router</text>
+    <text x="106" y="156" font-size="13.5" font-weight="700" fill="#000000">SSR · static JSON fallback</text>
     <rect x="238" y="98" width="44" height="20" rx="10" fill="#0e2455"/>
     <text x="260" y="112" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">3100</text>
 
@@ -108,9 +116,9 @@
       <line x1="350" y1="131" x2="347" y2="134"/>
       <line x1="372" y1="109" x2="375" y2="106"/>
     </g>
-    <text x="391" y="114" font-size="14" font-weight="800" fill="#000000">API Backend</text>
-    <text x="391" y="134" font-size="11.5" fill="#000000">Express 4 · Mongoose 7</text>
-    <text x="391" y="152" font-size="11.5" fill="#000000">JWT · Multer · Seeding</text>
+    <text x="391" y="114" font-size="17" font-weight="900" fill="#000000">API Backend</text>
+    <text x="391" y="136" font-size="13.5" font-weight="700" fill="#000000">Express 4 · Mongoose 7</text>
+    <text x="391" y="156" font-size="13.5" font-weight="700" fill="#000000">JWT · Multer · Seeding</text>
     <rect x="523" y="98" width="44" height="20" rx="10" fill="#F6872A"/>
     <text x="545" y="112" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">4001</text>
 
@@ -121,9 +129,9 @@
       <circle cx="646" cy="112" r="5" fill="#0e2455"/>
       <path d="M636,132 A10,10 0 0 1 656,132"/>
     </g>
-    <text x="676" y="114" font-size="14" font-weight="800" fill="#000000">Admin Panel</text>
-    <text x="676" y="134" font-size="11.5" fill="#000000">React 18 · Skote UI</text>
-    <text x="676" y="152" font-size="11.5" fill="#000000">Role-based content editors</text>
+    <text x="676" y="114" font-size="17" font-weight="900" fill="#000000">Admin Panel</text>
+    <text x="676" y="136" font-size="13.5" font-weight="700" fill="#000000">React 18 · Skote UI</text>
+    <text x="676" y="156" font-size="13.5" font-weight="700" fill="#000000">Role-based content editors</text>
     <rect x="808" y="98" width="44" height="20" rx="10" fill="#0e2455"/>
     <text x="830" y="112" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">3001</text>
 
@@ -135,7 +143,7 @@
       <path d="M350,291 L350,307 A11,4.5 0 0 0 372,307 L372,291 A11,4.5 0 0 1 350,291 Z"/>
       <ellipse cx="361" cy="299" rx="11" ry="4.5" stroke-opacity="0.45"/>
     </g>
-    <text x="391" y="294" font-size="14" font-weight="800" fill="#000000">MongoDB</text>
-    <text x="391" y="314" font-size="11.5" fill="#000000">singleton content · users · blogs</text>
+    <text x="391" y="294" font-size="17" font-weight="900" fill="#000000">MongoDB</text>
+    <text x="391" y="316" font-size="13.5" font-weight="700" fill="#000000">singleton content · users · blogs</text>
   </g>
 </svg>
