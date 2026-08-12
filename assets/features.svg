@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" role="img" aria-label="NCMS key features visual">
+  <rect width="900" height="250" rx="18" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#000000">KEY FEATURE SURFACES</text>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#000000">
+    <g transform="translate(80 76)">
+      <rect width="210" height="112" rx="16" fill="#f6f9ff" stroke="#dbe5f5"/>
+      <circle cx="38" cy="38" r="17" fill="#0e2455"/>
+      <text x="72" y="42" font-size="17" font-weight="900">Website</text>
+      <text x="24" y="76" font-size="12">Pages, galleries, blogs</text>
+      <text x="24" y="96" font-size="12">Framer + Swiper motion</text>
+    </g>
+    <g transform="translate(345 76)">
+      <rect width="210" height="112" rx="16" fill="#fff6ee" stroke="#f6d9bb"/>
+      <circle cx="38" cy="38" r="17" fill="#F6872A"/>
+      <text x="72" y="42" font-size="17" font-weight="900">Backend</text>
+      <text x="24" y="76" font-size="12">JWT, upload, validators</text>
+      <text x="24" y="96" font-size="12">44 generated modules</text>
+    </g>
+    <g transform="translate(610 76)">
+      <rect width="210" height="112" rx="16" fill="#f6f9ff" stroke="#dbe5f5"/>
+      <circle cx="38" cy="38" r="17" fill="#0e2455"/>
+      <text x="72" y="42" font-size="17" font-weight="900">Admin</text>
+      <text x="24" y="76" font-size="12">OTP login + roles</text>
+      <text x="24" y="96" font-size="12">JSON content editor</text>
+    </g>
+    <path d="M290 132 H345 M555 132 H610" stroke="#F6872A" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 10">
+      <animate attributeName="stroke-dashoffset" values="0;-44" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

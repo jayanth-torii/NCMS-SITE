@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" role="img" aria-label="NCMS available scripts visual">
+  <rect width="900" height="270" rx="18" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#000000">COMMAND WORKFLOW</text>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#000000">
+    <rect x="70" y="68" width="230" height="150" rx="16" fill="#f6f9ff" stroke="#dbe5f5"/>
+    <text x="96" y="102" font-size="16" font-weight="900">Web</text>
+    <text x="96" y="132" font-size="13">npm run dev</text>
+    <text x="96" y="156" font-size="13">npm run build</text>
+    <text x="96" y="180" font-size="13">npx tsc --noEmit</text>
+    <rect x="335" y="68" width="230" height="150" rx="16" fill="#fff6ee" stroke="#f6d9bb"/>
+    <text x="361" y="102" font-size="16" font-weight="900">Backend</text>
+    <text x="361" y="132" font-size="13">npm run seed</text>
+    <text x="361" y="156" font-size="13">npm run seed:admin</text>
+    <text x="361" y="180" font-size="13">npm run dev</text>
+    <rect x="600" y="68" width="230" height="150" rx="16" fill="#f6f9ff" stroke="#dbe5f5"/>
+    <text x="626" y="102" font-size="16" font-weight="900">Admin</text>
+    <text x="626" y="132" font-size="13">npm start</text>
+    <text x="626" y="156" font-size="13">localhost:3001</text>
+    <circle r="7" fill="#F6872A"><animateMotion path="M300 144 H335 H565 H600 H565 H335 H300" dur="3s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

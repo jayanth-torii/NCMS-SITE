@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="NCMS license visual">
+  <rect width="900" height="220" rx="18" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#000000">PROPRIETARY LICENSE</text>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#000000">
+    <rect x="260" y="62" width="380" height="118" rx="16" fill="#fff6ee" stroke="#f6d9bb"/>
+    <path d="M326 96 h150 M326 124 h230 M326 152 h180" stroke="#000000" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+    <circle cx="590" cy="140" r="28" fill="#0e2455"/>
+    <path d="M578 140 l9 10 l18-22" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="590" cy="140" r="38" fill="none" stroke="#F6872A" stroke-width="3">
+      <animate attributeName="r" values="32;48;32" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

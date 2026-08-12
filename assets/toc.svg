@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-label="README table of contents visual">
+  <rect width="900" height="220" rx="18" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#000000">README NAVIGATION</text>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#000000" font-size="13" font-weight="800">
+    <path d="M175 74 H725 M175 116 H725 M175 158 H725" stroke="#0e2455" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 9">
+      <animate attributeName="stroke-dashoffset" values="0;-42" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <rect x="80" y="54" width="190" height="40" rx="12" fill="#f6f9ff" stroke="#dbe5f5"/><text x="175" y="80" text-anchor="middle">About + Architecture</text>
+    <rect x="355" y="54" width="190" height="40" rx="12" fill="#fff6ee" stroke="#f6d9bb"/><text x="450" y="80" text-anchor="middle">Tech + Structure</text>
+    <rect x="630" y="54" width="190" height="40" rx="12" fill="#f6f9ff" stroke="#dbe5f5"/><text x="725" y="80" text-anchor="middle">Setup + Env</text>
+    <rect x="80" y="138" width="190" height="40" rx="12" fill="#fff6ee" stroke="#f6d9bb"/><text x="175" y="164" text-anchor="middle">Data + Design</text>
+    <rect x="355" y="138" width="190" height="40" rx="12" fill="#f6f9ff" stroke="#dbe5f5"/><text x="450" y="164" text-anchor="middle">Routes + Scripts</text>
+    <rect x="630" y="138" width="190" height="40" rx="12" fill="#fff6ee" stroke="#f6d9bb"/><text x="725" y="164" text-anchor="middle">Notes + License</text>
+  </g>
+</svg>

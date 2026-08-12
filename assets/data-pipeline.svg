@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" role="img" aria-label="NCMS data architecture visual">
+  <rect width="900" height="270" rx="18" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#000000">LIVE DATA + STATIC FALLBACK</text>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#000000">
+    <rect x="60" y="94" width="180" height="86" rx="14" fill="#f6f9ff" stroke="#dbe5f5"/>
+    <text x="150" y="128" text-anchor="middle" font-size="16" font-weight="800">Component</text>
+    <text x="150" y="154" text-anchor="middle" font-size="12">useLiveData()</text>
+    <rect x="360" y="64" width="180" height="72" rx="14" fill="#fff6ee" stroke="#f6d9bb"/>
+    <text x="450" y="96" text-anchor="middle" font-size="16" font-weight="800">Live API</text>
+    <text x="450" y="119" text-anchor="middle" font-size="12">fresh MongoDB data</text>
+    <rect x="360" y="168" width="180" height="72" rx="14" fill="#f6f9ff" stroke="#dbe5f5"/>
+    <text x="450" y="200" text-anchor="middle" font-size="16" font-weight="800">JSON Fallback</text>
+    <text x="450" y="223" text-anchor="middle" font-size="12">data-export/*.json</text>
+    <rect x="660" y="94" width="180" height="86" rx="14" fill="#fff6ee" stroke="#f6d9bb"/>
+    <text x="750" y="128" text-anchor="middle" font-size="16" font-weight="800">Rendered Page</text>
+    <text x="750" y="154" text-anchor="middle" font-size="12">never blank</text>
+    <path d="M240 124 C290 78 310 96 360 100" stroke="#F6872A" stroke-width="4" fill="none" stroke-dasharray="14 10">
+      <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M240 150 C290 208 310 204 360 204" stroke="#0e2455" stroke-width="4" fill="none" stroke-dasharray="14 10">
+      <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M540 100 C600 100 600 137 660 137" stroke="#F6872A" stroke-width="4" fill="none" stroke-dasharray="14 10">
+      <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M540 204 C600 204 600 137 660 137" stroke="#0e2455" stroke-width="4" fill="none" stroke-dasharray="14 10">
+      <animate attributeName="stroke-dashoffset" values="0;-48" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

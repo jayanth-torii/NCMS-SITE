@@ -34,6 +34,10 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 
 ## 📖 Table of Contents
 
+<p align="center">
+  <img src="assets/toc.svg" width="100%" alt="Animated README navigation visual" />
+</p>
+
 <div align="center">
 
 | | |
@@ -49,7 +53,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ## ✨ About The Project
 
 <p align="center">
-  <img src="assets/waveform.svg" width="340" height="90" alt="Animated project overview equalizer" />
+  <img src="assets/overview.svg" width="100%" alt="Animated project overview visual" />
 </p>
 
 **NCMS-SITE** is the complete digital ecosystem for **Nagarjuna College of Management Studies**, Bengaluru — a three-part platform:
@@ -67,6 +71,10 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 > 💡 **Design philosophy:** the UI is pixel-matched to the **NCET** and **NDC** college websites — same typography, same spacing, same navy `#0e2455` + orange `#F6872A` identity, same micro-interactions — but with **NCMS content** throughout.
 
 ### Key Features
+
+<p align="center">
+  <img src="assets/features.svg" width="100%" alt="Animated key features visual" />
+</p>
 
 <div align="center">
 
@@ -148,7 +156,7 @@ flowchart LR
 ## 📁 Project Structure
 
 <p align="center">
-  <img src="assets/loader-orbit.svg" width="82" height="82" alt="Animated project structure orbit" />
+  <img src="assets/structure.svg" width="100%" alt="Animated monorepo project structure visual" />
 </p>
 
 ```
@@ -182,7 +190,7 @@ ncms-new/
 ## 🚀 Getting Started
 
 <p align="center">
-  <img src="assets/loader-3d.svg" width="100" height="100" alt="Animated setup cube" />
+  <img src="assets/setup.svg" width="100%" alt="Animated getting started setup flow" />
 </p>
 
 > **Prerequisites:** Node.js ≥ 18, npm ≥ 6, MongoDB running locally.
@@ -202,7 +210,7 @@ ncms-new/
 ## 🔐 Environment Variables
 
 <p align="center">
-  <img src="assets/loader-pulse.svg" width="92" height="92" alt="Animated environment pulse" />
+  <img src="assets/env.svg" width="100%" alt="Animated environment variable map" />
 </p>
 
 ### `ncms-web-main/.env`
@@ -229,7 +237,7 @@ ncms-new/
 ## 🗄️ Data Architecture
 
 <p align="center">
-  <img src="assets/waveform.svg" width="340" height="90" alt="Animated data flow equalizer" />
+  <img src="assets/data-pipeline.svg" width="100%" alt="Animated live data and JSON fallback pipeline" />
 </p>
 
 The website is **resilient by design**:
@@ -250,6 +258,10 @@ Component
 ---
 
 ## 🎨 Design System
+
+<p align="center">
+  <img src="assets/design-system.svg" width="100%" alt="Animated NCMS design system visual" />
+</p>
 
 <div align="center">
 
@@ -275,7 +287,7 @@ Component
 ## 📄 Pages & Routes
 
 <p align="center">
-  <img src="assets/loader-orbit.svg" width="82" height="82" alt="Animated pages orbit" />
+  <img src="assets/routes.svg" width="100%" alt="Animated pages and routes map" />
 </p>
 
 | Route | Page |
@@ -302,7 +314,7 @@ Component
 ## 🧰 Available Scripts
 
 <p align="center">
-  <img src="assets/bars.svg" width="440" height="320" alt="Animated command workflow bars" />
+  <img src="assets/scripts.svg" width="100%" alt="Animated available scripts workflow" />
 </p>
 
 | Project | Command | Action |
@@ -320,7 +332,7 @@ Component
 ## 👨‍💻 Developer Notes
 
 <p align="center">
-  <img src="assets/loader-3d.svg" width="92" height="92" alt="Animated developer notes cube" />
+  <img src="assets/developer.svg" width="100%" alt="Animated developer notes visual" />
 </p>
 
 Built and maintained by **Jayanth** — see [`DEVELOPER.md`](DEVELOPER.md) for the full developer notes, credits and build story.
@@ -330,7 +342,7 @@ Built and maintained by **Jayanth** — see [`DEVELOPER.md`](DEVELOPER.md) for t
 ## 🤝 Contributing
 
 <p align="center">
-  <img src="assets/loader-pulse.svg" width="92" height="92" alt="Animated contribution pulse" />
+  <img src="assets/contributing.svg" width="100%" alt="Animated contribution workflow visual" />
 </p>
 
 Contributions make this project better! To contribute:
@@ -348,7 +360,7 @@ Please keep the design language consistent (navy `#0e2455` / orange `#F6872A`), 
 ## 📜 License
 
 <p align="center">
-  <img src="assets/waveform.svg" width="340" height="90" alt="Animated license equalizer" />
+  <img src="assets/license.svg" width="100%" alt="Animated proprietary license visual" />
 </p>
 
 This project is proprietary and maintained for **Nagarjuna College of Management Studies**. All content, branding and media belong to the college.
@@ -357,12 +369,10 @@ This project is proprietary and maintained for **Nagarjuna College of Management
 
 <div align="center">
 
+<img src="assets/footer.svg" width="100%" alt="NCMS animated footer" />
+
 **Made with ❤️ for Nagarjuna College of Management Studies, Bengaluru**
 
 _🚀 Powered by Next.js · Express · MongoDB · React — rendered with 100% SVG + SMIL, zero JavaScript_
-
-<img src="assets/loader-orbit.svg" width="80" height="80" alt="orbit loader" />
-<img src="assets/loader-pulse.svg" width="80" height="80" alt="pulse loader" />
-<img src="assets/loader-3d.svg" width="80" height="80" alt="3d loader" />
 
 </div>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="NCMS animated footer banner">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e2455"/>
+      <stop offset="100%" stop-color="#07152f"/>
+    </linearGradient>
+    <linearGradient id="footerSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="url(#footerBg)"/>
+  <rect x="-260" y="0" width="200" height="260" fill="url(#footerSweep)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;1500,0" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="150" cy="50" r="90" fill="#F6872A" opacity="0.16">
+    <animate attributeName="r" values="70;115;70" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="210" r="120" fill="#F6872A" opacity="0.12">
+    <animate attributeName="r" values="95;145;95" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900" fill="#ffffff">Nagarjuna College of Management Studies</text>
+  <text x="600" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Built with Next.js, Express, MongoDB and React</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">
+    <rect x="376" y="165" width="104" height="34" rx="17" fill="#F6872A"/>
+    <text x="428" y="187" text-anchor="middle" fill="#ffffff">WEBSITE</text>
+    <rect x="500" y="165" width="92" height="34" rx="17" fill="#ffffff"/>
+    <text x="546" y="187" text-anchor="middle" fill="#000000">API</text>
+    <rect x="612" y="165" width="104" height="34" rx="17" fill="#F6872A"/>
+    <text x="664" y="187" text-anchor="middle" fill="#ffffff">ADMIN</text>
+    <rect x="736" y="165" width="104" height="34" rx="17" fill="#ffffff"/>
+    <text x="788" y="187" text-anchor="middle" fill="#000000">CMS DATA</text>
+  </g>
+  <path d="M380 224 H820" stroke="#F6872A" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 12">
+    <animate attributeName="stroke-dashoffset" values="0;-60" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+</svg>

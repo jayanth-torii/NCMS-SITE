@@ -111,7 +111,7 @@
     <tspan fill="#ffffff">NCMS</tspan><tspan fill="url(#gradOrange)">-SITE</tspan>
   </text>
 
-  <text x="600" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#cfd9f2" letter-spacing="3">
+  <text x="600" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#ffffff" letter-spacing="3">
     NAGARJUNA COLLEGE OF MANAGEMENT STUDIES · BENGALURU
   </text>
 
@@ -143,7 +143,7 @@
     </g>
   </g>
 
-  <text x="600" y="376" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#8fa3c9" letter-spacing="3">
+  <text x="600" y="376" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="3">
     RENDERED LIVE · 100% SVG + SMIL · ZERO JAVASCRIPT
     <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
   </text>
