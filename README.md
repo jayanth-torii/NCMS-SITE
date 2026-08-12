@@ -2,10 +2,6 @@
   <img src="assets/hero.svg" width="100%" alt="NCMS-SITE animated hero" />
 </p>
 
-<p align="center">
-  <img src="assets/snake.svg" width="100%" alt="Animated snake eating the NCMS contribution grid" />
-</p>
-
 <div align="center">
 
 # 🎓 NCMS-SITE
@@ -52,6 +48,10 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 
 ## ✨ About The Project
 
+<p align="center">
+  <img src="assets/waveform.svg" width="340" height="90" alt="Animated project overview equalizer" />
+</p>
+
 **NCMS-SITE** is the complete digital ecosystem for **Nagarjuna College of Management Studies**, Bengaluru — a three-part platform:
 
 <div align="center">
@@ -82,9 +82,13 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 
 ## 🏗️ Architecture
 
+### Animated Architecture
+
 <p align="center">
   <img src="assets/architecture.svg" width="100%" alt="Animated NCMS architecture diagram" />
 </p>
+
+### Original Architecture
 
 ```
  Admin (React · :3001) ──JWT/save──▶ API (Express · :4001) ◀──live fetch── Web (Next.js · :3100)
@@ -92,6 +96,29 @@ _A premium, content-driven institutional website built with **Next.js**, powered
         └────────────load──────────────┘       └──read/write──▶ MongoDB      │
                                                                              │
                                               data-export/*.json ◀──fallback─┘
+```
+
+```mermaid
+flowchart LR
+    subgraph Admin["🛠️ Admin Panel (React · :3001)"]
+        A[Content Editors<br/>Users · Blogs · Submissions]
+    end
+
+    subgraph API["⚙️ API Backend (Express + MongoDB)"]
+        B[Express REST API<br/>JWT Auth · Multer · Validators]
+        B --> MDB[(MongoDB)]
+        B --> SEED[Seed Scripts<br/>JSON → Database]
+    end
+
+    subgraph Web["🌐 Public Website (Next.js 15 · :3100)"]
+        W[Server + Client Components]
+        W --> JSON[(data-export/*.json<br/>Static fallback)]
+    end
+
+    A --> B
+    B --> W
+    W -. live fetch .-> B
+    W -. offline fallback .-> JSON
 ```
 
 ---
@@ -120,11 +147,15 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 
 ## 📁 Project Structure
 
+<p align="center">
+  <img src="assets/loader-orbit.svg" width="82" height="82" alt="Animated project structure orbit" />
+</p>
+
 ```
 ncms-new/
 ├── 📄 README.md                      ← you are here
 ├── 📄 DEVELOPER.md                   ← developer notes & credits
-├── 🎞️ assets/                        ← animated SVG loaders, hero, snake & architecture
+├── 🎞️ assets/                        ← animated SVG loaders, hero & architecture
 │
 ├── 🌐 ncms-web-main/                 # Public website (Next.js 15)
 │   ├── src/
@@ -150,6 +181,10 @@ ncms-new/
 
 ## 🚀 Getting Started
 
+<p align="center">
+  <img src="assets/loader-3d.svg" width="100" height="100" alt="Animated setup cube" />
+</p>
+
 > **Prerequisites:** Node.js ≥ 18, npm ≥ 6, MongoDB running locally.
 
 <div align="center">
@@ -165,6 +200,10 @@ ncms-new/
 ---
 
 ## 🔐 Environment Variables
+
+<p align="center">
+  <img src="assets/loader-pulse.svg" width="92" height="92" alt="Animated environment pulse" />
+</p>
 
 ### `ncms-web-main/.env`
 
@@ -188,6 +227,10 @@ ncms-new/
 ---
 
 ## 🗄️ Data Architecture
+
+<p align="center">
+  <img src="assets/waveform.svg" width="340" height="90" alt="Animated data flow equalizer" />
+</p>
 
 The website is **resilient by design**:
 
@@ -231,6 +274,10 @@ Component
 
 ## 📄 Pages & Routes
 
+<p align="center">
+  <img src="assets/loader-orbit.svg" width="82" height="82" alt="Animated pages orbit" />
+</p>
+
 | Route | Page |
 | --- | --- |
 | `/` | Home (hero, stats, about, accreditations, recruiters…) |
@@ -254,6 +301,10 @@ Component
 
 ## 🧰 Available Scripts
 
+<p align="center">
+  <img src="assets/bars.svg" width="440" height="320" alt="Animated command workflow bars" />
+</p>
+
 | Project | Command | Action |
 | --- | --- | --- |
 | `ncms-web-main` | `npm run dev` | Start Next.js dev server (`:3100`) |
@@ -268,11 +319,19 @@ Component
 
 ## 👨‍💻 Developer Notes
 
+<p align="center">
+  <img src="assets/loader-3d.svg" width="92" height="92" alt="Animated developer notes cube" />
+</p>
+
 Built and maintained by **Jayanth** — see [`DEVELOPER.md`](DEVELOPER.md) for the full developer notes, credits and build story.
 
 ---
 
 ## 🤝 Contributing
+
+<p align="center">
+  <img src="assets/loader-pulse.svg" width="92" height="92" alt="Animated contribution pulse" />
+</p>
 
 Contributions make this project better! To contribute:
 
@@ -288,6 +347,10 @@ Please keep the design language consistent (navy `#0e2455` / orange `#F6872A`), 
 
 ## 📜 License
 
+<p align="center">
+  <img src="assets/waveform.svg" width="340" height="90" alt="Animated license equalizer" />
+</p>
+
 This project is proprietary and maintained for **Nagarjuna College of Management Studies**. All content, branding and media belong to the college.
 
 ---
@@ -295,8 +358,6 @@ This project is proprietary and maintained for **Nagarjuna College of Management
 <div align="center">
 
 **Made with ❤️ for Nagarjuna College of Management Studies, Bengaluru**
-
-<img src="assets/snake.svg" width="460" alt="Animated snake" />
 
 _🚀 Powered by Next.js · Express · MongoDB · React — rendered with 100% SVG + SMIL, zero JavaScript_
 
