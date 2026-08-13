@@ -61,3 +61,6 @@ make_ncms_sitemap.js
 
 # Stray leftover file
 ncms-web-main/exit
+
+# Session transcripts (never commit)
+session-*.md
