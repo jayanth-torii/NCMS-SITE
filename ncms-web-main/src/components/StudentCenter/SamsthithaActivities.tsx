@@ -1,92 +1,96 @@
-"use client"
+"use client";
 import { useEffect, useRef, useState } from "react";
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
- 
+import { motion } from "framer-motion";
 
-const SamsthithaActivities = ({data}:any) => {
-  const scrollRef = useRef<HTMLDivElement>(null);
+const SamsthithaActivities = ({ data }: any) => {
+  const trackRef = useRef<HTMLDivElement>(null);
   const [isUserScrolling, setIsUserScrolling] = useState(false);
 
+  // Gentle auto-scroll that pauses while the user is interacting.
   useEffect(() => {
-    const scrollContainer = scrollRef.current;
-    if (!scrollContainer || isUserScrolling) return;
+    const track = trackRef.current;
+    if (!track || isUserScrolling) return;
 
     const autoScroll = () => {
-      if (!scrollContainer) return;
-
-      const maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
-      if (scrollContainer.scrollLeft >= maxScroll) {
-        scrollContainer.scrollTo({ left: 0, behavior: "smooth" });
+      if (!track) return;
+      const card = track.querySelector<HTMLElement>(".sc-gallery__card");
+      const step = card ? card.offsetWidth + 18 : 320;
+      const maxScroll = track.scrollWidth - track.clientWidth;
+      if (track.scrollLeft >= maxScroll - 8) {
+        track.scrollTo({ left: 0, behavior: "smooth" });
       } else {
-        scrollContainer.scrollBy({ left: scrollContainer.clientWidth / 2, behavior: "smooth" });
+        track.scrollBy({ left: step, behavior: "smooth" });
       }
     };
 
-    const interval = setInterval(autoScroll, 3000);
-
+    const interval = setInterval(autoScroll, 3200);
     return () => clearInterval(interval);
   }, [isUserScrolling]);
 
   const handleScroll = (direction: "left" | "right") => {
-    const scrollContainer = scrollRef.current;
-    if (!scrollContainer) return;
-
+    const track = trackRef.current;
+    if (!track) return;
     setIsUserScrolling(true);
-    const scrollDistance = scrollContainer.clientWidth / 2;
-
-    if (direction === "left") {
-      scrollContainer.scrollBy({ left: -scrollDistance, behavior: "smooth" });
-    } else {
-      scrollContainer.scrollBy({ left: scrollDistance, behavior: "smooth" });
-    }
-
-    setTimeout(() => setIsUserScrolling(false), 3000);
-  }
+    const card = track.querySelector<HTMLElement>(".sc-gallery__card");
+    const step = card ? card.offsetWidth + 18 : 320;
+    track.scrollBy({ left: direction === "left" ? -step : step, behavior: "smooth" });
+    setTimeout(() => setIsUserScrolling(false), 2600);
+  };
 
   return (
-    <div className="relative mb-10 md:mb-20">
-
-      <h1 className="text-2xl md:text-3xl text-[#003333] font-bold mb-6 text-left"> {data?.title} </h1>
-
-      <div
-        ref={scrollRef}
-        className="flex gap-4 overflow-x-auto no-scrollbar scrollbar-hide scroll-smooth"
-        style={{
-          scrollbarWidth: "none",
-          msOverflowStyle: "none",
-        }}
-      >
-        {data?.activities?.map(
-          (activity: { image: string; title: string }, index: number) => (
-            <div
-              key={index}
-              className="p-2 space-y-3 flex-shrink-0 w-full sm:w-1/2 md:w-1/2 lg:w-1/2"
-            >
-              <img
-                src={activity?.image}
-                alt={`Image ${index + 1}`}
-                className="w-full h-72 rounded-lg shadow-lg object-cover"
-              />
-              <p className="text-[#003333] text-justify break-words">{activity?.title}</p>
-            </div>
-          )
-        )}
+    <div className="sc-gallery">
+      <div className="sc-hub__head" style={{ marginBottom: "22px" }}>
+        <div>
+          <span className="sc-eyebrow">Memories</span>
+          <h2 className="sc-title">{data?.title || "Samsthitha Activities"}</h2>
+          <p className="sc-lead" style={{ margin: "10px 0 0", maxWidth: "none", textAlign: "left" }}>
+            Moments from alumni meets, sports events and guest interactions.
+          </p>
+        </div>
       </div>
 
+      <motion.div
+        className="sc-gallery__viewport"
+        initial={{ opacity: 0, y: 22 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.12 }}
+        transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+      >
+        <div
+          ref={trackRef}
+          className="sc-gallery__track"
+          onMouseEnter={() => setIsUserScrolling(true)}
+          onMouseLeave={() => setIsUserScrolling(false)}
+        >
+          {(data?.activities || []).map((activity: { image: string; title: string }, index: number) => (
+            <div key={index} className="sc-gallery__card">
+              <div className="sc-gallery__frame">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={activity.image} alt={activity.title} loading="lazy" />
+                <span className="sc-gallery__index">{String(index + 1).padStart(2, "0")}</span>
+                <p className="sc-gallery__cap">{activity.title}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </motion.div>
 
-      <button
-        onClick={() => handleScroll("left")}
-        className="absolute cursor-pointer bg-white left-0 top-1/2 transform -translate-y-1/2 bg-opacity-50 p-3 rounded-full transition duration-300 text-white"
-      >
-         <FaArrowLeft size={20} className="text-[#003333]"/>
-      </button>
-      <button
-        onClick={() => handleScroll("right")}
-        className="absolute cursor-pointer right-0 bg-white top-1/2 transform -translate-y-1/2  bg-opacity-50 p-3 rounded-full  transition duration-300 text-white"
-      >
-        <FaArrowRight size={20} className="text-[#003333]"/>
-      </button>
+      <div className="sc-gallery__arrows">
+        <button type="button" className="sc-gallery__arrow" onClick={() => handleScroll("left")} aria-label="Scroll left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12" />
+            <polyline points="12 19 5 12 12 5" />
+          </svg>
+        </button>
+        <button type="button" className="sc-gallery__arrow" onClick={() => handleScroll("right")} aria-label="Scroll right">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </button>
+      </div>
     </div>
   );
-}
-export default SamsthithaActivities
+};
+
+export default SamsthithaActivities;

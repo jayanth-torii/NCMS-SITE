@@ -1,9 +1,14 @@
-import SSWEC from '@/components/StudentCenter/ComminityServices/SSWEC/SSWEC'
-import SCST from '@/components/StudentCenter/StatutoryCells/SCST/SCSTCell'
-import React from 'react'
+"use client";
 
-function SCSTOBCCell() {
-  return <SSWEC/>
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import sakhiDataJson from "@/data-export/sakhi-samrudhi-women-empowerment-cell/data.json";
+import { getSakhiSamrudhi } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default SCSTOBCCell
+const SakhiSamrudhi = () => {
+  const { data } = useLiveData(getSakhiSamrudhi, sakhiDataJson as any);
+  return <CellPage data={data as any} eyebrow="Women Empowerment" />;
+};
+
+export default SakhiSamrudhi;

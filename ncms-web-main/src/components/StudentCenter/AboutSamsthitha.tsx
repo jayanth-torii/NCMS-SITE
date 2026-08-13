@@ -1,21 +1,25 @@
 "use client";
 
-const AboutSamsthitha = ({data}:any) => {
-    if (!data) return null;  
-    const { title, points } = data;
+const AboutSamsthitha = ({ data }: any) => {
+  if (!data) return null;
+  const { title, points } = data;
 
-    return (
-        <div className="w-full p-8 bg-[#F9F9F9] text-[#003333] mb-10 md:mb-20">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                {title}
-            </h2>
-            {points?.map((para:any, index:any) => (
-                <p key={index} className="text-justify leading-relaxed mb-4">
-                    {para}
-                </p>
-            ))}
-        </div>
-    );
+  return (
+    <div className="sc-about">
+      <div className="sc-about__head">
+        <span className="sc-eyebrow">Alumni Association</span>
+        <h2 className="sc-about__title">{title || "About Samsthitha"}</h2>
+      </div>
+      <div className="sc-about__body">
+        {(points || []).map((para: string, index: number) => (
+          <div key={index} className="sc-about__point">
+            <span className="sc-about__num">{String(index + 1).padStart(2, "0")}</span>
+            <p style={{ margin: 0 }}>{para}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default AboutSamsthitha;

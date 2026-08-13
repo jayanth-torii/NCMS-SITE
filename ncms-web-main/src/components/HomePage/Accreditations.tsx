@@ -42,7 +42,7 @@ const Accreditations = ({ data }: any) => {
             {images.map((src: string, index: number) => (
               <div
                 key={index}
-                className="group flex items-center justify-center rounded-3xl border border-card-border bg-white px-6 py-10 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[var(--shadow-card-hover)] hover:border-orange/30"
+                className="group flex items-center justify-center rounded-3xl border border-card-border bg-white px-6 py-10 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-card-hover)] hover:border-orange/30"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img

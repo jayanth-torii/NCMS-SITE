@@ -1,13 +1,14 @@
-import KalaChaitanya from '@/components/StudentCenter/ComminityServices/KalaChaitanya/KalaChaitanya'
-import UnityCounsilSection from '@/components/StudentCenter/StatutoryCells/UnityCouncil/UnityCouncil'
-import React from 'react'
+"use client";
 
-function UnityCounsil() {
-  return (
-    <div>
-        <KalaChaitanya/>
-    </div>
-  )
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import kalaDataJson from "@/data-export/kala-chaitanya/data.json";
+import { getKalaChaitanya } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default UnityCounsil
+const KalaChaitanya = () => {
+  const { data } = useLiveData(getKalaChaitanya, kalaDataJson as any);
+  return <CellPage data={data as any} eyebrow="Kala Chaitanya" />;
+};
+
+export default KalaChaitanya;

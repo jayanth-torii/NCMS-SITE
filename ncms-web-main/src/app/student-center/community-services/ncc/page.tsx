@@ -1,11 +1,14 @@
-import NCC from '@/components/StudentCenter/ComminityServices/NCC/NCC'
-import HumanRightsSection from '@/components/StudentCenter/StatutoryCells/HumanRightsCell/HumanRightsCell'
-import React from 'react'
+"use client";
 
-function HumanRightsCell() {
-  return (
-    <div><NCC/></div>
-  )
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import nccDataJson from "@/data-export/ncc/data.json";
+import { getNcc } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default HumanRightsCell
+const NCC = () => {
+  const { data } = useLiveData(getNcc, nccDataJson as any);
+  return <CellPage data={data as any} eyebrow="National Cadet Corps" />;
+};
+
+export default NCC;

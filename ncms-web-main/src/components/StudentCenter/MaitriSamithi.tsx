@@ -1,38 +1,42 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from "react";
 import PdfModal from "../PdfModal";
 
-export default function MaitriSamithi({data}:any) {
-    if (!data) return null;  
-    const newsletterData = data;
-    
-    const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
-    const openPdf = (pdf: string) => setSelectedPdf(pdf);
-    const closePdf = () => setSelectedPdf(null);
-    return (
-        <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-6 mb-20">
-                <div className="space-y-4 bg-[#F6F6F6] p-6  ">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#003333]">{newsletterData?.title}</h2>
-                    <p className="text-justify text-[#0E2455] mb-5">{newsletterData?.description}</p>
-                    <button className="px-6 cursor-pointer py-3 bg-[#0E2455] text-white font-semibold" onClick={()=>openPdf(newsletterData?.pdf)}>
-                        {newsletterData?.buttonText}
-                    </button>
-                </div>
-                <div className="relative w-full h-64 md:h-80">
-                    <Image
-                        src={newsletterData?.image}
-                        alt="Newsletter Event"
-                        layout="fill"
-                        objectFit="cover"
-                    />
-                </div>
-            </div>
+export default function MaitriSamithi({ data }: any) {
+  if (!data) return null;
+  const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
+  const openPdf = (pdf: string) => setSelectedPdf(pdf);
+  const closePdf = () => setSelectedPdf(null);
 
-            {/* PDF MODAL */}
-            <PdfModal pdfUrl={selectedPdf} onClose={() => setSelectedPdf(null)} />
-        </div>
-    );
+  const image = data.image || data.imageUrl || "/images/StudentCenter/maitri.png";
+
+  return (
+    <div className="sc-maitri">
+      <div className="sc-maitri__card">
+        <span className="sc-maitri__badge">Parents&apos; Cell</span>
+        <h3 className="sc-maitri__title">{data.title || "Maitri Samithi"}</h3>
+        <p className="sc-maitri__text">{data.description}</p>
+        <button type="button" className="sc-maitri__btn" onClick={() => openPdf(data.pdf)}>
+          {data.buttonText || "View Composition"}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </button>
+      </div>
+
+      <div className="sc-maitri__photo">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={image} alt={data.title || "Maitri Samithi"} loading="lazy" />
+        <span className="sc-maitri__photo-cap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+          {data.title || "Maitri Samithi"}
+        </span>
+      </div>
+
+      <PdfModal pdfUrl={selectedPdf} onClose={closePdf} />
+    </div>
+  );
 }

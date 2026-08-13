@@ -10,7 +10,7 @@ const Placements = ({ data }: any) => {
   const renderTile = (partner: any, keyPrefix: string) => (
     <div
       key={`${keyPrefix}-${partner.id ?? partner.name}`}
-      className="group/logo flex-shrink-0 w-[190px] h-[120px] rounded-2xl flex items-center justify-center p-5 mx-[12px] bg-white shadow-[0_8px_24px_rgba(0,0,0,0.18)] hover:-translate-y-2 hover:shadow-[0_18px_44px_rgba(246,135,42,0.28)] hover:ring-2 hover:ring-orange/60 transition-all duration-500"
+      className="group/logo flex-shrink-0 w-[190px] h-[120px] rounded-2xl flex items-center justify-center p-5 mx-[12px] bg-white shadow-[0_8px_24px_rgba(0,0,0,0.18)] hover:-translate-y-0.5 hover:shadow-[0_18px_44px_rgba(246,135,42,0.28)] hover:ring-2 hover:ring-orange/60 transition-all duration-500"
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img

@@ -980,8 +980,8 @@
         }
 
         &:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+          transform: translateY(-2px);
+          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.22);
 
           .action svg {
             transform: translateX(0.5rem);
@@ -1043,7 +1043,7 @@
       }
 
       &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 
         .img-box img {
@@ -1408,7 +1408,7 @@
   }
 
   &:hover {
-    transform: translateY(-6px);
+    transform: translateY(-3px);
     box-shadow: 0 30px 56px -28px rgba(14, 36, 85, 0.4);
     border-color: rgba(246, 135, 42, 0.4);
     &::before { transform: scale(1.35); }
@@ -1564,7 +1564,7 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 
   &:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     box-shadow: 0 12px 24px -12px rgba(14, 36, 85, 0.2);
   }
 

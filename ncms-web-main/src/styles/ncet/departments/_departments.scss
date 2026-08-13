@@ -1624,7 +1624,7 @@ $border-light: #f1f5f9;
       }
 
       &:hover {
-        transform: translateY(-8px);
+        transform: translateY(-4px);
         box-shadow: 0 25px 50px -12px rgba(10, 31, 68, 0.1);
 
         .faculty-portrait-box .portrait-glow {
@@ -1804,7 +1804,7 @@ $border-light: #f1f5f9;
       }
 
       &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
       }
     }
@@ -2184,7 +2184,7 @@ $border-light: #f1f5f9;
       font-family: 'Product Sans', sans-serif;
 
       &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
       }
 
@@ -3028,7 +3028,7 @@ $border-light: #f1f5f9;
       transition: transform 0.3s ease;
 
       &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-2px);
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
       }
 
@@ -4628,7 +4628,7 @@ $border-light: #f1f5f9;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
   
   &:hover {
-    transform: translateY(-8px) !important;
+    transform: translateY(-4px) !important;
     box-shadow: 0 20px 40px rgba(14, 36, 85, 0.08) !important;
   }
 }
@@ -4708,7 +4708,7 @@ $border-light: #f1f5f9;
         }
 
         &:hover {
-            transform: translateY(-6px);
+            transform: translateY(-3px);
             box-shadow: 0 20px 50px rgba(14, 36, 85, 0.12);
             &::before { transform: scaleX(1); }
         }
@@ -5137,7 +5137,7 @@ $border-light: #f1f5f9;
             }
 
             &:hover {
-                transform: translateY(-5px);
+                transform: translateY(-2px);
                 box-shadow: 0 10px 25px rgba(14, 36, 85, 0.08);
                 border-color: #cbd5e1;
 

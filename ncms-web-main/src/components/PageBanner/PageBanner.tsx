@@ -15,6 +15,7 @@ const HERO_IMAGES: Record<string, string> = {
   "/placements": "/images/placement_banner_a29508cee4.png",
   "/placement": "/images/placement_banner_a29508cee4.png",
   "/samashti": "/images/samashti_banner_eef451d415.png",
+  "/student-center": "/images/StudentCenter/banner.png",
   "/iic": "/images/iic_banner_34403e17dd.png",
   "/iqac": "/images/iqac_banner_f547b8b5c9.png",
   "/news-clippings": "/images/news_clippings_banner_91a5271416.png",

@@ -53,6 +53,30 @@
 
 // Blog
 
+@import 'studentCenter';
+
+// ---------------------------------------------------------------------------
+// Full-width content container
+// Tailwind's default `.container` caps at 96rem (1536px), which leaves big
+// empty gutters on modern wide monitors. NCET's own container is 1340px, but
+// we widen the generic `.container` to fill the viewport (side padding only).
+// The header/footer keep their own narrower `.react-header .container` etc.
+// ---------------------------------------------------------------------------
+.container {
+  max-width: 100%;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  @media (min-width: 992px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  @media (min-width: 1600px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 // Responsive safety net — MUST stay last so its <=991px overflow guards
 // win over any feature partial. Desktop (>=992px) is untouched.
 @import 'responsive-safety';
@@ -70,3 +94,9 @@
 @import 'samashtiNew';
 @import 'departmentsNew';
 @import 'nispExplorer';
+@import 'newsletter';
+@import 'newsClippings';
+@import 'mandatoryDisclosure';
+@import 'auditReports';
+@import 'uucms';
+@import 'events';

@@ -1,9 +1,14 @@
-import CulturalCommittee from '@/components/StudentCenter/ComminityServices/CulturalCommittee/CulturalCommittee'
-import GRC from '@/components/StudentCenter/StatutoryCells/GRC/GRC'
-import React from 'react'
+"use client";
 
-function GrievenvanceRedressalcell() {
-  return <CulturalCommittee/>
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import culturalDataJson from "@/data-export/cultural-committee/data.json";
+import { getCulturalCommittee } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default GrievenvanceRedressalcell
+const CulturalCommittee = () => {
+  const { data } = useLiveData(getCulturalCommittee, culturalDataJson as any);
+  return <CellPage data={data as any} eyebrow="Culture & Arts" />;
+};
+
+export default CulturalCommittee;

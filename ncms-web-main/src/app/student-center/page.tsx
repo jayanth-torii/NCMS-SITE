@@ -1,37 +1,51 @@
 "use client";
 
-import React, { Suspense } from "react";
+import React from "react";
 
-import Breadcrumb from '@/components/StudentCenter/CommonComponents/BreadCrumb';
-import AboutSamsthitha from '@/components/StudentCenter/AboutSamsthitha';
-import StudenCenterBanner from '@/components/StudentCenter/Banner';
-import KnowEverything from '@/components/StudentCenter/KnowEverything';
-import MaitriSamithi from '@/components/StudentCenter/MaitriSamithi';
-import Policy from '@/components/StudentCenter/Policy';
-import Progression from '@/components/StudentCenter/Progression';
-import SamsthithaActivities from '@/components/StudentCenter/SamsthithaActivities';
+import StudenCenterBanner from "@/components/StudentCenter/Banner";
+import KnowEverything from "@/components/StudentCenter/KnowEverything";
+import MaitriSamithi from "@/components/StudentCenter/MaitriSamithi";
+import Policy from "@/components/StudentCenter/Policy";
+import AboutSamsthitha from "@/components/StudentCenter/AboutSamsthitha";
+import SamsthithaActivities from "@/components/StudentCenter/SamsthithaActivities";
+import Progression from "@/components/StudentCenter/Progression";
 
 import studentCenterData from "@/data-export/student-center-content/data.json";
 import { getStudentCenter } from "@/services/data.service";
 import { useLiveData } from "@/hooks/useLiveData";
 
 function StudentCenter() {
-  const { data: liveData } = useLiveData(getStudentCenter, studentCenterData);
+  const { data: liveData } = useLiveData(getStudentCenter, studentCenterData as any);
 
   return (
-    <div className="m-auto w-[90%]">
-      <StudenCenterBanner   />
-      <Suspense>
-        <Breadcrumb className="ml-0" />
-      </Suspense>
+    <div className="sc-page">
+      <StudenCenterBanner />
 
-      <KnowEverything />
+      <div className="container">
+        <section className="sc-section">
+          <KnowEverything />
+        </section>
 
-      <MaitriSamithi data={liveData?.newsletterData} />
-      <Policy data={liveData?.policyAndComposition} />
-      <AboutSamsthitha data={liveData?.aboutSamsthitha} />
-      <SamsthithaActivities data={liveData?.samsthithaActivities} />
-      <Progression data={liveData?.progression} />
+        <section className="sc-section">
+          <MaitriSamithi data={liveData?.newsletterData} />
+        </section>
+
+        <section className="sc-section">
+          <Policy data={liveData?.policyAndComposition} />
+        </section>
+
+        <section className="sc-section">
+          <AboutSamsthitha data={liveData?.aboutSamsthitha} />
+        </section>
+
+        <section className="sc-section">
+          <SamsthithaActivities data={liveData?.samsthithaActivities} />
+        </section>
+
+        <section className="sc-section">
+          <Progression data={liveData?.progression} />
+        </section>
+      </div>
     </div>
   );
 }

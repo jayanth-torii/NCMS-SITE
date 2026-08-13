@@ -1,52 +1,58 @@
 "use client";
 
 import { useState } from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import PdfModal from "../PdfModal";
 
-const Policy = ({data}:any) => {
-  if (!data) return null;  
+const Policy = ({ data }: any) => {
+  if (!data) return null;
   const { title, sections } = data;
   const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
 
-  const openPdf = (pdf: string) => {
-    setSelectedPdf(pdf);
-  };
-
-  const closePdf = () => {
-    setSelectedPdf(null);
-  };
-
-   console.log(data)
+  const openPdf = (pdf: string) => setSelectedPdf(pdf);
+  const closePdf = () => setSelectedPdf(null);
 
   return (
-    <div className="mb-10 md:mb-20">
-      <h2 className="text-3xl font-semibold mb-6 text-[#003333]">{title}</h2>
+    <div>
+      <div className="sc-hub__head" style={{ marginBottom: "22px" }}>
+        <div>
+          <span className="sc-eyebrow">Guidelines</span>
+          <h2 className="sc-title">{title || "Policy & Composition"}</h2>
+          <p className="sc-lead" style={{ margin: "10px 0 0", maxWidth: "none", textAlign: "left" }}>
+            Official policies and cell compositions for reference.
+          </p>
+        </div>
+      </div>
 
-      {/* Policy & Composition Sections */}
-      <div className="space-y-4">
+      <div className="sc-policy">
         {sections?.length > 0 ? (
-          sections?.map((section:any) => (
-            <div
-              key={section.title}
-              className="flex justify-between items-center bg-[#F6F6F6] px-3 py-2 duration-200"
-            >
-              <span className="text-[#0e2455] font-medium text-lg">{section?.title}</span>
-              <button
-                className="flex items-center cursor-pointer border px-5 py-2 text-[#0e2455] hover:bg-[#0E2455] hover:text-[white] transition"
-                onClick={() => openPdf(section?.pdf)}
-              >
-                View <AiOutlineArrowRight className="ml-2" />
-              </button>
-            </div>
+          sections.map((section: any) => (
+            <button key={section.title} type="button" className="sc-policy__card" onClick={() => openPdf(section?.pdf)}>
+              <span className="sc-policy__card-pdf">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="9" y1="13" x2="15" y2="13" />
+                  <line x1="9" y1="17" x2="13" y2="17" />
+                </svg>
+              </span>
+              <span className="sc-policy__card-txt">
+                <span className="sc-policy__card-title">{section?.title}</span>
+                <span className="sc-policy__card-sub">{title || "Policy document"} · PDF</span>
+              </span>
+              <span className="sc-policy__card-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </span>
+            </button>
           ))
         ) : (
-          <p className="text-[#0E2455]text-lg text-center">No links available.</p>
+          <p className="sc-prog-empty">No documents available.</p>
         )}
       </div>
 
-      {/* PDF Modal Popup */}
-      <PdfModal pdfUrl={selectedPdf} onClose={() => setSelectedPdf(null)} />
+      <PdfModal pdfUrl={selectedPdf} onClose={closePdf} />
     </div>
   );
 };

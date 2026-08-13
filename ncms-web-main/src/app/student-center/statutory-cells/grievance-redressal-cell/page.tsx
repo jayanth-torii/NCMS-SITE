@@ -1,10 +1,14 @@
-import GRC from '@/components/StudentCenter/StatutoryCells/GRC/GRC'
-import React from 'react'
+"use client";
 
-function GrievanceRedressalCell
- () {
-  return <GRC/>
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import grievanceDataJson from "@/data-export/grievenvance-redressal-cell/data.json";
+import { getGrievanceRedressal } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default GrievanceRedressalCell
- 
+const GrievanceRedressalCell = () => {
+  const { data } = useLiveData(getGrievanceRedressal, grievanceDataJson as any);
+  return <CellPage data={data as any} eyebrow="Fair & Transparent" />;
+};
+
+export default GrievanceRedressalCell;

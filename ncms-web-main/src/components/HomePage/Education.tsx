@@ -106,7 +106,7 @@ const Education = ({ educationProgrammes }: any) => {
                   <button
                     key={index}
                     onClick={() => handleButton(btn.link)}
-                    className="group flex items-center gap-3 bg-gradient-to-r from-navy to-navy-dark hover:from-orange hover:to-orange-dark border border-transparent text-white px-7 py-4 rounded-2xl transition-all duration-300 shadow-[0_12px_32px_rgba(14,36,85,0.25)] hover:shadow-[0_16px_40px_rgba(246,135,42,0.35)] hover:-translate-y-1 font-semibold"
+                    className="group flex items-center gap-3 bg-gradient-to-r from-navy to-navy-dark hover:from-orange hover:to-orange-dark border border-transparent text-white px-7 py-4 rounded-2xl transition-all duration-300 shadow-[0_12px_32px_rgba(14,36,85,0.25)] hover:shadow-[0_16px_40px_rgba(246,135,42,0.35)] hover:-translate-y-0.5 font-semibold"
                   >
                     {btn.text}
                     <ArrowRight size={18} className="transform group-hover:translate-x-1 transition-all" />

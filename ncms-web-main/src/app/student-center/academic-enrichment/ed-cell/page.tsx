@@ -1,12 +1,14 @@
-import EDCellPage from '@/components/StudentCenter/AcademicEnrichment/EDCell/EDCell'
-import React from 'react'
+"use client";
 
-function EDCell() {
-  return (
-    <div>
-        <EDCellPage/>
-    </div>
-  )
-}
+import React from "react";
+import CellPage from "@/components/StudentCenter/CellPage/CellPage";
+import edCellDataJson from "@/data-export/ed-cell/data.json";
+import { getEdCell } from "@/services/data.service";
+import { useLiveData } from "@/hooks/useLiveData";
 
-export default EDCell
+const EDCell = () => {
+  const { data } = useLiveData(getEdCell, edCellDataJson as any);
+  return <CellPage data={data as any} eyebrow="Entrepreneurship" />;
+};
+
+export default EDCell;

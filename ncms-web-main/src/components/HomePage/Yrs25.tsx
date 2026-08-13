@@ -104,7 +104,7 @@ const Yrs25 = ({ data }: any) => {
               {milestones.map((milestone, index) => {
                 const Icon = milestone.icon;
                 return (
-                  <div key={index} className="bg-white p-5 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl hover:border-orange/20 transition-all duration-300 hover:-translate-y-1">
+                  <div key={index} className="bg-white p-5 rounded-2xl shadow-md border border-gray-100 hover:shadow-xl hover:border-orange/20 transition-all duration-300 hover:-translate-y-0.5">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-10 h-10 rounded-xl bg-orange/10 flex items-center justify-center">
                         <Icon size={20} className="text-orange" />

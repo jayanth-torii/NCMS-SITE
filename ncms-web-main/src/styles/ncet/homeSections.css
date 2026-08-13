@@ -407,9 +407,9 @@
 
 .careers-swiper .swiper-slide:hover { opacity: 1; }
 .cx-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   border-color: rgba(246, 135, 42, 0.5);
-  box-shadow: 0 26px 50px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.34);
 }
 
 .cx-card__status {
@@ -664,8 +664,8 @@
 }
 
 .notif-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(15, 18, 22, 0.12);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(15, 18, 22, 0.1);
 }
 
 .notif-card__title {
