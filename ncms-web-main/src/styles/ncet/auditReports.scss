@@ -1,23 +1,32 @@
 /* ---------------------------------------------------------------------------
-   Audit Reports — premium NCET-style timeline page
+   Audit Reports — premium NCET-style page (redesigned)
+   Fullscreen decorative background: gradient wash + dot grid + glow orbs +
+   geometric shapes (reusing the dept-page-decor system already global via
+   nispExplorer.scss). Palette: navy #0e2455 / orange #f6872a / blue #3b82f6.
 --------------------------------------------------------------------------- */
 .aud-page {
-  background: #f8fafc;
+  position: relative;
+  background-color: transparent; /* let the fixed decor show through */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.aud-main {
-  padding: 72px 0 96px;
-  background: #f8fafc;
+.aud-page-content {
+  position: relative;
+  z-index: 1;
 }
 
+.aud-main {
+  padding: 64px 0 100px;
+}
+
+/* --- Intro ---------------------------------------------------------------- */
 .aud-intro {
   text-align: center;
-  max-width: 680px;
-  margin: 0 auto 56px;
+  max-width: 720px;
+  margin: 0 auto 44px;
 }
 
 .aud-intro__eyebrow {
@@ -52,98 +61,193 @@
   font-size: 15.5px;
   line-height: 1.8;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 620px;
 }
 
-/* --- Timeline ------------------------------------------------------------- */
-.aud-timeline {
-  position: relative;
-  max-width: 860px;
-  margin: 0 auto;
-  padding-left: 48px;
+/* --- Stats band ----------------------------------------------------------- */
+.aud-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  max-width: 980px;
+  margin: 0 auto 56px;
 
-  @media (max-width: 600px) {
-    padding-left: 34px;
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aud-stat {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid rgba(226, 232, 240, 0.7);
+  box-shadow: 0 6px 20px rgba(14, 36, 85, 0.05);
+  padding: 22px 20px;
+  text-align: center;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+
+  /* tiny decorative accent inside each stat */
   &::before {
     content: "";
     position: absolute;
-    left: 11px;
-    top: 14px;
-    bottom: 14px;
-    width: 2px;
-    background: linear-gradient(180deg, #f6872a 0%, rgba(246, 135, 42, 0.25) 100%);
+    top: -22px;
+    right: -22px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(246, 135, 42, 0.14), transparent 70%);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 34px;
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(90deg, #f6872a, #ffb877);
+    opacity: 0;
+    transition: opacity 0.28s ease, width 0.28s ease;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(14, 36, 85, 0.1);
+    border-color: rgba(246, 135, 42, 0.35);
+
+    &::after {
+      opacity: 1;
+      width: 56px;
+    }
+  }
+
+  &__num {
+    display: block;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #0e2455;
+    line-height: 1;
+    margin-bottom: 8px;
+
+    em {
+      font-style: normal;
+      color: #f6872a;
+    }
+  }
+
+  &__label {
+    display: block;
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
   }
 }
 
-.aud-item {
+/* --- Year cards grid ------------------------------------------------------ */
+.aud-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aud-card {
   position: relative;
-  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 18px;
+  padding: 26px 24px 24px;
+  border: 1px solid rgba(226, 232, 240, 0.75);
+  box-shadow: 0 8px 24px rgba(14, 36, 85, 0.06);
+  overflow: hidden;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 
-  &__dot {
+  /* top accent bar */
+  &::before {
+    content: "";
     position: absolute;
-    left: -48px;
-    top: 30px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #f6872a;
-    border: 3px solid #fff;
-    box-shadow: 0 0 0 2px rgba(246, 135, 42, 0.45), 0 6px 14px rgba(246, 135, 42, 0.35);
-    z-index: 2;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #f6872a 0%, #ffb877 55%, rgba(246, 135, 42, 0.15) 100%);
+    transform: scaleX(0.25);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
 
-    @media (max-width: 600px) {
-      left: -34px;
+  /* soft corner shade */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -34px;
+    right: -34px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.08), transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 44px rgba(14, 36, 85, 0.12);
+    border-color: rgba(246, 135, 42, 0.4);
+
+    &::before {
+      transform: scaleX(1);
+    }
+
+    .aud-card__icon {
+      background: #f6872a;
+      color: #fff;
+      transform: scale(1.06) rotate(-5deg);
+      box-shadow: 0 8px 18px rgba(246, 135, 42, 0.3);
+    }
+
+    .aud-card__year {
+      color: #f6872a;
+    }
+
+    .aud-card__btn {
+      background: #f6872a;
+      color: #fff;
+      border-color: #f6872a;
+
+      svg {
+        transform: translateX(3px);
+      }
     }
   }
 
-  &__card {
-    position: relative;
+  &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    background: #fff;
-    border-radius: 16px;
-    padding: 22px 24px;
-    border: 1px solid rgba(226, 232, 240, 0.7);
-    box-shadow: 0 6px 20px rgba(14, 36, 85, 0.05);
-    text-decoration: none;
-    transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
-
-    @media (max-width: 560px) {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    &:hover {
-      transform: translateX(4px);
-      box-shadow: 0 18px 38px rgba(14, 36, 85, 0.1);
-      border-color: rgba(246, 135, 42, 0.4);
-
-      .aud-item__icon {
-        background: #f6872a;
-        color: #fff;
-        transform: scale(1.06) rotate(-5deg);
-        box-shadow: 0 8px 18px rgba(246, 135, 42, 0.3);
-      }
-
-      .aud-item__title {
-        color: #f6872a;
-      }
-
-      .aud-item__btn {
-        background: #f6872a;
-        color: #fff;
-        border-color: #f6872a;
-
-        svg {
-          transform: translateX(3px);
-        }
-      }
-    }
+    margin-bottom: 18px;
   }
 
   &__icon {
@@ -163,26 +267,48 @@
     }
   }
 
-  &__title {
-    flex: 1 1 auto;
-    color: #0e2455;
-    font-size: 16.5px;
+  &__badge {
+    flex: 0 0 auto;
+    font-size: 10.5px;
     font-weight: 800;
-    letter-spacing: -0.2px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #3b82f6;
+    background: rgba(59, 130, 246, 0.09);
+    border: 1px solid rgba(59, 130, 246, 0.18);
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+
+  &__year {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #0e2455;
+    line-height: 1;
+    margin: 0 0 8px;
     transition: color 0.3s ease;
   }
 
+  &__sub {
+    color: #64748b;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+
   &__btn {
-    flex: 0 0 auto;
+    margin-top: auto;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    padding: 10px 18px;
-    border-radius: 10px;
+    padding: 12px 18px;
+    border-radius: 11px;
     border: 1.5px solid #eef1f6;
     background: #fff;
     color: #0e2455;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 800;
     transition: all 0.25s ease;
 
@@ -192,20 +318,36 @@
       transition: transform 0.25s ease;
     }
   }
+}
 
-  &:hover &__dot {
-    transform: scale(1.25);
-    box-shadow: 0 0 0 4px rgba(246, 135, 42, 0.2), 0 6px 14px rgba(246, 135, 42, 0.4);
+/* --- Bottom note ---------------------------------------------------------- */
+.aud-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 640px;
+  margin: 44px auto 0;
+  text-align: center;
+  color: #64748b;
+  font-size: 13.5px;
+  line-height: 1.7;
+
+  svg {
+    flex: 0 0 auto;
+    width: 17px;
+    height: 17px;
+    color: #f6872a;
   }
 }
 
 /* --- Responsive ----------------------------------------------------------- */
 @media (max-width: 991px) {
   .aud-main {
-    padding: 52px 0 72px;
+    padding: 48px 0 72px;
   }
 
   .aud-intro {
-    margin-bottom: 40px;
+    margin-bottom: 34px;
   }
 }

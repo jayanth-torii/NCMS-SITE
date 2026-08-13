@@ -3,16 +3,22 @@
    Palette: navy #0e2455 / orange #f6872a (NCMS)
 --------------------------------------------------------------------------- */
 .mdp-page {
-  background: #f8fafc;
+  position: relative;
+  background-color: transparent; /* let the fixed decor show through */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
+.mdp-page-content {
+  position: relative;
+  z-index: 1;
+}
+
 .mdp-main {
   padding: 48px 0 80px;
-  background: #f8fafc;
+  background: transparent;
 
   &__container {
     max-width: 1400px;

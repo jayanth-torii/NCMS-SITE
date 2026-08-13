@@ -56,6 +56,24 @@ const CAT_ICONS: Record<string, React.ReactNode> = {
   campusInitiatives: <Sprout size={15} />,
 };
 
+/* Fullscreen decorative background — shades + geometric shapes (same system as department pages) */
+const MdpDecor = () => (
+  <div className="dept-page-decor" aria-hidden="true">
+    <div className="dept-page-gradient"></div>
+    <div className="dept-page-dots"></div>
+    <div className="dept-pane-glow dept-pane-glow-orange"></div>
+    <div className="dept-pane-glow dept-pane-glow-blue"></div>
+    <div className="dept-pane-glow dept-pane-glow-navy"></div>
+    <div className="dept-pane-shape dept-pane-circle"></div>
+    <div className="dept-pane-shape dept-pane-ring"></div>
+    <div className="dept-pane-shape dept-pane-triangle"></div>
+    <div className="dept-pane-shape dept-pane-diamond"></div>
+    <div className="dept-pane-shape dept-pane-diamond-blue"></div>
+    <div className="dept-pane-shape dept-pane-plus"></div>
+    <div className="dept-pane-shape dept-pane-plus-blue"></div>
+  </div>
+);
+
 const MandatoryDisclosure = () => {
   const { data: liveData } = useLiveData(getMandatoryDisclosure, mandatoryDisclosureData as any);
   const d: any = liveData || (mandatoryDisclosureData as any).data || mandatoryDisclosureData;
@@ -187,6 +205,9 @@ const MandatoryDisclosure = () => {
 
   return (
     <main className="mdp-page">
+      <MdpDecor />
+
+      <div className="mdp-page-content">
       <PageBanner
         title={banner?.title || "Mandatory Disclosure"}
         eyebrow="Transparency & Compliance"
@@ -221,6 +242,7 @@ const MandatoryDisclosure = () => {
           <section className="mdp-content mdp-fade-up mdp-delay-1">{renderContent()}</section>
         </div>
       </section>
+      </div>
     </main>
   );
 };
