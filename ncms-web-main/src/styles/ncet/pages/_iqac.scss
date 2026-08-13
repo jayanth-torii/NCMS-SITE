@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // =========================================================================
 // IQAC page (redesigned) — clean, modern, cohesive.
 // Same brand palette: navy #0e2455 / orange #F6872A + whites & grays.
@@ -344,7 +346,7 @@ $iqac-shadow-sm: 0 10px 30px -22px rgba(14, 36, 85, 0.25);
       transition: background-color 0.2s ease;
 
       &:hover {
-        background: darken($iqac-orange, 8%);
+        background: color.adjust($iqac-orange, $lightness: -8%);
       }
     }
   }
@@ -1060,7 +1062,7 @@ $iqac-shadow-sm: 0 10px 30px -22px rgba(14, 36, 85, 0.25);
         transition: background-color 0.2s ease;
 
         &:hover {
-          background: darken($iqac-navy, 4%);
+          background: color.adjust($iqac-navy, $lightness: -4%);
         }
 
         &.is-muted {

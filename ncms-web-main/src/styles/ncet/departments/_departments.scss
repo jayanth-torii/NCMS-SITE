@@ -1,4 +1,6 @@
 
+@use "sass:color";
+
 // NCET Departments & Details Styling
 // Replicating colors, margins, alignments, grids, and hover transitions
 
@@ -3249,7 +3251,7 @@ $border-light: #f1f5f9;
         box-shadow: 0 10px 20px rgba(10, 31, 68, 0.15);
 
         &:hover {
-          background-color: lighten($navy-blue, 10%);
+          background-color: color.adjust($navy-blue, $lightness: 10%);
           transform: translateY(-2px);
           box-shadow: 0 15px 25px rgba(10, 31, 68, 0.2);
         }

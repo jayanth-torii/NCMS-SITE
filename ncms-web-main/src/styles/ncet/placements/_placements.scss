@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // =========================================================================
 // Placements page (redesigned)
 // Same brand palette — navy #0e2455 / orange #F6872A academic theme.
@@ -469,7 +471,7 @@ $placements-shadow-sm: 0 12px 28px -20px rgba(14, 36, 85, 0.22);
     svg { transition: transform 0.3s ease; }
 
     &:hover {
-      background: darken($placements-orange, 8%);
+      background: color.adjust($placements-orange, $lightness: -8%);
       color: #fff;
       transform: translateY(-3px);
       box-shadow: 0 14px 30px -12px rgba(246, 135, 42, 0.7);
@@ -1414,7 +1416,7 @@ $placements-shadow-sm: 0 12px 28px -20px rgba(14, 36, 85, 0.22);
 
   &__package {
     background: rgba(246, 135, 42, 0.12);
-    color: darken($placements-orange, 8%);
+    color: color.adjust($placements-orange, $lightness: -8%);
     padding: 0.4rem 1.25rem;
     border-radius: 9999px;
     font-weight: 800;
