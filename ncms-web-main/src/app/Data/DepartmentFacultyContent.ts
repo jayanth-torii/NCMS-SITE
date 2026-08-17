@@ -123,7 +123,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Dr. Mallikarjun M Kodabagi",
       //   "designation": "Professor & HOD, Dean-Academics, SoC",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Mallikarjun_Kodabagi_CSE_d59ffb2cfa.png",
+      //   "image": "/images/faculty/Mallikarjun_Kodabagi_CSE_d59ffb2cfa.png",
       //   "description": [
       //     "Expert in AI, ML, and Data Science.",
       //     "20+ years of teaching experience."
@@ -166,7 +166,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Dr. Rajkumar",
       //   "designation": "Professor",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Rajkumar_CSE_4b43ae5ea4.png",
+      //   "image": "/images/faculty/Rajkumar_CSE_4b43ae5ea4.png",
       //   "description": [
       //     "21 Years of teaching experience",
       //     "Expertise in Wireless Sensor Networks, AI, Security and IOT"
@@ -209,7 +209,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Prof. Swathi N",
       //   "designation": "Assistant Professor ",
       //   "qualification": "BE, M. Tech, (PhD)",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Swathi_N_CSE_dbb2aaef60.png",
+      //   "image": "/images/faculty/Swathi_N_CSE_dbb2aaef60.png",
       //   "description": [
       //     "5 Years of teaching and 2 years of research experience",
       //     "Expertise in Cyber Security, Machine Learning and Artificial Intelligence"
@@ -252,7 +252,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Prof. Bhoomika K S",
       //   "designation": "Assistant Professor ",
       //   "qualification": "BE, M. Tech, (PhD)",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhoomika_K_S_9b635aad01.png",
+      //   "image": "/images/faculty/Bhoomika_K_S_9b635aad01.png",
       //   "description": [
       //     "Expert in Computer Science with strong teaching and academic background",
       //     "BIT Bengaluru alumnus dedicated to student success and learning"
@@ -294,7 +294,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Prof. Likhitha",
       //   "designation": "Assistant Professor ",
       //   "qualification": "BE, M. Tech, (PhD)",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Likhitha_CSE_a74c155d81.png",
+      //   "image": "/images/faculty/Likhitha_CSE_a74c155d81.png",
       //   "description": [
       //     "Assistant Professor in Computer Science since 2022 at NCET",
       //     "M.Tech graduate from Visvesvaraya Institute of Advanced Technology"
@@ -336,7 +336,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Dr. Prasanna Lakshmi G S",
       //   "designation": "Associate Professor",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Prasana_Lakshmi_CSE_20ee070454.png",
+      //   "image": "/images/faculty/Prasana_Lakshmi_CSE_20ee070454.png",
       //   "description": [
       //     "Ph.D. in Mobile Ad-Hoc Networks, 14+ years' experience",
       //     "Published 25+ papers, patents in India, Australia, UK"
@@ -383,7 +383,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Prof. Koushika K H",
       //   "designation": "Assistant Professor ",
       //   "qualification": "BE, M. Tech",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+      //   "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
       //   "description": [
       //     "Assistant Professor with research interests in Networks and AI",
       //     "M.Tech in CSE, with 2 years of teaching experience"
@@ -413,7 +413,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Dr. Bhargava R",
       //   "designation": "Associate Professor ",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+      //   "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
       //   "description": [
       //     "Ph.D. holder with 8+ years' academic and corporate experience",
       //     "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -452,7 +452,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Prof. Mohan Gowda G S",
       //   "designation": "Associate Professor ",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+      //   "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
       //   "description": [
       //     "Ph.D. scholar with 9 years' academic and industry experience",
       //     "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -491,7 +491,7 @@ export const DepartmentFacultyContent = {
       //   "name": "Dr. Baba Fakruddin Ali B H",
       //   "designation": "Assistant Professor ",
       //   "qualification": "BE, M. Tech, PhD",
-      //   "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+      //   "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
       //   "description": [
       //     "Ph.D. in ML & Image Analysis, with global research impact",
       //     "Authored a book, 15 papers, and holds 3 patents"
@@ -534,7 +534,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Koushika K H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+        "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
         "description": [
           "Assistant Professor with research interests in Networks and AI",
           "M.Tech in CSE, with 2 years of teaching experience"
@@ -564,7 +564,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Bhargava R",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+        "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
         "description": [
           "Ph.D. holder with 8+ years' academic and corporate experience",
           "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -603,7 +603,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Mohan Gowda G S",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+        "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
         "description": [
           "Ph.D. scholar with 9 years' academic and industry experience",
           "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -642,7 +642,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Baba Fakruddin Ali B H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+        "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
         "description": [
           "Ph.D. in ML & Image Analysis, with global research impact",
           "Authored a book, 15 papers, and holds 3 patents"
@@ -685,7 +685,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Likhitha",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, (PhD)",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Likhitha_CSE_a74c155d81.png",
+        "image": "/images/faculty/Likhitha_CSE_a74c155d81.png",
         "description": [
           "Assistant Professor in Computer Science since 2022 at NCET",
           "M.Tech graduate from Visvesvaraya Institute of Advanced Technology"
@@ -727,7 +727,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Prasanna Lakshmi G S",
         "designation": "Associate Professor",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Prasana_Lakshmi_CSE_20ee070454.png",
+        "image": "/images/faculty/Prasana_Lakshmi_CSE_20ee070454.png",
         "description": [
           "Ph.D. in Mobile Ad-Hoc Networks, 14+ years' experience",
           "Published 25+ papers, patents in India, Australia, UK"
@@ -778,7 +778,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Koushika K H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+        "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
         "description": [
           "Assistant Professor with research interests in Networks and AI",
           "M.Tech in CSE, with 2 years of teaching experience"
@@ -808,7 +808,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Bhargava R",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+        "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
         "description": [
           "Ph.D. holder with 8+ years' academic and corporate experience",
           "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -847,7 +847,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Mohan Gowda G S",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+        "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
         "description": [
           "Ph.D. scholar with 9 years' academic and industry experience",
           "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -886,7 +886,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Baba Fakruddin Ali B H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+        "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
         "description": [
           "Ph.D. in ML & Image Analysis, with global research impact",
           "Authored a book, 15 papers, and holds 3 patents"
@@ -1097,7 +1097,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Koushika K H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+        "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
         "description": [
           "Assistant Professor with research interests in Networks and AI",
           "M.Tech in CSE, with 2 years of teaching experience"
@@ -1127,7 +1127,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Bhargava R",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+        "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
         "description": [
           "Ph.D. holder with 8+ years' academic and corporate experience",
           "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -1166,7 +1166,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Mohan Gowda G S",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+        "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
         "description": [
           "Ph.D. scholar with 9 years' academic and industry experience",
           "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -1205,7 +1205,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Baba Fakruddin Ali B H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+        "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
         "description": [
           "Ph.D. in ML & Image Analysis, with global research impact",
           "Authored a book, 15 papers, and holds 3 patents"
@@ -1248,7 +1248,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Koushika K H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+        "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
         "description": [
           "Assistant Professor with research interests in Networks and AI",
           "M.Tech in CSE, with 2 years of teaching experience"
@@ -1278,7 +1278,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Bhargava R",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+        "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
         "description": [
           "Ph.D. holder with 8+ years' academic and corporate experience",
           "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -1317,7 +1317,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Mohan Gowda G S",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+        "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
         "description": [
           "Ph.D. scholar with 9 years' academic and industry experience",
           "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -1356,7 +1356,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Baba Fakruddin Ali B H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+        "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
         "description": [
           "Ph.D. in ML & Image Analysis, with global research impact",
           "Authored a book, 15 papers, and holds 3 patents"
@@ -1566,7 +1566,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Koushika K H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Koushika_K_H_CSE_37192a5339.png",
+        "image": "/images/faculty/Koushika_K_H_CSE_37192a5339.png",
         "description": [
           "Assistant Professor with research interests in Networks and AI",
           "M.Tech in CSE, with 2 years of teaching experience"
@@ -1596,7 +1596,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Bhargava R",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Bhargava_R_CSE_8bc353d660.png",
+        "image": "/images/faculty/Bhargava_R_CSE_8bc353d660.png",
         "description": [
           "Ph.D. holder with 8+ years' academic and corporate experience",
           "Founder, author, and CISCO-certified trainer in advanced tech"
@@ -1635,7 +1635,7 @@ export const DepartmentFacultyContent = {
         "name": "Prof. Mohan Gowda G S",
         "designation": "Associate Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
+        "image": "/images/faculty/Mohan_Gowda_G_S_CSE_39f6d2c258.png",
         "description": [
           "Ph.D. scholar with 9 years' academic and industry experience",
           "Research interests: IoT, Cloud Computing, and Computer Networks"
@@ -1674,7 +1674,7 @@ export const DepartmentFacultyContent = {
         "name": "Dr. Baba Fakruddin Ali B H",
         "designation": "Assistant Professor ",
         "qualification": "BE, M. Tech, PhD",
-        "image": "https://dhdd6qrq9xuua.cloudfront.net/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
+        "image": "/images/faculty/Baba_Fakruddin_Ali_B_H_CSE_e5c1b7533d.png",
         "description": [
           "Ph.D. in ML & Image Analysis, with global research impact",
           "Authored a book, 15 papers, and holds 3 patents"

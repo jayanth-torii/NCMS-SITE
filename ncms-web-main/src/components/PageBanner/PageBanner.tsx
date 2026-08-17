@@ -67,12 +67,13 @@ const PageBanner = ({
   const matchedKey = matchKey(pathname, Object.keys(HERO_IMAGES));
   const heroImage = image || (matchedKey ? HERO_IMAGES[matchedKey] : null);
 
-  // When a photo banner is used, layer a left→right navy scrim over it so the
-  // text zone stays legible over ANY artwork while the right-side subject stays clear.
+  // When a photo banner is used, layer NDC-style solid navy on the left that
+  // fades out by the right edge — the text zone sits on clean navy while the
+  // banner artwork is fully visible on the right (right-anchored, like NCET).
   const photoStyle = heroImage
     ? {
-        backgroundColor: "#0a1a3f",
-        backgroundImage: `linear-gradient(90deg, rgba(10, 26, 63, 0.86) 0%, rgba(10, 26, 63, 0.58) 38%, rgba(10, 26, 63, 0.22) 55%, rgba(10, 26, 63, 0) 72%), url("${heroImage}")`,
+        backgroundColor: "#0e2455",
+        backgroundImage: `radial-gradient(800px circle at 5% 5%, rgba(246, 135, 42, 0.04), transparent 40%), linear-gradient(105deg, #0e2455 0%, #0e2455 38%, rgba(14, 36, 85, 0.6) 55%, rgba(14, 36, 85, 0) 100%), url("${heroImage}")`,
         backgroundSize: "cover",
         backgroundPosition: "right center",
         backgroundRepeat: "no-repeat",

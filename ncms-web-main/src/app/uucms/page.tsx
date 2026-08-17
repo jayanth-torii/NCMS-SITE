@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 
 import PageBanner from "@/components/PageBanner/PageBanner";
+import PageDecor from "@/components/ui/PageDecor";
 import highlight from "@/components/HomeNCET/highlight";
 
 import UUCMSData from "@/data-export/uucms-content/data.json";
@@ -57,6 +58,8 @@ const UUCMS = () => {
 
   return (
     <main className="uuc-page">
+      <PageDecor />
+
       <PageBanner
         title={banner?.title || "UUCMS"}
         eyebrow="University & College Management System"

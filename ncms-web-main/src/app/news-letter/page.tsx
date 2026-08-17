@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { BookOpen, FileText, Eye, Target, Newspaper, ArrowRight, Mail, Sparkles } from "lucide-react";
 
 import PageBanner from "@/components/PageBanner/PageBanner";
+import PageDecor from "@/components/ui/PageDecor";
 import highlight from "@/components/HomeNCET/highlight";
 
 import newsLetterData from "@/data-export/news-letter/data.json";
@@ -76,6 +77,8 @@ const NewsLetter = () => {
 
   return (
     <main className="nwl-page">
+      <PageDecor />
+
       <PageBanner
         eyebrow="Nudi Chaitanya"
         title={banner?.title || "Newsletter"}

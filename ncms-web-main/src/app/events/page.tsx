@@ -65,37 +65,59 @@ const EvtAccordion = ({
 
   return (
     <div className={`evt-acc${open ? " is-open" : ""}`}>
-      <button type="button" className="evt-acc__head" onClick={onToggle}>
+      <button
+        type="button"
+        className="evt-acc__head"
+        onClick={onToggle}
+        aria-expanded={open}
+      >
         <span className="evt-acc__num">{String(index + 1).padStart(2, "0")}</span>
-        <span className="evt-acc__title">{item?.title}</span>
+        <span className="evt-acc__head-main">
+          <span className="evt-acc__title">{item?.title}</span>
+          {imgs.length > 0 && (
+            <span className="evt-acc__meta">
+              <span className="evt-acc__meta-bar" aria-hidden="true" />
+              {imgs.length} Photo{imgs.length === 1 ? "" : "s"}
+            </span>
+          )}
+        </span>
         <span className="evt-acc__chevron">
           <ChevronDown />
         </span>
       </button>
-      {open && (
-        <div className="evt-acc__body">
-          {descs.map((d: string, i: number) => (
-            <p className="evt-acc__desc" key={i}>
-              {d}
-            </p>
-          ))}
-          {imgs.length > 0 && (
-            <div className={`evt-strip${imgs.length === 1 ? " evt-strip--single" : ""}`}>
-              {imgs.map((src: string, i: number) => (
-                <button
-                  key={i}
-                  type="button"
-                  className="evt-strip__item"
-                  onClick={() => onOpenImage(src, `evt-${index}`)}
-                  aria-label={`View image ${i + 1}`}
-                >
-                  <img src={src} alt={`${item?.title} ${i + 1}`} loading="lazy" />
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
+
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            className="evt-acc__body"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease: EASE }}
+          >
+            {descs.map((d: string, i: number) => (
+              <p className="evt-acc__desc" key={i}>
+                {d}
+              </p>
+            ))}
+            {imgs.length > 0 && (
+              <div className={`evt-strip${imgs.length === 1 ? " evt-strip--single" : ""}`}>
+                {imgs.map((src: string, i: number) => (
+                  <button
+                    key={i}
+                    type="button"
+                    className="evt-strip__item"
+                    onClick={() => onOpenImage(src, `evt-${index}`)}
+                    aria-label={`View image ${i + 1}`}
+                  >
+                    <img src={src} alt={`${item?.title} ${i + 1}`} loading="lazy" />
+                  </button>
+                ))}
+              </div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
@@ -353,17 +375,19 @@ const Events = () => {
     return (
       <div className="evt-panel">
         <h2 className="evt-panel__title">{accordionData?.title}</h2>
-        {accordionItems.map((item: any, i: number) => (
-          <Rise key={item?.id || i} delay={(i % 4) * 0.04}>
-            <EvtAccordion
-              item={item}
-              index={i}
-              open={openAcc.has(i)}
-              onToggle={() => toggleAcc(i)}
-              onOpenImage={openImage}
-            />
-          </Rise>
-        ))}
+        <div className="evt-acc-list">
+          {accordionItems.map((item: any, i: number) => (
+            <Rise key={item?.id || i} delay={(i % 4) * 0.04}>
+              <EvtAccordion
+                item={item}
+                index={i}
+                open={openAcc.has(i)}
+                onToggle={() => toggleAcc(i)}
+                onOpenImage={openImage}
+              />
+            </Rise>
+          ))}
+        </div>
       </div>
     );
   };

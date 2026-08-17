@@ -1,0 +1,541 @@
+/* ---------------------------------------------------------------------------
+   Apply Now — NCET admissions-style page (compact).
+   Palette: navy #0e2455 / orange #F6872A / slate grays.
+--------------------------------------------------------------------------- */
+.apn-page {
+  position: relative;
+  background-color: transparent; /* let the fixed decor show through */
+}
+
+.apn-main {
+  position: relative;
+  z-index: 1;
+  padding: 56px 0 88px;
+  background: transparent;
+}
+
+.apn-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(330px, 0.92fr);
+  gap: 26px;
+  align-items: start;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================================
+   LEFT COLUMN — info sections
+   ========================================================================= */
+.apn-info {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.apn-info__section {
+  background: #ffffff;
+  border: 1px solid #e8edf5;
+  border-radius: 18px;
+  padding: 26px 26px 28px;
+  box-shadow: 0 12px 32px -24px rgba(14, 36, 85, 0.18);
+
+  @media (max-width: 600px) {
+    padding: 22px 18px 24px;
+  }
+}
+
+.apn-info__head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+
+  .apn-info__head-icon {
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(14, 36, 85, 0.06);
+    color: #0e2455;
+  }
+
+  h2 {
+    margin: 0;
+    color: #0e2455;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 3px 0 0;
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
+/* --- Admissions Process (2x2 cards) -------------------------------------- */
+.apn-process {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.apn-process__card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 16px 17px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border: 1px solid #eef2f8;
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    border-color: rgba(246, 135, 42, 0.35);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px -16px rgba(14, 36, 85, 0.22);
+  }
+
+  .apn-process__num {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 34px;
+    height: 26px;
+    padding: 0 8px;
+    border-radius: 8px;
+    background: rgba(59, 130, 246, 0.12);
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+  }
+
+  strong {
+    color: #0e2455;
+    font-size: 14.5px;
+    font-weight: 800;
+    line-height: 1.35;
+  }
+
+  p {
+    margin: 0;
+    color: #64748b;
+    font-size: 12.5px;
+    line-height: 1.6;
+  }
+}
+
+/* --- Required Documents --------------------------------------------------- */
+.apn-docs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    color: #475569;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.55;
+
+    .apn-docs__check {
+      flex: 0 0 auto;
+      width: 22px;
+      height: 22px;
+      margin-top: 1px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(16, 185, 129, 0.12);
+      color: #10b981;
+    }
+  }
+}
+
+/* --- Admissions Helpdesk (navy, WHITE text) ------------------------------- */
+.apn-helpdesk {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  padding: 28px 26px 26px;
+  background: linear-gradient(140deg, #0e2455 0%, #14306b 100%);
+
+  /* geometric accents (no circles) */
+  &::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 130px;
+    height: 130px;
+    border-radius: 22px;
+    transform: rotate(45deg);
+    background: rgba(246, 135, 42, 0.14);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: -26px;
+    width: 110px;
+    height: 110px;
+    border: 20px solid rgba(255, 255, 255, 0.05);
+    border-radius: 22px;
+    transform: rotate(24deg);
+    pointer-events: none;
+  }
+
+  @media (max-width: 600px) {
+    padding: 24px 18px 22px;
+  }
+
+  &__head {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 18px;
+
+    h3 {
+      margin: 0 0 5px;
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.55;
+    }
+  }
+
+  &__cards {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 10px;
+  }
+
+  &__card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(246, 135, 42, 0.55);
+      transform: translateY(-2px);
+    }
+
+    .apn-helpdesk__card-icon {
+      flex: 0 0 auto;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(246, 135, 42, 0.16);
+      color: #f6872a;
+    }
+
+    .apn-helpdesk__card-body {
+      min-width: 0;
+
+      strong {
+        display: block;
+        margin-bottom: 3px;
+        color: rgba(255, 255, 255, 0.68);
+        font-size: 10.5px;
+        font-weight: 800;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: #ffffff;
+        font-size: 14.5px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: #ffb978;
+        }
+      }
+
+      p {
+        margin: 0;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 1.6;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+/* =========================================================================
+   RIGHT COLUMN — Quick Inquiry form (NCET reference look)
+   ========================================================================= */
+.apn-form {
+  position: relative;
+  width: 100%;
+  padding: 28px 26px 30px;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  box-shadow: 0 16px 44px -28px rgba(14, 36, 85, 0.28);
+
+  @media (max-width: 600px) {
+    padding: 24px 18px 26px;
+  }
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 14px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #fff3e8;
+    color: #f6872a;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+    svg {
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  &__heading {
+    margin: 0 0 6px;
+    color: #0e2455;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    line-height: 1.25;
+  }
+
+  &__subtitle {
+    margin: 0 0 22px;
+    color: #64748b;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 16px;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    display: block;
+    margin: 0 0 7px 4px;
+    color: #475569;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    span {
+      color: #f6872a;
+    }
+  }
+
+  &__control {
+    position: relative;
+
+    .apn-form__icon {
+      position: absolute;
+      left: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+      transition: color 0.25s ease;
+    }
+
+    &:focus-within .apn-form__icon {
+      color: #f6872a;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    padding: 11px 13px 11px 40px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    color: #0e2455;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: all 0.3s ease;
+
+    &::placeholder {
+      color: #94a3b8;
+    }
+
+    &:hover {
+      background: #ffffff;
+      border-color: #cbd5e1;
+    }
+
+    &:focus {
+      background: #ffffff;
+      border-color: #f6872a;
+      box-shadow: 0 4px 20px rgba(246, 135, 42, 0.14);
+    }
+
+    &.has-error {
+      border-color: #dc2626;
+    }
+  }
+
+  select.apn-form__input {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%230e2455' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 40px;
+  }
+
+  &__error {
+    display: block;
+    margin: 6px 0 0 4px;
+    color: #dc2626;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  &__consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+
+    input {
+      flex: 0 0 auto;
+      width: 17px;
+      height: 17px;
+      margin-top: 2px;
+      accent-color: #f6872a;
+      cursor: pointer;
+    }
+
+    span {
+      color: #64748b;
+      font-size: 12.5px;
+      font-weight: 500;
+      line-height: 1.55;
+    }
+  }
+
+  &__submit {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #f97316 0%, #f6872a 100%);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+    &:hover:not(:disabled) {
+      background: linear-gradient(90deg, #e57a25 0%, #f6872a 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(246, 135, 42, 0.4);
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    .apn-spinner {
+      width: 18px;
+      height: 18px;
+      border: 2.5px solid rgba(255, 255, 255, 0.35);
+      border-top-color: #ffffff;
+      border-radius: 50%;
+      animation: apn-spin 0.7s linear infinite;
+    }
+  }
+
+  &__status {
+    margin-top: 14px;
+    padding: 13px 16px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    &.is-success {
+      color: #166534;
+      background: #dcfce7;
+    }
+
+    &.is-error {
+      color: #b91c1c;
+      background: #fee2e2;
+    }
+  }
+}
+
+@keyframes apn-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

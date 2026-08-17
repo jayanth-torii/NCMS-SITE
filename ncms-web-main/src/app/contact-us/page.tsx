@@ -26,9 +26,9 @@ const ContactUs = () => {
 
       <ContactUsBanner data={liveContact?.banner} />
 
-      {/* Get In Touch + Query form */}
-      <section className="bg-[#f8fafc] py-16 md:py-20">
-        <div className="container mx-auto grid max-w-[1300px] grid-cols-1 items-start gap-10 px-4 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
+      {/* Talk to our team + Submit Your Query — one row on desktop */}
+      <section className="bg-[#f8fafc] py-14 md:py-20">
+        <div className="container mx-auto grid max-w-[1300px] grid-cols-1 items-start gap-10 px-4 lg:grid-cols-[1fr_1fr] lg:gap-14 lg:px-8">
           <ContactDetails data={liveContact?.contactDetails} mapLink={liveContact?.Map_Section?.AdderssLink} />
           <QueryForm />
         </div>

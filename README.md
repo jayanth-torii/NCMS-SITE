@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="NCMS-SITE animated hero" />
+  <img src="ncms-web-main/public/assets/hero.svg" width="100%" alt="NCMS-SITE animated hero" />
 </p>
 
 <div align="center">
@@ -27,7 +27,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 </div>
 
 <p align="center">
-  <img src="assets/waveform.svg" width="340" height="90" alt="Animated equalizer" />
+  <img src="ncms-web-main/public/assets/waveform.svg" width="340" height="90" alt="Animated equalizer" />
 </p>
 
 ---
@@ -35,7 +35,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ## 📖 Table of Contents
 
 <p align="center">
-  <img src="assets/toc.svg" width="100%" alt="Animated README navigation visual" />
+  <img src="ncms-web-main/public/assets/toc.svg" width="100%" alt="Animated README navigation visual" />
 </p>
 
 <div align="center">
@@ -53,7 +53,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ## ✨ About The Project
 
 <p align="center">
-  <img src="assets/overview.svg" width="100%" alt="Animated project overview visual" />
+  <img src="ncms-web-main/public/assets/overview.svg" width="100%" alt="Animated project overview visual" />
 </p>
 
 **NCMS-SITE** is the complete digital ecosystem for **Nagarjuna College of Management Studies**, Bengaluru — a three-part platform:
@@ -73,16 +73,16 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ### Key Features
 
 <p align="center">
-  <img src="assets/features.svg" width="100%" alt="Animated key features visual" />
+  <img src="ncms-web-main/public/assets/features.svg" width="100%" alt="Animated key features visual" />
 </p>
 
 <div align="center">
 
 | | | |
 | --- | --- | --- |
-| <img src="assets/loader-orbit.svg" width="56" height="56" alt="orbit loader" /> | **🌐 Website Highlights**<br/>25+ responsive pages · department hubs with tabbed About / HOD / Vision & Mission / PEOs / Syllabus / Faculty · premium Framer Motion animations · Swiper carousels · graceful JSON fallback so the site *never* shows a blank page. | <img src="assets/loader-orbit.svg" width="56" height="56" alt="orbit loader" /> |
-| <img src="assets/loader-pulse.svg" width="56" height="56" alt="pulse loader" /> | **⚙️ Backend Highlights**<br/>Express + Mongoose API with JWT authentication, role-based routes, `multer` uploads and `express-validator` · one-command JSON seeding (`npm run seed`) · 44 generated content modules. | <img src="assets/loader-pulse.svg" width="56" height="56" alt="pulse loader" /> |
-| <img src="assets/loader-3d.svg" width="56" height="56" alt="3d loader" /> | **🛠️ Admin Panel Highlights**<br/>OTP login flow · role-aware dashboards (admin / COO / dean / principal / HOD / faculty) · generic JSON-driven content editor with per-page read/write grants · SweetAlert2 + toast UX. | <img src="assets/loader-3d.svg" width="56" height="56" alt="3d loader" /> |
+| <img src="ncms-web-main/public/assets/loader-orbit.svg" width="56" height="56" alt="orbit loader" /> | **🌐 Website Highlights**<br/>25+ responsive pages · department hubs with tabbed About / HOD / Vision & Mission / PEOs / Syllabus / Faculty · premium Framer Motion animations · Swiper carousels · graceful JSON fallback so the site *never* shows a blank page. | <img src="ncms-web-main/public/assets/loader-orbit.svg" width="56" height="56" alt="orbit loader" /> |
+| <img src="ncms-web-main/public/assets/loader-pulse.svg" width="56" height="56" alt="pulse loader" /> | **⚙️ Backend Highlights**<br/>Express + Mongoose API with JWT authentication, role-based routes, `multer` uploads and `express-validator` · one-command JSON seeding (`npm run seed`) · 44 generated content modules. | <img src="ncms-web-main/public/assets/loader-pulse.svg" width="56" height="56" alt="pulse loader" /> |
+| <img src="ncms-web-main/public/assets/loader-3d.svg" width="56" height="56" alt="3d loader" /> | **🛠️ Admin Panel Highlights**<br/>OTP login flow · role-aware dashboards (admin / COO / dean / principal / HOD / faculty) · generic JSON-driven content editor with per-page read/write grants · SweetAlert2 + toast UX. | <img src="ncms-web-main/public/assets/loader-3d.svg" width="56" height="56" alt="3d loader" /> |
 
 </div>
 
@@ -93,7 +93,7 @@ _A premium, content-driven institutional website built with **Next.js**, powered
 ### Animated Architecture
 
 <p align="center">
-  <img src="assets/architecture.svg?v=2" width="100%" alt="Animated NCMS architecture diagram with high-contrast text" />
+  <img src="ncms-web-main/public/assets/architecture.svg?v=2" width="100%" alt="Animated NCMS architecture diagram with high-contrast text" />
 </p>
 
 ### Original Architecture
@@ -134,7 +134,7 @@ flowchart LR
 ## 🧱 Tech Stack
 
 <p align="center">
-  <img src="assets/bars.svg" width="440" height="320" alt="NCMS tech stack loading bars" />
+  <img src="ncms-web-main/public/assets/bars.svg" width="440" height="320" alt="NCMS tech stack loading bars" />
 </p>
 
 <div align="center">
@@ -156,7 +156,7 @@ flowchart LR
 ## 📁 Project Structure
 
 <p align="center">
-  <img src="assets/structure.svg" width="100%" alt="Animated monorepo project structure visual" />
+  <img src="ncms-web-main/public/assets/structure.svg" width="100%" alt="Animated monorepo project structure visual" />
 </p>
 
 ```
@@ -190,7 +190,7 @@ ncms-new/
 ## 🚀 Getting Started
 
 <p align="center">
-  <img src="assets/setup.svg" width="100%" alt="Animated getting started setup flow" />
+  <img src="ncms-web-main/public/assets/setup.svg" width="100%" alt="Animated getting started setup flow" />
 </p>
 
 > **Prerequisites:** Node.js ≥ 18, npm ≥ 6, MongoDB running locally.
@@ -199,9 +199,9 @@ ncms-new/
 
 | | | |
 | --- | --- | --- |
-| <img src="assets/loader-3d.svg" width="48" height="48" alt="3d loader" /> | **1 · Public Website**<br/><code>cd ncms-web-main && npm install && npm run dev</code><br/>→ `http://localhost:3100` | Works out of the box on bundled JSON |
-| <img src="assets/loader-orbit.svg" width="48" height="48" alt="orbit loader" /> | **2 · API Backend**<br/><code>cd ncms-backend-main && npm install && npm run seed && npm run dev</code><br/>→ `http://localhost:4001` | Seeds every collection from JSON |
-| <img src="assets/loader-pulse.svg" width="48" height="48" alt="pulse loader" /> | **3 · Admin Panel**<br/><code>cd ncms-admin-main && npm install && npm start</code><br/>→ `http://localhost:3001` | Skote-style dashboard |
+| <img src="ncms-web-main/public/assets/loader-3d.svg" width="48" height="48" alt="3d loader" /> | **1 · Public Website**<br/><code>cd ncms-web-main && npm install && npm run dev</code><br/>→ `http://localhost:3100` | Works out of the box on bundled JSON |
+| <img src="ncms-web-main/public/assets/loader-orbit.svg" width="48" height="48" alt="orbit loader" /> | **2 · API Backend**<br/><code>cd ncms-backend-main && npm install && npm run seed && npm run dev</code><br/>→ `http://localhost:4001` | Seeds every collection from JSON |
+| <img src="ncms-web-main/public/assets/loader-pulse.svg" width="48" height="48" alt="pulse loader" /> | **3 · Admin Panel**<br/><code>cd ncms-admin-main && npm install && npm start</code><br/>→ `http://localhost:3001` | Skote-style dashboard |
 
 </div>
 
@@ -210,7 +210,7 @@ ncms-new/
 ## 🔐 Environment Variables
 
 <p align="center">
-  <img src="assets/env.svg" width="100%" alt="Animated environment variable map" />
+  <img src="ncms-web-main/public/assets/env.svg" width="100%" alt="Animated environment variable map" />
 </p>
 
 ### `ncms-web-main/.env`
@@ -237,7 +237,7 @@ ncms-new/
 ## 🗄️ Data Architecture
 
 <p align="center">
-  <img src="assets/data-pipeline.svg" width="100%" alt="Animated live data and JSON fallback pipeline" />
+  <img src="ncms-web-main/public/assets/data-pipeline.svg" width="100%" alt="Animated live data and JSON fallback pipeline" />
 </p>
 
 The website is **resilient by design**:
@@ -260,7 +260,7 @@ Component
 ## 🎨 Design System
 
 <p align="center">
-  <img src="assets/design-system.svg" width="100%" alt="Animated NCMS design system visual" />
+  <img src="ncms-web-main/public/assets/design-system.svg" width="100%" alt="Animated NCMS design system visual" />
 </p>
 
 <div align="center">
@@ -277,9 +277,9 @@ Component
 </div>
 
 <p align="center">
-  <img src="assets/loader-3d.svg" width="110" height="110" alt="3d loader" />
-  <img src="assets/loader-pulse.svg" width="110" height="110" alt="pulse loader" />
-  <img src="assets/loader-orbit.svg" width="110" height="110" alt="orbit loader" />
+  <img src="ncms-web-main/public/assets/loader-3d.svg" width="110" height="110" alt="3d loader" />
+  <img src="ncms-web-main/public/assets/loader-pulse.svg" width="110" height="110" alt="pulse loader" />
+  <img src="ncms-web-main/public/assets/loader-orbit.svg" width="110" height="110" alt="orbit loader" />
 </p>
 
 ---
@@ -287,7 +287,7 @@ Component
 ## 📄 Pages & Routes
 
 <p align="center">
-  <img src="assets/routes.svg" width="100%" alt="Animated pages and routes map" />
+  <img src="ncms-web-main/public/assets/routes.svg" width="100%" alt="Animated pages and routes map" />
 </p>
 
 | Route | Page |
@@ -314,7 +314,7 @@ Component
 ## 🧰 Available Scripts
 
 <p align="center">
-  <img src="assets/scripts.svg" width="100%" alt="Animated available scripts workflow" />
+  <img src="ncms-web-main/public/assets/scripts.svg" width="100%" alt="Animated available scripts workflow" />
 </p>
 
 | Project | Command | Action |
@@ -332,7 +332,7 @@ Component
 ## 👨‍💻 Developer Notes
 
 <p align="center">
-  <img src="assets/developer.svg" width="100%" alt="Animated developer notes visual" />
+  <img src="ncms-web-main/public/assets/developer.svg" width="100%" alt="Animated developer notes visual" />
 </p>
 
 Built and maintained by **Jayanth** — see [`DEVELOPER.md`](DEVELOPER.md) for the full developer notes, credits and build story.
@@ -342,7 +342,7 @@ Built and maintained by **Jayanth** — see [`DEVELOPER.md`](DEVELOPER.md) for t
 ## 🤝 Contributing
 
 <p align="center">
-  <img src="assets/contributing.svg" width="100%" alt="Animated contribution workflow visual" />
+  <img src="ncms-web-main/public/assets/contributing.svg" width="100%" alt="Animated contribution workflow visual" />
 </p>
 
 Contributions make this project better! To contribute:
@@ -360,7 +360,7 @@ Please keep the design language consistent (navy `#0e2455` / orange `#F6872A`), 
 ## 📜 License
 
 <p align="center">
-  <img src="assets/license.svg" width="100%" alt="Animated proprietary license visual" />
+  <img src="ncms-web-main/public/assets/license.svg" width="100%" alt="Animated proprietary license visual" />
 </p>
 
 This project is proprietary and maintained for **Nagarjuna College of Management Studies**. All content, branding and media belong to the college.
@@ -369,7 +369,7 @@ This project is proprietary and maintained for **Nagarjuna College of Management
 
 <div align="center">
 
-<img src="assets/footer.svg" width="100%" alt="NCMS animated footer" />
+<img src="ncms-web-main/public/assets/footer.svg" width="100%" alt="NCMS animated footer" />
 
 **Made with ❤️ for Nagarjuna College of Management Studies, Bengaluru**
 

@@ -31,13 +31,16 @@
 .ftr-watermark {
   position: absolute;
   left: 0;
-  bottom: 24px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
   z-index: 0;
   margin: 0;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: Poppins, "Source Sans Pro", sans-serif;
-  font-size: clamp(56px, 6.1vw, 86px);
+  font-size: clamp(48px, 5.4vw, 74px);
   font-weight: 900;
   letter-spacing: 1px;
   line-height: 0.9;
@@ -233,6 +236,13 @@
   /* hide the vertical NGI watermark on tablet and below */
   .ftr-watermark { display: none; }
 }
+/* tablet: stack the bottom bar so it never wraps awkwardly */
+@media (max-width: 900px) {
+  .ftr-bottom__inner { flex-direction: column; text-align: center; gap: 10px; padding-top: 16px; padding-bottom: 16px; }
+  .ftr-bottom__left { justify-content: center; }
+  .ftr-bottom__right { justify-content: center; }
+}
+
 @media (max-width: 640px) {
   .ftr-grid { grid-template-columns: 1fr; gap: 10px; padding: 22px 0 14px; }
   .ftr-watermark { display: none; }
@@ -255,6 +265,15 @@
   .ftr-bottom__inner { flex-direction: column; text-align: center; gap: 12px; }
   .ftr-bottom__left { justify-content: center; gap: 14px; }
   .ftr-bottom__right { justify-content: center; gap: 16px; }
+  .ftr-bottom__copy { white-space: normal; line-height: 1.5; }
+}
+
+/* small phones: stack logo above copyright, shrink the mark */
+@media (max-width: 480px) {
+  .ftr-bottom__left { flex-direction: column; gap: 8px; }
+  .ftr-bottom__ngi { height: 44px; }
+  .ftr-bottom__copy { font-size: 11.5px; }
+  .ftr-bottom__powered img { height: 38px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

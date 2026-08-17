@@ -38,76 +38,101 @@ const ICONS: Record<string, React.ReactNode> = {
       <circle cx="14.5" cy="8.5" r="1.4" />
     </svg>
   ),
+  arrow: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </svg>
+  ),
+  chat: (
+    <svg {...sp}>
+      <path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12Z" />
+      <path d="M8.5 11h.01M12 11h.01M15.5 11h.01" />
+    </svg>
+  ),
 };
-const ArrowIcon = (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M5 12h14M13 6l6 6-6 6" />
-  </svg>
-);
-const ChatIcon = (
-  <svg {...sp}>
-    <path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12Z" />
-    <path d="M8.5 11h.01M12 11h.01M15.5 11h.01" />
-  </svg>
-);
 
 const CHIPS = [
-  { id: "open", tone: "light", icon: "cap", title: "Admissions Open", text: "Your future starts here." },
-  { id: "intake", tone: "navy", icon: "calendar", title: "2025-26 Intake", text: "Build. Learn. Lead." },
+  { id: "open", icon: "cap", title: "Admissions Open", text: "Your future starts here." },
+  { id: "intake", icon: "calendar", title: "2025-26 Intake", text: "Build. Learn. Lead." },
 ];
 
 const FEATURES = [
-  { icon: "shield", tone: "orange", title: "Trusted Legacy", text: "Quality education that empowers" },
-  { icon: "users", tone: "navy", title: "Vibrant Community", text: "Collaborate. Connect. Grow together." },
-  { icon: "rocket", tone: "orange", title: "Limitless Opportunities", text: "Explore paths. Expand possibilities." },
+  { icon: "shield", title: "Trusted Legacy", text: "Quality education that empowers" },
+  { icon: "users", title: "Vibrant Community", text: "Collaborate. Connect. Grow together." },
+  { icon: "rocket", title: "Limitless Opportunities", text: "Explore paths. Expand possibilities." },
 ];
 
 const CtaBand = ({ data }: { data?: any }) => {
+  const img = data?.image || "/images/apply_now_banner_ba177d3cc6.png";
   return (
-    <section className="adm" aria-labelledby="adm-title">
+    <section className="adb" aria-labelledby="adb-title">
       <div className="container">
-        <div className="adm__banner" style={{ backgroundImage: `url("${data?.image || "/images/apply_now_banner_ba177d3cc6.png"}")` }}>
-          {/* left content */}
-          <div className="adm__left">
-            <span className="adm__eyebrow">
-              <i aria-hidden="true" />
-              Admissions 2025-26
-            </span>
-            <h2 id="adm-title" className="adm__title">
-              Begin your journey <span className="hl-ed">@ NCMS</span>
-            </h2>
-            <p className="adm__sub">
-              Join a community where ambition meets opportunity. Talk to our admissions team and take the first step toward a future-ready career.
-            </p>
-            <div className="adm__actions">
-              <CtaLink to="/apply-now" className="adm__btn adm__btn--primary">
-                <span>Apply Now</span>
-                <span className="adm__btn-ic">{ArrowIcon}</span>
-              </CtaLink>
-              <CtaLink to="/contact-us" className="adm__btn adm__btn--ghost">
-                <span className="adm__btn-chat">{ChatIcon}</span>
-                <span>Talk to us</span>
-              </CtaLink>
+        <div className="adb__panel">
+          {/* decorative geometric layer */}
+          <div className="adb__decor" aria-hidden="true">
+            <span className="adb__dot-grid" />
+            <span className="adb__glow adb__glow--orange" />
+            <span className="adb__glow adb__glow--blue" />
+            <span className="adb__shape adb__shape--ring" />
+            <span className="adb__shape adb__shape--diamond" />
+            <span className="adb__shape adb__shape--diamond-sm" />
+            <span className="adb__shape adb__shape--plus" />
+            <span className="adb__shape adb__shape--triangle" />
+          </div>
+
+          <div className="adb__grid">
+            {/* left copy */}
+            <div className="adb__copy">
+              <span className="adb__eyebrow">
+                <i aria-hidden="true" />
+                Admissions 2025-26
+              </span>
+              <h2 id="adb-title" className="adb__title">
+                Begin your journey <span className="hl-ed">@ NCMS</span>
+              </h2>
+              <p className="adb__sub">
+                Join a community where ambition meets opportunity. Talk to our admissions team and take the first step toward a future-ready career.
+              </p>
+              <div className="adb__actions">
+                <CtaLink to="/apply-now" className="adb__btn adb__btn--primary">
+                  <span>Apply Now</span>
+                  <span className="adb__btn-ic">{ICONS.arrow}</span>
+                </CtaLink>
+                <CtaLink to="/contact-us" className="adb__btn adb__btn--ghost">
+                  <span className="adb__btn-chat">{ICONS.chat}</span>
+                  <span>Talk to us</span>
+                </CtaLink>
+              </div>
+
+              {/* inline info chips (no floating overlap) */}
+              <div className="adb__chips">
+                {CHIPS.map((c) => (
+                  <div className="adb__chip" key={c.id}>
+                    <span className="adb__chip-ic">{ICONS[c.icon]}</span>
+                    <span className="adb__chip-txt">
+                      <strong>{c.title}</strong>
+                      <small>{c.text}</small>
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* right visual — image anchored right, like the global banner */}
+            <div className="adb__visual">
+              <div className="adb__frame">
+                <img src={img} alt="NCMS campus" loading="lazy" />
+                <span className="adb__frame-shine" aria-hidden="true" />
+              </div>
             </div>
           </div>
 
-          {/* center floating chips */}
-          {CHIPS.map((c) => (
-            <div className={`adm__chip adm__chip--${c.id} adm__chip--${c.tone}`} key={c.id} aria-hidden="true">
-              <span className="adm__chip-ic">{ICONS[c.icon]}</span>
-              <span className="adm__chip-txt">
-                <strong>{c.title}</strong>
-                <small>{c.text}</small>
-              </span>
-            </div>
-          ))}
-
-          {/* bottom feature card */}
-          <div className="adm__features">
+          {/* bottom feature cards */}
+          <div className="adb__features">
             {FEATURES.map((f, i) => (
-              <div className="adm__feat" key={i}>
-                <span className={`adm__feat-ic adm__feat-ic--${f.tone}`}>{ICONS[f.icon]}</span>
-                <span className="adm__feat-txt">
+              <div className="adb__feat" key={i}>
+                <span className="adb__feat-ic">{ICONS[f.icon]}</span>
+                <span className="adb__feat-txt">
                   <strong>{f.title}</strong>
                   <small>{f.text}</small>
                 </span>

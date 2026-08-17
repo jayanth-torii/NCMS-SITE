@@ -2,7 +2,7 @@
    UUCMS — premium NCET-style page
 --------------------------------------------------------------------------- */
 .uuc-page {
-  background: #fafafa;
+  background: transparent; /* let the fixed decor show through */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

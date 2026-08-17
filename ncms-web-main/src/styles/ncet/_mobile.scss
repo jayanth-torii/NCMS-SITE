@@ -1,0 +1,173 @@
+/* =====================================================================
+   Global mobile layer  —  consistent typography + layout for phones.
+   ---------------------------------------------------------------------
+   Imported LAST in main.scss so these rules win over every page partial
+   (home, departments, iic, iqac, events, uucms, placements, student
+   center, samashti, gallery, news, audit-reports, apply-now, blog …).
+
+   Three tiers:
+   - <= 991px : tablet — tighten section paddings, stack remaining grids
+   - <= 767px : phone  — scale headings down, justify paragraph content,
+                         collapse multi-column grids that pages forgot
+   - <= 575px : small phone — final font reductions, single column
+
+   Desktop (>= 992px) is completely untouched.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Tablet (<= 991px)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+  /* Shared section heading scale-down (used by iic, iqac, home, cells) */
+  .heading-ed { font-size: 29px; }
+
+  /* Page-intro titles that use clamp(32px…48px) — tighten on tablets */
+  .evt-intro__title,
+  .aud-intro__title,
+  .ncl-intro__title,
+  .uuc-intro__title { font-size: clamp(28px, 4.4vw, 38px); }
+
+  /* Stack grids that only collapse at desktop widths */
+  .iix-about__grid,
+  .iix-ed__top,
+  .iix-obj__grid,
+  .uuc-manual__grid,
+  .mdp-quick,
+  .nwl-about__grid { grid-template-columns: 1fr; gap: 28px; }
+
+  .iix-obj__art { display: none; }
+
+  /* Section vertical rhythm on tablets */
+  .iix-sec { padding: 56px 0; }
+  .evt-main,
+  .aud-main { padding: 44px 0 72px; }
+}
+
+/* ---------------------------------------------------------------------
+   Phone (<= 767px)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+  /* ---- Typography: scale every shared heading class down ---- */
+  .heading-ed { font-size: 26px; }
+  .eyebrow-ed { font-size: 12px; letter-spacing: 1.2px; }
+
+  .evt-intro__title,
+  .aud-intro__title,
+  .ncl-intro__title,
+  .uuc-intro__title,
+  .placements-section__title { font-size: clamp(25px, 6.6vw, 31px); }
+
+  .iix-func__title { font-size: 16px; }
+  .iix-event__title { font-size: 13.5px; }
+  .iix-mcard__name { font-size: 15px; }
+  .iix-vm__title { font-size: 14px; }
+  .iix-stat__num { font-size: 21px; }
+
+  .evt-panel__title { font-size: clamp(21px, 5.6vw, 26px); }
+  .uuc-portals__head,
+  .nwl-about__title { font-size: clamp(22px, 6vw, 27px); }
+
+  .mdp-content__header h2 { font-size: 1.15rem; }
+  .research-overview__copy h2,
+  .research-focus__head h2,
+  .research-resources__head h2,
+  .research-leadership__content h2 { font-size: 1.35rem; }
+
+  /* Generic guards for any page that still renders large raw headings */
+  main h1 { font-size: clamp(26px, 7vw, 34px); }
+  main h2 { font-size: clamp(22px, 5.8vw, 28px); }
+  main h3 { font-size: clamp(18px, 4.8vw, 22px); }
+
+  /* ---- Paragraph content: justify on phones ---- */
+  .aboutx__text,
+  .adb__sub,
+  .iix-about__text,
+  .iix-ed__text,
+  .iix-vm__text,
+  .iix-func__text,
+  .evt-intro__desc,
+  .evt-conf-intro__desc,
+  .evt-prog__desc,
+  .aud-intro__desc,
+  .ncl-intro__desc,
+  .ncl-card__desc,
+  .uuc-intro__desc,
+  .uuc-manual__desc,
+  .uuc-portals__desc,
+  .uuc-portal__desc,
+  .uuc-cta__desc,
+  .placements-about__desc,
+  .placements-cta__text,
+  .plx-collab__text,
+  .sc-maitri__text,
+  .sc-cell-about p,
+  .sms-am__text,
+  .sms-disc__text p,
+  .sms-join__text p,
+  .nwl-about__text,
+  .nwl-volumes__desc,
+  .research-overview__copy p,
+  .research-leadership__content p,
+  .research-focus-card p,
+  .mdp-content__header p,
+  .apn-process__card p,
+  .prose p {
+    text-align: justify;
+  }
+
+  /* ---- Grid fallbacks: anything still multi-column collapses ---- */
+  .iix-stats { gap: 12px; }
+  .iix-funcs,
+  .iix-ed__vm,
+  .iix-obj__list,
+  .uuc-portals__grid,
+  .ncl-grid__cols,
+  .aud-grid,
+  .aud-stats,
+  .apn-process,
+  .placements-pillars,
+  .placements-vmg,
+  .sc-prog-grid-cards { grid-template-columns: 1fr; }
+
+  .placements-statband { grid-template-columns: repeat(2, 1fr); }
+  .iix-events { grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  /* ---- Section padding rhythm ---- */
+  .iix-sec { padding: 46px 0; }
+  .evt-main,
+  .aud-main { padding: 36px 0 60px; }
+  .uuc-intro,
+  .ncl-intro { padding: 44px 0 26px; }
+  .uuc-portals,
+  .ncl-grid { padding: 36px 0 56px; }
+
+  /* Intro descriptions should breathe on phones */
+  .evt-intro__desc,
+  .aud-intro__desc,
+  .ncl-intro__desc,
+  .uuc-intro__desc { font-size: 14.5px; line-height: 1.75; }
+}
+
+/* ---------------------------------------------------------------------
+   Small phone (<= 575px)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+  .heading-ed { font-size: 23px; }
+  .eyebrow-ed { font-size: 11px; }
+
+  .evt-intro__title,
+  .aud-intro__title,
+  .ncl-intro__title,
+  .uuc-intro__title { font-size: clamp(23px, 6.8vw, 28px); }
+
+  .iix-funcs,
+  .iix-events { grid-template-columns: 1fr; }
+  .placements-statband { grid-template-columns: 1fr; }
+  .iix-stats { flex-direction: column; align-items: stretch; }
+  .iix-stat { min-width: 0; }
+
+  .iix-sec { padding: 40px 0; }
+  .evt-main,
+  .aud-main { padding: 30px 0 52px; }
+}

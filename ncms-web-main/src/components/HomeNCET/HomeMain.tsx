@@ -42,7 +42,7 @@ const HomeMain = ({ apiData }: { apiData: any }) => {
             <StudyFeature data={c.educationData} banners={deptBanners} />
           </Reveal>
           <Reveal>
-            <Recruiters data={c.placementPartners} />
+            <Recruiters data={c.placementPartners} records={c.Records} />
           </Reveal>
           <Reveal>
             <CampusLife data={gallery?.imageData} />

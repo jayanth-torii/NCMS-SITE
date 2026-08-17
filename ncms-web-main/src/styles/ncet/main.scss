@@ -100,3 +100,8 @@
 @import 'auditReports';
 @import 'uucms';
 @import 'events';
+@import 'applyNow';
+
+// Global mobile layer — MUST stay last so its phone/tablet typography,
+// justification, and grid fallbacks win over every page partial.
+@import 'mobile';

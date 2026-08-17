@@ -94,6 +94,45 @@ const ArrayField = ({ value, onChange, level }) => {
     );
   }
 
+  // Arrays of plain strings: detect whether the entries are image URLs,
+  // PDF links, or free text — render the right control for each entry
+  // (upload buttons for images/PDFs, textarea for long text).
+  const allStrings = value.every((v) => typeof v === "string");
+  if (allStrings) {
+    const looksLikeImage = (s) => /^(https?:\/\/|\/)[^\s]*\.(png|jpe?g|webp|gif|svg)(\?.*)?$/i.test(s || "");
+    const looksLikePdf = (s) => /^(https?:\/\/|\/)[^\s]*\.pdf(\?.*)?$/i.test(s || "");
+    const anyImage = value.some(looksLikeImage);
+    const anyPdf = value.some(looksLikePdf);
+
+    return (
+      <div className="d-flex flex-column" style={{ gap: 10 }}>
+        {value.map((item, index) => (
+          <SubtleCard key={index} style={{ padding: ".85rem 1rem" }}>
+            <div className="d-flex align-items-center" style={{ gap: 8, marginBottom: 8 }}>
+              <span className="font-size-12" style={{ fontWeight: 700, color: "#6b7192", letterSpacing: ".04em" }}>
+                Item {index + 1}
+              </span>
+              <span style={{ flex: 1 }} />
+              <MoveBtn icon={FiArrowUp} up onClick={() => move(index, -1)} />
+              <MoveBtn icon={FiArrowDown} onClick={() => move(index, 1)} />
+              <RemoveBtn onClick={() => remove(index)} />
+            </div>
+            {anyImage && looksLikeImage(item) ? (
+              <ImageControl label={`Image ${index + 1}`} value={item ?? ""} onChange={(url) => update(index, url)} />
+            ) : anyPdf && looksLikePdf(item) ? (
+              <FileControl label={`Document ${index + 1}`} value={item ?? ""} onChange={(url) => update(index, url)} />
+            ) : (
+              <PrimitiveField value={item ?? ""} onChange={(next) => update(index, next)} />
+            )}
+          </SubtleCard>
+        ))}
+        <div>
+          <AddButton onClick={add} />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="d-flex flex-column" style={{ gap: 10 }}>
       {value.map((item, index) => (

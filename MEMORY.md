@@ -11,7 +11,7 @@
 | **Repo** | `NCMS-SITE` → `https://github.com/jayanth-torii/NCMS-SITE.git` |
 | **Branch** | `main` (tracks `origin/main`) |
 | **Commit** | `b945d40` "Initial commit" — **fully pushed, HEAD == origin/main** ✅ |
-| **Committed** | `ncms-web-main` (3006 files) · `ncms-admin-main` (205) · `ncms-backend-main` (161) · `assets/` · `README.md` · `DEVELOPER.md` |
+| **Committed** | `ncms-web-main` (3006 files) · `ncms-admin-main` (205) · `ncms-backend-main` (161) · `ncms-web-main/public/assets/` · `README.md` · `DEVELOPER.md` |
 | **Excluded from git** | `ncms-cms-main` (Strapi CMS — user said **don't add Strapi**), `node_modules`, `.env*`, `*.xlsx`, `ncms-web-main/exit` |
 | **Web server** | Next.js dev on **`http://localhost:3100`** (keep running — do NOT kill) |
 | **Admin server** | React dev on **`http://localhost:3001`** |
@@ -29,7 +29,7 @@ C:\ncms-new\
 ├── ncms-admin-main/   → React admin panel (Skote theme) — manages content
 ├── ncms-cms-main/     → ⚠️ Strapi CMS — EXCLUDED from git per user request (only used to pull data)
 ├── data-export/       → (inside ncms-web-main) JSON dumps of ALL CMS data
-├── assets/            → animated SVG loaders for README
+├── ncms-web-main/public/assets/            → animated SVG loaders for README
 ├── README.md          → beautiful animated readme
 └── DEVELOPER.md       → credits Jayanth + what was done
 ```

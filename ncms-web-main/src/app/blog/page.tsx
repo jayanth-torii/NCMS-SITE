@@ -6,6 +6,7 @@ import { BookOpen } from "lucide-react";
 import BlogCards from "@/components/BlogsPage/BlogCard";
 import Pagination from "@/components/BlogsPage/Pagination";
 import PageBanner from "@/components/PageBanner/PageBanner";
+import PageDecor from "@/components/ui/PageDecor";
 import { decorateBlog } from "@/components/BlogsPage/blogMeta";
 
 import blogData from "@/data-export/blog/data.json";
@@ -34,7 +35,10 @@ const BlogList = () => {
   const displayed = blogs.slice(startIndex, startIndex + articlesPerPage);
 
   return (
-    <main className="min-h-screen bg-[#FAFAFA] flex flex-col w-full overflow-hidden relative">
+    <main className="min-h-screen bg-transparent flex flex-col w-full overflow-hidden relative">
+      {/* Fullscreen shades + geometric shapes (no circles) */}
+      <PageDecor />
+
       <PageBanner
         eyebrow={bannerSection?.eyebrow || "Insights & Updates"}
         title={bannerSection?.title || "BLOG"}
@@ -46,11 +50,6 @@ const BlogList = () => {
           bannerSection?.image || "/images/blogs_banner_a494e12d91.png"
         }
       />
-
-      {/* Background Graphic: Giant Navy Circle with Orange Border */}
-      <div className="absolute top-[-250px] left-[-150px] w-[500px] h-[500px] md:top-[-250px] md:left-[-150px] md:w-[600px] md:h-[600px] rounded-full z-0 overflow-hidden pointer-events-none transform -translate-x-1/3 -translate-y-1/3">
-        <div className="absolute inset-0 bg-[#0e2455] rounded-full border-r-[32px] border-b-[16px] border-[#F6872A] opacity-100"></div>
-      </div>
 
       {/* Background Graphic: Top Right Soft Orange Blob */}
       <div className="absolute top-0 right-0 w-[600px] h-[500px] bg-[#F6872A]/10 rounded-[100px] blur-[120px] z-0 pointer-events-none transform translate-x-1/4 -translate-y-1/4"></div>
