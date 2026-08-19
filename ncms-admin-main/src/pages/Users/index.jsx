@@ -97,7 +97,7 @@ const Users = () => {
             ) : (
               users.map((u) => (
                 <tr key={u._id}>
-                  <td style={{ fontWeight: 600, color: "#1e1b4b" }}>{u.name || "—"}</td>
+                  <td style={{ fontWeight: 600, color: "#0e2455" }}>{u.name || "—"}</td>
                   <td>{u.email}</td>
                   <td>
                     <span
@@ -107,7 +107,7 @@ const Users = () => {
                         fontSize: ".74rem",
                         fontWeight: 700,
                         background: u.role === "admin" ? "#fef3c7" : "#eef0f9",
-                        color: u.role === "admin" ? "#d97706" : "#6b7192",
+                        color: u.role === "admin" ? "#F6872A" : "#6b7192",
                       }}
                     >
                       {u.role}

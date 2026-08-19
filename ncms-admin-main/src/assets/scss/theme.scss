@@ -263,12 +263,34 @@ span.flatpickr-weekday {
   widows: 1;
 }
 
-// Force Sidebar Brand Color
-body[data-sidebar="dark"] .vertical-menu, 
-body[data-sidebar="dark"] .navbar-brand-box,
-body[data-sidebar="dark"] .vertical-menu .simplebar-content-wrapper,
-body[data-sidebar="dark"] .vertical-menu .simplebar-content,
-.vertical-menu,
+// Topbar — crisp white with a hairline bottom edge for definition.
+#page-topbar {
+  border-bottom: 1px solid rgba(14, 36, 85, 0.06);
+}
+
+// ---------------------------------------------------------------------------
+// NCET-style shell: light sidebar + navy brand box
+// ---------------------------------------------------------------------------
+// The root CSS variables already describe the light sidebar (white bg,
+// #79829c menu text, orange #F6872A hover/active, #f5f5f5 active bg). The
+// lines below only guarantee the two surfaces that must always be exact:
+// the navy brand box (top-left) and the white menu panel below it.
 .navbar-brand-box {
-  background-color: #253443 !important;
+  background-color: #0e2455 !important;
+
+  // Always show the light logo on the navy brand box, regardless of any
+  // data-sidebar attribute toggles.
+  .logo-light {
+    display: block;
+  }
+
+  .logo-dark {
+    display: none;
+  }
+}
+
+.vertical-menu,
+.vertical-menu .simplebar-content-wrapper,
+.vertical-menu .simplebar-content {
+  background-color: var(--bs-sidebar-bg) !important;
 }

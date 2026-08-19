@@ -1,0 +1,234 @@
+/* ================================================================== *
+ * Library — Content Studio (redesigned)
+ * Sticky left section rail + card studio on the right, matching the
+ * NDC admin UI/UX (navy #0e2455 + orange #F6872A). The base card /
+ * Layout and component styles for the library editor. This file
+ * only adds the library-specific layout, rail and collections table.
+ * ================================================================== */
+
+/* ---- motion hide (animejs reveals by setting inline styles) ---- */
+.library-motion {
+  .lib-nav__item {
+    opacity: 0;
+  }
+}
+
+.library-admin-container {
+  .library-admin-shell {
+    max-width: 1180px;
+    padding-top: 0 !important;
+  }
+
+  /* ================= SECTION RAIL ================= */
+  .library-layout {
+    align-items: start;
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: 240px minmax(0, 1fr);
+    margin-bottom: 0.6rem;
+  }
+
+  .lib-nav {
+    background: #f8f9fa;
+    border: 1px solid #e6ebf3;
+    border-radius: 12px;
+    padding: 0.45rem;
+    position: sticky;
+    top: 88px;
+  }
+
+  .lib-nav__item {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    border-radius: 9px;
+    color: #4a5b78;
+    cursor: pointer;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 600;
+    gap: 0.6rem;
+    padding: 0.55rem 0.7rem;
+    text-align: left;
+    transition: background 0.16s ease, color 0.16s ease;
+    width: 100%;
+
+    svg {
+      flex: 0 0 auto;
+    }
+
+    &:hover {
+      background: #eef2f9;
+      color: #0e2455;
+    }
+
+    &.active {
+      background: #ffe8d6;
+      color: #f6872a;
+    }
+  }
+
+  .lib-content {
+    min-width: 0;
+  }
+
+  @media (max-width: 991px) {
+    .library-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .lib-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.2rem;
+      position: static;
+      top: auto;
+
+      .lib-nav__item {
+        flex: 0 1 auto;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  /* ================= PDF FIELD ================= */
+  .lib-pdf {
+    align-items: center;
+    background: #f8fafd;
+    border: 1px solid #e2e8f3;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0.5rem 0.6rem;
+
+    .lib-pdf__empty {
+      color: #8a97ad;
+      font-size: 0.76rem;
+      font-weight: 600;
+    }
+  }
+
+  /* ================= COLLECTIONS TABLE ================= */
+  .lib-table-wrap {
+    border: 1px solid #e4eaf4;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 0.55rem;
+  }
+
+  .lib-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.8rem;
+    width: 100%;
+
+    thead {
+      th {
+        background: #0e2455;
+        color: #fff;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        padding: 0.45rem 0.55rem;
+        text-align: left;
+        text-transform: uppercase;
+        white-space: nowrap;
+
+        &:first-child {
+          border-radius: 10px 0 0 0;
+        }
+
+        &:last-child {
+          border-radius: 0 10px 0 0;
+        }
+
+        .lib-col-head {
+          align-items: center;
+          display: flex;
+          gap: 0.3rem;
+
+          input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid transparent;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            min-width: 120px;
+            outline: none;
+            padding: 0.32rem 0.45rem;
+            text-transform: uppercase;
+            transition: border-color 0.16s ease, background 0.16s ease;
+
+            &::placeholder {
+              color: rgba(255, 255, 255, 0.5);
+            }
+
+            &:focus {
+              background: rgba(255, 255, 255, 0.16);
+              border-color: rgba(246, 135, 42, 0.7);
+            }
+          }
+
+          .lib-col-remove {
+            align-items: center;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            border-radius: 5px;
+            color: #ffd9b8;
+            cursor: pointer;
+            display: inline-flex;
+            flex: 0 0 auto;
+            justify-content: center;
+            padding: 0.2rem 0.3rem;
+            transition: background 0.16s ease, color 0.16s ease;
+
+            &:hover {
+              background: rgba(255, 255, 255, 0.24);
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    tbody {
+      td {
+        background: #fff;
+        border-bottom: 1px solid #eef1f7;
+        padding: 0.3rem 0.45rem;
+        vertical-align: middle;
+
+        input {
+          background: transparent;
+          border: 1px solid transparent;
+          border-radius: 6px;
+          color: #1a2233;
+          font-size: 0.8rem;
+          outline: none;
+          padding: 0.4rem 0.5rem;
+          transition: border-color 0.16s ease, box-shadow 0.16s ease;
+          width: 100%;
+
+          &:focus {
+            background: #fff;
+            border-color: #0e2455;
+            box-shadow: 0 0 0 2.5px rgba(14, 36, 85, 0.12);
+          }
+        }
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .lib-row-actions {
+        text-align: right;
+        white-space: nowrap;
+        width: 1%;
+      }
+    }
+  }
+}

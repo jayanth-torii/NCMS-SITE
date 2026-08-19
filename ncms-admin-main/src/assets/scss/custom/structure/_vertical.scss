@@ -42,6 +42,7 @@
     position: fixed;
     top: $header-height;
     box-shadow: $box-shadow;
+    border-right: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .main-content {
@@ -86,6 +87,8 @@
                 position: relative;
                 font-size: 13.3px;
                 transition: all .4s;
+                border-radius: 10px;
+                margin: 2px 12px;
 
                 i {
                     display: inline-block;
@@ -117,7 +120,7 @@
                 li {
 
                     a {
-                        padding: .4rem 1.5rem .4rem 3.1rem;
+                        padding: .4rem 1.5rem .4rem 2.2rem;
                         font-size: 13px;
                         color: var(--#{$prefix}$sidebar-menu-sub-item-color);
                         background-color: transparent;

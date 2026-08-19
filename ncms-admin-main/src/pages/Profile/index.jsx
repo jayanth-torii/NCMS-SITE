@@ -30,7 +30,7 @@ const Profile = () => {
               width: 58,
               height: 58,
               borderRadius: 16,
-              background: "linear-gradient(120deg, #1e1b4b, #312e81)",
+              background: "linear-gradient(120deg, #0e2455, #1e3a8a)",
               color: "#fff",
               display: "inline-flex",
               alignItems: "center",
@@ -42,7 +42,7 @@ const Profile = () => {
             {(user?.name || "A")[0].toUpperCase()}
           </span>
           <div>
-            <div style={{ fontWeight: 800, color: "#1e1b4b", fontSize: "1.1rem" }}>{user?.name || "Admin"}</div>
+            <div style={{ fontWeight: 800, color: "#0e2455", fontSize: "1.1rem" }}>{user?.name || "Admin"}</div>
             <div style={{ fontSize: ".82rem", color: "#6b7192" }}>{user?.email}</div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Profile = () => {
               <span style={{ width: 140, fontWeight: 700, color: "#6b7192", fontSize: ".8rem", textTransform: "uppercase", letterSpacing: ".04em" }}>
                 {k}
               </span>
-              <span style={{ color: "#1e1b4b", fontWeight: 600 }}>{v || "—"}</span>
+              <span style={{ color: "#0e2455", fontWeight: 600 }}>{v || "—"}</span>
             </div>
           ))}
         </div>

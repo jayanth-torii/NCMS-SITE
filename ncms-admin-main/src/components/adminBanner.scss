@@ -1,0 +1,103 @@
+/* ================================================================== *
+ * AdminBanner — shared page banner for every admin content page.
+ * Identical navy gradient + orange tag + status pills across the
+ * whole admin, so all pages feel like one product.
+ * ================================================================== */
+
+.admin-banner {
+  align-items: center;
+  background: linear-gradient(135deg, #0a1f44, #16346d 70%);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(10, 31, 68, 0.14);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  padding: 0.75rem 1rem;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    background: linear-gradient(120deg, rgba(246, 135, 42, 0.2), transparent 46%);
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  &::after {
+    background:
+      radial-gradient(circle at 92% 10%, rgba(255, 255, 255, 0.08), transparent 42%),
+      radial-gradient(circle at 8% 100%, rgba(246, 135, 42, 0.12), transparent 46%);
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.admin-banner__title {
+  align-items: center;
+  color: #f8fbff;
+  display: flex;
+  font-size: 1.08rem;
+  font-weight: 700;
+  gap: 0.55rem;
+  letter-spacing: 0.15px;
+  margin: 0;
+}
+
+.admin-banner__tag {
+  align-items: center;
+  background: rgba(246, 135, 42, 0.18);
+  border: 1px solid rgba(246, 135, 42, 0.4);
+  border-radius: 6px;
+  color: #ffd9b8;
+  display: inline-flex;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  padding: 0.18rem 0.45rem;
+  text-transform: uppercase;
+}
+
+.admin-banner__subtitle {
+  color: rgba(248, 251, 255, 0.72);
+  font-size: 0.8rem;
+  margin: 0.15rem 0 0;
+}
+
+.admin-banner__right {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.admin-banner__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.admin-banner__pill {
+  background: rgba(246, 135, 42, 0.14);
+  border: 1px solid rgba(246, 135, 42, 0.34);
+  border-radius: 999px;
+  color: #ffe3c9;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  padding: 0.22rem 0.6rem;
+  white-space: nowrap;
+}
+
+.admin-banner__actions {
+  display: inline-flex;
+}

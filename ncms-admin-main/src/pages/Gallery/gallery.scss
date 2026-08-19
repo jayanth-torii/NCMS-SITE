@@ -1,0 +1,136 @@
+/* ================================================================== *
+ * Gallery Editor — category management styles.
+ * Category management styles for the gallery editor.
+ * ================================================================== */
+
+.gal-cat {
+  background: #fff;
+  border: 1px solid #e8edf7;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(14, 36, 85, 0.05);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.gal-cat__head {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+
+.gal-cat__name {
+  align-items: center;
+  display: flex;
+  flex: 1 1 260px;
+  gap: 0.6rem;
+  max-width: 560px;
+
+  .icon-box {
+    background: linear-gradient(135deg, #0e2455, #16346d);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gov-input-url {
+    border: 1px solid #e8edf7;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 0.55rem 0.85rem;
+  }
+}
+
+.gal-grid {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.gal-thumb {
+  aspect-ratio: 4 / 3;
+  background: #f4f6fb;
+  border: 1px solid #e8edf7;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &--add {
+    align-items: center;
+    background: #f8faff;
+    border: 1.5px dashed #c7d2fe;
+    color: #16346d;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background: #eef2ff;
+      border-color: #0e2455;
+      color: #0e2455;
+    }
+
+    span {
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.gal-thumb__empty {
+  align-items: center;
+  color: #9aa7c4;
+  display: flex;
+  font-size: 0.72rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.gal-thumb__overlay {
+  align-items: center;
+  background: linear-gradient(0deg, rgba(10, 31, 68, 0.82), rgba(10, 31, 68, 0.1) 70%);
+  bottom: 0;
+  display: flex;
+  gap: 0.35rem;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.2s ease;
+
+  .change-btn,
+  .remove-btn {
+    border-radius: 8px;
+    font-size: 0.7rem;
+    padding: 0.32rem 0.55rem;
+  }
+
+  .remove-btn {
+    background: rgba(220, 38, 38, 0.16);
+    border: 1px solid rgba(254, 202, 202, 0.7);
+    color: #fecaca;
+
+    &:hover {
+      background: rgba(220, 38, 38, 0.32);
+    }
+  }
+}
+
+.gal-thumb:hover .gal-thumb__overlay {
+  opacity: 1;
+}
