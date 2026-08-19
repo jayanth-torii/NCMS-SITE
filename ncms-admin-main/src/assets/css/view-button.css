@@ -7,7 +7,7 @@
 .view-btn,
 a.view-btn,
 button.view-btn {
-  --vb-accent: #4f46e5;
+  --vb-accent: #0e2455;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -17,8 +17,8 @@ button.view-btn {
   font-weight: 600;
   line-height: 1.1;
   color: var(--vb-accent);
-  background: #eef2ff;
-  border: 1px solid #dfe3ff;
+  background: #eef1f8;
+  border: 1px solid #dfe5f2;
   border-radius: 8px;
   cursor: pointer;
   white-space: nowrap;
@@ -42,13 +42,13 @@ button.view-btn {
   background: var(--vb-accent);
   color: #fff;
   border-color: var(--vb-accent);
-  box-shadow: 0 6px 16px rgba(79, 70, 229, .28);
+  box-shadow: 0 6px 16px rgba(14, 36, 85, .28);
   transform: translateY(-1px);
 }
 
 .view-btn:active {
   transform: translateY(0);
-  box-shadow: 0 3px 8px rgba(79, 70, 229, .24);
+  box-shadow: 0 3px 8px rgba(14, 36, 85, .24);
 }
 
 .view-btn:focus-visible {

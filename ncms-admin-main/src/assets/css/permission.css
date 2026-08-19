@@ -30,7 +30,7 @@ a.disabled,
  * flyouts can escape; with our long menu the icons overflowed past the footer.
  * We pin the collapsed sidebar to the viewport height and make it the single
  * scroll container (inner SimpleBar layers don't clip/scroll), with a slim
- * scrollbar that blends into the dark sidebar.
+ * scrollbar that blends into the light sidebar.
  * ------------------------------------------------------------------ */
 .vertical-collpsed .vertical-menu {
   position: fixed !important;
@@ -39,7 +39,7 @@ a.disabled,
   overflow-y: auto !important;
   overflow-x: hidden !important;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+  scrollbar-color: rgba(14, 36, 85, 0.25) transparent;
 }
 /* Let .vertical-menu do the scrolling — the inner SimpleBar layers must not
    clip or create their own scroll. */
@@ -63,6 +63,6 @@ a.disabled,
   background: transparent;
 }
 .vertical-collpsed .vertical-menu::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(14, 36, 85, 0.25);
   border-radius: 4px;
 }

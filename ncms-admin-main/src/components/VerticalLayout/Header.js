@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"
 
 import ProfileMenu from "../CommonForBoth/TopbarDropdown/ProfileMenu"
 
-// NCMS logo (white variant for the dark sidebar brand box).
-import NCMS_LOGO from "../../assets/images/ncms-logo.png"
+// NCMS logo — white variant, shown on the navy brand box.
+import NCMS_LOGO from "../../assets/images/ncms-logo-light.png"
 
 // Redux Store
 import {

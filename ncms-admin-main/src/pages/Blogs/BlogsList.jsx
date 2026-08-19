@@ -75,7 +75,7 @@ const BlogsList = () => {
                         <img src={getPreviewUrl(b.image)} alt="" style={{ width: 44, height: 34, objectFit: "cover", borderRadius: 6 }} />
                       )}
                       <div>
-                        <div style={{ fontWeight: 600, color: "#1e1b4b" }}>{b.title}</div>
+                        <div style={{ fontWeight: 600, color: "#0e2455" }}>{b.title}</div>
                         <div style={{ fontSize: ".76rem", color: "#9aa0b4" }}>{b.blogId}</div>
                       </div>
                     </div>

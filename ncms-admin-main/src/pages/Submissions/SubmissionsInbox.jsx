@@ -91,7 +91,7 @@ const SubmissionsInbox = ({ kind }) => {
             ) : (
               rows.map((r) => (
                 <tr key={r._id}>
-                  <td style={{ fontWeight: 600, color: "#1e1b4b" }}>{r.name || "—"}</td>
+                  <td style={{ fontWeight: 600, color: "#0e2455" }}>{r.name || "—"}</td>
                   <td>{r.email || "—"}</td>
                   <td>{r.mobile_number || "—"}</td>
                   <td>{kind === "apply-now" ? r.program || "—" : r.subject || "—"}</td>

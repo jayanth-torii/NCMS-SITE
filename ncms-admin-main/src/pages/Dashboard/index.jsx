@@ -20,8 +20,8 @@ import { setBreadcrumbItems } from "../../store/actions";
 import { getBlogs, getUsers, getApplyNowForms, getContactUsForms } from "../../services/data.service";
 import { ADMIN_PAGES } from "../../config/adminPages";
 
-const C = { ink: "#1e1b4b", muted: "#6b7192", soft: "#8890b0", line: "#e9ebf6" };
-const PALETTE = ["#4f46e5", "#d97706", "#059669", "#e11d48", "#0891b2", "#7c3aed"];
+const C = { ink: "#0e2455", muted: "#6b7192", soft: "#8890b0", line: "#e7e9f5" };
+const PALETTE = ["#0e2455", "#F6872A", "#059669", "#e11d48", "#0891b2", "#7c3aed"];
 
 const Card = ({ children, style, className }) => (
   <div
@@ -98,14 +98,14 @@ const Dashboard = (props) => {
   ];
 
   const QUICK_LINKS = [
-    { label: "Home Page", to: "/home-page", icon: FiHome, color: "#9333ea" },
+    { label: "Home Page", to: "/home-page", icon: FiHome, color: "#0e2455" },
     { label: "Blogs & News", to: "/blogs", icon: FiBookOpen, color: "#059669" },
     { label: "Departments", to: "/departments", icon: FiGrid, color: "#7c3aed" },
     { label: "Placements", to: "/placements", icon: FiAward, color: "#e11d48" },
     { label: "IQAC", to: "/iqac", icon: FiPieChart, color: "#0d9488" },
-    { label: "Gallery", to: "/gallery", icon: FiImage, color: "#db2777" },
-    { label: "Student Center", to: "/student-center", icon: FiUsers, color: "#4f46e5" },
-    { label: "Careers", to: "/careers", icon: FiBriefcase, color: "#d97706" },
+    { label: "Gallery", to: "/gallery", icon: FiImage, color: "#F6872A" },
+    { label: "Student Center", to: "/student-center", icon: FiUsers, color: "#0891b2" },
+    { label: "Careers", to: "/careers", icon: FiBriefcase, color: "#f97316" },
   ];
 
   return (

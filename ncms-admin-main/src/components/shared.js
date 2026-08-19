@@ -115,7 +115,7 @@ export const GlobalUploadModal = () => {
           Cancel
         </Button>
         <Button
-          style={{ background: "#1e1b4b", color: "#fff", border: "none" }}
+          style={{ background: "#0e2455", color: "#fff", border: "none" }}
           onClick={handleUpload}
           disabled={!file || uploading}
         >

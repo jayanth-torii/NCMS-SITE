@@ -10,21 +10,21 @@ import {
 import { triggerUpload, confirmAction, getPreviewUrl } from "./shared";
 
 /* ================================================================== *
- * Shared editor UI kit — the EXACT NCET design system
+ * Shared editor UI kit — the NCMS design system (navy + orange)
  * ------------------------------------------------------------------
  * A single, cohesive design system for all admin content editors so
- * every page reads as one product: deep-indigo brand (#1e1b4b) with
- * amber accents (#d97706), rounded 16px panels, a sticky left tab
- * rail with transitions, gradient page headers, and a sticky bottom
- * save bar. Purely presentational — no data logic lives here.
+ * every page reads as one product: navy brand (#0e2455) with orange
+ * accents (#F6872A), rounded 16px panels, a sticky left tab rail with
+ * transitions, gradient page headers, and a sticky bottom save bar.
+ * Purely presentational — no data logic lives here.
  * ================================================================== */
 
 // ---- design tokens -------------------------------------------------
 export const T = {
-  ink: "#1e1b4b", // deep indigo — brand
-  ink2: "#312e81",
-  accent: "#d97706", // amber
-  accentSoft: "#fef3c7",
+  ink: "#0e2455", // navy — brand
+  ink2: "#1e3a8a",
+  accent: "#F6872A", // orange
+  accentSoft: "#fff1e6",
   line: "#e7e9f5",
   lineSoft: "#eef0f9",
   bg: "#f6f7fb",
@@ -36,8 +36,8 @@ export const T = {
   ok: "#059669",
   radius: 16,
   radiusSm: 10,
-  shadow: "0 1px 2px rgba(30,27,75,.04), 0 8px 24px rgba(30,27,75,.06)",
-  shadowSoft: "0 1px 2px rgba(30,27,75,.05)",
+  shadow: "0 1px 2px rgba(14,36,85,.05), 0 8px 24px rgba(14,36,85,.07)",
+  shadowSoft: "0 1px 2px rgba(14,36,85,.06)",
 };
 
 const inputStyle = {
@@ -490,7 +490,7 @@ export const EditorHeader = ({
 }) => (
   <Panel
     style={{
-      background: `linear-gradient(120deg, ${T.ink} 0%, ${T.ink2} 60%, #4338ca 100%)`,
+      background: `linear-gradient(120deg, ${T.ink} 0%, ${T.ink2} 60%, #274b8f 100%)`,
       border: "none",
       overflow: "hidden",
       position: "relative",
@@ -505,7 +505,7 @@ export const EditorHeader = ({
         width: 220,
         height: 220,
         borderRadius: "50%",
-        background: "rgba(217,119,6,.18)",
+        background: "rgba(246,135,42,.22)",
         filter: "blur(8px)",
       }}
     />
@@ -524,7 +524,7 @@ export const EditorHeader = ({
               border: "1px solid rgba(255,255,255,.2)",
               display: "grid",
               placeItems: "center",
-              color: "#fbbf24",
+              color: "#F6872A",
             }}
           >
             <Icon size={28} />
@@ -614,7 +614,7 @@ export const TabRail = ({ tabs, activeTab, onTab }) => (
                 placeItems: "center",
                 flex: "0 0 auto",
                 background: active ? "rgba(255,255,255,.15)" : T.lineSoft,
-                color: active ? "#fbbf24" : T.muted,
+                color: active ? "#F6872A" : T.muted,
               }}
             >
               <Icon size={17} />
@@ -668,7 +668,7 @@ export const SaveBar = ({ summary, saving, label = "Save All Changes", onSave })
         onClick={onSave}
         disabled={saving}
         style={{
-          background: `linear-gradient(120deg, ${T.ink}, #4338ca)`,
+          background: `linear-gradient(120deg, ${T.ink}, #1e3a8a)`,
           border: "none",
           borderRadius: T.radiusSm,
           fontWeight: 700,
@@ -724,7 +724,7 @@ export const PrimaryButton = ({ children, saving, icon: Icon, type = "submit", .
     disabled={saving || rest.disabled}
     {...rest}
     style={{
-      background: `linear-gradient(120deg, ${T.ink}, #4338ca)`,
+      background: `linear-gradient(120deg, ${T.ink}, #1e3a8a)`,
       border: "none",
       borderRadius: T.radiusSm,
       fontWeight: 700,

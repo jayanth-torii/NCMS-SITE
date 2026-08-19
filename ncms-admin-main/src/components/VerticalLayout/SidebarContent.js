@@ -26,18 +26,55 @@ const MENU = [
     icon: "ti-layout-grid2",
     label: "Departments",
     items: [
-      { key: "departmentsPage", to: "/departments-page", label: "Departments Page" },
-      { key: "departmentBanners", to: "/department-banners", label: "Department Banners" },
-      { key: "departmentFaculties", to: "/department-faculties", label: "Department Faculties" },
-      { key: "hodContents", to: "/hod-contents", label: "HOD Contents" },
-      { key: "programContents", to: "/program-contents", label: "Program Contents" },
-      { key: "courseContents", to: "/course-contents", label: "Course Contents" },
-      { key: "syllabusContents", to: "/syllabus-contents", label: "Syllabus Contents" },
-      { key: "visionMissions", to: "/vision-missions", label: "Vision & Mission" },
+      { key: "departmentsPage", to: "/departments-page", label: "Departments (overview)" },
+      { key: "departmentDetailsEditor", to: "/department-details-editor", label: "Department Details Editor" },
     ],
   },
   { key: "placement", to: "/placement", icon: "ti-briefcase", label: "Placement" },
-  { key: "studentCenter", to: "/student-center", icon: "ti-user", label: "Student Center" },
+  {
+    key: "studentCenterGroup",
+    icon: "ti-user",
+    label: "Student Center",
+    items: [
+      { key: "studentCenter", to: "/student-center", label: "Student Center" },
+      {
+        key: "statutoryCells",
+        label: "Statutory cells",
+        items: [
+          { key: "antiRagging", to: "/anti-ragging", label: "Anti Ragging Cell" },
+          { key: "antiSexualHarassment", to: "/anti-sexual-harassment", label: "Anti Sexual Harassment Cell" },
+          { key: "grievanceRedressal", to: "/grievance-redressal", label: "Grievance Redressal Cell" },
+          { key: "scAndSt", to: "/sc-and-st", label: "SC/ST & OBC Cell" },
+          { key: "unityCouncil", to: "/unity-council", label: "Unity Council - Equal Opportunity Cell" },
+          { key: "humanRights", to: "/human-rights", label: "Human Rights Cell" },
+        ]
+      },
+      {
+        key: "academicEnrichment",
+        label: "Academic Enrichment",
+        items: [
+          { key: "valueAddedCourse", to: "/value-added-course", label: "Value Added Programs" },
+          { key: "edCell", to: "/ed-cell", label: "ED Cell" },
+          { key: "researchCell", to: "/research-cell", label: "Research Cell" },
+          { key: "library", to: "/library", label: "Library" },
+          { key: "commerceForum", to: "/commerce-forum", label: "Commerce Forum" },
+          { key: "nptelLocalChapter", to: "/nptel-local-chapter", label: "NPTEL Local Chapter" },
+          { key: "pragyanScienceForum", to: "/pragyan-science-forum", label: "Pragyan Science Forum" },
+        ]
+      },
+      {
+        key: "communityServices",
+        label: "Community Services",
+        items: [
+          { key: "nss", to: "/nss", label: "NSS" },
+          { key: "culturalCommittee", to: "/cultural-committee", label: "Cultural Committee" },
+          { key: "ncc", to: "/ncc", label: "NCC" },
+          { key: "sakhiSamrudhi", to: "/sakhi-samrudhi", label: "Sakhi Samrudhi- Women Empowerment Cell" },
+          { key: "kalaChaitanya", to: "/kala-chaitanya", label: "Kala Chaitanya" },
+        ]
+      }
+    ]
+  },
   { key: "samashti", to: "/samashti", icon: "ti-book", label: "Samashti" },
   { key: "newsLetter", to: "/news-letter", icon: "ti-write", label: "News Letter" },
   { key: "newsClippings", to: "/news-clippings", icon: "ti-pin", label: "News Clippings" },
@@ -56,46 +93,12 @@ const MENU = [
   { key: "contact", to: "/contact-us-page", icon: "ti-email", label: "Contact Us" },
   { key: "applyNow", to: "/apply-now", icon: "ti-clipboard", label: "Apply Now" },
 
-  // ----- Statutory / Cells -----
-  {
-    key: "cells",
-    icon: "ti-shield",
-    label: "Cells & Committees",
-    items: [
-      { key: "antiRagging", to: "/anti-ragging", label: "Anti Ragging" },
-      { key: "antiSexualHarassment", to: "/anti-sexual-harassment", label: "Anti Sexual Harassment" },
-      { key: "grievanceRedressal", to: "/grievance-redressal", label: "Grievance Redressal" },
-      { key: "humanRights", to: "/human-rights", label: "Human Rights" },
-      { key: "scAndSt", to: "/sc-and-st", label: "SC & ST" },
-      { key: "unityCouncil", to: "/unity-council", label: "Unity Council" },
-      { key: "culturalCommittee", to: "/cultural-committee", label: "Cultural Committee" },
-      { key: "edCell", to: "/ed-cell", label: "ED Cell" },
-    ],
-  },
-  {
-    key: "studentLife",
-    icon: "ti-heart",
-    label: "Student Life",
-    items: [
-      { key: "nss", to: "/nss", label: "NSS" },
-      { key: "ncc", to: "/ncc", label: "NCC" },
-      { key: "commerceForum", to: "/commerce-forum", label: "Commerce Forum" },
-      { key: "kalaChaitanya", to: "/kala-chaitanya", label: "Kala Chaitanya" },
-      { key: "nptelLocalChapter", to: "/nptel-local-chapter", label: "NPTEL Local Chapter" },
-      { key: "pragyanScienceForum", to: "/pragyan-science-forum", label: "Pragyan Science Forum" },
-      { key: "researchCell", to: "/research-cell", label: "Research Cell" },
-      { key: "sakhiSamrudhi", to: "/sakhi-samrudhi", label: "Sakhi Samrudhi" },
-    ],
-  },
-
   // ----- More pages -----
   { key: "auditReport", to: "/audit-report", icon: "ti-file", label: "Audit Report" },
   { key: "iic", to: "/iic", icon: "ti-light-bulb", label: "IIC" },
   { key: "iqac", to: "/iqac", icon: "ti-medall", label: "IQAC" },
-  { key: "library", to: "/library", icon: "ti-book", label: "Library" },
   { key: "mandatoryDisclosure", to: "/mandatory-disclosure", icon: "ti-agenda", label: "Mandatory Disclosure" },
   { key: "uucms", to: "/uucms", icon: "ti-desktop", label: "UUCMS" },
-  { key: "valueAddedCourse", to: "/value-added-course", icon: "ti-plus", label: "Value Added Course" },
 
   // ----- Inboxes -----
   { key: "applyNowInbox", to: "/submissions/apply-now", icon: "ti-email", label: "Apply Now Submissions" },
@@ -240,6 +243,14 @@ const SidebarContent = props => {
   }
   const can = (key) => canReadPage(user, key)
 
+  const hasAccess = (item) => {
+    if (can(item.key)) return true;
+    if (item.items) {
+      return item.items.some((sub) => hasAccess(sub));
+    }
+    return false;
+  };
+
   return (
     <React.Fragment>
       <SimpleBar style={{ maxHeight: "100%" }} ref={ref}>
@@ -247,9 +258,7 @@ const SidebarContent = props => {
           <ul className="metismenu list-unstyled" id="side-menu">
             {MENU.map((item, idx) => {
               if (item.items) {
-                // Group parents: visible if the user can read ANY child key.
-                const visible = item.items.some((sub) => can(sub.key)) || can(item.key);
-                if (!visible) return null;
+                if (!hasAccess(item)) return null;
                 return (
                   <li key={`${item.key}-${idx}`}>
                     <Link to="/#" className="has-arrow waves-effect">
@@ -258,10 +267,27 @@ const SidebarContent = props => {
                     </Link>
                     <ul className="sub-menu">
                       {item.items
-                        .filter((sub) => can(sub.key))
+                        .filter((sub) => hasAccess(sub))
                         .map((sub) => (
-                          <li key={sub.to}>
-                            <Link to={sub.to}>{sub.label}</Link>
+                          <li key={sub.to || sub.key}>
+                            {sub.items ? (
+                              <React.Fragment>
+                                <Link to="/#" className="has-arrow waves-effect">
+                                  <span>{sub.label}</span>
+                                </Link>
+                                <ul className="sub-menu">
+                                  {sub.items
+                                    .filter((subsub) => hasAccess(subsub))
+                                    .map((subsub) => (
+                                      <li key={subsub.to}>
+                                        <Link to={subsub.to}>{subsub.label}</Link>
+                                      </li>
+                                    ))}
+                                </ul>
+                              </React.Fragment>
+                            ) : (
+                              <Link to={sub.to}>{sub.label}</Link>
+                            )}
                           </li>
                         ))}
                     </ul>
@@ -269,7 +295,7 @@ const SidebarContent = props => {
                 )
               }
 
-              if (!can(item.key)) return null;
+              if (!hasAccess(item)) return null;
 
               return (
                 <li key={`${item.key}-${idx}`}>

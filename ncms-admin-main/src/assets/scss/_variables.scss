@@ -121,12 +121,12 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue: #7a6fbe;
+$blue: #0e2455;
 $indigo: #564ab1;
 $purple: #6f42c1;
 $pink: #e83e8c;
 $red: #ec536c;
-$orange: #f1734f;
+$orange: #f6872a;
 $yellow: #f5b225;
 $green: #58db83;
 $teal: #050505;
@@ -443,8 +443,12 @@ $light-border-subtle: $gray-200;
 $dark-border-subtle: $gray-500;
 // scss-docs-end theme-border-subtle-variables
 
-// Characters which are escaped by the escape-svg function
-$escaped-characters: (("<", "%3c"), (">", "%3e"), ("#", "%23"), ("(", "%28"), (")", "%29"));
+// Characters which are escaped by the escape-svg function.
+// "%" and " " are escaped FIRST so they are not double-encoded by the
+// later pairs (whose replacements contain "%"), and so colors that
+// sass serializes as `rgb(44%, 58%, 90%)` stay valid data-URIs through
+// postcss-svgo's decodeURIComponent.
+$escaped-characters: (("%", "%25"), (" ", "%20"), ("<", "%3c"), (">", "%3e"), ("#", "%23"), ("(", "%28"), (")", "%29"));
 
 // Options
 //
